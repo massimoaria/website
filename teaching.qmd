@@ -1,0 +1,36 @@
+---
+title: "Teaching"
+format: html
+editor: visual
+---
+
+# Courses Taught
+
+-   **Statistics for Social Sciences** – Undergraduate course, Bechelor in Tourism Sciences
+-   **Sampling Surveys** - Undergraduate course, Bachelor in Economics
+-   **Statistical Methods for Social Research** – Graduate level, Master in Economics, Curriculum studiorum "Data Scientist for Economics"
+-   **Lab in Machine Learning and Text Mining with R** – Graduate level, Master in Economics, Curriculum studiorum "Data Scientist for Economics"
+-   **Machine Learning Methods** - Ph.D. Courses
+-   **Bibliometric Analysis using R** – Ph.D. Courses and International Summer Schools
+
+
+---
+
+# Seminars and Training Activities
+
+Over the last few years, I have delivered more than 60 invited seminars and training sessions on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of Bodø (Norway), Edinburgh, Granada, London, Melbourne, and Paris.
+
+In addition, I have been a lecturer at the **European Summer School for Scientometrics (ESSS)**, the **Summer School in Science Mapping**, and the **Social Statistics Summer School** in Monteriggioni.
+
+---
+
+# Conferences and Workshops
+
+I have actively participated in numerous national and international conferences, including DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, and JADT, where I have presented research contributions related to bibliometric analysis, classification methods, and methodological innovation in the social sciences.
+
+I am also a member of the scientific or organizing committees of major conferences, such as **JADT2022** and several editions of the **Italian Statistics Society (SIS)** meetings.
+
+---
+
+For all course materials, detailed teaching information, and updates for students, please visit my official university webpage:  
+👉 [www.docenti.unina.it/massimo.aria](https://www.docenti.unina.it/massimo.aria)

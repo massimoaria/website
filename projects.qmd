@@ -1,0 +1,46 @@
+---
+title: "Projects and Software"
+format: html
+editor: visual
+---
+
+# Research Projects
+
+-   **PRIN 2022** – SciK-Health: The value of scientific production for patient care in Academic Health Science Centres, Role: Principal Investigator (2023-2025)
+-   **PRIN 2022 PNRR** – The value of scientific production for patient care in Academic Health Science Centres, Role: Local Scientific Coordinator (2023-2025)
+-   Coordinator or team member in:
+    -   5 EU-funded projects
+    -   3 PNRR projects
+    -   5 PRIN projects
+    -   1 FIRB project
+    -   11 national and regional research initiatives
+
+
+# Scientific Software
+
+-   **Bibliometrix**\
+    R package for comprehensive science mapping and bibliometric analysis\
+    🔗 [bibliometrix.org](https://www.bibliometrix.org)
+
+-   **Biblioshiny**\
+    Shiny web app interface for Bibliometrix, enabling graphical science mapping workflows
+
+-   **TAll – Text Analysis for All**\
+    General-purpose R Shiny app for text data analysis and topic exploration\
+    🔗 <https://github.com/massimoaria/tall>
+
+-   **E2Tree**\
+    The *Explainable Ensemble Trees* approach – interpretable and explainable tree-based models for complex data\
+    🔗 <https://github.com/massimoaria/e2tree>
+
+-   **DimensionsR**\
+    Interface to the Dimensions API for bibliometric data extraction and analysis\
+    🔗 <https://github.com/massimoaria/dimensionsR>
+
+-   **PubmedR**\
+    R interface to the PubMed API for literature retrieval and analysis\
+    🔗 <https://github.com/massimoaria/pubmedR>
+
+-   **OpenalexR**\
+    R interface to the OpenAlex API for open bibliometric data access and processing\
+    🔗 <https://github.com/massimoaria/openalexR>

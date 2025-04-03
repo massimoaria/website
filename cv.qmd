@@ -1,0 +1,116 @@
+---
+title: "Curriculum Vitae"
+format: html
+editor: visual
+---
+
+# Education
+
+-   **Ph.D. in Computational Statistics**, University of Naples Federico II, 2007\
+    Dissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).
+-   **MSc in Economics and Statistics**, University of Naples Federico II, 2003\
+    Graduated with honors.
+
+# Academic Positions
+
+-   **Full Professor**, Statistics for Social Sciences, University of Naples Federico II (2020 – present)
+-   **Associate Professor**, University of Naples Federico II (2015 – 2020)
+-   **Assistant Professor**, University of Naples Federico II (2007 – 2015)
+
+# Institutional Roles
+
+-   Member of the Executive Board, Department of Economics and Statistics (DISES)
+-   Research Committee Coordinator, DISES
+-   Erasmus+ and Internationalization Coordinator (2012 – 2016)
+-   Member of the Board of Directors, University Library System (2007 – 2015)
+-   Responsible for the Research Quality Assessment (VQR), DISES
+
+# Research Interests
+
+My research activities span a wide range of areas in computational and applied statistics, with a strong focus on methodological development and empirical applications. In particular:
+
+-   **Statistics for Social Research**: Design and execution of socio-economic surveys and customer satisfaction studies
+-   **Bibliometrics and Scientometrics**: Statistical techniques for analyzing publication patterns, impact assessment, and science mapping
+-   **Text Mining and NLP**: Corpus analysis of scientific literature and textual datasets
+-   **Missing Data Imputation**: Recursive, incremental algorithms for imputing missing values in qualitative and quantitative data
+-   **Computational Statistics**: Development of estimation algorithms and numerical procedures, including supervised classification and neural networks
+-   **Machine Learning**: Decision trees, neural networks, latent class models, clustering, and factorial methods
+-   **Regression Modelling**: Nonparametric and semiparametric modeling techniques
+-   **Informational Statistics**: Data mining, market basket analysis, and knowledge discovery
+
+# Research Projects
+
+-   **PRIN 2022** – SciK-Health: The value of scientific production for patient care in Academic Health Science Centres, Role: Principal Investigator (2023-2025)
+-   **PRIN 2022 PNRR** – The value of scientific production for patient care in Academic Health Science Centres, Role: Local Scientific Coordinator (2023-2025)
+-   Coordinator or team member in:
+    -   5 EU-funded projects
+    -   3 PNRR projects
+    -   5 PRIN projects
+    -   1 FIRB project
+    -   11 national and regional research initiatives
+
+# Scientific Software
+
+-   **Bibliometrix**\
+    R package for comprehensive science mapping and bibliometric analysis\
+    🔗 [bibliometrix.org](https://www.bibliometrix.org)
+
+-   **Biblioshiny**\
+    Shiny web app interface for Bibliometrix, enabling graphical science mapping workflows
+
+-   **TAll – Text Analysis for All**\
+    General-purpose R Shiny app for text data analysis and topic exploration\
+    🔗 <https://github.com/massimoaria/tall>
+
+-   **E2Tree**\
+    The *Explainable Ensemble Trees* approach – interpretable and explainable tree-based models for complex data\
+    🔗 <https://github.com/massimoaria/e2tree>
+
+-   **DimensionsR**\
+    Interface to the Dimensions API for bibliometric data extraction and analysis\
+    🔗 <https://github.com/massimoaria/dimensionsR>
+
+-   **PubmedR**\
+    R interface to the PubMed API for literature retrieval and analysis\
+    🔗 <https://github.com/massimoaria/pubmedR>
+
+-   **OpenalexR**\
+    R interface to the OpenAlex API for open bibliometric data access and processing\
+    🔗 <https://github.com/massimoaria/openalexR>
+
+# Teaching Experience
+
+-   Courses taught (BSc, MSc, Ph.D.):
+    -   Statistics for Social Sciences
+    -   Sampling and Survey Methodologies
+    -   Bibliometric Methods and Text Mining in R
+    -   Machine Learning Laboratory in R
+-   International lecturer at summer schools and doctoral programs
+-   Supervisor of MSc and Ph.D. theses in statistics, data science, and scientometrics
+
+# Editorial and Scientific Activities
+
+-   **Associate Editor**, *Scientific Reports* (Nature Publishing Group)
+-   **Associate Editor for Statistics,** Journal of Oral Pathology and Medicine (Wiley ed.)
+-   Reviewer for leading journals in statistics and information science
+-   Member of the **Scientific Committee** of the ERCIM Working Group on Computational and Methodological Statistics
+-   Member of the **Program Committee**, JADT 2022 – Statistical Analysis of Textual Data
+
+# Scientific Societies
+
+-   Società Italiana di Statistica (SIS)\
+-   Associazione Italiana Studi di Popolazione (AISP)\
+-   Associazione di Statistica Applicata (ASA)\
+-   International Statistical Institute (ISI)\
+-   International Association for Statistical Computing (IASC)
+
+# Languages
+
+-   **Italian**: Native
+-   **English**: Fluent (academic and professional proficiency)
+
+# Technical Skills
+
+-   **Programming and Software**: R, Python (basic), LaTeX, Git, Quarto
+-   **Frameworks**: RStudio, Shiny, Positron, Pandas, Plotly
+-   **Reproducible Research**: Quarto, RMarkdown, version-controlled workflows
