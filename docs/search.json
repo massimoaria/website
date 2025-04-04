@@ -103,5 +103,26 @@
     "title": "Photo Gallery",
     "section": "",
     "text": "Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about."
+  },
+  {
+    "objectID": "photos.html#family",
+    "href": "photos.html#family",
+    "title": "Photo Gallery",
+    "section": "👨‍👩‍👧‍👦 Family",
+    "text": "👨‍👩‍👧‍👦 Family"
+  },
+  {
+    "objectID": "photos.html#friends",
+    "href": "photos.html#friends",
+    "title": "Photo Gallery",
+    "section": "👫 Friends",
+    "text": "👫 Friends"
+  },
+  {
+    "objectID": "photos.html#work",
+    "href": "photos.html#work",
+    "title": "Photo Gallery",
+    "section": "🧑‍🏫 Work",
+    "text": "🧑‍🏫 Work"
   }
 ]
