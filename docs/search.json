@@ -7,6 +7,27 @@
     "text": "Education\n\nPh.D. in Computational Statistics, University of Naples Federico II, 2007\nDissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).\nMSc in Economics and Statistics, University of Naples Federico II, 2003\nGraduated with honors.\n\n\n\nAcademic Positions\n\nFull Professor, Statistics for Social Sciences, University of Naples Federico II (2020 – present)\nAssociate Professor, University of Naples Federico II (2015 – 2020)\nAssistant Professor, University of Naples Federico II (2007 – 2015)\n\n\n\nInstitutional Roles\n\nMember of the Executive Board, Department of Economics and Statistics (DISES)\nResearch Committee Coordinator, DISES\nErasmus+ and Internationalization Coordinator (2012 – 2016)\nMember of the Board of Directors, University Library System (2007 – 2015)\nResponsible for the Research Quality Assessment (VQR), DISES\n\n\n\nResearch Interests\nMy research activities span a wide range of areas in computational and applied statistics, with a strong focus on methodological development and empirical applications. In particular:\n\nStatistics for Social Research: Design and execution of socio-economic surveys and customer satisfaction studies\nBibliometrics and Scientometrics: Statistical techniques for analyzing publication patterns, impact assessment, and science mapping\nText Mining and NLP: Corpus analysis of scientific literature and textual datasets\nMissing Data Imputation: Recursive, incremental algorithms for imputing missing values in qualitative and quantitative data\nComputational Statistics: Development of estimation algorithms and numerical procedures, including supervised classification and neural networks\nMachine Learning: Decision trees, neural networks, latent class models, clustering, and factorial methods\nRegression Modelling: Nonparametric and semiparametric modeling techniques\nInformational Statistics: Data mining, market basket analysis, and knowledge discovery\n\n\n\nResearch Projects\n\nPRIN 2022 – SciK-Health: The value of scientific production for patient care in Academic Health Science Centres, Role: Principal Investigator (2023-2025)\nPRIN 2022 PNRR – The value of scientific production for patient care in Academic Health Science Centres, Role: Local Scientific Coordinator (2023-2025)\nCoordinator or team member in:\n\n5 EU-funded projects\n3 PNRR projects\n5 PRIN projects\n1 FIRB project\n11 national and regional research initiatives\n\n\n\n\nScientific Software\n\nBibliometrix\nR package for comprehensive science mapping and bibliometric analysis\n🔗 bibliometrix.org\nBiblioshiny\nShiny web app interface for Bibliometrix, enabling graphical science mapping workflows\nTAll – Text Analysis for All\nGeneral-purpose R Shiny app for text data analysis and topic exploration\n🔗 https://github.com/massimoaria/tall\nE2Tree\nThe Explainable Ensemble Trees approach – interpretable and explainable tree-based models for complex data\n🔗 https://github.com/massimoaria/e2tree\nDimensionsR\nInterface to the Dimensions API for bibliometric data extraction and analysis\n🔗 https://github.com/massimoaria/dimensionsR\nPubmedR\nR interface to the PubMed API for literature retrieval and analysis\n🔗 https://github.com/massimoaria/pubmedR\nOpenalexR\nR interface to the OpenAlex API for open bibliometric data access and processing\n🔗 https://github.com/massimoaria/openalexR\n\n\n\nTeaching Experience\n\nCourses taught (BSc, MSc, Ph.D.):\n\nStatistics for Social Sciences\nSampling and Survey Methodologies\nBibliometric Methods and Text Mining in R\nMachine Learning Laboratory in R\n\nInternational lecturer at summer schools and doctoral programs\nSupervisor of MSc and Ph.D. theses in statistics, data science, and scientometrics\n\n\n\nEditorial and Scientific Activities\n\nAssociate Editor, Scientific Reports (Nature Publishing Group)\nAssociate Editor for Statistics, Journal of Oral Pathology and Medicine (Wiley ed.)\nReviewer for leading journals in statistics and information science\nMember of the Scientific Committee of the ERCIM Working Group on Computational and Methodological Statistics\nMember of the Program Committee, JADT 2022 – Statistical Analysis of Textual Data\n\n\n\nScientific Societies\n\nSocietà Italiana di Statistica (SIS)\n\nAssociazione Italiana Studi di Popolazione (AISP)\n\nAssociazione di Statistica Applicata (ASA)\n\nInternational Statistical Institute (ISI)\n\nInternational Association for Statistical Computing (IASC)\n\n\n\nLanguages\n\nItalian: Native\nEnglish: Fluent (academic and professional proficiency)\n\n\n\nTechnical Skills\n\nProgramming and Software: R, Python (basic), LaTeX, Git, Quarto\nFrameworks: RStudio, Shiny, Positron, Pandas, Plotly\nReproducible Research: Quarto, RMarkdown, version-controlled workflows"
   },
   {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Massimo Aria",
+    "section": "",
+    "text": "Email: massimo.aria@unina.it\n\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\n\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\n\nORCID: 0000-0003-0168-4407"
+  },
+  {
+    "objectID": "contacts.html#contacts",
+    "href": "contacts.html#contacts",
+    "title": "Massimo Aria",
+    "section": "",
+    "text": "Email: massimo.aria@unina.it\n\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\n\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\n\nORCID: 0000-0003-0168-4407"
+  },
+  {
+    "objectID": "contacts.html#links",
+    "href": "contacts.html#links",
+    "title": "Massimo Aria",
+    "section": "Links",
+    "text": "Links\n\nResearch Institutions and Groups\n\n K-Synth Academic Spin-off\n Dept. of Economics and Statistics\n University of Naples Federico II\n Bibliometrix Website"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
@@ -42,27 +63,6 @@
     "text": "Courses Taught\n\nStatistics for Social Sciences – Undergraduate course, Bechelor in Tourism Sciences\nSampling Surveys - Undergraduate course, Bachelor in Economics\nStatistical Methods for Social Research – Graduate level, Master in Economics, Curriculum studiorum “Data Scientist for Economics”\nLab in Machine Learning and Text Mining with R – Graduate level, Master in Economics, Curriculum studiorum “Data Scientist for Economics”\nMachine Learning Methods - Ph.D. Courses\nBibliometric Analysis using R – Ph.D. Courses and International Summer Schools\n\n\n\n\nSeminars and Training Activities\nOver the last few years, I have delivered more than 60 invited seminars and training sessions on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of Bodø (Norway), Edinburgh, Granada, London, Melbourne, and Paris.\nIn addition, I have been a lecturer at the European Summer School for Scientometrics (ESSS), the Summer School in Science Mapping, and the Social Statistics Summer School in Monteriggioni.\n\n\n\nConferences and Workshops\nI have actively participated in numerous national and international conferences, including DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, and JADT, where I have presented research contributions related to bibliometric analysis, classification methods, and methodological innovation in the social sciences.\nI am also a member of the scientific or organizing committees of major conferences, such as JADT2022 and several editions of the Italian Statistics Society (SIS) meetings.\n\nFor all course materials, detailed teaching information, and updates for students, please visit my official university webpage:\n👉 www.docenti.unina.it/massimo.aria"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Email: massimo.aria@unina.it\n\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\n\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\n\nORCID: 0000-0003-0168-4407"
-  },
-  {
-    "objectID": "contact.html#contacts",
-    "href": "contact.html#contacts",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Email: massimo.aria@unina.it\n\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\n\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\n\nORCID: 0000-0003-0168-4407"
-  },
-  {
-    "objectID": "contact.html#links",
-    "href": "contact.html#links",
-    "title": "Massimo Aria",
-    "section": "Links",
-    "text": "Links\n\nResearch Institutions and Groups\n\n K-Synth Academic Spin-off.\n Dept. of Economics and Statistics.\n University of Naples Federico II.\n Bibliometrix Website."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Massimo Aria",
@@ -96,5 +96,12 @@
     "title": "About",
     "section": "",
     "text": "Massimo Aria is a senior member of the following scientific societies:\n\nSocietà Italiana di Statistica (SIS)\n\nAssociazione Italiana Studi di Popolazione (AISP)\n\nAssociazione di Statistica Applicata (ASA)\n\nInternational Statistical Institute (ISI)\n\nInternational Association for Statistical Computing (IASC)"
+  },
+  {
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photo Gallery",
+    "section": "",
+    "text": "Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about."
   }
 ]

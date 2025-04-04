@@ -16,8 +16,10 @@ website:
         file: projects.qmd
       - text: CV
         file: cv.qmd
+      - text: Photos
+        file: photos.qmd
       - text: Contacts & Links
-        file: contact.qmd
+        file: contacts.qmd
   page-footer:
     center: |
       © 2025 Massimo Aria – Built with [Quarto](https://quarto.org)

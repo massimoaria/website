@@ -1,0 +1,31 @@
+---
+title: "Photo Gallery"
+format: html
+---
+
+
+Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about.
+
+------------------------------------------------------------------------
+
+## 👨‍👩‍👧‍👦 Family
+
+::: gallery
+<img src="photos/family1.jpg" alt="Family"/> <img src="photos/family3.jpg" alt="Family"/> <img src="photos/vittoria.jpg" alt="Vittoria"/> <img src="photos/family4.jpg" alt="Lorenzo"/> <img src="photos/family2.jpg" alt="Family"/> <img src="photos/family4.jpg" alt="Family"/> <img src="photos/lorenzo.jpg" alt="Family"/> <img src="photos/family5.jpg" alt="Family"/> <img src="photos/family6.jpg" alt="Family"/>
+:::
+
+------------------------------------------------------------------------
+
+## 👫 Friends
+
+::: gallery
+<img src="photos/friends1.jpg" alt="Friends"/> <img src="photos/friends2.jpg" alt="Friends"/> <img src="photos/friends3.jpg" alt="Friends"/> <img src="photos/friends4.jpg" alt="Friends"/> <img src="photos/friends5.jpg" alt="Friends"/> <img src="photos/friends6.jpg" alt="Friends"/>
+:::
+
+------------------------------------------------------------------------
+
+## 🧑‍🏫 Work
+
+::: gallery
+<img src="photos/work1.jpg" alt="Work"/> <img src="photos/work2.jpg" alt="Work"/> <img src="photos/work3.jpg" alt="Work"/> <img src="photos/work4.jpg" alt="Work"/> <img src="photos/work5.jpg" alt="Work"/> <img src="photos/work6.jpg" alt="Work"/> <img src="photos/work7.jpg" alt="Work"/> <img src="photos/work8.jpg" alt="Work"/> <img src="photos/work9.jpg" alt="Work"/>
+:::
