@@ -6,27 +6,35 @@ website:
   title: "Massimo Aria"
   navbar:
     left:
-      - text: About
-        file: about.qmd
-      - text: Publications
-        file: publications.qmd
+      - text: About Me
+        menu:
+        - text: Short Bio
+          file: about.qmd
+        - text: Curriculum Vitae
+          file: cv.qmd
+      - text: Research
+        menu:
+        - text: Publications
+          file: publications.qmd
+        - text: Projects
+          file: projects.qmd
       - text: Teaching
         file: teaching.qmd
-      - text: Projects
-        file: projects.qmd
-      - text: CV
-        file: cv.qmd
       - text: Photos
         file: photos.qmd
-      - text: Contacts & Links
+      - text: Contacts
         file: contacts.qmd
+      - icon: book
+        href: https://scholar.google.com/citations?user=Qu66YZQAAAAJ&hl=it
+      - icon: globe
+        href: https://www.researchgate.net/profile/Massimo-Aria
   page-footer:
     center: |
       © 2025 Massimo Aria – Built with [Quarto](https://quarto.org)
 
 format:
   html:
-    theme: superhero
+    theme: sandstone
     toc: true
     toc-location: left
     page-layout: full

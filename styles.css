@@ -7,70 +7,6 @@ main.content {
   padding-right: 1rem;
 }
 
-body {
-  font-size: 0.9rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-h1 {
-  font-size: 1.3rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-h2 {
-  font-size: 1.2rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-h3 {
-  font-size: 1.1rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-h4 {
-  font-size: 1.0rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-h5 {
-  font-size: 0.9rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-h6 {
-  font-size: 0.7rem;  /* puoi usare anche px, es. 18px */
-  font-family: 'Lora', serif;
-  color: #EEEEEE;
-}
-
-/* Colore dei titoli */
-h1, h2, h3, h4, h5, h6 {
-  color: inherit;
-}
-
-/* Link */
-a {
-  color: #4ca3dd;
-}
-
-a:hover {
-  color: #78c3f0;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
 .gallery img {
   max-width: 300px;
   height: auto;
@@ -80,5 +16,6 @@ a:hover {
 }
 
 .gallery img:hover {
-  transform: scale(1.50);
+  transform: scale(1.30);
 }
+

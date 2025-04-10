@@ -1,38 +1,44 @@
 ---
-title: "About"
+title: "About Me"
 format: html
 editor: visual
 ---
 
 # Massimo Aria
 
-Massimo Aria is Full Professor in Statistics for Social Sciences at the Department of Economics and Statistics, University of Naples Federico II, and holds a Ph.D. in Computational Statistics.\
-He teaches **Statistics for Social Sciences**, **Advanced Statistical Methods for Social Research**, **Sampling Surveys**, and the **Lab of Machine Learning in R**.
+I am a Full Professor in Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D. in Computational Statistics.
 
-His main research fields include **bibliometrics**, **science mapping**, **systematic literature reviews**, **statistical survey methodology**, **machine learning**, and **text mining**.\
-He has led numerous statistical surveys and data science projects addressing economic, social, ethological, and healthcare-related phenomena.
+I have been teaching Statistics and Machine Learning in bachelor’s, master’s, and doctoral programs for over 20 years. The courses I currently teach include **Statistics for Social Sciences**, **Advanced Statistical Methods for Social Research**, **Sampling Surveys**, and the **Lab of Machine Learning in R**.
 
-## Scientific Output
+My main research fields include **bibliometrics**, **science mapping**, **systematic literature reviews**, **statistical survey methodology**, **machine learning**, and **text mining**. I have led numerous statistical surveys and data science projects related to economic, social, ethological, and healthcare phenomena.
 
-Massimo Aria has authored more than **150 peer-reviewed scientific articles**, of which **36** have been classified as “A” in scientific area 13 (Economics and Statistics) by **ANVUR** (Italian Agency of University Research Evaluation).
+------------------------------------------------------------------------
 
-He is the **co-founder of the academic spin-off [K-Synth](https://www.k-synth.unina.it)**, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.
+## Scientific Publications
 
-He is a faculty member of the [**European Summer School of Scientometrics (ESSS)**](https://esss.info/) and served on the **program committee of the 16th International Conference on Statistical Analysis of Textual Data (JADT 2022)** held in Naples.
+I have authored more than **150 peer-reviewed scientific articles**, of which **36** have been classified as “A” in scientific area 13 (Economics and Statistics) by **ANVUR** (Italian Agency of University Research Evaluation).
+
+I am the **co-founder of the academic spin-off [K-Synth](https://www.k-synth.unina.it)**, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.
+
+I am a faculty member of the [**European Summer School of Scientometrics (ESSS)**](https://esss.info/) and served on the **program committee of the 16th International Conference on Statistical Analysis of Textual Data (JADT 2022)** held in Naples.
+
+------------------------------------------------------------------------
 
 ## Academic and Institutional Roles
 
 -   Board member of the **Naples Ph.D. Program in Economics**\
--   Board member for over 20 years of the **Ph.D. programs in Computational Statistics** and **Social Sciences and Statistics**, University of Naples Federico II\
+-   Board member for over 20 years of the **Ph.D. programs in Computational Statistics** and **Social Sciences and Statistics**\
 -   Since 2019, board member of the **Master’s degree in Data Science** and in **Economics** (curriculum: Data Scientist for Economics)\
--   Since 2010, coordinator (with Prof. C. Cuccurullo) of the research group in **bibliometrics and science mapping** at University of Naples Federico II and University L. Vanvitelli ([www.bibliometrix.org](https://www.bibliometrix.org))\
--   Participant and coordinator in **5 European projects**, **3 PNRR projects**, **5 PRIN projects**, **1 FIRB**, and **11 national/regional projects**\
--   Scientific committee member since 2007 of the **Statistical Algorithms and Software Specialized Team**, ERCIM Working Group on Computational and Methodological Statistics\
--   Coordinator for the **Research Quality Assessment (VQR)** at the Department of Economics and Statistics
+-   Since 2010, I have coordinated, together with Prof. C. Cuccurullo, the research group in **bibliometrics and science mapping** at the University of Naples Federico II and the University of Campania L. Vanvitelli ([www.bibliometrix.org](https://www.bibliometrix.org))\
+-   I have coordinated or participated in **5 European projects**, **3 PNRR projects**, **5 PRIN projects**, **1 FIRB project**, and **11 national or regional projects**\
+-   Since 2007, I have been a scientific committee member of the **Statistical Algorithms and Software Specialized Team**, ERCIM Working Group on Computational and Methodological Statistics\
+-   I am currently responsible for the **Research Quality Assessment (VQR)** of the Department of Economics and Statistics
+
+------------------------------------------------------------------------
 
 ## Scientific Societies
 
-Massimo Aria is a senior member of the following scientific societies:
+I am a senior member of the following scientific societies:
 
 -   Società Italiana di Statistica (SIS)\
 -   Associazione Italiana Studi di Popolazione (AISP)\
@@ -44,29 +50,29 @@ Massimo Aria is a senior member of the following scientific societies:
 
 # Scientific Results and Awards
 
-To date, his publications have received **over 19,000 citations** and his **H-index is 36**.\
-In the last five years alone, his publications have been cited more than **16,000 times**, with an H-index of **33** (source: Google Scholar, April 2025).
+To date, my publications have received **over 19,000 citations**, and my **H-index is 36**.\
+In the last five years alone, my publications have been cited more than **16,000 times**, with an H-index of **33** (source: Google Scholar, April 2025).
 
-His article *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) is:
+My article *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) is:
 
--   The **most cited article ever** in the journal (source: Scopus 7,000 citations; Google Scholar 13,000)
+-   The **most cited article ever** in the journal (source: Scopus: 7,000 citations; Google Scholar: 13,000+)
 -   One of the **top downloaded** articles on ScienceDirect\
     ([source](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
 
 ------------------------------------------------------------------------
 
-# Social Impact of His Research Activities
+# Social Impact of My Research Activities
 
 **Bibliometrix** and its Shiny web app **Biblioshiny** are recognized as the most comprehensive and user-friendly software for science mapping.
 
-In a widely cited review of bibliometric tools, Moral-Muñoz et al. (2020) stated:
+In a widely cited review of bibliometric tools, Moral-Muñoz et al. (2020) wrote:
 
 > “At this moment, maybe Bibliometrix and its Shiny platform contain the more extensive set of techniques implemented, and together with the easiness of its interface, could be a great software for practitioners.”
 
-Bibliometrix has become one of the **most used** science mapping tools, with:
+Today, Bibliometrix is one of the **most used** science mapping tools worldwide, with:
 
--   **1 Million installations**
--   A **large international community** of researchers using and promoting it
+-   **1 million installations**
+-   A **large international community** of researchers actively using and promoting it
 -   **Over 150 YouTube tutorials** in multiple languages
 
-In the past 4 years, Professor Aria has delivered **over 60 seminars** in various Italian doctoral schools (e.g., Bergamo, Brescia, Calabria, Genoa, Polytechnic of Milan, Naples, Pisa, Rome, Salento) and international ones (e.g., Bodø – Norway, Edinburgh, Granada, London, Melbourne, Paris).
+In the past four years, I have delivered **over 60 seminars** in many Italian doctoral schools (Universities of Bergamo, Brescia, Calabria, Genoa, Polytechnic of Milan, Naples, Pisa, Rome, Salento, among others) and international ones (Universities of Bodø – Norway, Edinburgh, Granada, London, Melbourne, Paris).
