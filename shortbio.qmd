@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Short Bio"
 format: html
 editor: visual
 ---
@@ -14,13 +14,13 @@ My main research fields include **bibliometrics**, **science mapping**, **system
 
 ------------------------------------------------------------------------
 
-## Scientific Publications
+## Scientific Activities
 
 I have authored more than **150 peer-reviewed scientific articles**, of which **36** have been classified as “A” in scientific area 13 (Economics and Statistics) by **ANVUR** (Italian Agency of University Research Evaluation).
 
-I am the **co-founder of the academic spin-off [K-Synth](https://www.k-synth.unina.it)**, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.
+I am the <a href="https://www.k-synth.com" target="_blank"> **K-Synth Academic Spin-off**</a>, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.
 
-I am a faculty member of the [**European Summer School of Scientometrics (ESSS)**](https://esss.info/) and served on the **program committee of the 16th International Conference on Statistical Analysis of Textual Data (JADT 2022)** held in Naples.
+I am the Scientific Coordinator of the <a href="https://bibliometrix.org/sssm/" target="_blank"> **Summer School in Science Mapping (SSSM)**</a> and a faculty member of the <a href="https://esss.info/" target="_blank"> **European Summer School of Scientometrics (ESSS)**</a>.
 
 ------------------------------------------------------------------------
 
@@ -56,8 +56,7 @@ In the last five years alone, my publications have been cited more than **16,000
 My article *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) is:
 
 -   The **most cited article ever** in the journal (source: Scopus: 7,000 citations; Google Scholar: 13,000+)
--   One of the **top downloaded** articles on ScienceDirect\
-    ([source](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
+-   One of the **top downloaded** articles on ScienceDirect  ([source](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
 
 ------------------------------------------------------------------------
 

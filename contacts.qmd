@@ -10,14 +10,14 @@ editor: visual
 -   **Address**: Via Cintia, Monte Sant’Angelo, Naples, Italy\
 -   **ORCID**: [0000-0003-0168-4407](https://orcid.org/0000-0003-0168-4407)
 
-## Links
-
 ### Research Institutions and Groups
 
 -   <a href="https://www.k-synth.com" target="_blank"> K-Synth Academic Spin-off</a>
 
+-   <a href="https://www.bibliometrix.org" target="_blank"> Bibliometrix Website</a>
+
+-   <a href="https://www.bibliometrix.org/sssm" target="_blank"> Summer School in Science Mapping</a>
+
 -   <a href="https://www.dises.unina.it" target="_blank"> Dept. of Economics and Statistics</a>
 
 -   <a href="https://www.unina.it" target="_blank"> University of Naples Federico II</a>
-
--   <a href="https://www.bibliometrix.org" target="_blank"> Bibliometrix Website</a>

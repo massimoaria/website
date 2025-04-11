@@ -6,24 +6,40 @@ editor: visual
 
 # Education
 
--   **Ph.D. in Computational Statistics**, University of Naples Federico II, 2007\
+-   **Ph.D. in Computational Statistics**, University of Naples Federico II, 2003\
     Dissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).
--   **MSc in Economics and Statistics**, University of Naples Federico II, 2003\
+-   **MSc in Economics and Statistics**, University of Naples Federico II, 2000\
     Graduated with honors.
 
 # Academic Positions
 
 -   **Full Professor**, Statistics for Social Sciences, University of Naples Federico II (2020 – present)
--   **Associate Professor**, University of Naples Federico II (2015 – 2020)
--   **Assistant Professor**, University of Naples Federico II (2007 – 2015)
+-   **Associate Professor**, Statistics for Social Sciences, University of Naples Federico II (2014 – 2020)
+-   **Assistant Professor**, Statistics for Social Sciences, University of Naples Federico II (2007 – 2014)
+-   **Research Fellow**, Statistics, University of Salerno (2005-2006)
+-   **Research Fellow**, Statistics, Competence Center for Transport, University of Naples Federico II (2004-2005)
 
 # Institutional Roles
 
--   Member of the Executive Board, Department of Economics and Statistics (DISES)
--   Research Committee Coordinator, DISES
--   Erasmus+ and Internationalization Coordinator (2012 – 2016)
--   Member of the Board of Directors, University Library System (2007 – 2015)
--   Responsible for the Research Quality Assessment (VQR), DISES
+### Ongoing Roles
+
+-   **Member of the Executive Board**, Department of Economics and Statistics
+-   **member of the Research Committee**, Department of Economics and Statistics
+-   **Responsible for the Research Quality Assessment (VQR)**, Department of Economics and Statistics
+-   **Member of the Academic Board of the PhD Programme** **in Economics** at the University of Naples Federico II
+-   **Scientific coordinator** for the Department in the following University-wide Task Forces:
+    -   Industry 4.0 and Sustainable Development
+    -   SUM (Smart and Sustainable Mobility)
+    -   Human & Future
+-   **Coordinator of the event series *“University and Employment: Data Analysis and Digital Economy”*,** aimed at enhancing the job placement of graduates in Economics and Business, specifically within the “Data Scientist for Economics and Enterprises” track at the University of Naples Federico II.
+-   **Scientific coordinator of the IT laboratories** of the Department of Economics and Statistics at the University of Naples Federico II.
+
+### Past Roles
+
+-   **Member of the core design team for the new Master's Degree Programme in Data Science** at the University of Naples Federico II.
+-   **Member of the selection committee for the "Simona Balbi Award"**, which funds participation in summer schools for students who have demonstrated a strong interest in the study of statistics.
+-   Served as a **member of the Admission Committee** for several cycles of the PhD Programme in Statistics, Department of Mathematics and Statistics.
+-   Served as **Researchers’ Representative** on the Faculty Council (2007–2011).
 
 # Research Interests
 
@@ -52,39 +68,28 @@ My research activities span a wide range of areas in computational and applied s
 # Scientific Software
 
 -   **Bibliometrix**\
-    R package for comprehensive science mapping and bibliometric analysis\
-    🔗 [bibliometrix.org](https://www.bibliometrix.org)
-
+    R package for comprehensive science mapping and bibliometric analysis
 -   **Biblioshiny**\
     Shiny web app interface for Bibliometrix, enabling graphical science mapping workflows
-
 -   **TAll – Text Analysis for All**\
-    General-purpose R Shiny app for text data analysis and topic exploration\
-    🔗 <https://github.com/massimoaria/tall>
-
+    General-purpose R Shiny app for text data analysis and topic exploration
 -   **E2Tree**\
-    The *Explainable Ensemble Trees* approach – interpretable and explainable tree-based models for complex data\
-    🔗 <https://github.com/massimoaria/e2tree>
-
+    The *Explainable Ensemble Trees* approach – interpretable and explainable tree-based models for complex data
 -   **DimensionsR**\
     Interface to the Dimensions API for bibliometric data extraction and analysis\
-    🔗 <https://github.com/massimoaria/dimensionsR>
-
 -   **PubmedR**\
     R interface to the PubMed API for literature retrieval and analysis\
-    🔗 <https://github.com/massimoaria/pubmedR>
-
 -   **OpenalexR**\
-    R interface to the OpenAlex API for open bibliometric data access and processing\
-    🔗 <https://github.com/massimoaria/openalexR>
+    R interface to the OpenAlex API for open bibliometric data access and processing
 
 # Teaching Experience
 
 -   Courses taught (BSc, MSc, Ph.D.):
-    -   Statistics for Social Sciences
-    -   Sampling and Survey Methodologies
-    -   Bibliometric Methods and Text Mining in R
-    -   Machine Learning Laboratory in R
+    -   **Statistics for Social Sciences**
+    -   **Sampling and Survey Methodologies**
+    -   **Bibliometric Methods and Text Mining in R**
+    -   **Machine Learning Laboratory in R**
+    -   **Advanced Statistical Methods for Social Research**
 -   International lecturer at summer schools and doctoral programs
 -   Supervisor of MSc and Ph.D. theses in statistics, data science, and scientometrics
 
@@ -94,14 +99,13 @@ My research activities span a wide range of areas in computational and applied s
 -   **Associate Editor for Statistics,** Journal of Oral Pathology and Medicine (Wiley ed.)
 -   Reviewer for leading journals in statistics and information science
 -   Member of the **Scientific Committee** of the ERCIM Working Group on Computational and Methodological Statistics
--   Member of the **Program Committee**, JADT 2022 – Statistical Analysis of Textual Data
 
 # Scientific Societies
 
--   Società Italiana di Statistica (SIS)\
--   Associazione Italiana Studi di Popolazione (AISP)\
--   Associazione di Statistica Applicata (ASA)\
--   International Statistical Institute (ISI)\
+-   Società Italiana di Statistica (SIS)
+-   Associazione Italiana Studi di Popolazione (AISP)
+-   Associazione di Statistica Applicata (ASA)
+-   International Statistical Institute (ISI)
 -   International Association for Statistical Computing (IASC)
 
 # Languages
@@ -111,6 +115,6 @@ My research activities span a wide range of areas in computational and applied s
 
 # Technical Skills
 
--   **Programming and Software**: R, Python (basic), LaTeX, Git, Quarto
--   **Frameworks**: RStudio, Shiny, Positron, Pandas, Plotly
+-   **Programming and Software**: R, Python (basic), MatLab, LaTeX, Git, Quarto
+-   **Frameworks**: RStudio, Shiny, Positron, VIS, Plotly
 -   **Reproducible Research**: Quarto, RMarkdown, version-controlled workflows

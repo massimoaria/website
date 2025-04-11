@@ -19,3 +19,24 @@ main.content {
   transform: scale(1.30);
 }
 
+/* NAVBAR CUSTOMIZATION */
+.navbar {
+    background-color: #002b36 !important;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .navbar-brand:hover {
+    color: #77d6ec88 !important; /* light cyan/blue */
+  }
+  
+  /* Optional: active link highlighting */
+  .navbar .nav-link.active {
+    color: #daeeeeeb !important; /* Bootstrap's warning yellow */
+    font-weight: 600;
+  }

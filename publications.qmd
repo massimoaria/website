@@ -13,7 +13,7 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 1. Pagliara F., Aria M. & Mauriello M. (2025). **Models and Applications of Tourists’ Travel Behavior**. 1st Edition, Elsevier, <a href="https://doi.org/10.1016/C2023-0-01250-X" target="_blank">ISBN: 9780443265938</a>.  
 <br>
-2. Cuccurullo C., Aria M., Spano M. & D’Aniello L. (2023). **Leading Change in Academic Health Science Centers**. Zaccaria ed. ISBN: 9788899594213.  
+2. Cuccurullo C., Aria M., Spano M. & D’Aniello L. (2023). **Leading Change in Academic Health Science Centers**. Zaccaria ed., <a href="https://doi.org/10.5281/zenodo.15193956" target="_blank">ISBN: 9788899594213</a>.
 <br>
 ---
 

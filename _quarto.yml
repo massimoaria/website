@@ -5,11 +5,11 @@ project:
 website:
   title: "Massimo Aria"
   navbar:
-    left:
+    right:
       - text: About Me
         menu:
         - text: Short Bio
-          file: about.qmd
+          file: shortbio.qmd
         - text: Curriculum Vitae
           file: cv.qmd
       - text: Research
@@ -18,6 +18,8 @@ website:
           file: publications.qmd
         - text: Projects
           file: projects.qmd
+        - text: Software
+          file: software.qmd
       - text: Teaching
         file: teaching.qmd
       - text: Photos
@@ -34,7 +36,9 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: spacelab
+    includes:
+      head: lightbox-head.html
     toc: true
     toc-location: left
     page-layout: full

@@ -1,0 +1,34 @@
+---
+title: ""
+format: html
+editor: visual
+---
+
+# Scientific Software
+
+-   **Bibliometrix**\
+    An R package for comprehensive science mapping and bibliometric analysis. It supports a full bibliometric workflow, including data import, descriptive analysis, science mapping, and visualization.\
+    🔗 <a href="https://www.bibliometrix.org" target="_blank">bibliometrix.org</a>
+
+-   **Biblioshiny**\
+    A user-friendly Shiny web interface for Bibliometrix, enabling researchers to conduct advanced bibliometric and science mapping analyses without coding.
+
+-   **TAll – Text Analysis for All**\
+    A general-purpose R Shiny application for text data analysis, supporting topic modeling, frequency analysis, clustering, and content classification.\
+    🔗 <a href="https://github.com/massimoaria/tall" target="_blank">https://github.com/massimoaria/tall</a>
+
+-   **E2Tree**\
+    An explainable machine learning approach based on ensemble trees, designed to generate interpretable models from complex data, with visual exploration tools for decision rules.\
+    🔗 <a href="https://github.com/massimoaria/e2tree" target="_blank">https://github.com/massimoaria/e2tree</a>
+
+-   **DimensionsR**\
+    An R package that provides programmatic access to the Dimensions API, allowing bibliometric researchers to retrieve and analyze data on publications, grants, clinical trials, and patents.\
+    🔗 <a href="https://github.com/massimoaria/dimensionsR" target="_blank">https://github.com/massimoaria/dimensionsR</a>
+
+-   **PubmedR**\
+    An R interface to the PubMed API for searching, downloading, and analyzing biomedical literature metadata, useful for systematic literature reviews and medical informatics.\
+    🔗 <a href="https://github.com/massimoaria/pubmedR" target="_blank">https://github.com/massimoaria/pubmedR</a>
+
+-   **OpenalexR**\
+    An R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.\
+    🔗 <a href="https://docs.ropensci.org/openalexR/" target="_blank">https://docs.ropensci.org/openalexR/</a>

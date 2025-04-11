@@ -1,46 +1,41 @@
 ---
-title: "Projects and Software"
 format: html
 editor: visual
 ---
 
 # Research Projects
 
--   **PRIN 2022** – SciK-Health: The value of scientific production for patient care in Academic Health Science Centres, Role: Principal Investigator (2023-2025)
--   **PRIN 2022 PNRR** – The value of scientific production for patient care in Academic Health Science Centres, Role: Local Scientific Coordinator (2023-2025)
--   Coordinator or team member in:
-    -   5 EU-funded projects
-    -   3 PNRR projects
-    -   5 PRIN projects
-    -   1 FIRB project
-    -   11 national and regional research initiatives
+## Ongoing Projects
 
+### **PRIN 2022** MIUR
 
-# Scientific Software
+**SciK-Health: The value of scientific production for patient care in Academic Health Science Centres**
 
--   **Bibliometrix**\
-    R package for comprehensive science mapping and bibliometric analysis\
-    🔗 [bibliometrix.org](https://www.bibliometrix.org)
+Role: Principal Investigator (2023-2025)\
+🔗 Project Website: [massimoaria.github.io/scikhealth/](https://massimoaria.github.io/scikhealth/ "https://massimoaria.github.io/scikhealth/")
 
--   **Biblioshiny**\
-    Shiny web app interface for Bibliometrix, enabling graphical science mapping workflows
+This research project aims to map the full spectrum of scientific output—beyond academic publications—of Italian public Academic Health Centers (AHCs) from 2000 onwards. Its purpose is twofold: to provide citizens and healthcare professionals with a science-based orientation tool, and to offer academic managers, funders, and policy-makers an evidence-based decision-making instrument. The study involves the collection and integration of diverse research outputs, including publications, patents, clinical trials, grants, and altmetrics, drawn from both traditional and next-generation databases. Using science mapping and longitudinal analysis, the project reconstructs the conceptual and social structures of knowledge produced by AHCs, resulting in the creation of a Digital Conceptual and Social Atlas. A dedicated web application, SciK-Health, will disseminate these findings to the public, serving as a health literacy and decision-support tool. Additionally, a restricted-access tool will provide institutional stakeholders with a synthetic indicator—R-daisy—summarizing each hospital’s research expertise. The project concludes with a validation phase involving academic hospitals and regional health agencies, ensuring the robustness and applicability of its outputs.
 
--   **TAll – Text Analysis for All**\
-    General-purpose R Shiny app for text data analysis and topic exploration\
-    🔗 <https://github.com/massimoaria/tall>
+### **PRIN 2022 PNRR**
 
--   **E2Tree**\
-    The *Explainable Ensemble Trees* approach – interpretable and explainable tree-based models for complex data\
-    🔗 <https://github.com/massimoaria/e2tree>
+**The impact of scientific production on healthcare outcomes in Italian Academic Health Science Centres**
 
--   **DimensionsR**\
-    Interface to the Dimensions API for bibliometric data extraction and analysis\
-    🔗 <https://github.com/massimoaria/dimensionsR>
+Role: Local Scientific Coordinator (2023–2025)
 
--   **PubmedR**\
-    R interface to the PubMed API for literature retrieval and analysis\
-    🔗 <https://github.com/massimoaria/pubmedR>
+Academic Health Science Centres (AHSCs) share three strategic missions: training healthcare professionals, developing innovative technologies and digital solutions, and delivering high-quality, data-driven care. Balancing these missions often generates strategic ambiguity and organizational tension. While existing studies have occasionally examined how teaching influences patient care, little is known about the effects of research on clinical outcomes.
 
--   **OpenalexR**\
-    R interface to the OpenAlex API for open bibliometric data access and processing\
-    🔗 <https://github.com/massimoaria/openalexR>
+This project investigates whether and how academic research performance influences patient care quality in Italian public AHSCs. It will begin by constructing a longitudinal database of scientometric and bibliometric metadata, covering various types of scientific outputs—such as publications, patents, clinical trials, grants, and altmetrics—from 2000 to the present.
+
+Following the data collection, we will measure productivity, growth, impact, and novelty, and construct a composite, weighted indicator to evaluate the scientific production of each AHSC. Finally, using econometric models, the project will analyze how research activity correlates with key dimensions of healthcare performance, including 30-day mortality, hospital readmission rates, patient mobility, waiting lists, and case mix complexity.
+
+The research aims to answer three central questions: Does research performance in AHSCs lead to improved health outcomes? Is research activity a driver of hospital case mix? And finally, does academic research performance influence patient choices regarding healthcare providers?
+
+## Past Projects
+
+Over the past two decades, I have contributed to and coordinated a wide range of research projects at the European, national, and regional levels.
+
+At the European level, I served as senior researcher in several EU-funded initiatives, including the Horizon 2020 project *MAGIC – Moving Towards Adaptive Governance in Complexity*, which addressed nexus security challenges. Within the 7th Framework Programme, I participated in *EUROC – European Robotics Challenges* and *RoDyMan – Robotic Dynamic Manipulation*, focusing on advanced robotics. Earlier, I contributed to *iWeb-Care*, a project on fraud detection in healthcare e-government services, and *INSPECTOR*, which developed distributed systems for data validation, both funded under the 6th Framework Programme. I also acted as Scientific Coordinator for the transnational cooperation initiative “Network for Regional Development and Entrepreneurship” under the EQUAL Phase 2 Programme, and as Scientific Committee member in the related *SPIDER* project on territorial information management for social enterprises.
+
+At the national level, I have been involved in multiple PRIN (Projects of National Interest) and FIRB initiatives. These include my role as Principal Investigator for the current PRIN 2022 project *SciK-Health* and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to PNRR-funded initiatives such as the *Digital Health Ecosystem*, where I coordinate Work Package 2, and the *National Centre for Sustainable Mobility*, where I serve as a member of Spoke 10. In previous years, I was senior researcher for PRIN projects on rationality and attention in children, tree-based methods for classification and regression, and knowledge discovery in decision-making. I also collaborated in the FIRB project on *Supply Chain Management* led by the University of Salerno.
+
+In addition to these, I participated in various university-funded and regional projects. These include studies on health inequalities, childhood care services in southern Italy, women’s re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects such as *SOCIAL-NET* (on aging and social exclusion), *MoniTur* (on cultural tourism data analysis), and the data strategy component of the City of Naples Strategic Plan. Furthermore, I contributed as senior researcher to ICT-focused programs co-financed by the Campania and Puglia Regions, including *VIRNET*, *ANGELO*, *PROTEO*, *PORTUR*, and *TRITONE*, as well as to the *Regional Competence Centre on Transport* focused on demand modelling through statistical methods.
