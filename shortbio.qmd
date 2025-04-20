@@ -6,7 +6,7 @@ editor: visual
 
 # Massimo Aria
 
-I am a **Full Professor in Statistics for Social Sciences** at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D. in Computational Statistics.
+I am a **Full Professor in Statistics for Social Sciences** at the Department of Economics and Statistics of the University of Naples Federico II. I hold a **Ph.D. in Computational Statistics**.
 
 I have been teaching Statistics and Machine Learning in bachelor’s, master’s, and doctoral programs for over 20 years. The courses I currently teach include **Statistics for Social Sciences**, **Advanced Statistical Methods for Social Research**, **Sampling Surveys**, and the **Lab of Machine Learning in R**.
 
