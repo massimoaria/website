@@ -8,7 +8,7 @@ editor: visual
 
 -   **Ph.D. in Computational Statistics**, University of Naples Federico II, 2003\
     Dissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).
--   **MSc in Economics and Statistics**, University of Naples Federico II, 2000\
+-   **MSc in Economics**, University of Naples Federico II, 2000\
     Graduated with honors.
 
 # Academic Positions
@@ -24,13 +24,13 @@ editor: visual
 ### Ongoing Roles
 
 -   **Member of the Executive Board**, Department of Economics and Statistics
--   **member of the Research Committee**, Department of Economics and Statistics
+-   **Member of the Research Committee**, Department of Economics and Statistics
 -   **Responsible for the Research Quality Assessment (VQR)**, Department of Economics and Statistics
 -   **Member of the Academic Board of the PhD Programme** **in Economics** at the University of Naples Federico II
 -   **Scientific coordinator** for the Department in the following University-wide Task Forces:
-    -   Industry 4.0 and Sustainable Development
-    -   SUM (Smart and Sustainable Mobility)
-    -   Human & Future
+    -   *Industry 4.0 and Sustainable Development*
+    -   *SUM (Smart and Sustainable Mobility)*
+    -   *Human & Future*
 -   **Coordinator of the event series *“University and Employment: Data Analysis and Digital Economy”*,** aimed at enhancing the job placement of graduates in Economics and Business, specifically within the “Data Scientist for Economics and Enterprises” track at the University of Naples Federico II.
 -   **Scientific coordinator of the IT laboratories** of the Department of Economics and Statistics at the University of Naples Federico II.
 
@@ -38,7 +38,7 @@ editor: visual
 
 -   **Member of the core design team for the new Master's Degree Programme in Data Science** at the University of Naples Federico II.
 -   **Member of the selection committee for the "Simona Balbi Award"**, which funds participation in summer schools for students who have demonstrated a strong interest in the study of statistics.
--   Served as a **member of the Admission Committee** for several cycles of the PhD Programme in Statistics, Department of Mathematics and Statistics.
+-   Served as a **Member of the Admission Committee** for several cycles of the PhD Programme in Statistics, Department of Mathematics and Statistics.
 -   Served as **Researchers’ Representative** on the Faculty Council (2007–2011).
 
 # Research Interests
@@ -97,16 +97,16 @@ My research activities span a wide range of areas in computational and applied s
 
 -   **Associate Editor**, *Scientific Reports* (Nature Publishing Group)
 -   **Associate Editor for Statistics,** Journal of Oral Pathology and Medicine (Wiley ed.)
--   Reviewer for leading journals in statistics and information science
+-   **Reviewer** for leading journals in statistics and information science
 -   Member of the **Scientific Committee** of the ERCIM Working Group on Computational and Methodological Statistics
 
 # Scientific Societies
 
--   Società Italiana di Statistica (SIS)
--   Associazione Italiana Studi di Popolazione (AISP)
+-   *Società Italiana di Statistica* (SIS)
+-   *Associazione Italiana Studi di Popolazione* (AISP)
 -   Associazione di Statistica Applicata (ASA)
--   International Statistical Institute (ISI)
--   International Association for Statistical Computing (IASC)
+-   *International Statistical Institute* (ISI)
+-   *International Association for Statistical Computing* (IASC)
 
 # Languages
 

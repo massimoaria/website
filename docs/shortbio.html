@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c7e6435c186019386265fae91dbecdeb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -198,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="massimo-aria" class="level1">
 <h1>Massimo Aria</h1>
-<p>I am a Full Professor in Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D.&nbsp;in Computational Statistics.</p>
+<p>I am a <strong>Full Professor in Statistics for Social Sciences</strong> at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D.&nbsp;in Computational Statistics.</p>
 <p>I have been teaching Statistics and Machine Learning in bachelor’s, master’s, and doctoral programs for over 20 years. The courses I currently teach include <strong>Statistics for Social Sciences</strong>, <strong>Advanced Statistical Methods for Social Research</strong>, <strong>Sampling Surveys</strong>, and the <strong>Lab of Machine Learning in R</strong>.</p>
 <p>My main research fields include <strong>bibliometrics</strong>, <strong>science mapping</strong>, <strong>systematic literature reviews</strong>, <strong>statistical survey methodology</strong>, <strong>machine learning</strong>, and <strong>text mining</strong>. I have led numerous statistical surveys and data science projects related to economic, social, ethological, and healthcare phenomena.</p>
 <hr>
@@ -232,15 +232,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="scientific-societies">Scientific Societies</h2>
 <p>I am a senior member of the following scientific societies:</p>
 <ul>
-<li>Società Italiana di Statistica (SIS)<br>
+<li><em>Società Italiana di Statistica</em> (SIS)<br>
 </li>
-<li>Associazione Italiana Studi di Popolazione (AISP)<br>
+<li><em>Associazione Italiana Studi di Popolazione</em> (AISP)<br>
 </li>
-<li>Associazione di Statistica Applicata (ASA)<br>
+<li><em>Associazione di Statistica Applicata</em> (ASA)<br>
 </li>
-<li>International Statistical Institute (ISI)<br>
+<li><em>International Statistical Institute</em> (ISI)<br>
 </li>
-<li>International Association for Statistical Computing (IASC)</li>
+<li><em>International Association for Statistical Computing</em> (IASC)</li>
 </ul>
 <hr>
 </section>
@@ -357,8 +357,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -469,7 +467,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

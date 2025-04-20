@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c7e6435c186019386265fae91dbecdeb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Ph.D.&nbsp;in Computational Statistics</strong>, University of Naples Federico II, 2003<br>
 Dissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).</li>
-<li><strong>MSc in Economics and Statistics</strong>, University of Naples Federico II, 2000<br>
+<li><strong>MSc in Economics</strong>, University of Naples Federico II, 2000<br>
 Graduated with honors.</li>
 </ul>
 </section>
@@ -228,14 +228,14 @@ Graduated with honors.</li>
 <h3 class="anchored" data-anchor-id="ongoing-roles">Ongoing Roles</h3>
 <ul>
 <li><strong>Member of the Executive Board</strong>, Department of Economics and Statistics</li>
-<li><strong>member of the Research Committee</strong>, Department of Economics and Statistics</li>
+<li><strong>Member of the Research Committee</strong>, Department of Economics and Statistics</li>
 <li><strong>Responsible for the Research Quality Assessment (VQR)</strong>, Department of Economics and Statistics</li>
 <li><strong>Member of the Academic Board of the PhD Programme</strong> <strong>in Economics</strong> at the University of Naples Federico II</li>
 <li><strong>Scientific coordinator</strong> for the Department in the following University-wide Task Forces:
 <ul>
-<li>Industry 4.0 and Sustainable Development</li>
-<li>SUM (Smart and Sustainable Mobility)</li>
-<li>Human &amp; Future</li>
+<li><em>Industry 4.0 and Sustainable Development</em></li>
+<li><em>SUM (Smart and Sustainable Mobility)</em></li>
+<li><em>Human &amp; Future</em></li>
 </ul></li>
 <li><strong>Coordinator of the event series <em>“University and Employment: Data Analysis and Digital Economy”</em>,</strong> aimed at enhancing the job placement of graduates in Economics and Business, specifically within the “Data Scientist for Economics and Enterprises” track at the University of Naples Federico II.</li>
 <li><strong>Scientific coordinator of the IT laboratories</strong> of the Department of Economics and Statistics at the University of Naples Federico II.</li>
@@ -246,7 +246,7 @@ Graduated with honors.</li>
 <ul>
 <li><strong>Member of the core design team for the new Master’s Degree Programme in Data Science</strong> at the University of Naples Federico II.</li>
 <li><strong>Member of the selection committee for the “Simona Balbi Award”</strong>, which funds participation in summer schools for students who have demonstrated a strong interest in the study of statistics.</li>
-<li>Served as a <strong>member of the Admission Committee</strong> for several cycles of the PhD Programme in Statistics, Department of Mathematics and Statistics.</li>
+<li>Served as a <strong>Member of the Admission Committee</strong> for several cycles of the PhD Programme in Statistics, Department of Mathematics and Statistics.</li>
 <li>Served as <strong>Researchers’ Representative</strong> on the Faculty Council (2007–2011).</li>
 </ul>
 </section>
@@ -321,18 +321,18 @@ R interface to the OpenAlex API for open bibliometric data access and processing
 <ul>
 <li><strong>Associate Editor</strong>, <em>Scientific Reports</em> (Nature Publishing Group)</li>
 <li><strong>Associate Editor for Statistics,</strong> Journal of Oral Pathology and Medicine (Wiley ed.)</li>
-<li>Reviewer for leading journals in statistics and information science</li>
+<li><strong>Reviewer</strong> for leading journals in statistics and information science</li>
 <li>Member of the <strong>Scientific Committee</strong> of the ERCIM Working Group on Computational and Methodological Statistics</li>
 </ul>
 </section>
 <section id="scientific-societies" class="level1">
 <h1>Scientific Societies</h1>
 <ul>
-<li>Società Italiana di Statistica (SIS)</li>
-<li>Associazione Italiana Studi di Popolazione (AISP)</li>
+<li><em>Società Italiana di Statistica</em> (SIS)</li>
+<li><em>Associazione Italiana Studi di Popolazione</em> (AISP)</li>
 <li>Associazione di Statistica Applicata (ASA)</li>
-<li>International Statistical Institute (ISI)</li>
-<li>International Association for Statistical Computing (IASC)</li>
+<li><em>International Statistical Institute</em> (ISI)</li>
+<li><em>International Association for Statistical Computing</em> (IASC)</li>
 </ul>
 </section>
 <section id="languages" class="level1">
@@ -436,8 +436,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -548,7 +546,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

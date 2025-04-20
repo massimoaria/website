@@ -6,7 +6,7 @@ editor: visual
 
 # Massimo Aria
 
-I am a Full Professor in Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D. in Computational Statistics.
+I am a **Full Professor in Statistics for Social Sciences** at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D. in Computational Statistics.
 
 I have been teaching Statistics and Machine Learning in bachelor’s, master’s, and doctoral programs for over 20 years. The courses I currently teach include **Statistics for Social Sciences**, **Advanced Statistical Methods for Social Research**, **Sampling Surveys**, and the **Lab of Machine Learning in R**.
 
@@ -40,11 +40,11 @@ I am the Scientific Coordinator of the <a href="https://bibliometrix.org/sssm/" 
 
 I am a senior member of the following scientific societies:
 
--   Società Italiana di Statistica (SIS)\
--   Associazione Italiana Studi di Popolazione (AISP)\
--   Associazione di Statistica Applicata (ASA)\
--   International Statistical Institute (ISI)\
--   International Association for Statistical Computing (IASC)
+-   *Società Italiana di Statistica* (SIS)\
+-   *Associazione Italiana Studi di Popolazione* (AISP)\
+-   *Associazione di Statistica Applicata* (ASA)\
+-   *International Statistical Institute* (ISI)\
+-   *International Association for Statistical Computing* (IASC)
 
 ------------------------------------------------------------------------
 
@@ -56,7 +56,7 @@ In the last five years alone, my publications have been cited more than **16,000
 My article *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) is:
 
 -   The **most cited article ever** in the journal (source: Scopus: 7,000 citations; Google Scholar: 13,000+)
--   One of the **top downloaded** articles on ScienceDirect  ([source](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
+-   One of the **top downloaded** articles on ScienceDirect ([source](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
 
 ------------------------------------------------------------------------
 
