@@ -29,8 +29,15 @@ chart_colors <- c(col_dark, col_teal, col_orange, col_blue, col_rose, col_gray)
 
 # ---- Google Scholar data ----
 scholar_id <- "Qu66YZQAAAAJ"
-profile <- tryCatch(get_profile(scholar_id), error = function(e) NULL)
-cite_history <- tryCatch(get_citation_history(scholar_id), error = function(e) NULL)
+profile <- tryCatch({
+  p <- get_profile(scholar_id)
+  if (is.list(p) && "total_cites" %in% names(p)) p else NULL
+}, error = function(e) NULL)
+
+cite_history <- tryCatch({
+  ch <- get_citation_history(scholar_id)
+  if (is.data.frame(ch) && nrow(ch) > 0) ch else NULL
+}, error = function(e) NULL)
 ```
 
 ## Google Scholar Metrics
