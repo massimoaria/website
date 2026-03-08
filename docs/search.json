@@ -21,53 +21,25 @@
     "text": "CRAN Package Downloads\n\nTotal CRAN Downloads\n\n\n\n\n1,338,371\n\nbibliometrix\n\n\n442,748\n\npubmedR\n\n\n441,504\n\ndimensionsR\n\n\n320,178\n\nopenalexR\n\n\n77,433\n\ncontentanalysis\n\n\n2,101\n\ne2tree\n\n\n\n\n\n\nCumulative Downloads Over Time\n\n\n\n\n\n\n\n\nMonthly Downloads (Last 12 Months)\n\n\n\n\n\n\n\n\nData updated automatically each time the site is rendered. Citations source: Google Scholar. Downloads source: CRAN logs."
   },
   {
-    "objectID": "photos.html",
-    "href": "photos.html",
-    "title": "Photo Gallery",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about."
+    "text": "This page presents a selection of my most relevant publications, organized by research area.\nFor a complete list, please visit my Google Scholar profile."
   },
   {
-    "objectID": "photos.html#family",
-    "href": "photos.html#family",
-    "title": "Photo Gallery",
-    "section": "👨‍👩‍👧‍👦 Family",
-    "text": "👨‍👩‍👧‍👦 Family"
+    "objectID": "publications.html#monographs",
+    "href": "publications.html#monographs",
+    "title": "Publications",
+    "section": "Monographs",
+    "text": "Monographs\n\nPagliara F., Aria M. & Mauriello M. (2025). Models and Applications of Tourists’ Travel Behavior. 1st Edition, Elsevier, ISBN: 9780443265938.\n\nCuccurullo C., Aria M., Spano M. & D’Aniello L. (2023). Leading Change in Academic Health Science Centers. Zaccaria ed., ISBN: 9788899594213.  —"
   },
   {
-    "objectID": "photos.html#friends",
-    "href": "photos.html#friends",
-    "title": "Photo Gallery",
-    "section": "👫 Friends",
-    "text": "👫 Friends"
-  },
-  {
-    "objectID": "photos.html#work",
-    "href": "photos.html#work",
-    "title": "Photo Gallery",
-    "section": "🧑‍🏫 Work",
-    "text": "🧑‍🏫 Work"
-  },
-  {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Email: massimo.aria[at]unina.it\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\nORCID: 0000-0002-8517-9411\nGoogle Scholar: Qu66YZQAAAAJ\nResearcher ID: O-7983-2015\nResearchgate: Massimo_Aria\n\n\n\n\n K-Synth Academic Spin-off\n Bibliometrix Website\n Summer School in Science Mapping\n Dept. of Economics and Statistics\n University of Naples Federico II"
-  },
-  {
-    "objectID": "contacts.html#contacts",
-    "href": "contacts.html#contacts",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Email: massimo.aria[at]unina.it\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\nORCID: 0000-0002-8517-9411\nGoogle Scholar: Qu66YZQAAAAJ\nResearcher ID: O-7983-2015\nResearchgate: Massimo_Aria\n\n\n\n\n K-Synth Academic Spin-off\n Bibliometrix Website\n Summer School in Science Mapping\n Dept. of Economics and Statistics\n University of Naples Federico II"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Massimo Aria\n\n\nProfessor of Statistics for Social Sciences\nDepartment of Economics and Statistics\nUniversity of Naples Federico II\n\n\n\n\nWelcome! I’m Massimo Aria, full professor of Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II.\nMy research focuses on bibliometrics, science mapping, text mining, statistical modelling, and machine learning. I am the author of over 200 scientific articles, and creator of several R packages including the widely used Bibliometrix (1,350,000+ installations) and Tall.\nI am also the co-founder of K-Synth, an academic spin-off dedicated to transforming data into actionable knowledge through innovative statistical and computational methods.\nOver the years, I’ve been involved in numerous national and international research projects (including PRIN, PNRR, and European frameworks), and I actively support open science and reproducible research.\nBeyond academia, I’m happily married to a wonderful woman, Adelaide, and the proud father of two incredible kids, Vittoria and Lorenzo — they keep life joyful, unpredictable, and deeply inspiring."
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\nBibliometrics, Science Mapping and Text Analysis\n\nAria, M., Cuccurullo, C. (2017). bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4), 959–975,  DOI: 10.1016/j.joi.2017.08.007.\nAria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data. SoftwareX,  DOI: 10.1016/j.softx.2026.102590.\nAria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). Conceptual structure and thematic evolution in partial least squares structural equation modeling research. Quality & Quantity,  DOI: 10.1007/s11135-025-02071-4.\nAria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). Comparative science mapping: a novel conceptual structure analysis with metadata. Scientometrics,  DOI: 10.1007/s11192-024-05161-6.\nAria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex. The R Journal,  DOI: 10.32614/RJ-2023-089.\nCiavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis. Social Indicators Research,  DOI: 10.1007/s11205-022-02994-7.\nD’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting. Health Policy,  DOI: 10.1016/j.healthpol.2022.09.007.\nBelfiore, A., Cuccurullo, C., & Aria, M. (2022). IoT in healthcare: A scientometric analysis. Technological Forecasting and Social Change, 184,  DOI: 10.1016/j.techfore.2022.122001.\nAria M., Misuraca M., Spano M. (2020). Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research. Social Indicators Research,  DOI: 10.1007/s11205-020-02281-3.\n\n\n\n\nStatistics and Machine Learning\n\nAria, M., Gnasso, A., Iorio, C., & Fokkema, M. (2025). Extending Explainable Ensemble Trees to regression contexts. Applied Stochastic Models in Business and Industry.\nAria M. et al. (2025). Predicting depression in Italy using random forest through the E2Tree methodology. Annals of Operations Research.\nAria M., Gnasso A., Iorio C., Pandolfo, G. (2023). Explainable Ensemble Trees. Computational Statistics,  DOI: 10.1007/s00180-022-01312-6.\nAria, M., Cuccurullo C, D’Aniello L, Misuraca M., Spano M. (2022). Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy. Sustainability, 14(6), 3643,  DOI: 10.3390/su14063643.\nPandolfo G., Iorio C., Staiano M., Aria M., Siciliano R. (2021). Multivariate process control charts based on the Lp depth. Applied Stochastic Models in Business and Industry,  DOI: 10.1002/asmb.2616.\nAria M., Cuccurullo C., Gnasso A. (2021). A comparison among interpretative proposals for Random Forests. Machine learning with Applications,  DOI: 10.1016/j.mlwa.2021.100094.\nIorio C., Aria M., D’Ambrosio A., Siciliano R. (2019). Informative Trees by Visual Pruning. Expert Systems with Applications,  DOI: 10.1016/j.eswa.2019.03.018.\nAria M., D’Ambrosio A., Iorio C., Siciliano R., Cozza V. (2018). Dynamic recursive tree-based partitioning for malignant melanoma identification in skin lesion dermoscopic images. Statistical Papers,  DOI: 10.1007/s00362-018-0997-x.\nSiciliano R., D’Ambrosio A., Aria M., Amodio S. (2017). Analysis of Web Visit Histories, Part II: Predicting Navigation by Nested STUMP Regression Trees. Journal of Classification,  DOI: 10.1007/s00357-017-9239-5.\nD’Ambrosio A., Aria M., et al. (2017). Regression trees for multivalued numerical response variables. Expert Systems with Applications, 69, 1339–1351,  DOI: 10.1016/j.eswa.2016.10.021.\nSiciliano R., D’Ambrosio A., Aria M., Amodio S. (2016). Analysis of Web Visit Histories, Part I: Distance-Based Visualization of Sequence Rules. Journal of Classification,  DOI: 10.1007/s00357-016-9204-8.\nD’Ambrosio A., Aria M., et al. (2012). Accurate Tree-based Missing Data Imputation and Data Fusion within the Statistical Learning Paradigm. Journal of Classification, 29(2), 227–258,  DOI: 10.1007/s00357-012-9108-1.\nAria, M. (2009). Parallel networks for compositional longitudinal data. Italian Journal of Applied Statistics, 20(1), 5–20.\n\n\n\n\nTourism, Management, Transportation, and Social Sciences\n\nBelfiore A., Cuccurullo C., Aria M. (2022). Financial configurations of Italian private hospitals: an evolutionary analysis. Health Policy,  DOI: 10.1016/j.healthpol.2022.05.004.\nPagliara F., Aria M., Russo L. (2021). Measuring retailers’ perceptions of new metro stations inauguration. Land Use Policy,  DOI: 10.1016/j.landusepol.2021.105349.\nDella Corte V., Aria M., Del Gaudio G., Barney J.B., Cobanoglu C., Sepe F. (2021). The relevance of relational capabilities in collaborative decisions. International Journal of Contemporary Hospitality Management,  DOI: 10.1108/ijchm-01-2021-0037.\nPagliara F., Aria M., et al. (2020). A theoretical model linking the development of the transportation system with citizens’ trust in government actors. Papers in Regional Science,  DOI: 10.1111/pirs.12570.\nPagliara F., Russo L., Aria M., et al. (2020). Validating a theoretical model of citizens’ trust in tourism development. Socio-Economic Planning Sciences,  DOI: 10.1016/j.seps.2020.100922.\nAllini A., Aria M., et al. (2018). Motivations behind users’ participation in the standard-setting process: Focus on financial analysts. Journal of Accounting and Public Policy,  DOI: 10.1016/j.jaccpubpol.2018.04.002.\nAria M., Gaeta G.L., Marani U. (2018). Similarities and Differences in Competitiveness Among European NUTS2 Regions: An Empirical Analysis Based on 2010–2013 Data. Social Indicators Research,  DOI: 10.1007/s11205-018-1909-0.\nDella Corte V., Aria M., Del Gaudio G. (2018). Strategic governance in tourist destinations. International Journal of Tourism Research,  DOI: 10.1002/jtr.2192.\nDella Corte V., Aria M. (2014). Why strategic networks often fail. Some empirical evidence from the area of Naples. Tourism Management, 45, 3–15,  DOI: 10.1016/j.tourman.2014.03.010.\nGalante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). Traffic calming along rural highways crossing small urban communities: Driving simulator experiment. Accident Analysis & Prevention, 42(6), 1585-1594,  DOI: 10.1016/j.aap.2010.03.017."
   },
   {
     "objectID": "shortbio.html",
@@ -98,11 +70,39 @@
     "text": "I am a senior member of the following scientific societies:\n\nSocietà Italiana di Statistica (SIS)\n\nAssociazione Italiana Studi di Popolazione (AISP)\n\nAssociazione di Statistica Applicata (ASA)\n\nInternational Statistical Institute (ISI)\n\nInternational Association for Statistical Computing (IASC)"
   },
   {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Massimo Aria",
+    "section": "",
+    "text": "Email: massimo.aria[at]unina.it\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\nORCID: 0000-0002-8517-9411\nGoogle Scholar: Qu66YZQAAAAJ\nResearcher ID: O-7983-2015\nResearchgate: Massimo_Aria\n\n\n\n\n K-Synth Academic Spin-off\n Bibliometrix Website\n Summer School in Science Mapping\n Dept. of Economics and Statistics\n University of Naples Federico II"
+  },
+  {
+    "objectID": "contacts.html#contacts",
+    "href": "contacts.html#contacts",
+    "title": "Massimo Aria",
+    "section": "",
+    "text": "Email: massimo.aria[at]unina.it\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\nORCID: 0000-0002-8517-9411\nGoogle Scholar: Qu66YZQAAAAJ\nResearcher ID: O-7983-2015\nResearchgate: Massimo_Aria\n\n\n\n\n K-Synth Academic Spin-off\n Bibliometrix Website\n Summer School in Science Mapping\n Dept. of Economics and Statistics\n University of Naples Federico II"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
     "text": "Courses Taught\n\nStatistics for Social Sciences – Undergraduate course, Bechelor in Tourism Sciences\nSampling Surveys - Undergraduate course, Bachelor in Economics\nStatistical Methods for Social Research – Graduate level, Master in Economics, Curriculum studiorum “Data Scientist for Economics”\nLab in Machine Learning and Text Mining with R – Graduate level, Master in Economics, Curriculum studiorum “Data Scientist for Economics”\nMachine Learning Methods - Ph.D. Courses\nBibliometric Analysis using R – Ph.D. Courses and International Summer Schools\n\n\n\n\nSeminars and Training Activities\nOver the last few years, I have delivered more than 60 invited seminars and training sessions on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of Bodø (Norway), Edinburgh, Granada, London, Melbourne, and Paris.\nIn addition, I have been a lecturer at the European Summer School for Scientometrics (ESSS), the Summer School in Science Mapping, and the Social Statistics Summer School in Monteriggioni.\n\n\n\nConferences and Workshops\nI have actively participated in numerous national and international conferences, including DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, and JADT, where I have presented research contributions related to bibliometric analysis, classification methods, and methodological innovation in the social sciences.\nI am also a member of the scientific or organizing committees of major conferences, such as JADT2022 and several editions of the Italian Statistics Society (SIS) meetings.\n\nFor all course materials, detailed teaching information, and updates for students, please visit my official university webpage:\n👉 www.docenti.unina.it/massimo.aria"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Massimo Aria",
+    "section": "",
+    "text": "Massimo Aria\n\n\nProfessor of Statistics for Social Sciences\nDepartment of Economics and Statistics\nUniversity of Naples Federico II\n\n\n\n\nWelcome! I’m Massimo Aria, full professor of Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II.\nMy research focuses on bibliometrics, science mapping, text mining, statistical modelling, and machine learning. I am the author of over 200 scientific articles, and creator of several R packages including the widely used Bibliometrix (1,350,000+ installations) and Tall.\nI am also the co-founder of K-Synth, an academic spin-off dedicated to transforming data into actionable knowledge through innovative statistical and computational methods.\nOver the years, I’ve been involved in numerous national and international research projects (including PRIN, PNRR, and European frameworks), and I actively support open science and reproducible research.\nBeyond academia, I’m happily married to a wonderful woman, Adelaide, and the proud father of two incredible kids, Vittoria and Lorenzo — they keep life joyful, unpredictable, and deeply inspiring."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Scientific Software",
+    "section": "",
+    "text": "Scientific Software\n\nBibliometrix\nAn R package for comprehensive science mapping and bibliometric analysis. It supports a full bibliometric workflow, including data import, descriptive analysis, science mapping, and visualization.\n🔗 bibliometrix.org\nBiblioshiny\nA user-friendly Shiny web interface for Bibliometrix, enabling researchers to conduct advanced bibliometric and science mapping analyses without coding.\nTAll – Text Analysis for All\nA general-purpose R Shiny application for text data analysis, supporting topic modeling, frequency analysis, clustering, and content classification.\n🔗 https://github.com/massimoaria/tall\nE2Tree\nAn explainable machine learning approach based on ensemble trees, designed to generate interpretable models from complex data, with visual exploration tools for decision rules.\n🔗 https://github.com/massimoaria/e2tree\nDimensionsR\nAn R package that provides programmatic access to the Dimensions API, allowing bibliometric researchers to retrieve and analyze data on publications, grants, clinical trials, and patents.\n🔗 https://github.com/massimoaria/dimensionsR\nPubmedR\nAn R interface to the PubMed API for searching, downloading, and analyzing biomedical literature metadata, useful for systematic literature reviews and medical informatics.\n🔗 https://github.com/massimoaria/pubmedR\ncontentanalysis\nTools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching.\n🔗 https://github.com/massimoaria/contentanalysis\nOpenalexR\nAn R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.\n🔗 https://docs.ropensci.org/openalexR/\nPLS-SEM Matlab Toolbox\nA Matlab/Octave package for Partial Least Squares Structural Equation Models.\n🔗 https://github.com/massimoaria/PLS-SEM"
   },
   {
     "objectID": "projects.html",
@@ -126,32 +126,32 @@
     "text": "Over the past two decades, I have contributed to and coordinated a wide range of research projects at the European, national, and regional levels.\nAt the European level, I served as senior researcher in several EU-funded initiatives, including the Horizon 2020 project MAGIC – Moving Towards Adaptive Governance in Complexity, which addressed nexus security challenges. Within the 7th Framework Programme, I participated in EUROC – European Robotics Challenges and RoDyMan – Robotic Dynamic Manipulation, focusing on advanced robotics. Earlier, I contributed to iWeb-Care, a project on fraud detection in healthcare e-government services, and INSPECTOR, which developed distributed systems for data validation, both funded under the 6th Framework Programme. I also acted as Scientific Coordinator for the transnational cooperation initiative “Network for Regional Development and Entrepreneurship” under the EQUAL Phase 2 Programme, and as Scientific Committee member in the related SPIDER project on territorial information management for social enterprises.\nAt the national level, I have been involved in multiple PRIN (Projects of National Interest) and FIRB initiatives. These include my role as Principal Investigator for the current PRIN 2022 project SciK-Health and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to PNRR-funded initiatives such as the Digital Health Ecosystem, where I coordinate Work Package 2, and the National Centre for Sustainable Mobility, where I serve as a member of Spoke 10. In previous years, I was senior researcher for PRIN projects on rationality and attention in children, tree-based methods for classification and regression, and knowledge discovery in decision-making. I also collaborated in the FIRB project on Supply Chain Management led by the University of Salerno.\nIn addition to these, I participated in various university-funded and regional projects. These include studies on health inequalities, childhood care services in southern Italy, women’s re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects such as SOCIAL-NET (on aging and social exclusion), MoniTur (on cultural tourism data analysis), and the data strategy component of the City of Naples Strategic Plan. Furthermore, I contributed as senior researcher to ICT-focused programs co-financed by the Campania and Puglia Regions, including VIRNET, ANGELO, PROTEO, PORTUR, and TRITONE, as well as to the Regional Competence Centre on Transport focused on demand modelling through statistical methods."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photo Gallery",
     "section": "",
-    "text": "This page presents a selection of my most relevant publications, organized by research area.\nFor a complete list, please visit my Google Scholar profile."
+    "text": "Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about."
   },
   {
-    "objectID": "publications.html#monographs",
-    "href": "publications.html#monographs",
-    "title": "Publications",
-    "section": "Monographs",
-    "text": "Monographs\n\nPagliara F., Aria M. & Mauriello M. (2025). Models and Applications of Tourists’ Travel Behavior. 1st Edition, Elsevier, ISBN: 9780443265938.\n\nCuccurullo C., Aria M., Spano M. & D’Aniello L. (2023). Leading Change in Academic Health Science Centers. Zaccaria ed., ISBN: 9788899594213.  —"
+    "objectID": "photos.html#family",
+    "href": "photos.html#family",
+    "title": "Photo Gallery",
+    "section": "👨‍👩‍👧‍👦 Family",
+    "text": "👨‍👩‍👧‍👦 Family"
   },
   {
-    "objectID": "publications.html#journal-articles",
-    "href": "publications.html#journal-articles",
-    "title": "Publications",
-    "section": "Journal Articles",
-    "text": "Journal Articles\n\nBibliometrics, Science Mapping and Text Analysis\n\nAria, M., Cuccurullo, C. (2017). bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4), 959–975,  DOI: 10.1016/j.joi.2017.08.007.\nAria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data. SoftwareX,  DOI: 10.1016/j.softx.2026.102590.\nAria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). Conceptual structure and thematic evolution in partial least squares structural equation modeling research. Quality & Quantity,  DOI: 10.1007/s11135-025-02071-4.\nAria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). Comparative science mapping: a novel conceptual structure analysis with metadata. Scientometrics,  DOI: 10.1007/s11192-024-05161-6.\nAria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex. The R Journal,  DOI: 10.32614/RJ-2023-089.\nCiavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis. Social Indicators Research,  DOI: 10.1007/s11205-022-02994-7.\nD’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting. Health Policy,  DOI: 10.1016/j.healthpol.2022.09.007.\nBelfiore, A., Cuccurullo, C., & Aria, M. (2022). IoT in healthcare: A scientometric analysis. Technological Forecasting and Social Change, 184,  DOI: 10.1016/j.techfore.2022.122001.\nAria M., Misuraca M., Spano M. (2020). Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research. Social Indicators Research,  DOI: 10.1007/s11205-020-02281-3.\n\n\n\n\nStatistics and Machine Learning\n\nAria, M., Gnasso, A., Iorio, C., & Fokkema, M. (2025). Extending Explainable Ensemble Trees to regression contexts. Applied Stochastic Models in Business and Industry.\nAria M. et al. (2025). Predicting depression in Italy using random forest through the E2Tree methodology. Annals of Operations Research.\nAria M., Gnasso A., Iorio C., Pandolfo, G. (2023). Explainable Ensemble Trees. Computational Statistics,  DOI: 10.1007/s00180-022-01312-6.\nAria, M., Cuccurullo C, D’Aniello L, Misuraca M., Spano M. (2022). Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy. Sustainability, 14(6), 3643,  DOI: 10.3390/su14063643.\nPandolfo G., Iorio C., Staiano M., Aria M., Siciliano R. (2021). Multivariate process control charts based on the Lp depth. Applied Stochastic Models in Business and Industry,  DOI: 10.1002/asmb.2616.\nAria M., Cuccurullo C., Gnasso A. (2021). A comparison among interpretative proposals for Random Forests. Machine learning with Applications,  DOI: 10.1016/j.mlwa.2021.100094.\nIorio C., Aria M., D’Ambrosio A., Siciliano R. (2019). Informative Trees by Visual Pruning. Expert Systems with Applications,  DOI: 10.1016/j.eswa.2019.03.018.\nAria M., D’Ambrosio A., Iorio C., Siciliano R., Cozza V. (2018). Dynamic recursive tree-based partitioning for malignant melanoma identification in skin lesion dermoscopic images. Statistical Papers,  DOI: 10.1007/s00362-018-0997-x.\nSiciliano R., D’Ambrosio A., Aria M., Amodio S. (2017). Analysis of Web Visit Histories, Part II: Predicting Navigation by Nested STUMP Regression Trees. Journal of Classification,  DOI: 10.1007/s00357-017-9239-5.\nD’Ambrosio A., Aria M., et al. (2017). Regression trees for multivalued numerical response variables. Expert Systems with Applications, 69, 1339–1351,  DOI: 10.1016/j.eswa.2016.10.021.\nSiciliano R., D’Ambrosio A., Aria M., Amodio S. (2016). Analysis of Web Visit Histories, Part I: Distance-Based Visualization of Sequence Rules. Journal of Classification,  DOI: 10.1007/s00357-016-9204-8.\nD’Ambrosio A., Aria M., et al. (2012). Accurate Tree-based Missing Data Imputation and Data Fusion within the Statistical Learning Paradigm. Journal of Classification, 29(2), 227–258,  DOI: 10.1007/s00357-012-9108-1.\nAria, M. (2009). Parallel networks for compositional longitudinal data. Italian Journal of Applied Statistics, 20(1), 5–20.\n\n\n\n\nTourism, Management, Transportation, and Social Sciences\n\nBelfiore A., Cuccurullo C., Aria M. (2022). Financial configurations of Italian private hospitals: an evolutionary analysis. Health Policy,  DOI: 10.1016/j.healthpol.2022.05.004.\nPagliara F., Aria M., Russo L. (2021). Measuring retailers’ perceptions of new metro stations inauguration. Land Use Policy,  DOI: 10.1016/j.landusepol.2021.105349.\nDella Corte V., Aria M., Del Gaudio G., Barney J.B., Cobanoglu C., Sepe F. (2021). The relevance of relational capabilities in collaborative decisions. International Journal of Contemporary Hospitality Management,  DOI: 10.1108/ijchm-01-2021-0037.\nPagliara F., Aria M., et al. (2020). A theoretical model linking the development of the transportation system with citizens’ trust in government actors. Papers in Regional Science,  DOI: 10.1111/pirs.12570.\nPagliara F., Russo L., Aria M., et al. (2020). Validating a theoretical model of citizens’ trust in tourism development. Socio-Economic Planning Sciences,  DOI: 10.1016/j.seps.2020.100922.\nAllini A., Aria M., et al. (2018). Motivations behind users’ participation in the standard-setting process: Focus on financial analysts. Journal of Accounting and Public Policy,  DOI: 10.1016/j.jaccpubpol.2018.04.002.\nAria M., Gaeta G.L., Marani U. (2018). Similarities and Differences in Competitiveness Among European NUTS2 Regions: An Empirical Analysis Based on 2010–2013 Data. Social Indicators Research,  DOI: 10.1007/s11205-018-1909-0.\nDella Corte V., Aria M., Del Gaudio G. (2018). Strategic governance in tourist destinations. International Journal of Tourism Research,  DOI: 10.1002/jtr.2192.\nDella Corte V., Aria M. (2014). Why strategic networks often fail. Some empirical evidence from the area of Naples. Tourism Management, 45, 3–15,  DOI: 10.1016/j.tourman.2014.03.010.\nGalante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). Traffic calming along rural highways crossing small urban communities: Driving simulator experiment. Accident Analysis & Prevention, 42(6), 1585-1594,  DOI: 10.1016/j.aap.2010.03.017."
+    "objectID": "photos.html#friends",
+    "href": "photos.html#friends",
+    "title": "Photo Gallery",
+    "section": "👫 Friends",
+    "text": "👫 Friends"
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Scientific Software",
-    "section": "",
-    "text": "Scientific Software\n\nBibliometrix\nAn R package for comprehensive science mapping and bibliometric analysis. It supports a full bibliometric workflow, including data import, descriptive analysis, science mapping, and visualization.\n🔗 bibliometrix.org\nBiblioshiny\nA user-friendly Shiny web interface for Bibliometrix, enabling researchers to conduct advanced bibliometric and science mapping analyses without coding.\nTAll – Text Analysis for All\nA general-purpose R Shiny application for text data analysis, supporting topic modeling, frequency analysis, clustering, and content classification.\n🔗 https://github.com/massimoaria/tall\nE2Tree\nAn explainable machine learning approach based on ensemble trees, designed to generate interpretable models from complex data, with visual exploration tools for decision rules.\n🔗 https://github.com/massimoaria/e2tree\nDimensionsR\nAn R package that provides programmatic access to the Dimensions API, allowing bibliometric researchers to retrieve and analyze data on publications, grants, clinical trials, and patents.\n🔗 https://github.com/massimoaria/dimensionsR\nPubmedR\nAn R interface to the PubMed API for searching, downloading, and analyzing biomedical literature metadata, useful for systematic literature reviews and medical informatics.\n🔗 https://github.com/massimoaria/pubmedR\ncontentanalysis\nTools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching.\n🔗 https://github.com/massimoaria/contentanalysis\nOpenalexR\nAn R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.\n🔗 https://docs.ropensci.org/openalexR/\nPLS-SEM Matlab Toolbox\nA Matlab/Octave package for Partial Least Squares Structural Equation Models.\n🔗 https://github.com/massimoaria/PLS-SEM"
+    "objectID": "photos.html#work",
+    "href": "photos.html#work",
+    "title": "Photo Gallery",
+    "section": "🧑‍🏫 Work",
+    "text": "🧑‍🏫 Work"
   },
   {
     "objectID": "cv.html",
