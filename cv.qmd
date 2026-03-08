@@ -1,23 +1,27 @@
 ---
-title: "Curriculum Vitae"
+title: “Curriculum Vitae”
 format: html
 editor: visual
 ---
 
 # Education
 
--   **Ph.D. in Computational Statistics**, University of Naples Federico II, 2003\
+-   **Ph.D. in Computational Statistics and Applications**, University of Naples Federico II, 2004\
     Dissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).
--   **MSc in Economics**, University of Naples Federico II, 2000\
-    Graduated with honors.
+-   **Laurea cum laude in Economics**, University of Naples Federico II, 2000
 
 # Academic Positions
 
--   **Full Professor**, Statistics for Social Sciences, University of Naples Federico II (2020 – present)
--   **Associate Professor**, Statistics for Social Sciences, University of Naples Federico II (2014 – 2020)
+-   **Full Professor**, Statistics for Social Sciences (SECS-S/05), University of Naples Federico II (2019 – present)
+-   **Associate Professor**, Statistics for Social Sciences, University of Naples Federico II (2014 – 2019)
 -   **Assistant Professor**, Statistics for Social Sciences, University of Naples Federico II (2007 – 2014)
--   **Research Fellow**, Statistics, University of Salerno (2005-2006)
--   **Research Fellow**, Statistics, Competence Center for Transport, University of Naples Federico II (2004-2005)
+-   **Post-doctoral Research Fellow**, Federico II / CRC Transport (2004 – 2005)
+
+# Research Leadership
+
+-   **Co-founder**, <a href=”https://www.k-synth.com” target=”_blank”>K-Synth srl</a> – Academic spin-off specialized in knowledge extraction and intelligence from large-scale heterogeneous data (2021–present)
+-   **Co-coordinator**, PMP Lab – Performance Measurement & Management in Professions, Dept. of Economics and Statistics, Federico II (2019–present)
+-   **Coordinator**, Bibliometrics & Science Mapping Research Group – Federico II & Univ. L. Vanvitelli (2010–present). <a href=”https://www.bibliometrix.org” target=”_blank”>www.bibliometrix.org</a>
 
 # Institutional Roles
 
@@ -26,87 +30,98 @@ editor: visual
 -   **Member of the Executive Board**, Department of Economics and Statistics
 -   **Member of the Research Committee**, Department of Economics and Statistics
 -   **Responsible for the Research Quality Assessment (VQR)**, Department of Economics and Statistics
--   **Member of the Academic Board of the PhD Programme** **in Economics** at the University of Naples Federico II
+-   **Member of the Academic Board of the PhD Programme in Economics** at the University of Naples Federico II
+-   **Board member** of the **Master’s degree in Data Science** and in **Economics** (curriculum: Data Scientist for Economics) since 2019
 -   **Scientific coordinator** for the Department in the following University-wide Task Forces:
     -   *Industry 4.0 and Sustainable Development*
     -   *SUM (Smart and Sustainable Mobility)*
     -   *Human & Future*
--   **Coordinator of the event series *“University and Employment: Data Analysis and Digital Economy”*,** aimed at enhancing the job placement of graduates in Economics and Business, specifically within the “Data Scientist for Economics and Enterprises” track at the University of Naples Federico II.
--   **Scientific coordinator of the IT laboratories** of the Department of Economics and Statistics at the University of Naples Federico II.
+-   **Scientific coordinator of the IT laboratories** of the Department of Economics and Statistics
 
 ### Past Roles
 
--   **Member of the core design team for the new Master's Degree Programme in Data Science** at the University of Naples Federico II.
--   **Member of the selection committee for the "Simona Balbi Award"**, which funds participation in summer schools for students who have demonstrated a strong interest in the study of statistics.
--   Served as a **Member of the Admission Committee** for several cycles of the PhD Programme in Statistics, Department of Mathematics and Statistics.
--   Served as **Researchers’ Representative** on the Faculty Council (2007–2011).
+-   Board member for over 20 years of the **Ph.D. programs in Computational Statistics** and **Social Sciences and Statistics**
+-   **Member of the core design team for the new Master’s Degree Programme in Data Science** at the University of Naples Federico II
+-   Served as **Researchers’ Representative** on the Faculty Council (2007–2011)
+
+# Scientific Results & Impact
+
+Author of over **200 scientific articles** published in international journals, of which **38** rated “A” (top tier) by the Italian Agency of University Research Evaluation (ANVUR).
+
+Total citations: **26,100** | H-Index: **43** | Last 5 years: **23,200** citations, H-Index **38** (Google Scholar)
+
+The 2017 paper *”bibliometrix: An R-tool for comprehensive science mapping analysis”* (*Journal of Informetrics*) is the **most cited article ever published** in the journal (Scopus: 10,300+ | Google Scholar: 19,100+ citations) and a top-downloaded article.
 
 # Research Interests
 
 My research activities span a wide range of areas in computational and applied statistics, with a strong focus on methodological development and empirical applications. In particular:
 
--   **Statistics for Social Research**: Design and execution of socio-economic surveys and customer satisfaction studies
--   **Bibliometrics and Scientometrics**: Statistical techniques for analyzing publication patterns, impact assessment, and science mapping
+-   **Bibliometrics & Science Mapping**: Statistical techniques for analyzing publication patterns, impact assessment, and systematic literature reviews
 -   **Text Mining and NLP**: Corpus analysis of scientific literature and textual datasets
+-   **Machine Learning**: Tree-based models, ensemble methods, neural networks, clustering, and factorial methods
 -   **Missing Data Imputation**: Recursive, incremental algorithms for imputing missing values in qualitative and quantitative data
--   **Computational Statistics**: Development of estimation algorithms and numerical procedures, including supervised classification and neural networks
--   **Machine Learning**: Decision trees, neural networks, latent class models, clustering, and factorial methods
--   **Regression Modelling**: Nonparametric and semiparametric modeling techniques
--   **Informational Statistics**: Data mining, market basket analysis, and knowledge discovery
+-   **Computational Statistics**: Development of estimation algorithms and numerical procedures
+-   **Statistical Survey Design**: Design and execution of socio-economic surveys and customer satisfaction studies
 
 # Research Projects
 
--   **PRIN 2022** – SciK-Health: The value of scientific production for patient care in Academic Health Science Centres, Role: Principal Investigator (2023-2025)
--   **PRIN 2022 PNRR** – The value of scientific production for patient care in Academic Health Science Centres, Role: Local Scientific Coordinator (2023-2025)
--   Coordinator or team member in:
-    -   5 EU-funded projects
+-   **PRIN 2022** – SciK-Health: Mapping Scientific Knowledge about health for decision-making. Role: Principal Investigator (2023-2025)
+-   **PRIN 2022 PNRR** – Scientific production for patient care in Academic Health Science Centres. Role: Local Scientific Coordinator (2023-2025)
+-   **PNC Digital Health** (WP2 PI) – PNRR-funded ecosystem (2023–2025)
+-   PI, local PI, or senior researcher in:
+    -   5 EU-funded projects (incl. H2020 MAGIC, ERC AdG RoDyMan)
     -   3 PNRR projects
-    -   5 PRIN projects
+    -   3 PRIN projects
     -   1 FIRB project
-    -   11 national and regional research initiatives
+    -   11+ national and regional research initiatives
 
 # Scientific Software
 
--   **Bibliometrix**\
-    R package for comprehensive science mapping and bibliometric analysis
--   **Biblioshiny**\
-    Shiny web app interface for Bibliometrix, enabling graphical science mapping workflows
+-   **Bibliometrix & Biblioshiny**\
+    R package and web-app for comprehensive science mapping and bibliometric analysis. 1,350,000+ installations; 200+ community video tutorials
 -   **TAll – Text Analysis for All**\
-    General-purpose R Shiny app for text data analysis and topic exploration
+    R/Shiny app for NLP: text mining, topic modeling, sentiment analysis
 -   **E2Tree**\
-    The *Explainable Ensemble Trees* approach – interpretable and explainable tree-based models for complex data
--   **DimensionsR**\
-    Interface to the Dimensions API for bibliometric data extraction and analysis\
--   **PubmedR**\
-    R interface to the PubMed API for literature retrieval and analysis\
+    Explainable Ensemble Trees: interpreting Random Forest and XGBoost models via single tree-like structures
+-   **contentanalysis**\
+    Tools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching
 -   **OpenalexR**\
-    R interface to the OpenAlex API for open bibliometric data access and processing
+    R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications
+-   **DimensionsR**\
+    R interface to the Dimensions API for bibliometric data extraction and analysis
+-   **PubmedR**\
+    R interface to the PubMed API for literature retrieval and analysis
+-   **PLS-SEM Matlab Toolbox**\
+    Matlab/Octave package for Partial Least Squares Structural Equation Models
 
 # Teaching Experience
 
 -   Courses taught (BSc, MSc, Ph.D.):
-    -   **Statistics for Social Sciences**
-    -   **Sampling and Survey Methodologies**
-    -   **Bibliometric Methods and Text Mining in R**
+    -   **Quantitative Methods and Data Analysis**
+    -   **Sampling Surveys**
+    -   **Statistical Methods for Evaluation**
     -   **Machine Learning Laboratory in R**
-    -   **Advanced Statistical Methods for Social Research**
--   International lecturer at summer schools and doctoral programs
--   Supervisor of MSc and Ph.D. theses in statistics, data science, and scientometrics
+    -   **Bibliometric Analysis using R** (Ph.D. and Summer Schools)
+-   Faculty member of the **European Summer School of Scientometrics (ESSS)**
+-   Scientific Coordinator of the **Summer School in Science Mapping (SSSM)**
+-   Held 60+ invited seminars at doctoral schools across Europe
+-   Supervisor of 150+ MSc theses and multiple Ph.D. dissertations
 
 # Editorial and Scientific Activities
 
--   **Associate Editor**, *Scientific Reports* (Nature Publishing Group)
--   **Associate Editor for Statistics,** Journal of Oral Pathology and Medicine (Wiley ed.)
--   **Reviewer** for leading journals in statistics and information science
+-   **Section Editor in Chief**, *American Journal of Oral Medicine* (Statistics)
+-   **Associate Editor**, *Journal of Oral Pathology and Medicine* (Wiley)
+-   **Editorial Board**, *Nature Scientific Reports*, *Sustainability*
+-   **Reviewer** for 30+ journals incl. Scientometrics, Journal of Informetrics, EJOR, CSDA, Expert Systems with Applications, Health Policy, The R Journal
 -   Member of the **Scientific Committee** of the ERCIM Working Group on Computational and Methodological Statistics
 
 # Scientific Societies
 
--   *Società Italiana di Statistica* (SIS)
--   *Associazione Italiana Studi di Popolazione* (AISP)
--   Associazione di Statistica Applicata (ASA)
 -   *International Statistical Institute* (ISI)
 -   *International Association for Statistical Computing* (IASC)
+-   *Società Italiana di Statistica* (SIS)
+-   *Associazione di Statistica Applicata* (ASA)
+-   *Associazione Italiana Studi di Popolazione* (AISP)
 
 # Languages
 
@@ -115,6 +130,7 @@ My research activities span a wide range of areas in computational and applied s
 
 # Technical Skills
 
--   **Programming and Software**: R, Python (basic), MatLab, LaTeX, Git, Quarto
--   **Frameworks**: RStudio, Shiny, Positron, VIS, Plotly
+-   **Programming**: R (primary), Matlab, Python, C++
+-   **Tools**: LaTeX, Git, Quarto, SPSS, SAS
+-   **Frameworks**: RStudio, Shiny, Positron, Plotly
 -   **Reproducible Research**: Quarto, RMarkdown, version-controlled workflows

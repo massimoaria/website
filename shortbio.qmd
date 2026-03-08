@@ -16,7 +16,7 @@ My main research fields include **bibliometrics**, **science mapping**, **system
 
 ## Scientific Activities
 
-I have authored more than **150 peer-reviewed scientific articles**, of which **36** have been classified as “A” in scientific area 13 (Economics and Statistics) by **ANVUR** (Italian Agency of University Research Evaluation).
+I have authored more than **200 peer-reviewed scientific articles**, of which **38** have been classified as “A” (top tier) in scientific area 13 (Economics and Statistics) by **ANVUR** (Italian Agency of University Research Evaluation).
 
 I am the <a href="https://www.k-synth.com" target="_blank"> **K-Synth Academic Spin-off**</a>, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.
 
@@ -50,12 +50,12 @@ I am a senior member of the following scientific societies:
 
 # Scientific Results and Awards
 
-To date, my publications have received **over 19,000 citations**, and my **H-index is 36**.\
-In the last five years alone, my publications have been cited more than **16,000 times**, with an H-index of **33** (source: Google Scholar, April 2025).
+To date, my publications have received **over 26,100 citations**, and my **H-index is 43**.\
+In the last five years alone, my publications have been cited more than **23,200 times**, with an H-index of **38** (source: Google Scholar).
 
 My article *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) is:
 
--   The **most cited article ever** in the journal (source: Scopus: 7,000 citations; Google Scholar: 13,000+)
+-   The **most cited article ever** in the journal (Scopus: 10,300+ citations; Google Scholar: 19,100+)
 -   One of the **top downloaded** articles on ScienceDirect ([source](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
 
 ------------------------------------------------------------------------
@@ -70,8 +70,8 @@ In a widely cited review of bibliometric tools, Moral-Muñoz et al. (2020) wrote
 
 Today, Bibliometrix is one of the **most used** science mapping tools worldwide, with:
 
--   **1 million installations**
+-   **1,350,000+ installations**
 -   A **large international community** of researchers actively using and promoting it
--   **Over 150 YouTube tutorials** in multiple languages
+-   **Over 200 YouTube tutorials** in multiple languages
 
 In the past four years, I have delivered **over 60 seminars** in many Italian doctoral schools (Universities of Bergamo, Brescia, Calabria, Genoa, Polytechnic of Milan, Naples, Pisa, Rome, Salento, among others) and international ones (Universities of Bodø – Norway, Edinburgh, Granada, London, Melbourne, Paris).

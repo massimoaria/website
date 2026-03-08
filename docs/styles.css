@@ -1,6 +1,6 @@
 /* Riduce i margini laterali del contenuto principale */
 main.content {
-  max-width: auto /*1140px;  /* default è ~1140px, puoi abbassarlo anche a 880 o 800 */
+  max-width: auto;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -21,22 +21,38 @@ main.content {
 
 /* NAVBAR CUSTOMIZATION */
 .navbar {
-    background-color: #002b36 !important;
-  }
-  
-  .navbar .navbar-brand,
-  .navbar .nav-link {
-    color: white !important;
-    font-weight: 500;
-  }
-  
-  .navbar .nav-link:hover,
-  .navbar .navbar-brand:hover {
-    color: #77d6ec88 !important; /* light cyan/blue */
-  }
-  
-  /* Optional: active link highlighting */
-  .navbar .nav-link.active {
-    color: #daeeeeeb !important; /* Bootstrap's warning yellow */
-    font-weight: 600;
-  }
+  background-color: #1b2a4a !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #e8edf2 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #28a99e !important;
+}
+
+/* Active link highlighting */
+.navbar .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* Dropdown menus */
+.navbar .dropdown-menu {
+  background-color: #1b2a4a;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar .dropdown-item {
+  color: #e8edf2 !important;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background-color: #28a99e !important;
+  color: #ffffff !important;
+}

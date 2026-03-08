@@ -42,7 +42,9 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 ### Statistics and Machine Learning
 
-1. Aria M., Gnasso A., Iorio C., Pandolfo, G. (2023). **Explainable Ensemble Trees**. *Computational Statistics*, <a href="https://doi.org/10.1007/s00180-022-01312-6" target="_blank"> DOI: 10.1007/s00180-022-01312-6</a>.
+1. Aria M. et al. (2025). **Predicting depression in Italy using random forest through the E2Tree methodology**. *Annals of Operations Research*.
+
+2. Aria M., Gnasso A., Iorio C., Pandolfo, G. (2023). **Explainable Ensemble Trees**. *Computational Statistics*, <a href="https://doi.org/10.1007/s00180-022-01312-6" target="_blank"> DOI: 10.1007/s00180-022-01312-6</a>.
 
 2. Aria, M., Cuccurullo C, D'Aniello L, Misuraca M., Spano M. (2022). **Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy**. *Sustainability*, 14(6), 3643, <a href="https://doi.org/10.3390/su14063643" target="_blank"> DOI: 10.3390/su14063643</a>.
 

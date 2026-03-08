@@ -29,6 +29,14 @@ editor: visual
     An R interface to the PubMed API for searching, downloading, and analyzing biomedical literature metadata, useful for systematic literature reviews and medical informatics.\
     🔗 <a href="https://github.com/massimoaria/pubmedR" target="_blank">https://github.com/massimoaria/pubmedR</a>
 
+-   **contentanalysis**\
+    Tools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching.\
+    🔗 <a href="https://github.com/massimoaria/contentanalysis" target="_blank">https://github.com/massimoaria/contentanalysis</a>
+
 -   **OpenalexR**\
     An R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.\
     🔗 <a href="https://docs.ropensci.org/openalexR/" target="_blank">https://docs.ropensci.org/openalexR/</a>
+
+-   **PLS-SEM Matlab Toolbox**\
+    A Matlab/Octave package for Partial Least Squares Structural Equation Models.\
+    🔗 <a href="https://github.com/massimoaria/PLS-SEM" target="_blank">https://github.com/massimoaria/PLS-SEM</a>

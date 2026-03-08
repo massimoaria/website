@@ -1,0 +1,261 @@
+---
+title: "Research Statistics"
+format: html
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| echo: false
+
+library(cranlogs)
+library(scholar)
+library(plotly)
+library(dplyr)
+library(htmltools)
+
+# ---- Cohesive color palette (warm academic tones) ----
+col_dark    <- "#1b2a4a"
+col_blue    <- "#3a6ea5"
+col_teal    <- "#28a99e"
+col_orange  <- "#e8843c"
+col_rose    <- "#c74b7a"
+col_gray    <- "#5a6d7e"
+
+# Chart colors
+chart_colors <- c(col_dark, col_teal, col_orange, col_blue, col_rose, col_gray)
+
+# ---- Google Scholar data ----
+scholar_id <- "Qu66YZQAAAAJ"
+profile <- tryCatch(get_profile(scholar_id), error = function(e) NULL)
+cite_history <- tryCatch(get_citation_history(scholar_id), error = function(e) NULL)
+```
+
+## Google Scholar Metrics
+
+```{r}
+#| label: scholar-metrics
+#| echo: false
+
+if (!is.null(profile)) {
+  total_cites <- profile$total_cites
+  h_index <- profile$h_index
+  i10_index <- profile$i10_index
+} else {
+  total_cites <- "N/A"
+  h_index <- "N/A"
+  i10_index <- "N/A"
+}
+
+make_card <- function(value, label, bg_color) {
+  div(
+    style = paste0(
+      "background:", bg_color, ";padding:1.5rem 2.5rem;",
+      "border-radius:12px;text-align:center;min-width:180px;",
+      "box-shadow:0 4px 12px rgba(0,0,0,0.15);"
+    ),
+    h1(style = "margin:0;font-size:2.5rem;font-weight:700;color:#ffffff;", value),
+    tags$hr(style = "border:0;border-top:1px solid rgba(255,255,255,0.3);margin:0.5rem 1rem;"),
+    p(style = "margin:0;color:rgba(255,255,255,0.9);font-size:0.95rem;", label)
+  )
+}
+
+div(
+  style = "display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;margin:1.5rem 0;",
+  make_card(format(total_cites, big.mark = ","), "Total Citations", col_dark),
+  make_card(h_index, "H-Index", col_blue),
+  make_card(i10_index, "i10-Index", col_teal)
+)
+```
+
+### Citations per Year
+
+```{r}
+#| label: citations-per-year
+#| echo: false
+
+if (!is.null(cite_history)) {
+  plot_ly(cite_history, x = ~year, y = ~cites, type = "bar",
+          marker = list(color = col_teal),
+          hovertemplate = "Year: %{x}<br>Citations: %{y:,}<extra></extra>") |>
+    layout(
+      xaxis = list(title = "Year", dtick = 1),
+      yaxis = list(title = "Citations"),
+      plot_bgcolor = "rgba(0,0,0,0)",
+      paper_bgcolor = "rgba(0,0,0,0)",
+      margin = list(t = 10, l = 60, r = 20, b = 50)
+    )
+} else {
+  cat("Citation history currently unavailable.")
+}
+```
+
+### Cumulative Citations
+
+```{r}
+#| label: cumulative-citations
+#| echo: false
+
+if (!is.null(cite_history)) {
+  cite_history$cumulative <- cumsum(cite_history$cites)
+
+  plot_ly(cite_history, x = ~year, y = ~cumulative, type = "scatter", mode = "lines+markers",
+          line = list(color = col_dark, width = 3),
+          marker = list(color = col_dark, size = 7),
+          hovertemplate = "Year: %{x}<br>Cumulative: %{y:,}<extra></extra>") |>
+    layout(
+      xaxis = list(title = "Year", dtick = 2),
+      yaxis = list(title = "Cumulative Citations"),
+      plot_bgcolor = "rgba(0,0,0,0)",
+      paper_bgcolor = "rgba(0,0,0,0)",
+      margin = list(t = 10, l = 60, r = 20, b = 50)
+    )
+} else {
+  cat("Citation history currently unavailable.")
+}
+```
+
+---
+
+## CRAN Package Downloads
+
+```{r}
+#| label: cran-downloads
+#| echo: false
+
+my_packages <- c("bibliometrix", "openalexR", "dimensionsR", "pubmedR", "e2tree", "contentanalysis")
+
+totals <- lapply(my_packages, function(pkg) {
+  tryCatch({
+    dl <- cran_downloads(pkg, from = "2015-01-01", to = Sys.Date())
+    data.frame(package = pkg, total = sum(dl$count, na.rm = TRUE))
+  }, error = function(e) {
+    data.frame(package = pkg, total = 0)
+  })
+})
+totals_df <- bind_rows(totals) |> arrange(desc(total))
+```
+
+### Total CRAN Downloads
+
+```{r}
+#| label: download-cards
+#| echo: false
+
+card_colors <- c(col_dark, col_blue, col_teal, col_orange, col_rose, col_gray)
+
+cards <- lapply(seq_len(nrow(totals_df)), function(i) {
+  bg <- card_colors[((i - 1) %% length(card_colors)) + 1]
+  div(
+    style = paste0(
+      "background:", bg, ";padding:1.2rem 2rem;",
+      "border-radius:12px;text-align:center;",
+      "box-shadow:0 4px 12px rgba(0,0,0,0.15);"
+    ),
+    h2(style = "margin:0;font-weight:700;color:#ffffff;", format(totals_df$total[i], big.mark = ",")),
+    tags$hr(style = "border:0;border-top:1px solid rgba(255,255,255,0.3);margin:0.5rem 1rem;"),
+    p(style = "margin:0;color:rgba(255,255,255,0.9);font-size:0.9rem;", totals_df$package[i])
+  )
+})
+
+div(
+  style = "display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin:1.5rem auto;max-width:800px;",
+  tagList(cards)
+)
+```
+
+### Cumulative Downloads Over Time
+
+```{r}
+#| label: cumulative-downloads
+#| echo: false
+
+monthly_data <- lapply(seq_along(my_packages), function(i) {
+  pkg <- my_packages[i]
+  tryCatch({
+    dl <- cran_downloads(pkg, from = "2015-01-01", to = Sys.Date())
+    dl$month <- format(dl$date, "%Y-%m")
+    monthly <- dl |> group_by(month) |> summarise(downloads = sum(count), .groups = "drop")
+    monthly$cumulative <- cumsum(monthly$downloads)
+    monthly$package <- pkg
+    monthly$date <- as.Date(paste0(monthly$month, "-01"))
+    monthly
+  }, error = function(e) NULL)
+})
+
+monthly_all <- bind_rows(monthly_data)
+
+if (nrow(monthly_all) > 0) {
+  p <- plot_ly()
+  for (i in seq_along(unique(monthly_all$package))) {
+    pkg <- unique(monthly_all$package)[i]
+    d <- monthly_all |> filter(package == pkg)
+    col <- chart_colors[((i - 1) %% length(chart_colors)) + 1]
+    p <- p |> add_trace(data = d, x = ~date, y = ~cumulative,
+                        type = "scatter", mode = "lines",
+                        name = pkg,
+                        line = list(width = 2.5, color = col),
+                        hovertemplate = paste0(pkg, "<br>%{x|%b %Y}<br>Cumulative: %{y:,}<extra></extra>"))
+  }
+  p |> layout(
+    xaxis = list(title = "Date"),
+    yaxis = list(title = "Cumulative Downloads"),
+    legend = list(orientation = "h", x = 0.5, xanchor = "center", y = -0.15),
+    plot_bgcolor = "rgba(0,0,0,0)",
+    paper_bgcolor = "rgba(0,0,0,0)",
+    margin = list(t = 10, l = 60, r = 20, b = 70)
+  )
+}
+```
+
+### Monthly Downloads (Last 12 Months)
+
+```{r}
+#| label: monthly-downloads-recent
+#| echo: false
+
+recent_data <- lapply(seq_along(my_packages), function(i) {
+  pkg <- my_packages[i]
+  tryCatch({
+    dl <- cran_downloads(pkg, from = Sys.Date() - 365, to = Sys.Date())
+    dl$month <- format(dl$date, "%Y-%m")
+    monthly <- dl |> group_by(month) |> summarise(downloads = sum(count), .groups = "drop")
+    monthly$package <- pkg
+    monthly$date <- as.Date(paste0(monthly$month, "-01"))
+    monthly
+  }, error = function(e) NULL)
+})
+
+recent_all <- bind_rows(recent_data)
+
+if (nrow(recent_all) > 0) {
+  p <- plot_ly()
+  for (i in seq_along(my_packages)) {
+    pkg <- my_packages[i]
+    d <- recent_all |> filter(package == pkg)
+    col <- chart_colors[((i - 1) %% length(chart_colors)) + 1]
+    p <- p |> add_trace(data = d, x = ~date, y = ~downloads,
+                        type = "bar", name = pkg,
+                        marker = list(color = col),
+                        hovertemplate = paste0(pkg, "<br>%{x|%b %Y}<br>Downloads: %{y:,}<extra></extra>"))
+  }
+  p |> layout(
+    barmode = "group",
+    xaxis = list(title = "Month"),
+    yaxis = list(title = "Downloads"),
+    legend = list(orientation = "h", x = 0.5, xanchor = "center", y = -0.15),
+    plot_bgcolor = "rgba(0,0,0,0)",
+    paper_bgcolor = "rgba(0,0,0,0)",
+    margin = list(t = 10, l = 60, r = 20, b = 70)
+  )
+}
+```
+
+---
+
+<p style="text-align: center; color: #8899a6; font-size: 0.85rem; margin-top: 2rem;">
+Data updated automatically each time the site is rendered.<br>
+Citations source: Google Scholar. Downloads source: CRAN logs.
+</p>

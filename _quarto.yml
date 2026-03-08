@@ -20,6 +20,8 @@ website:
           file: projects.qmd
         - text: Software
           file: software.qmd
+        - text: Statistics
+          file: statistics.qmd
       - text: Teaching
         file: teaching.qmd
       - text: Photos
@@ -32,7 +34,7 @@ website:
         href: https://www.researchgate.net/profile/Massimo-Aria
   page-footer:
     center: |
-      © 2025 Massimo Aria – Built with [Quarto](https://quarto.org)
+      © 2026 Massimo Aria – Built with [Quarto](https://quarto.org)
 
 format:
   html:
