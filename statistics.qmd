@@ -27,17 +27,36 @@ col_gray    <- "#5a6d7e"
 # Chart colors
 chart_colors <- c(col_dark, col_teal, col_orange, col_blue, col_rose, col_gray)
 
-# ---- Google Scholar data ----
+# ---- Google Scholar data (with local cache) ----
 scholar_id <- "Qu66YZQAAAAJ"
+cache_file <- "scholar_cache.json"
+
 profile <- tryCatch({
   p <- get_profile(scholar_id)
-  if (is.list(p) && "total_cites" %in% names(p)) p else NULL
+  if (is.list(p) && "total_cites" %in% names(p)) p else stop("invalid")
 }, error = function(e) NULL)
 
 cite_history <- tryCatch({
   ch <- get_citation_history(scholar_id)
-  if (is.data.frame(ch) && nrow(ch) > 0) ch else NULL
+  if (is.data.frame(ch) && nrow(ch) > 0) ch else stop("invalid")
 }, error = function(e) NULL)
+
+# If Scholar API succeeded, save cache for CI use
+if (!is.null(profile) && !is.null(cite_history)) {
+  jsonlite::write_json(
+    list(profile = profile, cite_history = cite_history),
+    cache_file, auto_unbox = TRUE, pretty = TRUE
+  )
+}
+
+# If Scholar API failed, load from cache
+if (is.null(profile) || is.null(cite_history)) {
+  if (file.exists(cache_file)) {
+    cache <- jsonlite::read_json(cache_file, simplifyVector = TRUE)
+    if (is.null(profile)) profile <- cache$profile
+    if (is.null(cite_history)) cite_history <- as.data.frame(cache$cite_history)
+  }
+}
 ```
 
 ## Google Scholar Metrics
