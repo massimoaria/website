@@ -23,9 +23,10 @@ col_teal    <- "#28a99e"
 col_orange  <- "#e8843c"
 col_rose    <- "#c74b7a"
 col_gray    <- "#5a6d7e"
+col_purple  <- "#7b5ea7"
 
 # Chart colors
-chart_colors <- c(col_dark, col_teal, col_orange, col_blue, col_rose, col_gray)
+chart_colors <- c(col_dark, col_teal, col_orange, col_blue, col_rose, col_gray, col_purple)
 
 # ---- Google Scholar data (with local cache) ----
 scholar_id <- "Qu66YZQAAAAJ"
@@ -151,7 +152,7 @@ if (!is.null(cite_history)) {
 #| label: cran-downloads
 #| echo: false
 
-my_packages <- c("bibliometrix", "openalexR", "dimensionsR", "pubmedR", "e2tree", "contentanalysis")
+my_packages <- c("bibliometrix", "openalexR", "dimensionsR", "pubmedR", "e2tree", "contentanalysis", "tall")
 
 totals <- lapply(my_packages, function(pkg) {
   tryCatch({
@@ -170,25 +171,36 @@ totals_df <- bind_rows(totals) |> arrange(desc(total))
 #| label: download-cards
 #| echo: false
 
-card_colors <- c(col_dark, col_blue, col_teal, col_orange, col_rose, col_gray)
+card_colors <- c(col_dark, col_blue, col_teal, col_orange, col_rose, col_gray, col_purple)
+
+make_dl_card <- function(value, label, bg_color) {
+  div(
+    style = paste0(
+      "background:", bg_color, ";padding:0.8rem 1rem;",
+      "border-radius:10px;text-align:center;",
+      "box-shadow:0 4px 12px rgba(0,0,0,0.15);"
+    ),
+    h3(style = "margin:0;font-weight:700;color:#ffffff;font-size:1.3rem;", value),
+    tags$hr(style = "border:0;border-top:1px solid rgba(255,255,255,0.3);margin:0.4rem 0.8rem;"),
+    p(style = "margin:0;color:rgba(255,255,255,0.9);font-size:0.8rem;", label)
+  )
+}
 
 cards <- lapply(seq_len(nrow(totals_df)), function(i) {
   bg <- card_colors[((i - 1) %% length(card_colors)) + 1]
-  div(
-    style = paste0(
-      "background:", bg, ";padding:1.2rem 2rem;",
-      "border-radius:12px;text-align:center;",
-      "box-shadow:0 4px 12px rgba(0,0,0,0.15);"
-    ),
-    h2(style = "margin:0;font-weight:700;color:#ffffff;", format(totals_df$total[i], big.mark = ",")),
-    tags$hr(style = "border:0;border-top:1px solid rgba(255,255,255,0.3);margin:0.5rem 1rem;"),
-    p(style = "margin:0;color:rgba(255,255,255,0.9);font-size:0.9rem;", totals_df$package[i])
-  )
+  make_dl_card(format(totals_df$total[i], big.mark = ","), totals_df$package[i], bg)
 })
 
 div(
-  style = "display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin:1.5rem auto;max-width:800px;",
-  tagList(cards)
+  style = "max-width:850px;margin:1.5rem auto;",
+  div(
+    style = "display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:1rem;",
+    tagList(cards[1:min(4, length(cards))])
+  ),
+  div(
+    style = "display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:637px;margin:0 auto;",
+    tagList(cards[5:length(cards)])
+  )
 )
 ```
 
