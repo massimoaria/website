@@ -3,12 +3,12 @@
     "id": "Qu66YZQAAAAJ",
     "name": "Massimo Aria",
     "affiliation": "Full Professor, Department of Economics and Statistics, University of Naples, Federico II",
-    "total_cites": 26536,
+    "total_cites": 26847,
     "h_index": 43,
-    "i10_index": 114,
+    "i10_index": 115,
     "fields": ["Statistics for Social Sciences", "Multivariate Analysis", "Classification", "Bibliometrics & Science", "ML"],
     "homepage": "https://www.massimoaria.com/",
-    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT,...", "G. R. Semin", "Francesco Galante", "Giovanna Del Gaudio", "María Guadalupe Moreno Treviño", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
+    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT,...", "Francesco Galante", "G. R. Semin", "Giovanna Del Gaudio", "María Guadalupe Moreno Treviño", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
     "available": 6,
     "not_available": 4
   },
@@ -31,15 +31,15 @@
     },
     {
       "year": 2018,
-      "cites": 321
+      "cites": 322
     },
     {
       "year": 2019,
-      "cites": 503
+      "cites": 504
     },
     {
       "year": 2020,
-      "cites": 967
+      "cites": 969
     },
     {
       "year": 2021,
@@ -47,23 +47,23 @@
     },
     {
       "year": 2022,
-      "cites": 2813
+      "cites": 2816
     },
     {
       "year": 2023,
-      "cites": 4089
+      "cites": 4095
     },
     {
       "year": 2024,
-      "cites": 5790
+      "cites": 5798
     },
     {
       "year": 2025,
-      "cites": 7673
+      "cites": 7686
     },
     {
       "year": 2026,
-      "cites": 1505
+      "cites": 1778
     }
   ]
 }
