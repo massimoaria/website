@@ -80,26 +80,28 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 1. Aria M., Costanzo D., Misuraca M., Spano M. (2026). **Assessing tourism sustainability through stochastic multi-criteria acceptability analysis: insights from the Italian regional context**. *Management Decision*, <a href="https://doi.org/10.1108/md-09-2025-2815" target="_blank"> DOI: 10.1108/md-09-2025-2815</a>.
 
-2. Pagliara F., Aria M., Brancati G., Moradpour A., Morrison A.M. (2025). **A Mixed-Method Study for Identification of Factors Affecting Tourist Destination Performance**. *Journal of Destination Marketing & Management*, <a href="https://doi.org/10.1016/j.jdmm.2025.101018" target="_blank"> DOI: 10.1016/j.jdmm.2025.101018</a>.
+2. Pagliara F., Aria M., Tartaglia M., Sacco D., De Iulio G. (2026). **Key influencing factors identification of rail systems resilience: a structural equation model**. *Transportation Planning and Technology*, 49(2), 192–223, <a href="https://doi.org/10.1080/03081060.2024.2443676" target="_blank"> DOI: 10.1080/03081060.2024.2443676</a>.
 
-3. Marrone T., Cantone G.F., Caputo F., Cantone L., Aria M. (2025). **Unpacking dimensions of brand humanization in the Metaverse Era**. *Technology in Society*, <a href="https://doi.org/10.1016/j.techsoc.2025.103037" target="_blank"> DOI: 10.1016/j.techsoc.2025.103037</a>.
+3. Pagliara F., Aria M., Brancati G., Moradpour A., Morrison A.M. (2025). **A Mixed-Method Study for Identification of Factors Affecting Tourist Destination Performance**. *Journal of Destination Marketing & Management*, <a href="https://doi.org/10.1016/j.jdmm.2025.101018" target="_blank"> DOI: 10.1016/j.jdmm.2025.101018</a>.
 
-4. Belfiore A., Cuccurullo C., Aria M. (2022). **Financial configurations of Italian private hospitals: an evolutionary analysis**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.05.004" target="_blank"> DOI: 10.1016/j.healthpol.2022.05.004</a>.
+4. Marrone T., Cantone G.F., Caputo F., Cantone L., Aria M. (2025). **Unpacking dimensions of brand humanization in the Metaverse Era**. *Technology in Society*, <a href="https://doi.org/10.1016/j.techsoc.2025.103037" target="_blank"> DOI: 10.1016/j.techsoc.2025.103037</a>.
 
-5. Pagliara F., Aria M., Russo L. (2021). **Measuring retailers’ perceptions of new metro stations inauguration**. *Land Use Policy*, <a href="https://doi.org/10.1016/j.landusepol.2021.105349" target="_blank"> DOI: 10.1016/j.landusepol.2021.105349</a>.
+5. Belfiore A., Cuccurullo C., Aria M. (2022). **Financial configurations of Italian private hospitals: an evolutionary analysis**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.05.004" target="_blank"> DOI: 10.1016/j.healthpol.2022.05.004</a>.
 
-6. Della Corte V., Aria M., Del Gaudio G., Barney J.B., Cobanoglu C., Sepe F. (2021). **The relevance of relational capabilities in collaborative decisions**. *International Journal of Contemporary Hospitality Management*, <a href="https://doi.org/10.1108/ijchm-01-2021-0037" target="_blank"> DOI: 10.1108/ijchm-01-2021-0037</a>.
+6. Pagliara F., Aria M., Russo L. (2021). **Measuring retailers’ perceptions of new metro stations inauguration**. *Land Use Policy*, <a href="https://doi.org/10.1016/j.landusepol.2021.105349" target="_blank"> DOI: 10.1016/j.landusepol.2021.105349</a>.
 
-7. Pagliara F., Aria M., et al. (2020). **A theoretical model linking the development of the transportation system with citizens’ trust in government actors**. *Papers in Regional Science*, <a href="https://doi.org/10.1111/pirs.12570" target="_blank"> DOI: 10.1111/pirs.12570</a>.
+7. Della Corte V., Aria M., Del Gaudio G., Barney J.B., Cobanoglu C., Sepe F. (2021). **The relevance of relational capabilities in collaborative decisions**. *International Journal of Contemporary Hospitality Management*, <a href="https://doi.org/10.1108/ijchm-01-2021-0037" target="_blank"> DOI: 10.1108/ijchm-01-2021-0037</a>.
 
-8. Pagliara F., Russo L., Aria M., et al. (2020). **Validating a theoretical model of citizens’ trust in tourism development**. *Socio-Economic Planning Sciences*, <a href="https://doi.org/10.1016/j.seps.2020.100922" target="_blank"> DOI: 10.1016/j.seps.2020.100922</a>.
+8. Pagliara F., Aria M., et al. (2020). **A theoretical model linking the development of the transportation system with citizens’ trust in government actors**. *Papers in Regional Science*, <a href="https://doi.org/10.1111/pirs.12570" target="_blank"> DOI: 10.1111/pirs.12570</a>.
 
-9. Allini A., Aria M., et al. (2018). **Motivations behind users’ participation in the standard-setting process: Focus on financial analysts**. *Journal of Accounting and Public Policy*, <a href="https://doi.org/10.1016/j.jaccpubpol.2018.04.002" target="_blank"> DOI: 10.1016/j.jaccpubpol.2018.04.002</a>.
+9. Pagliara F., Russo L., Aria M., et al. (2020). **Validating a theoretical model of citizens’ trust in tourism development**. *Socio-Economic Planning Sciences*, <a href="https://doi.org/10.1016/j.seps.2020.100922" target="_blank"> DOI: 10.1016/j.seps.2020.100922</a>.
 
-10. Aria M., Gaeta G.L., Marani U. (2018). **Similarities and Differences in Competitiveness Among European NUTS2 Regions: An Empirical Analysis Based on 2010–2013 Data**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-018-1909-0" target="_blank"> DOI: 10.1007/s11205-018-1909-0</a>.
+10. Allini A., Aria M., et al. (2018). **Motivations behind users’ participation in the standard-setting process: Focus on financial analysts**. *Journal of Accounting and Public Policy*, <a href="https://doi.org/10.1016/j.jaccpubpol.2018.04.002" target="_blank"> DOI: 10.1016/j.jaccpubpol.2018.04.002</a>.
 
-11. Della Corte V., Aria M., Del Gaudio G. (2018). **Strategic governance in tourist destinations**. *International Journal of Tourism Research*, <a href="https://doi.org/10.1002/jtr.2192" target="_blank"> DOI: 10.1002/jtr.2192</a>.
+11. Aria M., Gaeta G.L., Marani U. (2018). **Similarities and Differences in Competitiveness Among European NUTS2 Regions: An Empirical Analysis Based on 2010–2013 Data**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-018-1909-0" target="_blank"> DOI: 10.1007/s11205-018-1909-0</a>.
 
-12. Della Corte V., Aria M. (2014). **Why strategic networks often fail. Some empirical evidence from the area of Naples**. *Tourism Management*, 45, 3–15, <a href="https://doi.org/10.1016/j.tourman.2014.03.010" target="_blank"> DOI: 10.1016/j.tourman.2014.03.010</a>.
+12. Della Corte V., Aria M., Del Gaudio G. (2018). **Strategic governance in tourist destinations**. *International Journal of Tourism Research*, <a href="https://doi.org/10.1002/jtr.2192" target="_blank"> DOI: 10.1002/jtr.2192</a>.
 
-13. Galante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). **Traffic calming along rural highways crossing small urban communities: Driving simulator experiment**. *Accident Analysis & Prevention*, 42(6), 1585-1594, <a href="https://doi.org/10.1016/j.aap.2010.03.017" target="_blank"> DOI: 10.1016/j.aap.2010.03.017</a>.
+13. Della Corte V., Aria M. (2014). **Why strategic networks often fail. Some empirical evidence from the area of Naples**. *Tourism Management*, 45, 3–15, <a href="https://doi.org/10.1016/j.tourman.2014.03.010" target="_blank"> DOI: 10.1016/j.tourman.2014.03.010</a>.
+
+14. Galante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). **Traffic calming along rural highways crossing small urban communities: Driving simulator experiment**. *Accident Analysis & Prevention*, 42(6), 1585-1594, <a href="https://doi.org/10.1016/j.aap.2010.03.017" target="_blank"> DOI: 10.1016/j.aap.2010.03.017</a>.
