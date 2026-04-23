@@ -3,7 +3,7 @@
     "id": "Qu66YZQAAAAJ",
     "name": "Massimo Aria",
     "affiliation": "Full Professor, Department of Economics and Statistics, University of Naples, Federico II",
-    "total_cites": 27475,
+    "total_cites": 27593,
     "h_index": 43,
     "i10_index": 115,
     "fields": ["Statistics for Social Sciences", "Multivariate Analysis", "Classification", "Bibliometrics & Science", "ML"],
@@ -23,7 +23,7 @@
     },
     {
       "year": 2016,
-      "cites": 160
+      "cites": 162
     },
     {
       "year": 2017,
@@ -35,11 +35,11 @@
     },
     {
       "year": 2019,
-      "cites": 503
+      "cites": 506
     },
     {
       "year": 2020,
-      "cites": 971
+      "cites": 970
     },
     {
       "year": 2021,
@@ -47,23 +47,23 @@
     },
     {
       "year": 2022,
-      "cites": 2823
+      "cites": 2827
     },
     {
       "year": 2023,
-      "cites": 4103
+      "cites": 4102
     },
     {
       "year": 2024,
-      "cites": 5794
+      "cites": 5793
     },
     {
       "year": 2025,
-      "cites": 7703
+      "cites": 7715
     },
     {
       "year": 2026,
-      "cites": 2369
+      "cites": 2470
     }
   ]
 }

@@ -1,27 +1,34 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!tasks/"
+  resources:
+    - "photos/"
+    - "images/"
 
 website:
   title: "Massimo Aria"
+  description: "Professor of Statistics for Social Sciences — University of Naples Federico II. Bibliometrics, science mapping, machine learning."
   navbar:
     right:
-      - text: About Me
+      - text: About
         menu:
-        - text: Short Bio
-          file: shortbio.qmd
-        - text: Curriculum Vitae
-          file: cv.qmd
+          - text: Short Bio
+            file: shortbio.qmd
+          - text: Curriculum Vitae
+            file: cv.qmd
       - text: Research
         menu:
-        - text: Publications
-          file: publications.qmd
-        - text: Projects
-          file: projects.qmd
-        - text: Software
-          file: software.qmd
-        - text: Statistics
-          file: statistics.qmd
+          - text: Publications
+            file: publications.qmd
+          - text: Projects
+            file: projects.qmd
+          - text: Software
+            file: software.qmd
+          - text: Statistics
+            file: statistics.qmd
       - text: Teaching
         file: teaching.qmd
       - text: Photos
@@ -30,20 +37,26 @@ website:
         file: contacts.qmd
       - icon: book
         href: https://scholar.google.com/citations?user=Qu66YZQAAAAJ&hl=it
+        aria-label: Google Scholar
       - icon: globe
         href: https://www.researchgate.net/profile/Massimo-Aria
+        aria-label: ResearchGate
   page-footer:
     center: |
-      © 2026 Massimo Aria – Built with [Quarto](https://quarto.org)
+      Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br>
+      © 2026 — Set in Fraunces &amp; Source Serif 4. Built with [Quarto](https://quarto.org).
 
 format:
   html:
-    theme: spacelab
+    theme: theme.scss
+    css: styles.css
     includes:
       head: lightbox-head.html
     toc: true
     toc-location: left
+    toc-title: "In this page"
     page-layout: full
-    css: styles.css
-
-
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    link-external-icon: false

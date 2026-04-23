@@ -1,27 +1,30 @@
 ---
+title: "Contacts"
+description: "How to reach me — email, affiliation, research profiles"
 format: html
-editor: visual
 ---
 
-## Contacts
+<span class="eyebrow">Colophon · How to reach me</span>
 
--   **Email**: massimo.aria\[at\]unina.it
--   **Affiliation**: Department of Economics and Statistics, University of Naples Federico II
--   **Address**: Via Cintia, Monte Sant’Angelo, Naples, Italy
--   **ORCID**: <a href="https://orcid.org/0000-0002-8517-9411" target="_blank">0000-0002-8517-9411</a>
--   **Google Scholar**: <a href="https://scholar.google.it/citations?user=Qu66YZQAAAAJ" target="_blank">Qu66YZQAAAAJ</a>
--   **Researcher ID**: <a href="https://www.researcherid.com/rid/O-7983-2015" target="_blank">O-7983-2015</a>
--   **Researchgate**: <a href="https://www.researchgate.net/profile/Massimo_Aria" target="_blank">Massimo_Aria</a>
-    
+<p class="lede">For research enquiries, collaborations, and academic correspondence.</p>
 
-### Research Institutions and Groups
+## Direct
 
--   <a href="https://www.k-synth.com" target="_blank"> K-Synth Academic Spin-off</a>
+- **Email** — massimo.aria\[at\]unina.it
+- **Affiliation** — Department of Economics and Statistics, University of Naples Federico II
+- **Address** — Via Cintia, Monte Sant'Angelo, Naples, Italy
 
--   <a href="https://www.bibliometrix.org" target="_blank"> Bibliometrix Website</a>
+## Research Profiles
 
--   <a href="https://www.bibliometrix.org/sssm" target="_blank"> Summer School in Science Mapping</a>
+- **ORCID** — <a href="https://orcid.org/0000-0002-8517-9411" target="_blank">0000-0002-8517-9411</a>
+- **Google Scholar** — <a href="https://scholar.google.it/citations?user=Qu66YZQAAAAJ" target="_blank">Qu66YZQAAAAJ</a>
+- **ResearcherID** — <a href="https://www.researcherid.com/rid/O-7983-2015" target="_blank">O-7983-2015</a>
+- **ResearchGate** — <a href="https://www.researchgate.net/profile/Massimo_Aria" target="_blank">Massimo Aria</a>
 
--   <a href="https://www.dises.unina.it" target="_blank"> Dept. of Economics and Statistics</a>
+## Research Institutions & Groups
 
--   <a href="https://www.unina.it" target="_blank"> University of Naples Federico II</a>
+- <a href="https://www.k-synth.com" target="_blank">K-Synth Academic Spin-off</a>
+- <a href="https://www.bibliometrix.org" target="_blank">Bibliometrix — official website</a>
+- <a href="https://www.bibliometrix.org/sssm" target="_blank">Summer School in Science Mapping</a>
+- <a href="https://www.dises.unina.it" target="_blank">Department of Economics and Statistics, Federico II</a>
+- <a href="https://www.unina.it" target="_blank">University of Naples Federico II</a>

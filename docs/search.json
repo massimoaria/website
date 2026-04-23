@@ -1,129 +1,38 @@
 [
   {
-    "objectID": "statistics.html",
-    "href": "statistics.html",
-    "title": "Research Statistics",
-    "section": "",
-    "text": "Total Citations\n\n\n\n\nH-Index\n\n\n\n\ni10-Index"
-  },
-  {
-    "objectID": "statistics.html#google-scholar-metrics",
-    "href": "statistics.html#google-scholar-metrics",
-    "title": "Research Statistics",
-    "section": "",
-    "text": "Total Citations\n\n\n\n\nH-Index\n\n\n\n\ni10-Index"
-  },
-  {
-    "objectID": "statistics.html#cran-package-downloads",
-    "href": "statistics.html#cran-package-downloads",
-    "title": "Research Statistics",
-    "section": "CRAN Package Downloads",
-    "text": "CRAN Package Downloads\n\nTotal CRAN Downloads\n\n\n\n\n\n1,396,572\n\nbibliometrix\n\n\n465,186\n\npubmedR\n\n\n463,160\n\ndimensionsR\n\n\n347,243\n\nopenalexR\n\n\n\n\n107,720\n\ncontentanalysis\n\n\n6,943\n\ntall\n\n\n2,904\n\ne2tree\n\n\n\n\n\n\n\nCumulative Downloads Over Time\n\n\n\n\n\n\n\n\nMonthly Downloads (Last 12 Months)\n\n\n\n\n\n\n\n\nData updated automatically each time the site is rendered. Citations source: Google Scholar. Downloads source: CRAN logs."
-  },
-  {
-    "objectID": "photos.html",
-    "href": "photos.html",
-    "title": "Photo Gallery",
-    "section": "",
-    "text": "Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about."
-  },
-  {
-    "objectID": "photos.html#family",
-    "href": "photos.html#family",
-    "title": "Photo Gallery",
-    "section": "👨‍👩‍👧‍👦 Family",
-    "text": "👨‍👩‍👧‍👦 Family"
-  },
-  {
-    "objectID": "photos.html#friends",
-    "href": "photos.html#friends",
-    "title": "Photo Gallery",
-    "section": "👫 Friends",
-    "text": "👫 Friends"
-  },
-  {
-    "objectID": "photos.html#work",
-    "href": "photos.html#work",
-    "title": "Photo Gallery",
-    "section": "🧑‍🏫 Work",
-    "text": "🧑‍🏫 Work"
-  },
-  {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Email: massimo.aria[at]unina.it\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\nORCID: 0000-0002-8517-9411\nGoogle Scholar: Qu66YZQAAAAJ\nResearcher ID: O-7983-2015\nResearchgate: Massimo_Aria\n\n\n\n\n K-Synth Academic Spin-off\n Bibliometrix Website\n Summer School in Science Mapping\n Dept. of Economics and Statistics\n University of Naples Federico II"
-  },
-  {
-    "objectID": "contacts.html#contacts",
-    "href": "contacts.html#contacts",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Email: massimo.aria[at]unina.it\nAffiliation: Department of Economics and Statistics, University of Naples Federico II\nAddress: Via Cintia, Monte Sant’Angelo, Naples, Italy\nORCID: 0000-0002-8517-9411\nGoogle Scholar: Qu66YZQAAAAJ\nResearcher ID: O-7983-2015\nResearchgate: Massimo_Aria\n\n\n\n\n K-Synth Academic Spin-off\n Bibliometrix Website\n Summer School in Science Mapping\n Dept. of Economics and Statistics\n University of Naples Federico II"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Massimo Aria",
-    "section": "",
-    "text": "Massimo Aria\n\n\nProfessor of Statistics for Social Sciences\nDepartment of Economics and Statistics\nUniversity of Naples Federico II\n\n\n\n\nWelcome! I’m Massimo Aria, full professor of Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II.\nMy research focuses on bibliometrics, science mapping, text mining, statistical modelling, and machine learning. I am the author of over 200 scientific articles, and creator of several R packages including the widely used Bibliometrix (1,350,000+ installations) and Tall.\nI am also the co-founder of K-Synth, an academic spin-off dedicated to transforming data into actionable knowledge through innovative statistical and computational methods.\nOver the years, I’ve been involved in numerous national and international research projects (including PRIN, PNRR, and European frameworks), and I actively support open science and reproducible research.\nBeyond academia, I’m happily married to a wonderful woman, Adelaide, and the proud father of two incredible kids, Vittoria and Lorenzo — they keep life joyful, unpredictable, and deeply inspiring."
-  },
-  {
-    "objectID": "shortbio.html",
-    "href": "shortbio.html",
-    "title": "Short Bio",
-    "section": "",
-    "text": "I am a Full Professor in Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II. I hold a Ph.D. in Computational Statistics.\nI have been teaching Statistics and Machine Learning in bachelor’s, master’s, and doctoral programs for over 20 years. The courses I currently teach include Statistics for Social Sciences, Advanced Statistical Methods for Social Research, Sampling Surveys, and the Lab of Machine Learning in R.\nMy main research fields include bibliometrics, science mapping, systematic literature reviews, statistical survey methodology, machine learning, and text mining. I have led numerous statistical surveys and data science projects related to economic, social, ethological, and healthcare phenomena.\n\n\n\nI have authored more than 200 peer-reviewed scientific articles, of which 38 have been classified as “A” (top tier) in scientific area 13 (Economics and Statistics) by ANVUR (Italian Agency of University Research Evaluation).\nI am the  K-Synth Academic Spin-off, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.\nI am the Scientific Coordinator of the  Summer School in Science Mapping (SSSM) and a faculty member of the  European Summer School of Scientometrics (ESSS).\n\n\n\n\n\nBoard member of the Naples Ph.D. Program in Economics\n\nBoard member for over 20 years of the Ph.D. programs in Computational Statistics and Social Sciences and Statistics\n\nSince 2019, board member of the Master’s degree in Data Science and in Economics (curriculum: Data Scientist for Economics)\n\nSince 2010, I have coordinated, together with Prof. C. Cuccurullo, the research group in bibliometrics and science mapping at the University of Naples Federico II and the University of Campania L. Vanvitelli (www.bibliometrix.org)\n\nI have coordinated or participated in 5 European projects, 3 PNRR projects, 5 PRIN projects, 1 FIRB project, and 11 national or regional projects\n\nSince 2007, I have been a scientific committee member of the Statistical Algorithms and Software Specialized Team, ERCIM Working Group on Computational and Methodological Statistics\n\nI am currently responsible for the Research Quality Assessment (VQR) of the Department of Economics and Statistics\n\n\n\n\n\nI am a senior member of the following scientific societies:\n\nSocietà Italiana di Statistica (SIS)\n\nAssociazione Italiana Studi di Popolazione (AISP)\n\nAssociazione di Statistica Applicata (ASA)\n\nInternational Statistical Institute (ISI)\n\nInternational Association for Statistical Computing (IASC)"
-  },
-  {
-    "objectID": "shortbio.html#scientific-activities",
-    "href": "shortbio.html#scientific-activities",
-    "title": "Short Bio",
-    "section": "",
-    "text": "I have authored more than 200 peer-reviewed scientific articles, of which 38 have been classified as “A” (top tier) in scientific area 13 (Economics and Statistics) by ANVUR (Italian Agency of University Research Evaluation).\nI am the  K-Synth Academic Spin-off, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data using quantitative, statistical, and data science methods.\nI am the Scientific Coordinator of the  Summer School in Science Mapping (SSSM) and a faculty member of the  European Summer School of Scientometrics (ESSS)."
-  },
-  {
-    "objectID": "shortbio.html#academic-and-institutional-roles",
-    "href": "shortbio.html#academic-and-institutional-roles",
-    "title": "Short Bio",
-    "section": "",
-    "text": "Board member of the Naples Ph.D. Program in Economics\n\nBoard member for over 20 years of the Ph.D. programs in Computational Statistics and Social Sciences and Statistics\n\nSince 2019, board member of the Master’s degree in Data Science and in Economics (curriculum: Data Scientist for Economics)\n\nSince 2010, I have coordinated, together with Prof. C. Cuccurullo, the research group in bibliometrics and science mapping at the University of Naples Federico II and the University of Campania L. Vanvitelli (www.bibliometrix.org)\n\nI have coordinated or participated in 5 European projects, 3 PNRR projects, 5 PRIN projects, 1 FIRB project, and 11 national or regional projects\n\nSince 2007, I have been a scientific committee member of the Statistical Algorithms and Software Specialized Team, ERCIM Working Group on Computational and Methodological Statistics\n\nI am currently responsible for the Research Quality Assessment (VQR) of the Department of Economics and Statistics"
-  },
-  {
-    "objectID": "shortbio.html#scientific-societies",
-    "href": "shortbio.html#scientific-societies",
-    "title": "Short Bio",
-    "section": "",
-    "text": "I am a senior member of the following scientific societies:\n\nSocietà Italiana di Statistica (SIS)\n\nAssociazione Italiana Studi di Popolazione (AISP)\n\nAssociazione di Statistica Applicata (ASA)\n\nInternational Statistical Institute (ISI)\n\nInternational Association for Statistical Computing (IASC)"
-  },
-  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Courses Taught\n\nStatistics for Social Sciences – Undergraduate course, Bechelor in Tourism Sciences\nSampling Surveys - Undergraduate course, Bachelor in Economics\nStatistical Methods for Social Research – Graduate level, Master in Economics, Curriculum studiorum “Data Scientist for Economics”\nLab in Machine Learning and Text Mining with R – Graduate level, Master in Economics, Curriculum studiorum “Data Scientist for Economics”\nMachine Learning Methods - Ph.D. Courses\nBibliometric Analysis using R – Ph.D. Courses and International Summer Schools\n\n\n\n\nSeminars and Training Activities\nOver the last few years, I have delivered more than 60 invited seminars and training sessions on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of Bodø (Norway), Edinburgh, Granada, London, Melbourne, and Paris.\nIn addition, I have been a lecturer at the European Summer School for Scientometrics (ESSS), the Summer School in Science Mapping, and the Social Statistics Summer School in Monteriggioni.\n\n\n\nConferences and Workshops\nI have actively participated in numerous national and international conferences, including DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, and JADT, where I have presented research contributions related to bibliometric analysis, classification methods, and methodological innovation in the social sciences.\nI am also a member of the scientific or organizing committees of major conferences, such as JADT2022 and several editions of the Italian Statistics Society (SIS) meetings.\n\nFor all course materials, detailed teaching information, and updates for students, please visit my official university webpage:\n👉 www.docenti.unina.it/massimo.aria"
+    "text": "Courses · Seminars · Summer Schools\nOver twenty years of teaching statistics, machine learning, and data science across bachelor’s, master’s, and doctoral programmes — at the University of Naples Federico II and in international summer schools."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Research Projects",
-    "section": "",
-    "text": "SciK-Health: The value of scientific production for patient care in Academic Health Science Centres\nRole: Principal Investigator (2023-2025)\n🔗 Project Website: massimoaria.github.io/scikhealth/\nThis research project aims to map the full spectrum of scientific output—beyond academic publications—of Italian public Academic Health Centers (AHCs) from 2000 onwards. Its purpose is twofold: to provide citizens and healthcare professionals with a science-based orientation tool, and to offer academic managers, funders, and policy-makers an evidence-based decision-making instrument. The study involves the collection and integration of diverse research outputs, including publications, patents, clinical trials, grants, and altmetrics, drawn from both traditional and next-generation databases. Using science mapping and longitudinal analysis, the project reconstructs the conceptual and social structures of knowledge produced by AHCs, resulting in the creation of a Digital Conceptual and Social Atlas. A dedicated web application, SciK-Health, will disseminate these findings to the public, serving as a health literacy and decision-support tool. Additionally, a restricted-access tool will provide institutional stakeholders with a synthetic indicator—R-daisy—summarizing each hospital’s research expertise. The project concludes with a validation phase involving academic hospitals and regional health agencies, ensuring the robustness and applicability of its outputs.\n\n\n\nThe impact of scientific production on healthcare outcomes in Italian Academic Health Science Centres\nRole: Local Scientific Coordinator (2023–2025)\nAcademic Health Science Centres (AHSCs) share three strategic missions: training healthcare professionals, developing innovative technologies and digital solutions, and delivering high-quality, data-driven care. Balancing these missions often generates strategic ambiguity and organizational tension. While existing studies have occasionally examined how teaching influences patient care, little is known about the effects of research on clinical outcomes.\nThis project investigates whether and how academic research performance influences patient care quality in Italian public AHSCs. It will begin by constructing a longitudinal database of scientometric and bibliometric metadata, covering various types of scientific outputs—such as publications, patents, clinical trials, grants, and altmetrics—from 2000 to the present.\nFollowing the data collection, we will measure productivity, growth, impact, and novelty, and construct a composite, weighted indicator to evaluate the scientific production of each AHSC. Finally, using econometric models, the project will analyze how research activity correlates with key dimensions of healthcare performance, including 30-day mortality, hospital readmission rates, patient mobility, waiting lists, and case mix complexity.\nThe research aims to answer three central questions: Does research performance in AHSCs lead to improved health outcomes? Is research activity a driver of hospital case mix? And finally, does academic research performance influence patient choices regarding healthcare providers?\n\n\n\n\nOver the past two decades, I have contributed to and coordinated a wide range of research projects at the European, national, and regional levels.\nAt the European level, I served as senior researcher in several EU-funded initiatives, including the Horizon 2020 project MAGIC – Moving Towards Adaptive Governance in Complexity, which addressed nexus security challenges. Within the 7th Framework Programme, I participated in EUROC – European Robotics Challenges and RoDyMan – Robotic Dynamic Manipulation, focusing on advanced robotics. Earlier, I contributed to iWeb-Care, a project on fraud detection in healthcare e-government services, and INSPECTOR, which developed distributed systems for data validation, both funded under the 6th Framework Programme. I also acted as Scientific Coordinator for the transnational cooperation initiative “Network for Regional Development and Entrepreneurship” under the EQUAL Phase 2 Programme, and as Scientific Committee member in the related SPIDER project on territorial information management for social enterprises.\nAt the national level, I have been involved in multiple PRIN (Projects of National Interest) and FIRB initiatives. These include my role as Principal Investigator for the current PRIN 2022 project SciK-Health and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to PNRR-funded initiatives such as the Digital Health Ecosystem, where I coordinate Work Package 2, and the National Centre for Sustainable Mobility, where I serve as a member of Spoke 10. In previous years, I was senior researcher for PRIN projects on rationality and attention in children, tree-based methods for classification and regression, and knowledge discovery in decision-making. I also collaborated in the FIRB project on Supply Chain Management led by the University of Salerno.\nIn addition to these, I participated in various university-funded and regional projects. These include studies on health inequalities, childhood care services in southern Italy, women’s re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects such as SOCIAL-NET (on aging and social exclusion), MoniTur (on cultural tourism data analysis), and the data strategy component of the City of Naples Strategic Plan. Furthermore, I contributed as senior researcher to ICT-focused programs co-financed by the Campania and Puglia Regions, including VIRNET, ANGELO, PROTEO, PORTUR, and TRITONE, as well as to the Regional Competence Centre on Transport focused on demand modelling through statistical methods."
+    "objectID": "teaching.html#courses-taught",
+    "href": "teaching.html#courses-taught",
+    "title": "Teaching",
+    "section": "Courses Taught",
+    "text": "Courses Taught\n\nStatistics for Social Sciences — Undergraduate course, Bachelor in Tourism Sciences\nSampling Surveys — Undergraduate course, Bachelor in Economics\nStatistical Methods for Social Research — Graduate level, Master in Economics, Curriculum Data Scientist for Economics\nLab in Machine Learning and Text Mining with R — Graduate level, Master in Economics, Curriculum Data Scientist for Economics\nMachine Learning Methods — Ph.D. courses\nBibliometric Analysis using R — Ph.D. courses and International Summer Schools"
   },
   {
-    "objectID": "projects.html#ongoing-projects",
-    "href": "projects.html#ongoing-projects",
-    "title": "Research Projects",
-    "section": "",
-    "text": "SciK-Health: The value of scientific production for patient care in Academic Health Science Centres\nRole: Principal Investigator (2023-2025)\n🔗 Project Website: massimoaria.github.io/scikhealth/\nThis research project aims to map the full spectrum of scientific output—beyond academic publications—of Italian public Academic Health Centers (AHCs) from 2000 onwards. Its purpose is twofold: to provide citizens and healthcare professionals with a science-based orientation tool, and to offer academic managers, funders, and policy-makers an evidence-based decision-making instrument. The study involves the collection and integration of diverse research outputs, including publications, patents, clinical trials, grants, and altmetrics, drawn from both traditional and next-generation databases. Using science mapping and longitudinal analysis, the project reconstructs the conceptual and social structures of knowledge produced by AHCs, resulting in the creation of a Digital Conceptual and Social Atlas. A dedicated web application, SciK-Health, will disseminate these findings to the public, serving as a health literacy and decision-support tool. Additionally, a restricted-access tool will provide institutional stakeholders with a synthetic indicator—R-daisy—summarizing each hospital’s research expertise. The project concludes with a validation phase involving academic hospitals and regional health agencies, ensuring the robustness and applicability of its outputs.\n\n\n\nThe impact of scientific production on healthcare outcomes in Italian Academic Health Science Centres\nRole: Local Scientific Coordinator (2023–2025)\nAcademic Health Science Centres (AHSCs) share three strategic missions: training healthcare professionals, developing innovative technologies and digital solutions, and delivering high-quality, data-driven care. Balancing these missions often generates strategic ambiguity and organizational tension. While existing studies have occasionally examined how teaching influences patient care, little is known about the effects of research on clinical outcomes.\nThis project investigates whether and how academic research performance influences patient care quality in Italian public AHSCs. It will begin by constructing a longitudinal database of scientometric and bibliometric metadata, covering various types of scientific outputs—such as publications, patents, clinical trials, grants, and altmetrics—from 2000 to the present.\nFollowing the data collection, we will measure productivity, growth, impact, and novelty, and construct a composite, weighted indicator to evaluate the scientific production of each AHSC. Finally, using econometric models, the project will analyze how research activity correlates with key dimensions of healthcare performance, including 30-day mortality, hospital readmission rates, patient mobility, waiting lists, and case mix complexity.\nThe research aims to answer three central questions: Does research performance in AHSCs lead to improved health outcomes? Is research activity a driver of hospital case mix? And finally, does academic research performance influence patient choices regarding healthcare providers?"
+    "objectID": "teaching.html#seminars-and-training-activities",
+    "href": "teaching.html#seminars-and-training-activities",
+    "title": "Teaching",
+    "section": "Seminars and Training Activities",
+    "text": "Seminars and Training Activities\nOver the last few years I have delivered more than 60 invited seminars and training sessions on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of Bodø (Norway), Edinburgh, Granada, London, Melbourne, and Paris.\nI have also been a lecturer at the European Summer School for Scientometrics (ESSS), the Summer School in Science Mapping (SSSM), and the Social Statistics Summer School in Monteriggioni."
   },
   {
-    "objectID": "projects.html#past-projects",
-    "href": "projects.html#past-projects",
-    "title": "Research Projects",
+    "objectID": "teaching.html#conferences-and-workshops",
+    "href": "teaching.html#conferences-and-workshops",
+    "title": "Teaching",
+    "section": "Conferences and Workshops",
+    "text": "Conferences and Workshops\nActive participant in numerous national and international conferences — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT — where I have presented research contributions related to bibliometric analysis, classification methods, and methodological innovation in the social sciences.\nMember of the scientific or organising committees of major conferences, including JADT 2022 and several editions of the Italian Statistics Society (SIS) meetings.\n\nCourse materials & updates for students\nFull course materials, detailed teaching information, and live updates for students are available on my official university webpage:\ndocenti.unina.it/massimo.aria"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Scientific Software",
     "section": "",
-    "text": "Over the past two decades, I have contributed to and coordinated a wide range of research projects at the European, national, and regional levels.\nAt the European level, I served as senior researcher in several EU-funded initiatives, including the Horizon 2020 project MAGIC – Moving Towards Adaptive Governance in Complexity, which addressed nexus security challenges. Within the 7th Framework Programme, I participated in EUROC – European Robotics Challenges and RoDyMan – Robotic Dynamic Manipulation, focusing on advanced robotics. Earlier, I contributed to iWeb-Care, a project on fraud detection in healthcare e-government services, and INSPECTOR, which developed distributed systems for data validation, both funded under the 6th Framework Programme. I also acted as Scientific Coordinator for the transnational cooperation initiative “Network for Regional Development and Entrepreneurship” under the EQUAL Phase 2 Programme, and as Scientific Committee member in the related SPIDER project on territorial information management for social enterprises.\nAt the national level, I have been involved in multiple PRIN (Projects of National Interest) and FIRB initiatives. These include my role as Principal Investigator for the current PRIN 2022 project SciK-Health and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to PNRR-funded initiatives such as the Digital Health Ecosystem, where I coordinate Work Package 2, and the National Centre for Sustainable Mobility, where I serve as a member of Spoke 10. In previous years, I was senior researcher for PRIN projects on rationality and attention in children, tree-based methods for classification and regression, and knowledge discovery in decision-making. I also collaborated in the FIRB project on Supply Chain Management led by the University of Salerno.\nIn addition to these, I participated in various university-funded and regional projects. These include studies on health inequalities, childhood care services in southern Italy, women’s re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects such as SOCIAL-NET (on aging and social exclusion), MoniTur (on cultural tourism data analysis), and the data strategy component of the City of Naples Strategic Plan. Furthermore, I contributed as senior researcher to ICT-focused programs co-financed by the Campania and Puglia Regions, including VIRNET, ANGELO, PROTEO, PORTUR, and TRITONE, as well as to the Regional Competence Centre on Transport focused on demand modelling through statistical methods."
+    "text": "Catalogue of open-source tools\n\nOpen-source scientific software I have authored or co-authored. Most packages are available on CRAN and GitHub.\n\n\n\nBibliometrix\n\n\nR package · CRAN · 1.35M+ installations\n\nA comprehensive toolbox for science mapping and bibliometric analysis. Supports the complete workflow: data import, descriptive analysis, network and conceptual mapping, and visualisation. → bibliometrix.org\n\n\n\nBiblioshiny\n\n\nShiny web-app · Interactive front-end for Bibliometrix\n\nA user-friendly Shiny interface for Bibliometrix, enabling researchers to perform advanced bibliometric and science-mapping analyses without writing code.\n\n\n\nTALL — Text Analysis for All\n\n\nR/Shiny · Text mining · NLP\n\nA general-purpose application for text-data analysis, supporting topic modelling, frequency analysis, clustering, and content classification. → github.com/massimoaria/tall\n\n\n\nE2Tree\n\n\nR package · Explainable ML\n\nAn explainable machine-learning approach based on ensemble trees. Generates interpretable models from complex data, with visual exploration of decision rules. → github.com/massimoaria/e2tree\n\n\n\nDimensionsR\n\n\nR package · API client\n\nProgrammatic access to the Dimensions API — publications, grants, clinical trials, and patents. → github.com/massimoaria/dimensionsR\n\n\n\nPubmedR\n\n\nR package · API client · Medical literature\n\nAn R interface to the PubMed API for searching, downloading, and analysing biomedical literature metadata — useful for systematic reviews and medical informatics. → github.com/massimoaria/pubmedR\n\n\n\ncontentanalysis\n\n\nR package · Scientific PDF analysis\n\nTools for extracting and analysing scientific content from PDFs, including citation extraction and reference matching. → github.com/massimoaria/contentanalysis\n\n\n\nopenalexR\n\n\nR package · ROpenSci · API client\n\nAn R client for the OpenAlex API, providing access to open bibliographic metadata for scholarly publications, authors, institutions, and citations. → docs.ropensci.org/openalexR\n\n\n\nPLS-SEM Matlab Toolbox\n\n\nMatlab / Octave · Structural equation modelling\n\nA Matlab / Octave package for Partial Least Squares Structural Equation Models. → github.com/massimoaria/PLS-SEM"
   },
   {
     "objectID": "publications.html",
@@ -147,17 +56,248 @@
     "text": "Journal Articles\n\nBibliometrics, Science Mapping and Text Analysis\n\nAria, M., Cuccurullo, C. (2017). bibliometrix: An R-tool for comprehensive science mapping analysis. Journal of Informetrics, 11(4), 959–975,  DOI: 10.1016/j.joi.2017.08.007.\nAria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data. SoftwareX,  DOI: 10.1016/j.softx.2026.102590.\nAria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). Conceptual structure and thematic evolution in partial least squares structural equation modeling research. Quality & Quantity,  DOI: 10.1007/s11135-025-02071-4.\nAria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). Comparative science mapping: a novel conceptual structure analysis with metadata. Scientometrics,  DOI: 10.1007/s11192-024-05161-6.\nAria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex. The R Journal,  DOI: 10.32614/RJ-2023-089.\nAria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study. Quality & Quantity, 58(6), 5351–5375,  DOI: 10.1007/s11135-024-01902-0.\nCiavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis. Social Indicators Research,  DOI: 10.1007/s11205-022-02994-7.\nD’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting. Health Policy,  DOI: 10.1016/j.healthpol.2022.09.007.\nBelfiore, A., Cuccurullo, C., & Aria, M. (2022). IoT in healthcare: A scientometric analysis. Technological Forecasting and Social Change, 184,  DOI: 10.1016/j.techfore.2022.122001.\nAria M., Misuraca M., Spano M. (2020). Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research. Social Indicators Research,  DOI: 10.1007/s11205-020-02281-3.\n\n\n\n\nStatistics and Machine Learning\n\nAria, M., Gnasso, A., Iorio, C., & Fokkema, M. (2025). Extending Explainable Ensemble Trees to regression contexts. Applied Stochastic Models in Business and Industry.\nAria M. et al. (2025). Predicting depression in Italy using random forest through the E2Tree methodology. Annals of Operations Research.\nAria M., Gnasso A., Iorio C., Pandolfo, G. (2023). Explainable Ensemble Trees. Computational Statistics,  DOI: 10.1007/s00180-022-01312-6.\nAria, M., Cuccurullo C, D’Aniello L, Misuraca M., Spano M. (2022). Thematic Analysis as a New Culturomic Tool: The Social Media Coverage on COVID-19 Pandemic in Italy. Sustainability, 14(6), 3643,  DOI: 10.3390/su14063643.\nPandolfo G., Iorio C., Staiano M., Aria M., Siciliano R. (2021). Multivariate process control charts based on the Lp depth. Applied Stochastic Models in Business and Industry,  DOI: 10.1002/asmb.2616.\nAria M., Cuccurullo C., Gnasso A. (2021). A comparison among interpretative proposals for Random Forests. Machine learning with Applications,  DOI: 10.1016/j.mlwa.2021.100094.\nIorio C., Aria M., D’Ambrosio A., Siciliano R. (2019). Informative Trees by Visual Pruning. Expert Systems with Applications,  DOI: 10.1016/j.eswa.2019.03.018.\nAria M., D’Ambrosio A., Iorio C., Siciliano R., Cozza V. (2018). Dynamic recursive tree-based partitioning for malignant melanoma identification in skin lesion dermoscopic images. Statistical Papers,  DOI: 10.1007/s00362-018-0997-x.\nSiciliano R., D’Ambrosio A., Aria M., Amodio S. (2017). Analysis of Web Visit Histories, Part II: Predicting Navigation by Nested STUMP Regression Trees. Journal of Classification,  DOI: 10.1007/s00357-017-9239-5.\nD’Ambrosio A., Aria M., et al. (2017). Regression trees for multivalued numerical response variables. Expert Systems with Applications, 69, 1339–1351,  DOI: 10.1016/j.eswa.2016.10.021.\nSiciliano R., D’Ambrosio A., Aria M., Amodio S. (2016). Analysis of Web Visit Histories, Part I: Distance-Based Visualization of Sequence Rules. Journal of Classification,  DOI: 10.1007/s00357-016-9204-8.\nD’Ambrosio A., Aria M., et al. (2012). Accurate Tree-based Missing Data Imputation and Data Fusion within the Statistical Learning Paradigm. Journal of Classification, 29(2), 227–258,  DOI: 10.1007/s00357-012-9108-1.\nAria, M. (2009). Parallel networks for compositional longitudinal data. Italian Journal of Applied Statistics, 20(1), 5–20.\n\n\n\n\nTourism, Management, Transportation, and Social Sciences\n\nAria M., Costanzo D., Misuraca M., Spano M. (2026). Assessing tourism sustainability through stochastic multi-criteria acceptability analysis: insights from the Italian regional context. Management Decision,  DOI: 10.1108/md-09-2025-2815.\nPagliara F., Aria M., Tartaglia M., Sacco D., De Iulio G. (2026). Key influencing factors identification of rail systems resilience: a structural equation model. Transportation Planning and Technology, 49(2), 192–223,  DOI: 10.1080/03081060.2024.2443676.\nPagliara F., Aria M., Brancati G., Moradpour A., Morrison A.M. (2025). A Mixed-Method Study for Identification of Factors Affecting Tourist Destination Performance. Journal of Destination Marketing & Management,  DOI: 10.1016/j.jdmm.2025.101018.\nMarrone T., Cantone G.F., Caputo F., Cantone L., Aria M. (2025). Unpacking dimensions of brand humanization in the Metaverse Era. Technology in Society,  DOI: 10.1016/j.techsoc.2025.103037.\nBelfiore A., Cuccurullo C., Aria M. (2022). Financial configurations of Italian private hospitals: an evolutionary analysis. Health Policy,  DOI: 10.1016/j.healthpol.2022.05.004.\nPagliara F., Aria M., Russo L. (2021). Measuring retailers’ perceptions of new metro stations inauguration. Land Use Policy,  DOI: 10.1016/j.landusepol.2021.105349.\nDella Corte V., Aria M., Del Gaudio G., Barney J.B., Cobanoglu C., Sepe F. (2021). The relevance of relational capabilities in collaborative decisions. International Journal of Contemporary Hospitality Management,  DOI: 10.1108/ijchm-01-2021-0037.\nPagliara F., Aria M., et al. (2020). A theoretical model linking the development of the transportation system with citizens’ trust in government actors. Papers in Regional Science,  DOI: 10.1111/pirs.12570.\nPagliara F., Russo L., Aria M., et al. (2020). Validating a theoretical model of citizens’ trust in tourism development. Socio-Economic Planning Sciences,  DOI: 10.1016/j.seps.2020.100922.\nAllini A., Aria M., et al. (2018). Motivations behind users’ participation in the standard-setting process: Focus on financial analysts. Journal of Accounting and Public Policy,  DOI: 10.1016/j.jaccpubpol.2018.04.002.\nAria M., Gaeta G.L., Marani U. (2018). Similarities and Differences in Competitiveness Among European NUTS2 Regions: An Empirical Analysis Based on 2010–2013 Data. Social Indicators Research,  DOI: 10.1007/s11205-018-1909-0.\nDella Corte V., Aria M., Del Gaudio G. (2018). Strategic governance in tourist destinations. International Journal of Tourism Research,  DOI: 10.1002/jtr.2192.\nDella Corte V., Aria M. (2014). Why strategic networks often fail. Some empirical evidence from the area of Naples. Tourism Management, 45, 3–15,  DOI: 10.1016/j.tourman.2014.03.010.\nGalante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). Traffic calming along rural highways crossing small urban communities: Driving simulator experiment. Accident Analysis & Prevention, 42(6), 1585-1594,  DOI: 10.1016/j.aap.2010.03.017."
   },
   {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Scientific Software",
+    "objectID": "photos.html",
+    "href": "photos.html",
+    "title": "Photo Gallery",
     "section": "",
-    "text": "Scientific Software\n\nBibliometrix\nAn R package for comprehensive science mapping and bibliometric analysis. It supports a full bibliometric workflow, including data import, descriptive analysis, science mapping, and visualization.\n🔗 bibliometrix.org\nBiblioshiny\nA user-friendly Shiny web interface for Bibliometrix, enabling researchers to conduct advanced bibliometric and science mapping analyses without coding.\nTAll – Text Analysis for All\nA general-purpose R Shiny application for text data analysis, supporting topic modeling, frequency analysis, clustering, and content classification.\n🔗 https://github.com/massimoaria/tall\nE2Tree\nAn explainable machine learning approach based on ensemble trees, designed to generate interpretable models from complex data, with visual exploration tools for decision rules.\n🔗 https://github.com/massimoaria/e2tree\nDimensionsR\nAn R package that provides programmatic access to the Dimensions API, allowing bibliometric researchers to retrieve and analyze data on publications, grants, clinical trials, and patents.\n🔗 https://github.com/massimoaria/dimensionsR\nPubmedR\nAn R interface to the PubMed API for searching, downloading, and analyzing biomedical literature metadata, useful for systematic literature reviews and medical informatics.\n🔗 https://github.com/massimoaria/pubmedR\ncontentanalysis\nTools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching.\n🔗 https://github.com/massimoaria/contentanalysis\nOpenalexR\nAn R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.\n🔗 https://docs.ropensci.org/openalexR/\nPLS-SEM Matlab Toolbox\nA Matlab/Octave package for Partial Least Squares Structural Equation Models.\n🔗 https://github.com/massimoaria/PLS-SEM"
+    "text": "Plates · A personal album\nA more personal glimpse of my life through pictures that reflect my passions, my academic collaborations, and above all, the people I care about."
+  },
+  {
+    "objectID": "photos.html#family",
+    "href": "photos.html#family",
+    "title": "Photo Gallery",
+    "section": "Family",
+    "text": "Family"
+  },
+  {
+    "objectID": "photos.html#friends",
+    "href": "photos.html#friends",
+    "title": "Photo Gallery",
+    "section": "Friends",
+    "text": "Friends"
+  },
+  {
+    "objectID": "photos.html#work",
+    "href": "photos.html#work",
+    "title": "Photo Gallery",
+    "section": "Work",
+    "text": "Work"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
-    "title": "“Curriculum Vitae”",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Education\n\nPh.D. in Computational Statistics and Applications, University of Naples Federico II, 2004\nDissertation focused on the development of a general methodological and applied framework for classification and regression trees (CART).\nLaurea cum laude in Economics, University of Naples Federico II, 2000\n\n\n\nAcademic Positions\n\nFull Professor, Statistics for Social Sciences (SECS-S/05), University of Naples Federico II (2019 – present)\nAssociate Professor, Statistics for Social Sciences, University of Naples Federico II (2014 – 2019)\nAssistant Professor, Statistics for Social Sciences, University of Naples Federico II (2007 – 2014)\nPost-doctoral Research Fellow, Federico II / CRC Transport (2004 – 2005)\n\n\n\nResearch Leadership\n\nCo-founder, K-Synth srl – Academic spin-off specialized in knowledge extraction and intelligence from large-scale heterogeneous data (2021–present)\nCo-coordinator, PMP Lab – Performance Measurement & Management in Professions, Dept. of Economics and Statistics, Federico II (2019–present)\nCoordinator, Bibliometrics & Science Mapping Research Group – Federico II & Univ. L. Vanvitelli (2010–present). www.bibliometrix.org\n\n\n\nInstitutional Roles\n\nOngoing Roles\n\nMember of the Executive Board, Department of Economics and Statistics\nMember of the Research Committee, Department of Economics and Statistics\nResponsible for the Research Quality Assessment (VQR), Department of Economics and Statistics\nMember of the Academic Board of the PhD Programme in Economics at the University of Naples Federico II\nBoard member of the Master’s degree in Data Science and in Economics (curriculum: Data Scientist for Economics) since 2019\nScientific coordinator for the Department in the following University-wide Task Forces:\n\nIndustry 4.0 and Sustainable Development\nSUM (Smart and Sustainable Mobility)\nHuman & Future\n\nScientific coordinator of the IT laboratories of the Department of Economics and Statistics\n\n\n\nPast Roles\n\nBoard member for over 20 years of the Ph.D. programs in Computational Statistics and Social Sciences and Statistics\nMember of the core design team for the new Master’s Degree Programme in Data Science at the University of Naples Federico II\nServed as Researchers’ Representative on the Faculty Council (2007–2011)\n\n\n\n\nScientific Results & Impact\nAuthor of over 200 scientific articles published in international journals, of which 38 rated “A” (top tier) by the Italian Agency of University Research Evaluation (ANVUR).\nTotal citations: 26,100 | H-Index: 43 | Last 5 years: 23,200 citations, H-Index 38 (Google Scholar)\nThe 2017 paper ”bibliometrix: An R-tool for comprehensive science mapping analysis” (Journal of Informetrics) is the most cited article ever published in the journal (Scopus: 10,300+ | Google Scholar: 19,100+ citations) and a top-downloaded article.\n\n\nResearch Interests\nMy research activities span a wide range of areas in computational and applied statistics, with a strong focus on methodological development and empirical applications. In particular:\n\nBibliometrics & Science Mapping: Statistical techniques for analyzing publication patterns, impact assessment, and systematic literature reviews\nText Mining and NLP: Corpus analysis of scientific literature and textual datasets\nMachine Learning: Tree-based models, ensemble methods, neural networks, clustering, and factorial methods\nMissing Data Imputation: Recursive, incremental algorithms for imputing missing values in qualitative and quantitative data\nComputational Statistics: Development of estimation algorithms and numerical procedures\nStatistical Survey Design: Design and execution of socio-economic surveys and customer satisfaction studies\n\n\n\nResearch Projects\n\nPRIN 2022 – SciK-Health: Mapping Scientific Knowledge about health for decision-making. Role: Principal Investigator (2023-2025)\nPRIN 2022 PNRR – Scientific production for patient care in Academic Health Science Centres. Role: Local Scientific Coordinator (2023-2025)\nPNC Digital Health (WP2 PI) – PNRR-funded ecosystem (2023–2025)\nPI, local PI, or senior researcher in:\n\n5 EU-funded projects (incl. H2020 MAGIC, ERC AdG RoDyMan)\n3 PNRR projects\n3 PRIN projects\n1 FIRB project\n11+ national and regional research initiatives\n\n\n\n\nScientific Software\n\nBibliometrix & Biblioshiny\nR package and web-app for comprehensive science mapping and bibliometric analysis. 1,350,000+ installations; 200+ community video tutorials\nTAll – Text Analysis for All\nR/Shiny app for NLP: text mining, topic modeling, sentiment analysis\nE2Tree\nExplainable Ensemble Trees: interpreting Random Forest and XGBoost models via single tree-like structures\ncontentanalysis\nTools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching\nOpenalexR\nR client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications\nDimensionsR\nR interface to the Dimensions API for bibliometric data extraction and analysis\nPubmedR\nR interface to the PubMed API for literature retrieval and analysis\nPLS-SEM Matlab Toolbox\nMatlab/Octave package for Partial Least Squares Structural Equation Models\n\n\n\nTeaching Experience\n\nCourses taught (BSc, MSc, Ph.D.):\n\nQuantitative Methods and Data Analysis\nSampling Surveys\nStatistical Methods for Evaluation\nMachine Learning Laboratory in R\nBibliometric Analysis using R (Ph.D. and Summer Schools)\n\nFaculty member of the European Summer School of Scientometrics (ESSS)\nScientific Coordinator of the Summer School in Science Mapping (SSSM)\nHeld 60+ invited seminars at doctoral schools across Europe\nSupervisor of 150+ MSc theses and multiple Ph.D. dissertations\n\n\n\nEditorial and Scientific Activities\n\nSection Editor in Chief, American Journal of Oral Medicine (Statistics)\nAssociate Editor, Journal of Oral Pathology and Medicine (Wiley)\nEditorial Board, Nature Scientific Reports, Sustainability\nReviewer for 30+ journals incl. Scientometrics, Journal of Informetrics, EJOR, CSDA, Expert Systems with Applications, Health Policy, The R Journal\nMember of the Scientific Committee of the ERCIM Working Group on Computational and Methodological Statistics\n\n\n\nScientific Societies\n\nInternational Statistical Institute (ISI)\nInternational Association for Statistical Computing (IASC)\nSocietà Italiana di Statistica (SIS)\nAssociazione di Statistica Applicata (ASA)\nAssociazione Italiana Studi di Popolazione (AISP)\n\n\n\nLanguages\n\nItalian: Native\nEnglish: Fluent (academic and professional proficiency)\n\n\n\nTechnical Skills\n\nProgramming: R (primary), Matlab, Python, C++\nTools: LaTeX, Git, Quarto, SPSS, SAS\nFrameworks: RStudio, Shiny, Positron, Plotly\nReproducible Research: Quarto, RMarkdown, version-controlled workflows"
+    "text": "Curriculum Vitae · Massimo Aria\nAn overview of my education, academic positions, research leadership, scientific production, and teaching activities."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPh.D. in Computational Statistics and Applications — University of Naples Federico II, 2004. Dissertation on the development of a general methodological and applied framework for classification and regression trees (CART).\nLaurea cum laude in Economics — University of Naples Federico II, 2000."
+  },
+  {
+    "objectID": "cv.html#academic-positions",
+    "href": "cv.html#academic-positions",
+    "title": "Curriculum Vitae",
+    "section": "Academic Positions",
+    "text": "Academic Positions\n\nFull Professor, Statistics for Social Sciences (SECS-S/05), University of Naples Federico II — 2019 – present\nAssociate Professor, Statistics for Social Sciences, University of Naples Federico II — 2014 – 2019\nAssistant Professor, Statistics for Social Sciences, University of Naples Federico II — 2007 – 2014\nPost-doctoral Research Fellow, Federico II / CRC Transport — 2004 – 2005"
+  },
+  {
+    "objectID": "cv.html#research-leadership",
+    "href": "cv.html#research-leadership",
+    "title": "Curriculum Vitae",
+    "section": "Research Leadership",
+    "text": "Research Leadership\n\nCo-founder, K-Synth srl — Academic spin-off specialised in knowledge extraction and intelligence from large-scale heterogeneous data (2021–present)\nCo-coordinator, PMP Lab — Performance Measurement & Management in Professions, Dept. of Economics and Statistics, Federico II (2019–present)\nCoordinator, Bibliometrics & Science Mapping Research Group — Federico II & Univ. L. Vanvitelli (2010–present). www.bibliometrix.org"
+  },
+  {
+    "objectID": "cv.html#institutional-roles",
+    "href": "cv.html#institutional-roles",
+    "title": "Curriculum Vitae",
+    "section": "Institutional Roles",
+    "text": "Institutional Roles\n\nOngoing Roles\n\nMember of the Executive Board, Department of Economics and Statistics\nMember of the Research Committee, Department of Economics and Statistics\nResponsible for the Research Quality Assessment (VQR), Department of Economics and Statistics\nMember of the Academic Board of the Ph.D. Programme in Economics at the University of Naples Federico II\nBoard member of the Master’s degree in Data Science and in Economics (curriculum: Data Scientist for Economics) since 2019\nScientific coordinator for the Department in the following University-wide Task Forces:\n\nIndustry 4.0 and Sustainable Development\nSUM (Smart and Sustainable Mobility)\nHuman & Future\n\nScientific coordinator of the IT laboratories of the Department of Economics and Statistics\n\n\n\nPast Roles\n\nBoard member for over 20 years of the Ph.D. programs in Computational Statistics and Social Sciences and Statistics\nMember of the core design team for the new Master’s Degree Programme in Data Science at the University of Naples Federico II\nServed as Researchers’ Representative on the Faculty Council (2007–2011)"
+  },
+  {
+    "objectID": "cv.html#scientific-results-impact",
+    "href": "cv.html#scientific-results-impact",
+    "title": "Curriculum Vitae",
+    "section": "Scientific Results & Impact",
+    "text": "Scientific Results & Impact\nAuthor of over 200 scientific articles published in international journals, of which 38 rated “A” (top tier) by the Italian Agency of University Research Evaluation (ANVUR).\nTotal citations: 26,100 · H-Index: 43 · Last 5 years: 23,200 citations, H-Index 38 (Google Scholar).\nThe 2017 paper “bibliometrix: An R-tool for comprehensive science mapping analysis” (Journal of Informetrics) is the most-cited article ever published in the journal (Scopus: 10,300+; Google Scholar: 19,100+ citations) and a top-downloaded article."
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "Research Interests",
+    "text": "Research Interests\nMy research activities span a wide range of areas in computational and applied statistics, with a strong focus on methodological development and empirical applications. In particular:\n\nBibliometrics & Science Mapping — Statistical techniques for analysing publication patterns, impact assessment, and systematic literature reviews\nText Mining and NLP — Corpus analysis of scientific literature and textual datasets\nMachine Learning — Tree-based models, ensemble methods, neural networks, clustering, and factorial methods\nMissing Data Imputation — Recursive, incremental algorithms for imputing missing values in qualitative and quantitative data\nComputational Statistics — Development of estimation algorithms and numerical procedures\nStatistical Survey Design — Design and execution of socio-economic surveys and customer-satisfaction studies"
+  },
+  {
+    "objectID": "cv.html#research-projects",
+    "href": "cv.html#research-projects",
+    "title": "Curriculum Vitae",
+    "section": "Research Projects",
+    "text": "Research Projects\n\nPRIN 2022 — SciK-Health: Mapping Scientific Knowledge about health for decision-making. Role: Principal Investigator (2023–2025)\nPRIN 2022 PNRR — Scientific production for patient care in Academic Health Science Centres. Role: Local Scientific Coordinator (2023–2025)\nPNC Digital Health — WP2 PI. PNRR-funded ecosystem (2023–2025)\nPI, local PI, or senior researcher in:\n\n5 EU-funded projects (incl. H2020 MAGIC, ERC AdG RoDyMan)\n3 PNRR projects\n3 PRIN projects\n1 FIRB project\n11+ national and regional research initiatives"
+  },
+  {
+    "objectID": "cv.html#scientific-software",
+    "href": "cv.html#scientific-software",
+    "title": "Curriculum Vitae",
+    "section": "Scientific Software",
+    "text": "Scientific Software\n\nBibliometrix & Biblioshiny — R package and web-app for comprehensive science mapping and bibliometric analysis. 1,350,000+ installations; 200+ community video tutorials\nTALL — Text Analysis for All — R/Shiny app for NLP: text mining, topic modelling, sentiment analysis\nE2Tree — Explainable Ensemble Trees: interpreting Random Forest and XGBoost models via single tree-like structures\ncontentanalysis — Tools for extracting and analysing scientific content from PDFs, including citation extraction and reference matching\nopenalexR — R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications\nDimensionsR — R interface to the Dimensions API for bibliometric data extraction and analysis\nPubmedR — R interface to the PubMed API for literature retrieval and analysis\nPLS-SEM Matlab Toolbox — Matlab/Octave package for Partial Least Squares Structural Equation Models"
+  },
+  {
+    "objectID": "cv.html#teaching-experience",
+    "href": "cv.html#teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\n\nCourses taught (BSc, MSc, Ph.D.):\n\nQuantitative Methods and Data Analysis\nSampling Surveys\nStatistical Methods for Evaluation\nMachine Learning Laboratory in R\nBibliometric Analysis using R (Ph.D. and Summer Schools)\n\nFaculty member of the European Summer School of Scientometrics (ESSS)\nScientific Coordinator of the Summer School in Science Mapping (SSSM)\n60+ invited seminars at doctoral schools across Europe\nSupervisor of 150+ MSc theses and multiple Ph.D. dissertations"
+  },
+  {
+    "objectID": "cv.html#editorial-and-scientific-activities",
+    "href": "cv.html#editorial-and-scientific-activities",
+    "title": "Curriculum Vitae",
+    "section": "Editorial and Scientific Activities",
+    "text": "Editorial and Scientific Activities\n\nSection Editor in Chief, American Journal of Oral Medicine (Statistics)\nAssociate Editor, Journal of Oral Pathology and Medicine (Wiley)\nEditorial Board, Nature Scientific Reports, Sustainability\nReviewer for 30+ journals including Scientometrics, Journal of Informetrics, EJOR, CSDA, Expert Systems with Applications, Health Policy, The R Journal\nMember of the Scientific Committee of the ERCIM Working Group on Computational and Methodological Statistics"
+  },
+  {
+    "objectID": "cv.html#scientific-societies",
+    "href": "cv.html#scientific-societies",
+    "title": "Curriculum Vitae",
+    "section": "Scientific Societies",
+    "text": "Scientific Societies\n\nInternational Statistical Institute (ISI)\nInternational Association for Statistical Computing (IASC)\nSocietà Italiana di Statistica (SIS)\nAssociazione di Statistica Applicata (ASA)\nAssociazione Italiana Studi di Popolazione (AISP)"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "Languages",
+    "text": "Languages\n\nItalian — Native\nEnglish — Fluent (academic and professional proficiency)"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\nProgramming — R (primary), Matlab, Python, C++\nTools — LaTeX, Git, Quarto, SPSS, SAS\nFrameworks — RStudio, Shiny, Positron, Plotly\nReproducible Research — Quarto, RMarkdown, version-controlled workflows"
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contacts",
+    "section": "",
+    "text": "Colophon · How to reach me\nFor research enquiries, collaborations, and academic correspondence."
+  },
+  {
+    "objectID": "contacts.html#direct",
+    "href": "contacts.html#direct",
+    "title": "Contacts",
+    "section": "Direct",
+    "text": "Direct\n\nEmail — massimo.aria[at]unina.it\nAffiliation — Department of Economics and Statistics, University of Naples Federico II\nAddress — Via Cintia, Monte Sant’Angelo, Naples, Italy"
+  },
+  {
+    "objectID": "contacts.html#research-profiles",
+    "href": "contacts.html#research-profiles",
+    "title": "Contacts",
+    "section": "Research Profiles",
+    "text": "Research Profiles\n\nORCID — 0000-0002-8517-9411\nGoogle Scholar — Qu66YZQAAAAJ\nResearcherID — O-7983-2015\nResearchGate — Massimo Aria"
+  },
+  {
+    "objectID": "contacts.html#research-institutions-groups",
+    "href": "contacts.html#research-institutions-groups",
+    "title": "Contacts",
+    "section": "Research Institutions & Groups",
+    "text": "Research Institutions & Groups\n\nK-Synth Academic Spin-off\nBibliometrix — official website\nSummer School in Science Mapping\nDepartment of Economics and Statistics, Federico II\nUniversity of Naples Federico II"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nMassimo Aria\n",
+    "section": "",
+    "text": "Massimo Aria\n\n\n\n\n\nVol. XXIV · Personal Pages · MMXXVI\n\n\nMassimo Aria\n\n\nProfessor of Statistics for Social Sciences — University of Naples Federico II\n\n\n\nFields\n\n\nBibliometrics · Science mapping · Machine learning · Text mining\n\n\nDepartment\n\n\nEconomics and Statistics\n\n\nSpin-off\n\n\nK-Synth srl, co-founder\n\n\nSoftware\n\n\nbibliometrix · biblioshiny · TALL · openalexR\n\n\n\n\n\n\n200+ Peer-reviewed articles\n\n\n27,500+ Google Scholar citations\n\n\n43 H-index\n\n\n1.40M+ bibliometrix installations\n\n\nThe long form\n\nWelcome. I am a full professor of Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II. My research lies at the intersection of bibliometrics, science mapping, text mining, statistical modelling, and machine learning.\n\nI am the author of over two hundred scientific articles and the creator of several open-source R packages, including the widely used bibliometrix — with more than 1.40M installations worldwide — and TALL, an interactive environment for text analysis. I am co-founder of K-Synth, an academic spin-off dedicated to transforming data into actionable knowledge through innovative statistical and computational methods.\nOver the years I have led and contributed to numerous national and international research programmes — PRIN, PNRR, EU Framework, Horizon 2020 — and I actively support open science and reproducible research.\nBeyond the academy, I am happily married to Adelaide and the proud father of Vittoria and Lorenzo — they keep life joyful, unpredictable, and deeply inspiring.\n\nNavigate this site\n\nShort Bio — career, awards, and impact\nCurriculum Vitae — positions, projects, editorial activities\nPublications — selected journal articles and monographs\nSoftware — R packages and scientific tools\nResearch Statistics — live metrics from Google Scholar and CRAN\nProjects · Teaching · Photos · Contacts"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "Research Projects · Principal Investigations\nSelected ongoing and past research projects — European frameworks, national PRIN / PNRR programmes, and regional initiatives."
+  },
+  {
+    "objectID": "projects.html#ongoing-projects",
+    "href": "projects.html#ongoing-projects",
+    "title": "Research Projects",
+    "section": "Ongoing Projects",
+    "text": "Ongoing Projects\n\n\nPRIN 2022 · MIUR · Principal Investigator (2023 – 2025)\n\n\nSciK-Health — The value of scientific production for patient care in Academic Health Science Centres\n\nProject website: massimoaria.github.io/scikhealth\nThis research project aims to map the full spectrum of scientific output — beyond academic publications — of Italian public Academic Health Centers (AHCs) from 2000 onwards. Its purpose is twofold: to provide citizens and healthcare professionals with a science-based orientation tool, and to offer academic managers, funders, and policy-makers an evidence-based decision-making instrument.\nThe study involves the collection and integration of diverse research outputs — publications, patents, clinical trials, grants, altmetrics — drawn from both traditional and next-generation databases. Using science mapping and longitudinal analysis, the project reconstructs the conceptual and social structures of knowledge produced by AHCs, resulting in the creation of a Digital Conceptual and Social Atlas. A dedicated web application, SciK-Health, will disseminate these findings to the public, serving as a health-literacy and decision-support tool. A restricted-access tool will provide institutional stakeholders with a synthetic indicator — R-daisy — summarising each hospital’s research expertise. The project concludes with a validation phase involving academic hospitals and regional health agencies, ensuring the robustness and applicability of its outputs.\n\n\n\nPRIN 2022 PNRR · Local Scientific Coordinator (2023 – 2025)\n\n\nThe impact of scientific production on healthcare outcomes in Italian Academic Health Science Centres\n\nAcademic Health Science Centres (AHSCs) share three strategic missions: training healthcare professionals, developing innovative technologies and digital solutions, and delivering high-quality, data-driven care. Balancing these missions often generates strategic ambiguity and organisational tension. While existing studies have occasionally examined how teaching influences patient care, little is known about the effects of research on clinical outcomes.\nThis project investigates whether and how academic research performance influences patient-care quality in Italian public AHSCs. It will begin by constructing a longitudinal database of scientometric and bibliometric metadata, covering publications, patents, clinical trials, grants, and altmetrics from 2000 to the present.\nFollowing data collection we will measure productivity, growth, impact, and novelty, and construct a composite weighted indicator to evaluate the scientific production of each AHSC. Finally, using econometric models, the project will analyse how research activity correlates with key dimensions of healthcare performance — 30-day mortality, hospital readmission rates, patient mobility, waiting lists, and case-mix complexity.\nThe research aims to answer three central questions: does research performance in AHSCs lead to improved health outcomes? Is research activity a driver of hospital case-mix? And finally, does academic research performance influence patient choices regarding healthcare providers?"
+  },
+  {
+    "objectID": "projects.html#past-projects",
+    "href": "projects.html#past-projects",
+    "title": "Research Projects",
+    "section": "Past Projects",
+    "text": "Past Projects\nTwo decades of collaborative research\nOver the past two decades I have contributed to and coordinated a wide range of research projects at the European, national, and regional levels.\n\nEuropean Level\nSenior researcher in several EU-funded initiatives, including the Horizon 2020 project MAGIC — Moving Towards Adaptive Governance in Complexity, which addressed nexus-security challenges. Within the 7th Framework Programme I participated in EUROC — European Robotics Challenges and RoDyMan — Robotic Dynamic Manipulation, focusing on advanced robotics. Earlier, I contributed to iWeb-Care, a project on fraud detection in healthcare e-government services, and INSPECTOR, which developed distributed systems for data validation — both funded under the 6th Framework Programme. I also acted as Scientific Coordinator for the transnational cooperation initiative “Network for Regional Development and Entrepreneurship” under the EQUAL Phase 2 Programme, and as Scientific Committee member in the related SPIDER project on territorial information management for social enterprises.\n\n\nNational Level\nInvolvement in multiple PRIN (Projects of National Interest) and FIRB initiatives. These include my role as Principal Investigator for the current PRIN 2022 project SciK-Health and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to PNRR-funded initiatives such as the Digital Health Ecosystem, where I coordinate Work Package 2, and the National Centre for Sustainable Mobility, where I serve as a member of Spoke 10.\nIn previous years I was senior researcher for PRIN projects on rationality and attention in children, tree-based methods for classification and regression, and knowledge discovery in decision-making. I also collaborated in the FIRB project on Supply Chain Management led by the University of Salerno.\n\n\nRegional & University-Funded Projects\nStudies on health inequalities, childhood-care services in southern Italy, women’s re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects including SOCIAL-NET (aging and social exclusion), MoniTur (cultural-tourism data analysis), and the data-strategy component of the City of Naples Strategic Plan. I further contributed as senior researcher to ICT-focused programmes co-financed by the Campania and Puglia Regions — VIRNET, ANGELO, PROTEO, PORTUR, TRITONE — as well as to the Regional Competence Centre on Transport focused on demand modelling through statistical methods."
+  },
+  {
+    "objectID": "shortbio.html",
+    "href": "shortbio.html",
+    "title": "Short Bio",
+    "section": "",
+    "text": "Profile · Massimo Aria\nFull Professor in Statistics for Social Sciences at the Department of Economics and Statistics of the University of Naples Federico II. Ph.D. in Computational Statistics.\nMy main research fields include bibliometrics, science mapping, systematic literature reviews, statistical survey methodology, machine learning, and text mining. I have led numerous statistical surveys and data-science projects related to economic, social, ethological, and healthcare phenomena."
+  },
+  {
+    "objectID": "shortbio.html#scientific-activities",
+    "href": "shortbio.html#scientific-activities",
+    "title": "Short Bio",
+    "section": "Scientific Activities",
+    "text": "Scientific Activities\nI have authored more than 200 peer-reviewed scientific articles, of which 38 have been classified as “A” (top tier) in scientific area 13 (Economics and Statistics) by ANVUR (Italian Agency of University Research Evaluation).\nI am the co-founder of the K-Synth Academic Spin-off, a science-centric information and intelligence start-up focused on the extraction and analysis of knowledge from large volumes of heterogeneous data through quantitative, statistical, and data-science methods.\nI am the Scientific Coordinator of the Summer School in Science Mapping (SSSM) and a faculty member of the European Summer School of Scientometrics (ESSS)."
+  },
+  {
+    "objectID": "shortbio.html#academic-and-institutional-roles",
+    "href": "shortbio.html#academic-and-institutional-roles",
+    "title": "Short Bio",
+    "section": "Academic and Institutional Roles",
+    "text": "Academic and Institutional Roles\n\nBoard member of the Naples Ph.D. Program in Economics\nBoard member for over 20 years of the Ph.D. programs in Computational Statistics and Social Sciences and Statistics\nSince 2019, board member of the Master’s degree in Data Science and in Economics (curriculum: Data Scientist for Economics)\nSince 2010, I have coordinated — together with Prof. C. Cuccurullo — the research group in bibliometrics and science mapping at the University of Naples Federico II and the University of Campania L. Vanvitelli (www.bibliometrix.org)\nI have coordinated or participated in 5 European projects, 3 PNRR projects, 5 PRIN projects, 1 FIRB project, and 11 national or regional projects\nSince 2007, scientific committee member of the Statistical Algorithms and Software Specialized Team, ERCIM Working Group on Computational and Methodological Statistics\nCurrently responsible for the Research Quality Assessment (VQR) of the Department of Economics and Statistics"
+  },
+  {
+    "objectID": "shortbio.html#scientific-societies",
+    "href": "shortbio.html#scientific-societies",
+    "title": "Short Bio",
+    "section": "Scientific Societies",
+    "text": "Scientific Societies\nSenior member of the following scientific societies:\n\nSocietà Italiana di Statistica (SIS)\nAssociazione Italiana Studi di Popolazione (AISP)\nAssociazione di Statistica Applicata (ASA)\nInternational Statistical Institute (ISI)\nInternational Association for Statistical Computing (IASC)"
+  },
+  {
+    "objectID": "shortbio.html#scientific-results-and-awards",
+    "href": "shortbio.html#scientific-results-and-awards",
+    "title": "Short Bio",
+    "section": "Scientific Results and Awards",
+    "text": "Scientific Results and Awards\nTo date, my publications have received over 26,100 citations, and my H-index is 43. In the last five years alone, my publications have been cited more than 23,200 times, with an H-index of 38 (source: Google Scholar).\nMy article “bibliometrix: An R-tool for comprehensive science mapping analysis” (2017, Journal of Informetrics, IF 5.107) is:\n\nThe most-cited article ever in the journal (Scopus: 10,300+ citations; Google Scholar: 19,100+)\nOne of the top-downloaded articles on ScienceDirect (source)"
+  },
+  {
+    "objectID": "shortbio.html#social-impact-of-my-research-activities",
+    "href": "shortbio.html#social-impact-of-my-research-activities",
+    "title": "Short Bio",
+    "section": "Social Impact of My Research Activities",
+    "text": "Social Impact of My Research Activities\nBibliometrix and its Shiny web-app Biblioshiny are recognised as the most comprehensive and user-friendly software for science mapping. In a widely cited review of bibliometric tools, Moral-Muñoz et al. (2020) wrote:\n\nAt this moment, maybe Bibliometrix and its Shiny platform contain the more extensive set of techniques implemented, and together with the easiness of its interface, could be a great software for practitioners.\n\nToday, Bibliometrix is one of the most used science-mapping tools worldwide, with:\n\n1,350,000+ installations\nA large international community of researchers actively using and promoting it\nOver 200 YouTube tutorials in multiple languages\n\nIn the past four years I have delivered over 60 seminars in Italian doctoral schools (Universities of Bergamo, Brescia, Calabria, Genoa, Polytechnic of Milan, Naples, Pisa, Rome, Salento, among others) and international ones (Universities of Bodø — Norway, Edinburgh, Granada, London, Melbourne, Paris)."
+  },
+  {
+    "objectID": "statistics.html",
+    "href": "statistics.html",
+    "title": "Research Statistics",
+    "section": "",
+    "text": "Google Scholar · CRAN logs · automatically refreshed\nLive research metrics — citations, H-index, and CRAN package downloads — refreshed automatically each time the site is rendered."
+  },
+  {
+    "objectID": "statistics.html#google-scholar-metrics",
+    "href": "statistics.html#google-scholar-metrics",
+    "title": "Research Statistics",
+    "section": "Google Scholar Metrics",
+    "text": "Google Scholar Metrics\n\n\n\n\n27,593\nTotal Citations\n\n\n43\nH-Index\n\n\n115\ni10-Index\n\n\n\n\n\nCitations per Year\n\n\n\n\n\n\n\n\nCumulative Citations"
+  },
+  {
+    "objectID": "statistics.html#cran-package-downloads",
+    "href": "statistics.html#cran-package-downloads",
+    "title": "Research Statistics",
+    "section": "CRAN Package Downloads",
+    "text": "CRAN Package Downloads\n\nTotal CRAN Downloads\n\n\n\n\n\n1,400,679\nbibliometrix\n\n\n467,059\npubmedR\n\n\n464,713\ndimensionsR\n\n\n349,244\nopenalexR\n\n\n\n\n109,994\ncontentanalysis\n\n\n7,039\ntall\n\n\n2,957\ne2tree\n\n\n\n\n\n\n\nCumulative Downloads Over Time\n\n\n\n\n\n\n\n\nMonthly Downloads (Last 12 Months)\n\n\n\n\n\n\n\nColophon · Citations source: Google Scholar · Downloads source: CRAN logs · Automatically refreshed on render"
   }
 ]

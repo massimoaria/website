@@ -1,9 +1,11 @@
 /.DS_Store
+**/.DS_Store
 /.RData
 /.Rhistory
 /.Rproj.user
 /.quarto
 /website.Rproj
 /.quarto/
+/tasks/
 
 **/*.quarto_ipynb

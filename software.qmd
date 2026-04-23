@@ -1,42 +1,71 @@
 ---
-title: ""
+title: "Scientific Software"
+description: "R packages, Shiny applications, and scientific tools"
 format: html
-editor: visual
 ---
 
-# Scientific Software
+<span class="eyebrow">Catalogue of open-source tools</span>
 
--   **Bibliometrix**\
-    An R package for comprehensive science mapping and bibliometric analysis. It supports a full bibliometric workflow, including data import, descriptive analysis, science mapping, and visualization.\
-    🔗 <a href="https://www.bibliometrix.org" target="_blank">bibliometrix.org</a>
+<p class="lede">Open-source scientific software I have authored or co-authored. Most packages are available on CRAN and GitHub.</p>
 
--   **Biblioshiny**\
-    A user-friendly Shiny web interface for Bibliometrix, enabling researchers to conduct advanced bibliometric and science mapping analyses without coding.
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">Bibliometrix</h3>
+<div class="catalogue-entry__meta">R package · CRAN · 1.35M+ installations</div>
+A comprehensive toolbox for science mapping and bibliometric analysis. Supports the complete workflow: data import, descriptive analysis, network and conceptual mapping, and visualisation.<br>
+→ <a href="https://www.bibliometrix.org" target="_blank">bibliometrix.org</a>
+:::
 
--   **TAll – Text Analysis for All**\
-    A general-purpose R Shiny application for text data analysis, supporting topic modeling, frequency analysis, clustering, and content classification.\
-    🔗 <a href="https://github.com/massimoaria/tall" target="_blank">https://github.com/massimoaria/tall</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">Biblioshiny</h3>
+<div class="catalogue-entry__meta">Shiny web-app · Interactive front-end for Bibliometrix</div>
+A user-friendly Shiny interface for Bibliometrix, enabling researchers to perform advanced bibliometric and science-mapping analyses without writing code.
+:::
 
--   **E2Tree**\
-    An explainable machine learning approach based on ensemble trees, designed to generate interpretable models from complex data, with visual exploration tools for decision rules.\
-    🔗 <a href="https://github.com/massimoaria/e2tree" target="_blank">https://github.com/massimoaria/e2tree</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">TALL — Text Analysis for All</h3>
+<div class="catalogue-entry__meta">R/Shiny · Text mining · NLP</div>
+A general-purpose application for text-data analysis, supporting topic modelling, frequency analysis, clustering, and content classification.<br>
+→ <a href="https://github.com/massimoaria/tall" target="_blank">github.com/massimoaria/tall</a>
+:::
 
--   **DimensionsR**\
-    An R package that provides programmatic access to the Dimensions API, allowing bibliometric researchers to retrieve and analyze data on publications, grants, clinical trials, and patents.\
-    🔗 <a href="https://github.com/massimoaria/dimensionsR" target="_blank">https://github.com/massimoaria/dimensionsR</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">E2Tree</h3>
+<div class="catalogue-entry__meta">R package · Explainable ML</div>
+An explainable machine-learning approach based on ensemble trees. Generates interpretable models from complex data, with visual exploration of decision rules.<br>
+→ <a href="https://github.com/massimoaria/e2tree" target="_blank">github.com/massimoaria/e2tree</a>
+:::
 
--   **PubmedR**\
-    An R interface to the PubMed API for searching, downloading, and analyzing biomedical literature metadata, useful for systematic literature reviews and medical informatics.\
-    🔗 <a href="https://github.com/massimoaria/pubmedR" target="_blank">https://github.com/massimoaria/pubmedR</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">DimensionsR</h3>
+<div class="catalogue-entry__meta">R package · API client</div>
+Programmatic access to the Dimensions API — publications, grants, clinical trials, and patents.<br>
+→ <a href="https://github.com/massimoaria/dimensionsR" target="_blank">github.com/massimoaria/dimensionsR</a>
+:::
 
--   **contentanalysis**\
-    Tools for extracting and analyzing scientific content from PDFs, including citation extraction and reference matching.\
-    🔗 <a href="https://github.com/massimoaria/contentanalysis" target="_blank">https://github.com/massimoaria/contentanalysis</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">PubmedR</h3>
+<div class="catalogue-entry__meta">R package · API client · Medical literature</div>
+An R interface to the PubMed API for searching, downloading, and analysing biomedical literature metadata — useful for systematic reviews and medical informatics.<br>
+→ <a href="https://github.com/massimoaria/pubmedR" target="_blank">github.com/massimoaria/pubmedR</a>
+:::
 
--   **OpenalexR**\
-    An R client for the OpenAlex API, facilitating access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.\
-    🔗 <a href="https://docs.ropensci.org/openalexR/" target="_blank">https://docs.ropensci.org/openalexR/</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">contentanalysis</h3>
+<div class="catalogue-entry__meta">R package · Scientific PDF analysis</div>
+Tools for extracting and analysing scientific content from PDFs, including citation extraction and reference matching.<br>
+→ <a href="https://github.com/massimoaria/contentanalysis" target="_blank">github.com/massimoaria/contentanalysis</a>
+:::
 
--   **PLS-SEM Matlab Toolbox**\
-    A Matlab/Octave package for Partial Least Squares Structural Equation Models.\
-    🔗 <a href="https://github.com/massimoaria/PLS-SEM" target="_blank">https://github.com/massimoaria/PLS-SEM</a>
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">openalexR</h3>
+<div class="catalogue-entry__meta">R package · ROpenSci · API client</div>
+An R client for the OpenAlex API, providing access to open bibliographic metadata for scholarly publications, authors, institutions, and citations.<br>
+→ <a href="https://docs.ropensci.org/openalexR/" target="_blank">docs.ropensci.org/openalexR</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">PLS-SEM Matlab Toolbox</h3>
+<div class="catalogue-entry__meta">Matlab / Octave · Structural equation modelling</div>
+A Matlab / Octave package for Partial Least Squares Structural Equation Models.<br>
+→ <a href="https://github.com/massimoaria/PLS-SEM" target="_blank">github.com/massimoaria/PLS-SEM</a>
+:::

@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.25">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A more personal glimpse">
 
 <title>Photo Gallery – Massimo Aria</title>
 <style>
@@ -37,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-003c7ce323138a8a6468cb23c965a473.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dbd5a2784d7bdfe812af85616ef0749a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,6 +69,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -80,8 +82,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Massimo Aria</span>
     </a>
@@ -93,10 +93,10 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about-me" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About Me</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-me">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
     <a class="dropdown-item" href="./shortbio.html">
  <span class="dropdown-text">Short Bio</span></a>
@@ -143,12 +143,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contacts</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=Qu66YZQAAAAJ&amp;hl=it"> <i class="bi bi-book" role="img">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=Qu66YZQAAAAJ&amp;hl=it"> <i class="bi bi-book" role="img" aria-label="Google Scholar">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.researchgate.net/profile/Massimo-Aria"> <i class="bi bi-globe" role="img">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Massimo-Aria"> <i class="bi bi-globe" role="img" aria-label="ResearchGate">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -164,12 +164,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">In this page</h2>
    
   <ul>
-  <li><a href="#family" id="toc-family" class="nav-link active" data-scroll-target="#family">👨‍👩‍👧‍👦 Family</a></li>
-  <li><a href="#friends" id="toc-friends" class="nav-link" data-scroll-target="#friends">👫 Friends</a></li>
-  <li><a href="#work" id="toc-work" class="nav-link" data-scroll-target="#work">🧑‍🏫 Work</a></li>
+  <li><a href="#family" id="toc-family" class="nav-link active" data-scroll-target="#family">Family</a></li>
+  <li><a href="#friends" id="toc-friends" class="nav-link" data-scroll-target="#friends">Friends</a></li>
+  <li><a href="#work" id="toc-work" class="nav-link" data-scroll-target="#work">Work</a></li>
   </ul>
 </nav>
 </nav>
@@ -185,6 +185,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Photo Gallery</h1>
 </div>
 
+<div>
+  <div class="description">
+    A more personal glimpse
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page-right">
@@ -199,55 +204,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-.gallery-grid {
-  column-count: 3;
-  column-gap: 1rem;
-}
-
-.gallery-grid a img {
-  max-width: 300px;
-  /*width: 100%;*/
-  margin-bottom: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
-}
-
-.gallery-grid a img:hover {
-  transform: scale(1.3);
-}
-
-@media (max-width: 768px) {
-  .gallery-grid {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery-grid {
-    column-count: 1;
-  }
-}
-</style>
-<p>Welcome to a more personal glimpse of my life, through pictures that reflect my passions, my academic collaborations, and above all, the people I care about.</p>
+<p><span class="eyebrow">Plates · A personal album</span></p>
+<p class="lede">
+A more personal glimpse of my life through pictures that reflect my passions, my academic collaborations, and above all, the people I care about.
+</p>
 <hr>
 <section id="family" class="level2">
-<h2 class="anchored" data-anchor-id="family">👨‍👩‍👧‍👦 Family</h2>
+<h2 class="anchored" data-anchor-id="family">Family</h2>
 <div class="gallery-grid">
 <p><a href="photos/family1.jpg" data-lightbox="family"><img src="photos/family1.jpg" alt=""></a> <a href="photos/family2.jpg" data-lightbox="family"><img src="photos/family2.jpg" alt=""></a> <a href="photos/family3.jpg" data-lightbox="family"><img src="photos/family3.jpg" alt=""></a> <a href="photos/family4.jpg" data-lightbox="family"><img src="photos/family4.jpg" alt=""></a> <a href="photos/family5.jpg" data-lightbox="family"><img src="photos/family5.jpg" alt=""></a> <a href="photos/family6.jpg" data-lightbox="family"><img src="photos/family6.jpg" alt=""></a> <a href="photos/lorenzo.jpg" data-lightbox="family"><img src="photos/lorenzo.jpg" alt=""></a> <a href="photos/vittoria.jpg" data-lightbox="family"><img src="photos/vittoria.jpg" alt=""></a> <a href="photos/family7.jpg" data-lightbox="family"><img src="photos/family7.jpg" alt=""></a></p>
 </div>
 <hr>
 </section>
 <section id="friends" class="level2">
-<h2 class="anchored" data-anchor-id="friends">👫 Friends</h2>
+<h2 class="anchored" data-anchor-id="friends">Friends</h2>
 <div class="gallery-grid">
-<p><a href="photos/friends1.jpg" data-lightbox="family"><img src="photos/friends1.jpg" alt=""></a> <a href="photos/friends2.jpg" data-lightbox="family"><img src="photos/friends2.jpg" alt=""></a> <a href="photos/friends3.jpg" data-lightbox="family"><img src="photos/friends3.jpg" alt=""></a> <a href="photos/friends4.jpg" data-lightbox="family"><img src="photos/friends4.jpg" alt=""></a> <a href="photos/friends5.jpg" data-lightbox="family"><img src="photos/friends5.jpg" alt=""></a> <a href="photos/friends6.jpg" data-lightbox="family"><img src="photos/friends6.jpg" alt=""></a> <a href="photos/friends7.jpg" data-lightbox="family"><img src="photos/friends7.jpg" alt=""></a> <a href="photos/friends8.jpg" data-lightbox="family"><img src="photos/friends8.jpg" alt=""></a> <a href="photos/friends9.jpg" data-lightbox="family"><img src="photos/friends9.jpg" alt=""></a> <a href="photos/friends10.jpg" data-lightbox="family"><img src="photos/friends10.jpg" alt=""></a> <a href="photos/friends11.jpg" data-lightbox="family"><img src="photos/friends11.jpg" alt=""></a> <a href="photos/friends12.jpg" data-lightbox="family"><img src="photos/friends12.jpg" alt=""></a></p>
+<p><a href="photos/friends1.jpg" data-lightbox="friends"><img src="photos/friends1.jpg" alt=""></a> <a href="photos/friends2.jpg" data-lightbox="friends"><img src="photos/friends2.jpg" alt=""></a> <a href="photos/friends3.jpg" data-lightbox="friends"><img src="photos/friends3.jpg" alt=""></a> <a href="photos/friends4.jpg" data-lightbox="friends"><img src="photos/friends4.jpg" alt=""></a> <a href="photos/friends5.jpg" data-lightbox="friends"><img src="photos/friends5.jpg" alt=""></a> <a href="photos/friends6.jpg" data-lightbox="friends"><img src="photos/friends6.jpg" alt=""></a> <a href="photos/friends7.jpg" data-lightbox="friends"><img src="photos/friends7.jpg" alt=""></a> <a href="photos/friends8.jpg" data-lightbox="friends"><img src="photos/friends8.jpg" alt=""></a> <a href="photos/friends9.jpg" data-lightbox="friends"><img src="photos/friends9.jpg" alt=""></a> <a href="photos/friends10.jpg" data-lightbox="friends"><img src="photos/friends10.jpg" alt=""></a> <a href="photos/friends11.jpg" data-lightbox="friends"><img src="photos/friends11.jpg" alt=""></a> <a href="photos/friends12.jpg" data-lightbox="friends"><img src="photos/friends12.jpg" alt=""></a></p>
 </div>
 <hr>
 </section>
 <section id="work" class="level2">
-<h2 class="anchored" data-anchor-id="work">🧑‍🏫 Work</h2>
+<h2 class="anchored" data-anchor-id="work">Work</h2>
 <div class="gallery-grid">
 <p><a href="photos/work1.jpg" data-lightbox="work"><img src="photos/work1.jpg" alt=""></a> <a href="photos/work2.jpg" data-lightbox="work"><img src="photos/work2.jpg" alt=""></a> <a href="photos/work3.jpg" data-lightbox="work"><img src="photos/work3.jpg" alt=""></a> <a href="photos/work4.jpg" data-lightbox="work"><img src="photos/work4.jpg" alt=""></a> <a href="photos/work5.jpg" data-lightbox="work"><img src="photos/work5.jpg" alt=""></a> <a href="photos/work6.jpg" data-lightbox="work"><img src="photos/work6.jpg" alt=""></a> <a href="photos/work7.jpg" data-lightbox="work"><img src="photos/work7.jpg" alt=""></a> <a href="photos/work8.jpg" data-lightbox="work"><img src="photos/work8.jpg" alt=""></a> <a href="photos/work9.jpg" data-lightbox="work"><img src="photos/work9.jpg" alt=""></a> <a href="photos/work22.jpg" data-lightbox="work"><img src="photos/work22.jpg" alt=""></a> <a href="photos/work23.jpg" data-lightbox="work"><img src="photos/work23.jpg" alt=""></a> <a href="photos/work10.jpg" data-lightbox="work"><img src="photos/work10.jpg" alt=""></a> <a href="photos/work11.jpg" data-lightbox="work"><img src="photos/work11.jpg" alt=""></a> <a href="photos/work12.jpg" data-lightbox="work"><img src="photos/work12.jpg" alt=""></a> <a href="photos/work13.jpg" data-lightbox="work"><img src="photos/work13.jpg" alt=""></a> <a href="photos/work14.jpg" data-lightbox="work"><img src="photos/work14.jpg" alt=""></a> <a href="photos/work15.jpg" data-lightbox="work"><img src="photos/work15.jpg" alt=""></a> <a href="photos/work16.jpg" data-lightbox="work"><img src="photos/work16.jpg" alt=""></a> <a href="photos/work17.jpg" data-lightbox="work"><img src="photos/work17.jpg" alt=""></a> <a href="photos/work18.jpg" data-lightbox="work"><img src="photos/work18.jpg" alt=""></a> <a href="photos/work19.PNG" data-lightbox="work"><img src="photos/work19.PNG" alt=""></a> <a href="photos/work20.jpg" data-lightbox="work"><img src="photos/work20.jpg" alt=""></a> <a href="photos/work21.jpg" data-lightbox="work"><img src="photos/work21.jpg" alt=""></a> <a href="photos/work24.jpg" data-lightbox="work"><img src="photos/work24.jpg" alt=""></a> <a href="photos/work25.jpg" data-lightbox="work"><img src="photos/work25.jpg" alt=""></a></p>
 </div>
@@ -343,6 +320,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -663,7 +645,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2026 Massimo Aria – Built with <a href="https://quarto.org">Quarto</a></p>
+<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © 2026 — Set in Fraunces &amp; Source Serif 4. Built with <a href="https://quarto.org">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
@@ -674,4 +656,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

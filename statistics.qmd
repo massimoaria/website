@@ -1,5 +1,6 @@
 ---
 title: "Research Statistics"
+description: "Live metrics — citations, downloads, impact"
 format: html
 execute:
   warning: false
@@ -16,17 +17,23 @@ library(plotly)
 library(dplyr)
 library(htmltools)
 
-# ---- Cohesive color palette (warm academic tones) ----
-col_dark    <- "#1b2a4a"
-col_blue    <- "#3a6ea5"
-col_teal    <- "#28a99e"
-col_orange  <- "#e8843c"
-col_rose    <- "#c74b7a"
-col_gray    <- "#5a6d7e"
-col_purple  <- "#7b5ea7"
+# ---- Editorial Journal palette (mirrors theme.scss) ----
+col_ink     <- "#15181D"   # primary ink
+col_accent  <- "#8C2F39"   # editorial red
+col_paper   <- "#F7F3EC"   # paper background
+col_paper2  <- "#EFE9DC"
+col_rule    <- "#D8CFBC"
+col_muted   <- "#6B6459"
+col_forest  <- "#3C6E47"   # secondary — natural green
+col_ochre   <- "#B8812B"   # secondary — warm ochre
+col_slate   <- "#3F5E8C"   # secondary — cool slate
+col_plum    <- "#5C3A50"   # secondary — deep plum
 
-# Chart colors
-chart_colors <- c(col_dark, col_teal, col_orange, col_blue, col_rose, col_gray, col_purple)
+# Base font family for plotly charts
+chart_font_family <- "Source Serif 4, Georgia, serif"
+
+# Chart colors — ink + accent + warm/cool editorial tones
+chart_colors <- c(col_ink, col_accent, col_forest, col_slate, col_ochre, col_plum, col_muted)
 
 # ---- Google Scholar data (with local cache) ----
 scholar_id <- "Qu66YZQAAAAJ"
@@ -60,6 +67,10 @@ if (is.null(profile) || is.null(cite_history)) {
 }
 ```
 
+[Google Scholar · CRAN logs · automatically refreshed]{.eyebrow}
+
+<p class="lede">Live research metrics — citations, H-index, and CRAN package downloads — refreshed automatically each time the site is rendered.</p>
+
 ## Google Scholar Metrics
 
 ```{r}
@@ -76,24 +87,21 @@ if (!is.null(profile)) {
   i10_index <- "N/A"
 }
 
-make_card <- function(value, label, bg_color) {
+# Editorial-style card: paper background, thin ink border, display-serif number, mono label.
+# Styling lives in theme.scss under .ed-card.
+make_card <- function(value, label, accent = FALSE) {
   div(
-    style = paste0(
-      "background:", bg_color, ";padding:1.5rem 2.5rem;",
-      "border-radius:12px;text-align:center;min-width:180px;",
-      "box-shadow:0 4px 12px rgba(0,0,0,0.15);"
-    ),
-    h1(style = "margin:0;font-size:2.5rem;font-weight:700;color:#ffffff;", value),
-    tags$hr(style = "border:0;border-top:1px solid rgba(255,255,255,0.3);margin:0.5rem 1rem;"),
-    p(style = "margin:0;color:rgba(255,255,255,0.9);font-size:0.95rem;", label)
+    class = paste0("ed-card", if (accent) " ed-card--accent" else ""),
+    span(class = "ed-card__num", value),
+    span(class = "ed-card__label", label)
   )
 }
 
 div(
-  style = "display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;margin:1.5rem 0;",
-  make_card(format(total_cites, big.mark = ","), "Total Citations", col_dark),
-  make_card(h_index, "H-Index", col_blue),
-  make_card(i10_index, "i10-Index", col_teal)
+  style = "display:flex;justify-content:center;gap:1.25rem;flex-wrap:wrap;margin:1.5rem 0 2rem;",
+  make_card(format(total_cites, big.mark = ","), "Total Citations", accent = TRUE),
+  make_card(h_index, "H-Index"),
+  make_card(i10_index, "i10-Index")
 )
 ```
 
@@ -105,11 +113,15 @@ div(
 
 if (!is.null(cite_history)) {
   plot_ly(cite_history, x = ~year, y = ~cites, type = "bar",
-          marker = list(color = col_teal),
+          marker = list(color = col_accent,
+                        line = list(color = col_ink, width = 0.5)),
           hovertemplate = "Year: %{x}<br>Citations: %{y:,}<extra></extra>") |>
     layout(
-      xaxis = list(title = "Year", dtick = 1),
-      yaxis = list(title = "Citations"),
+      font = list(family = chart_font_family, color = col_ink, size = 13),
+      xaxis = list(title = "Year", dtick = 1,
+                   gridcolor = col_rule, zerolinecolor = col_rule),
+      yaxis = list(title = "Citations",
+                   gridcolor = col_rule, zerolinecolor = col_rule),
       plot_bgcolor = "rgba(0,0,0,0)",
       paper_bgcolor = "rgba(0,0,0,0)",
       margin = list(t = 10, l = 60, r = 20, b = 50)
@@ -129,12 +141,16 @@ if (!is.null(cite_history)) {
   cite_history$cumulative <- cumsum(cite_history$cites)
 
   plot_ly(cite_history, x = ~year, y = ~cumulative, type = "scatter", mode = "lines+markers",
-          line = list(color = col_dark, width = 3),
-          marker = list(color = col_dark, size = 7),
+          line = list(color = col_ink, width = 2.5),
+          marker = list(color = col_accent, size = 7,
+                        line = list(color = col_ink, width = 1)),
           hovertemplate = "Year: %{x}<br>Cumulative: %{y:,}<extra></extra>") |>
     layout(
-      xaxis = list(title = "Year", dtick = 2),
-      yaxis = list(title = "Cumulative Citations"),
+      font = list(family = chart_font_family, color = col_ink, size = 13),
+      xaxis = list(title = "Year", dtick = 2,
+                   gridcolor = col_rule, zerolinecolor = col_rule),
+      yaxis = list(title = "Cumulative Citations",
+                   gridcolor = col_rule, zerolinecolor = col_rule),
       plot_bgcolor = "rgba(0,0,0,0)",
       paper_bgcolor = "rgba(0,0,0,0)",
       margin = list(t = 10, l = 60, r = 20, b = 50)
@@ -171,34 +187,35 @@ totals_df <- bind_rows(totals) |> arrange(desc(total))
 #| label: download-cards
 #| echo: false
 
-card_colors <- c(col_dark, col_blue, col_teal, col_orange, col_rose, col_gray, col_purple)
-
-make_dl_card <- function(value, label, bg_color) {
+# Editorial package card: smaller than ed-card, paper background, thin border.
+make_dl_card <- function(value, label, highlight = FALSE) {
   div(
-    style = paste0(
-      "background:", bg_color, ";padding:0.8rem 1rem;",
-      "border-radius:10px;text-align:center;",
-      "box-shadow:0 4px 12px rgba(0,0,0,0.15);"
-    ),
-    h3(style = "margin:0;font-weight:700;color:#ffffff;font-size:1.3rem;", value),
-    tags$hr(style = "border:0;border-top:1px solid rgba(255,255,255,0.3);margin:0.4rem 0.8rem;"),
-    p(style = "margin:0;color:rgba(255,255,255,0.9);font-size:0.8rem;", label)
+    class = paste0("ed-card", if (highlight) " ed-card--accent" else ""),
+    style = "padding:1rem 1.15rem;min-width:0;",
+    tags$span(class = "ed-card__num",
+              style = "font-size:1.45rem;margin-bottom:.25rem;",
+              value),
+    tags$span(class = "ed-card__label",
+              style = "font-size:.65rem;letter-spacing:.18em;",
+              label)
   )
 }
 
 cards <- lapply(seq_len(nrow(totals_df)), function(i) {
-  bg <- card_colors[((i - 1) %% length(card_colors)) + 1]
-  make_dl_card(format(totals_df$total[i], big.mark = ","), totals_df$package[i], bg)
+  # First card (largest package = bibliometrix) gets the accent treatment
+  make_dl_card(format(totals_df$total[i], big.mark = ","),
+               totals_df$package[i],
+               highlight = (i == 1))
 })
 
 div(
-  style = "max-width:850px;margin:1.5rem auto;",
+  style = "max-width:900px;margin:1.5rem auto 2.5rem;",
   div(
-    style = "display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:1rem;",
+    style = "display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin-bottom:.75rem;",
     tagList(cards[1:min(4, length(cards))])
   ),
   div(
-    style = "display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;max-width:637px;margin:0 auto;",
+    style = "display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;max-width:680px;margin:0 auto;",
     tagList(cards[5:length(cards)])
   )
 )
@@ -238,8 +255,11 @@ if (nrow(monthly_all) > 0) {
                         hovertemplate = paste0(pkg, "<br>%{x|%b %Y}<br>Cumulative: %{y:,}<extra></extra>"))
   }
   p |> layout(
-    xaxis = list(title = "Date"),
-    yaxis = list(title = "Cumulative Downloads"),
+    font = list(family = chart_font_family, color = col_ink, size = 13),
+    xaxis = list(title = "Date",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
+    yaxis = list(title = "Cumulative Downloads",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
     legend = list(orientation = "h", x = 0.5, xanchor = "center", y = -0.15),
     plot_bgcolor = "rgba(0,0,0,0)",
     paper_bgcolor = "rgba(0,0,0,0)",
@@ -280,9 +300,12 @@ if (nrow(recent_all) > 0) {
                         hovertemplate = paste0(pkg, "<br>%{x|%b %Y}<br>Downloads: %{y:,}<extra></extra>"))
   }
   p |> layout(
+    font = list(family = chart_font_family, color = col_ink, size = 13),
     barmode = "group",
-    xaxis = list(title = "Month"),
-    yaxis = list(title = "Downloads"),
+    xaxis = list(title = "Month",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
+    yaxis = list(title = "Downloads",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
     legend = list(orientation = "h", x = 0.5, xanchor = "center", y = -0.15),
     plot_bgcolor = "rgba(0,0,0,0)",
     paper_bgcolor = "rgba(0,0,0,0)",
@@ -293,7 +316,4 @@ if (nrow(recent_all) > 0) {
 
 ---
 
-<p style="text-align: center; color: #8899a6; font-size: 0.85rem; margin-top: 2rem;">
-Data updated automatically each time the site is rendered.<br>
-Citations source: Google Scholar. Downloads source: CRAN logs.
-</p>
+[Colophon · Citations source: Google Scholar · Downloads source: CRAN logs · Automatically refreshed on render]{.eyebrow style="display:block;text-align:center;margin-top:2rem;"}
