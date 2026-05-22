@@ -25,9 +25,11 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 1. Aria, M., Cuccurullo, C. (2017). **bibliometrix: An R-tool for comprehensive science mapping analysis**. *Journal of Informetrics*, 11(4), 959–975, <a href="https://doi.org/10.1016/j.joi.2017.08.007" target="_blank"> DOI: 10.1016/j.joi.2017.08.007</a>.
 
-2. Aria, M., Spano, M., D'Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
+2. Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
 
-3. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Sintetizzare la conoscenza: un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica**. *TEMI*, 1, 57–75.
+3. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*.
+
+4. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Sintetizzare la conoscenza: un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica**. *TEMI*, 1, 57–75.
 
 4. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
 
@@ -50,7 +52,7 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 ### Statistics and Machine Learning
 
-1. Aria, M., Gnasso, A., Iorio, C., & Fokkema, M. (2025). **Extending Explainable Ensemble Trees to regression contexts**. *Applied Stochastic Models in Business and Industry*.
+1. Aria, M., Gnasso, A., Iorio, C., & Fokkema, M. (2025). **Extending Explainable Ensemble Trees to regression contexts**. *Applied Stochastic Models in Business and Industry*, 42(1), e70064, <a href="https://doi.org/10.1002/asmb.70064" target="_blank"> DOI: 10.1002/asmb.70064</a>.
 
 2. Aria M. et al. (2025). **Predicting depression in Italy using random forest through the E2Tree methodology**. *Annals of Operations Research*.
 
