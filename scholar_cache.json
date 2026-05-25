@@ -3,9 +3,9 @@
     "id": "Qu66YZQAAAAJ",
     "name": "Massimo Aria",
     "affiliation": "Full Professor, Department of Economics and Statistics, University of Naples, Federico II",
-    "total_cites": 28388,
+    "total_cites": 28580,
     "h_index": 43,
-    "i10_index": 115,
+    "i10_index": 116,
     "fields": ["Statistics for Social Sciences", "Multivariate Analysis", "Classification", "Bibliometrics & Science", "ML"],
     "homepage": "https://www.massimoaria.com/",
     "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT,...", "Francesco Galante", "G. R. Semin", "Giovanna Del Gaudio", "María Guadalupe Moreno Treviño", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
@@ -15,11 +15,11 @@
   "cite_history": [
     {
       "year": 2015,
-      "cites": 120
+      "cites": 121
     },
     {
       "year": 2016,
-      "cites": 162
+      "cites": 163
     },
     {
       "year": 2017,
@@ -27,7 +27,7 @@
     },
     {
       "year": 2018,
-      "cites": 320
+      "cites": 321
     },
     {
       "year": 2019,
@@ -35,15 +35,15 @@
     },
     {
       "year": 2020,
-      "cites": 973
+      "cites": 972
     },
     {
       "year": 2021,
-      "cites": 1748
+      "cites": 1747
     },
     {
       "year": 2022,
-      "cites": 2839
+      "cites": 2840
     },
     {
       "year": 2023,
@@ -51,15 +51,15 @@
     },
     {
       "year": 2024,
-      "cites": 5808
+      "cites": 5809
     },
     {
       "year": 2025,
-      "cites": 7776
+      "cites": 7792
     },
     {
       "year": 2026,
-      "cites": 3136
+      "cites": 3286
     }
   ]
 }
