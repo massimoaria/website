@@ -25,7 +25,9 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 1. Aria, M., Cuccurullo, C. (2017). **bibliometrix: An R-tool for comprehensive science mapping analysis**. *Journal of Informetrics*, 11(4), 959–975, <a href="https://doi.org/10.1016/j.joi.2017.08.007" target="_blank"> DOI: 10.1016/j.joi.2017.08.007</a>.
 
-2. Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
+2. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping**. *Journal of Informetrics*, 20(3), 101837, <a href="https://doi.org/10.1016/j.joi.2026.101837" target="_blank"> DOI: 10.1016/j.joi.2026.101837</a>.
+
+3. Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
 
 3. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*.
 
