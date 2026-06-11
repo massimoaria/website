@@ -1,0 +1,320 @@
+---
+title: "Statistiche di ricerca"
+description: "Metriche live — citazioni, download, impatto"
+lang: it
+format: html
+execute:
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+#| echo: false
+
+library(cranlogs)
+library(scholar)
+library(plotly)
+library(dplyr)
+library(htmltools)
+
+# ---- Modern Scholar palette (mirrors theme.scss) ----
+col_ink     <- "#0F172A"   # slate ink (primary)
+col_accent  <- "#1E4D8C"   # oxford blue
+col_paper   <- "#FCFCFD"   # near-white surface
+col_paper2  <- "#F1F4F8"
+col_rule    <- "#E3E8EF"   # cool gray hairline
+col_muted   <- "#5B6B82"   # slate muted
+col_teal    <- "#0E7C7B"   # secondary — teal
+col_amber   <- "#C7791A"   # secondary — amber
+col_slate   <- "#3F5E8C"   # secondary — mid slate-blue
+col_plum    <- "#6D3B6B"   # secondary — plum
+
+# Base font family for plotly charts (matches site body font)
+chart_font_family <- "Inter, system-ui, sans-serif"
+
+# Chart colors — ink + accent + cohesive scholarly secondary tones
+chart_colors <- c(col_ink, col_accent, col_teal, col_slate, col_amber, col_plum, col_muted)
+
+# ---- Google Scholar data (with local cache) ----
+scholar_id <- "Qu66YZQAAAAJ"
+cache_file <- "scholar_cache.json"
+
+profile <- tryCatch({
+  p <- get_profile(scholar_id)
+  if (is.list(p) && "total_cites" %in% names(p)) p else stop("invalid")
+}, error = function(e) NULL)
+
+cite_history <- tryCatch({
+  ch <- get_citation_history(scholar_id)
+  if (is.data.frame(ch) && nrow(ch) > 0) ch else stop("invalid")
+}, error = function(e) NULL)
+
+# If Scholar API succeeded, save cache for CI use
+if (!is.null(profile) && !is.null(cite_history)) {
+  jsonlite::write_json(
+    list(profile = profile, cite_history = cite_history),
+    cache_file, auto_unbox = TRUE, pretty = TRUE
+  )
+}
+
+# If Scholar API failed, load from cache
+if (is.null(profile) || is.null(cite_history)) {
+  if (file.exists(cache_file)) {
+    cache <- jsonlite::read_json(cache_file, simplifyVector = TRUE)
+    if (is.null(profile)) profile <- cache$profile
+    if (is.null(cite_history)) cite_history <- as.data.frame(cache$cite_history)
+  }
+}
+```
+
+[Google Scholar · CRAN logs · aggiornamento automatico]{.eyebrow}
+
+<p class="lede">Metriche di ricerca live — citazioni, indice H e download dei pacchetti CRAN — aggiornate automaticamente a ogni render del sito.</p>
+
+## Metriche Google Scholar
+
+```{r}
+#| label: scholar-metrics
+#| echo: false
+
+if (!is.null(profile)) {
+  total_cites <- profile$total_cites
+  h_index <- profile$h_index
+  i10_index <- profile$i10_index
+} else {
+  total_cites <- "N/D"
+  h_index <- "N/D"
+  i10_index <- "N/D"
+}
+
+# Editorial-style card: paper background, thin ink border, display-serif number, mono label.
+# Styling lives in theme.scss under .ed-card.
+make_card <- function(value, label, accent = FALSE) {
+  div(
+    class = paste0("ed-card", if (accent) " ed-card--accent" else ""),
+    span(class = "ed-card__num", value),
+    span(class = "ed-card__label", label)
+  )
+}
+
+div(
+  style = "display:flex;justify-content:center;gap:1.25rem;flex-wrap:wrap;margin:1.5rem 0 2rem;",
+  make_card(format(total_cites, big.mark = ","), "Citazioni totali", accent = TRUE),
+  make_card(h_index, "Indice H"),
+  make_card(i10_index, "Indice i10")
+)
+```
+
+### Citazioni per anno
+
+```{r}
+#| label: citations-per-year
+#| echo: false
+
+if (!is.null(cite_history)) {
+  plot_ly(cite_history, x = ~year, y = ~cites, type = "bar",
+          marker = list(color = col_accent,
+                        line = list(color = col_ink, width = 0.5)),
+          hovertemplate = "Anno: %{x}<br>Citazioni: %{y:,}<extra></extra>") |>
+    layout(
+      font = list(family = chart_font_family, color = col_ink, size = 13),
+      xaxis = list(title = "Anno", dtick = 1,
+                   gridcolor = col_rule, zerolinecolor = col_rule),
+      yaxis = list(title = "Citazioni",
+                   gridcolor = col_rule, zerolinecolor = col_rule),
+      plot_bgcolor = "rgba(0,0,0,0)",
+      paper_bgcolor = "rgba(0,0,0,0)",
+      margin = list(t = 10, l = 60, r = 20, b = 50)
+    )
+} else {
+  cat("Cronologia delle citazioni attualmente non disponibile.")
+}
+```
+
+### Citazioni cumulate
+
+```{r}
+#| label: cumulative-citations
+#| echo: false
+
+if (!is.null(cite_history)) {
+  cite_history$cumulative <- cumsum(cite_history$cites)
+
+  plot_ly(cite_history, x = ~year, y = ~cumulative, type = "scatter", mode = "lines+markers",
+          line = list(color = col_ink, width = 2.5),
+          marker = list(color = col_accent, size = 7,
+                        line = list(color = col_ink, width = 1)),
+          hovertemplate = "Anno: %{x}<br>Cumulate: %{y:,}<extra></extra>") |>
+    layout(
+      font = list(family = chart_font_family, color = col_ink, size = 13),
+      xaxis = list(title = "Anno", dtick = 2,
+                   gridcolor = col_rule, zerolinecolor = col_rule),
+      yaxis = list(title = "Citazioni cumulate",
+                   gridcolor = col_rule, zerolinecolor = col_rule),
+      plot_bgcolor = "rgba(0,0,0,0)",
+      paper_bgcolor = "rgba(0,0,0,0)",
+      margin = list(t = 10, l = 60, r = 20, b = 50)
+    )
+} else {
+  cat("Cronologia delle citazioni attualmente non disponibile.")
+}
+```
+
+---
+
+## Download dei pacchetti CRAN
+
+```{r}
+#| label: cran-downloads
+#| echo: false
+
+my_packages <- c("bibliometrix", "openalexR", "dimensionsR", "pubmedR", "e2tree", "contentanalysis", "tall")
+
+totals <- lapply(my_packages, function(pkg) {
+  tryCatch({
+    dl <- cran_downloads(pkg, from = "2015-01-01", to = Sys.Date())
+    data.frame(package = pkg, total = sum(dl$count, na.rm = TRUE))
+  }, error = function(e) {
+    data.frame(package = pkg, total = 0)
+  })
+})
+totals_df <- bind_rows(totals) |> arrange(desc(total))
+```
+
+### Download totali da CRAN
+
+```{r}
+#| label: download-cards
+#| echo: false
+
+# Editorial package card: smaller than ed-card, paper background, thin border.
+make_dl_card <- function(value, label, highlight = FALSE) {
+  div(
+    class = paste0("ed-card", if (highlight) " ed-card--accent" else ""),
+    style = "padding:1rem 1.15rem;min-width:0;",
+    tags$span(class = "ed-card__num",
+              style = "font-size:1.45rem;margin-bottom:.25rem;",
+              value),
+    tags$span(class = "ed-card__label",
+              style = "font-size:.65rem;letter-spacing:.18em;",
+              label)
+  )
+}
+
+cards <- lapply(seq_len(nrow(totals_df)), function(i) {
+  # First card (largest package = bibliometrix) gets the accent treatment
+  make_dl_card(format(totals_df$total[i], big.mark = ","),
+               totals_df$package[i],
+               highlight = (i == 1))
+})
+
+div(
+  style = "max-width:900px;margin:1.5rem auto 2.5rem;",
+  div(
+    style = "display:grid;grid-template-columns:repeat(4,1fr);gap:.75rem;margin-bottom:.75rem;",
+    tagList(cards[1:min(4, length(cards))])
+  ),
+  div(
+    style = "display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;max-width:680px;margin:0 auto;",
+    tagList(cards[5:length(cards)])
+  )
+)
+```
+
+### Download cumulati nel tempo
+
+```{r}
+#| label: cumulative-downloads
+#| echo: false
+
+monthly_data <- lapply(seq_along(my_packages), function(i) {
+  pkg <- my_packages[i]
+  tryCatch({
+    dl <- cran_downloads(pkg, from = "2015-01-01", to = Sys.Date())
+    dl$month <- format(dl$date, "%Y-%m")
+    monthly <- dl |> group_by(month) |> summarise(downloads = sum(count), .groups = "drop")
+    monthly$cumulative <- cumsum(monthly$downloads)
+    monthly$package <- pkg
+    monthly$date <- as.Date(paste0(monthly$month, "-01"))
+    monthly
+  }, error = function(e) NULL)
+})
+
+monthly_all <- bind_rows(monthly_data)
+
+if (nrow(monthly_all) > 0) {
+  p <- plot_ly()
+  for (i in seq_along(unique(monthly_all$package))) {
+    pkg <- unique(monthly_all$package)[i]
+    d <- monthly_all |> filter(package == pkg)
+    col <- chart_colors[((i - 1) %% length(chart_colors)) + 1]
+    p <- p |> add_trace(data = d, x = ~date, y = ~cumulative,
+                        type = "scatter", mode = "lines",
+                        name = pkg,
+                        line = list(width = 2.5, color = col),
+                        hovertemplate = paste0(pkg, "<br>%{x|%b %Y}<br>Cumulati: %{y:,}<extra></extra>"))
+  }
+  p |> layout(
+    font = list(family = chart_font_family, color = col_ink, size = 13),
+    xaxis = list(title = "Data",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
+    yaxis = list(title = "Download cumulati",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
+    legend = list(orientation = "h", x = 0.5, xanchor = "center", y = -0.15),
+    plot_bgcolor = "rgba(0,0,0,0)",
+    paper_bgcolor = "rgba(0,0,0,0)",
+    margin = list(t = 10, l = 60, r = 20, b = 70)
+  )
+}
+```
+
+### Download mensili (ultimi 12 mesi)
+
+```{r}
+#| label: monthly-downloads-recent
+#| echo: false
+
+recent_data <- lapply(seq_along(my_packages), function(i) {
+  pkg <- my_packages[i]
+  tryCatch({
+    dl <- cran_downloads(pkg, from = Sys.Date() - 365, to = Sys.Date())
+    dl$month <- format(dl$date, "%Y-%m")
+    monthly <- dl |> group_by(month) |> summarise(downloads = sum(count), .groups = "drop")
+    monthly$package <- pkg
+    monthly$date <- as.Date(paste0(monthly$month, "-01"))
+    monthly
+  }, error = function(e) NULL)
+})
+
+recent_all <- bind_rows(recent_data)
+
+if (nrow(recent_all) > 0) {
+  p <- plot_ly()
+  for (i in seq_along(my_packages)) {
+    pkg <- my_packages[i]
+    d <- recent_all |> filter(package == pkg)
+    col <- chart_colors[((i - 1) %% length(chart_colors)) + 1]
+    p <- p |> add_trace(data = d, x = ~date, y = ~downloads,
+                        type = "bar", name = pkg,
+                        marker = list(color = col),
+                        hovertemplate = paste0(pkg, "<br>%{x|%b %Y}<br>Download: %{y:,}<extra></extra>"))
+  }
+  p |> layout(
+    font = list(family = chart_font_family, color = col_ink, size = 13),
+    barmode = "group",
+    xaxis = list(title = "Mese",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
+    yaxis = list(title = "Download",
+                 gridcolor = col_rule, zerolinecolor = col_rule),
+    legend = list(orientation = "h", x = 0.5, xanchor = "center", y = -0.15),
+    plot_bgcolor = "rgba(0,0,0,0)",
+    paper_bgcolor = "rgba(0,0,0,0)",
+    margin = list(t = 10, l = 60, r = 20, b = 70)
+  )
+}
+```
+
+---
+
+[Colophon · Fonte citazioni: Google Scholar · Fonte download: CRAN logs · Aggiornato automaticamente a ogni render]{.eyebrow style="display:block;text-align:center;margin-top:2rem;"}

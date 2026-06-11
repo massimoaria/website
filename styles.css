@@ -42,3 +42,27 @@
   font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   font-feature-settings: "lnum" 1, "tnum" 1;
 }
+
+/* Language switcher pill (EN ⇄ IT) injected into the navbar */
+.navbar .nav-link.lang-switch {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .72rem !important;
+  font-weight: 600;
+  letter-spacing: .12em;
+  line-height: 1;
+  padding: .3rem .6rem !important;
+  margin-left: .5rem;
+  border: 1px solid #1E4D8C;
+  border-radius: 999px;
+  color: #1E4D8C !important;
+  align-self: center;
+  transition: background-color .18s ease, color .18s ease;
+}
+
+.navbar .nav-link.lang-switch::after { display: none !important; }
+
+.navbar .nav-link.lang-switch:hover,
+.navbar .nav-link.lang-switch:focus {
+  background-color: #1E4D8C;
+  color: #FCFCFD !important;
+}

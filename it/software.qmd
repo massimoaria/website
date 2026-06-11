@@ -1,0 +1,72 @@
+---
+title: "Software scientifico"
+description: "Pacchetti R, applicazioni Shiny e strumenti scientifici"
+lang: it
+format: html
+---
+
+<span class="eyebrow">Catalogo di strumenti open-source</span>
+
+<p class="lede">Software scientifico open-source di cui sono autore o co-autore. La maggior parte dei pacchetti è disponibile su CRAN e GitHub.</p>
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">Bibliometrix</h3>
+<div class="catalogue-entry__meta">Pacchetto R · CRAN · 1.35M+ installazioni</div>
+Una toolbox completa per il science mapping e l'analisi bibliometrica. Supporta l'intero flusso di lavoro: importazione dei dati, analisi descrittiva, mappatura concettuale e di rete e visualizzazione.<br>
+→ <a href="https://www.bibliometrix.org" target="_blank">bibliometrix.org</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">Biblioshiny</h3>
+<div class="catalogue-entry__meta">Web-app Shiny · Interfaccia interattiva per Bibliometrix</div>
+Un'interfaccia Shiny intuitiva per Bibliometrix, che consente ai ricercatori di eseguire analisi bibliometriche e di science mapping avanzate senza scrivere codice.
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">TALL — Text Analysis for All</h3>
+<div class="catalogue-entry__meta">R/Shiny · Text mining · NLP</div>
+Un'applicazione generalista per l'analisi di dati testuali, che supporta topic modelling, analisi delle frequenze, clustering e classificazione dei contenuti.<br>
+→ <a href="https://github.com/massimoaria/tall" target="_blank">github.com/massimoaria/tall</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">E2Tree</h3>
+<div class="catalogue-entry__meta">Pacchetto R · ML spiegabile</div>
+Un approccio di machine learning spiegabile basato su ensemble di alberi. Genera modelli interpretabili da dati complessi, con esplorazione visiva delle regole decisionali.<br>
+→ <a href="https://github.com/massimoaria/e2tree" target="_blank">github.com/massimoaria/e2tree</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">DimensionsR</h3>
+<div class="catalogue-entry__meta">Pacchetto R · Client API</div>
+Accesso programmatico all'API Dimensions — pubblicazioni, grant, trial clinici e brevetti.<br>
+→ <a href="https://github.com/massimoaria/dimensionsR" target="_blank">github.com/massimoaria/dimensionsR</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">PubmedR</h3>
+<div class="catalogue-entry__meta">Pacchetto R · Client API · Letteratura medica</div>
+Un'interfaccia R all'API PubMed per cercare, scaricare e analizzare i metadati della letteratura biomedica — utile per revisioni sistematiche e informatica medica.<br>
+→ <a href="https://github.com/massimoaria/pubmedR" target="_blank">github.com/massimoaria/pubmedR</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">contentanalysis</h3>
+<div class="catalogue-entry__meta">Pacchetto R · Analisi di PDF scientifici</div>
+Strumenti per l'estrazione e l'analisi di contenuti scientifici da PDF, inclusa l'estrazione di citazioni e il matching dei riferimenti.<br>
+→ <a href="https://github.com/massimoaria/contentanalysis" target="_blank">github.com/massimoaria/contentanalysis</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">openalexR</h3>
+<div class="catalogue-entry__meta">Pacchetto R · ROpenSci · Client API</div>
+Un client R per l'API OpenAlex, che fornisce accesso a metadati bibliografici aperti relativi a pubblicazioni scientifiche, autori, istituzioni e citazioni.<br>
+→ <a href="https://docs.ropensci.org/openalexR/" target="_blank">docs.ropensci.org/openalexR</a>
+:::
+
+::: {.catalogue-entry}
+<h3 class="catalogue-entry__title">PLS-SEM Matlab Toolbox</h3>
+<div class="catalogue-entry__meta">Matlab / Octave · Modelli di equazioni strutturali</div>
+Un pacchetto Matlab / Octave per i modelli di equazioni strutturali Partial Least Squares.<br>
+→ <a href="https://github.com/massimoaria/PLS-SEM" target="_blank">github.com/massimoaria/PLS-SEM</a>
+:::

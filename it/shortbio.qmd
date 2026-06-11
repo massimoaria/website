@@ -1,0 +1,77 @@
+---
+title: "Biografia"
+description: "Un profilo sintetico"
+lang: it
+format: html
+---
+
+<span class="eyebrow">Profilo · Massimo Aria</span>
+
+<p class="lede">Professore Ordinario di Statistica per le Scienze Sociali presso il Dipartimento di Scienze Economiche e Statistiche dell'Università degli Studi di Napoli Federico II. Dottore di ricerca in Statistica Computazionale.</p>
+
+::: {.dropcap}
+Da oltre vent'anni insegno Statistica e Machine Learning nei corsi di laurea triennale, magistrale e di dottorato. Tra gli insegnamenti che tengo attualmente: **Statistica per le Scienze Sociali**, **Metodi Statistici Avanzati per la Ricerca Sociale**, **Indagini Campionarie** e il **Laboratorio di Machine Learning in R**.
+:::
+
+I miei principali ambiti di ricerca comprendono **bibliometria**, **science mapping**, **revisioni sistematiche della letteratura**, **metodologia delle indagini statistiche**, **machine learning** e **text mining**. Ho diretto numerose indagini statistiche e progetti di data science relativi a fenomeni economici, sociali, etologici e sanitari.
+
+---
+
+## Attività scientifiche
+
+Sono autore di oltre **200 articoli scientifici peer-reviewed**, di cui **38** classificati come "A" (fascia alta) nell'area scientifica 13 (Scienze Economiche e Statistiche) dall'**ANVUR** (Agenzia Nazionale di Valutazione del Sistema Universitario e della Ricerca).
+
+Sono co-fondatore dello <a href="https://www.k-synth.com" target="_blank">**spin-off accademico K-Synth**</a>, una start-up di informazione e intelligence science-centric focalizzata sull'estrazione e l'analisi della conoscenza da grandi volumi di dati eterogenei attraverso metodi quantitativi, statistici e di data science.
+
+Sono Coordinatore scientifico della <a href="https://bibliometrix.org/sssm/" target="_blank">**Summer School in Science Mapping (SSSM)**</a> e membro del corpo docente della <a href="https://esss.info/" target="_blank">**European Summer School of Scientometrics (ESSS)**</a>.
+
+---
+
+## Ruoli accademici e istituzionali
+
+- Membro del collegio del **Dottorato in Economia di Napoli**
+- Per oltre 20 anni membro del collegio dei **Dottorati in Statistica Computazionale** e in **Scienze Sociali e Statistica**
+- Dal 2019, membro del consiglio della **Laurea Magistrale in Data Science** e in **Economia** (curriculum: *Data Scientist for Economics*)
+- Dal 2010 coordino — insieme al Prof. C. Cuccurullo — il gruppo di ricerca in **bibliometria e science mapping** presso l'Università di Napoli Federico II e l'Università della Campania L. Vanvitelli ([www.bibliometrix.org](https://www.bibliometrix.org))
+- Ho coordinato o partecipato a **5 progetti europei**, **3 progetti PNRR**, **5 progetti PRIN**, **1 progetto FIRB** e **11 progetti nazionali o regionali**
+- Dal 2007, membro del comitato scientifico dello **Statistical Algorithms and Software Specialized Team**, ERCIM Working Group on Computational and Methodological Statistics
+- Attualmente responsabile della **Valutazione della Qualità della Ricerca (VQR)** del Dipartimento di Scienze Economiche e Statistiche
+
+---
+
+## Società scientifiche
+
+Socio senior delle seguenti società scientifiche:
+
+- *Società Italiana di Statistica* (SIS)
+- *Associazione Italiana Studi di Popolazione* (AISP)
+- *Associazione di Statistica Applicata* (ASA)
+- *International Statistical Institute* (ISI)
+- *International Association for Statistical Computing* (IASC)
+
+---
+
+## Risultati scientifici e riconoscimenti
+
+Ad oggi le mie pubblicazioni hanno ricevuto **oltre 26.100 citazioni** e il mio **indice H è 43**. Nei soli ultimi cinque anni le mie pubblicazioni sono state citate più di **23.200 volte**, con un indice H di **38** (fonte: Google Scholar).
+
+Il mio articolo *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) è:
+
+- L'**articolo più citato di sempre** nella rivista (Scopus: 10.300+ citazioni; Google Scholar: 19.100+)
+- Uno degli articoli **più scaricati** su ScienceDirect ([fonte](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
+
+---
+
+## Impatto sociale delle attività di ricerca
+
+**Bibliometrix** e la sua web-app Shiny **Biblioshiny** sono riconosciuti come il software più completo e intuitivo per il science mapping. In una recensione molto citata degli strumenti bibliometrici, Moral-Muñoz et al. (2020) hanno scritto:
+
+> At this moment, maybe Bibliometrix and its Shiny platform contain the more extensive set of techniques implemented, and together with the easiness of its interface, could be a great software for practitioners.
+
+Oggi Bibliometrix è uno degli strumenti di science mapping **più utilizzati** al mondo, con:
+
+- **1.350.000+** installazioni
+- Una **vasta comunità internazionale** di ricercatori che lo usano e lo promuovono attivamente
+- **Oltre 200 tutorial su YouTube** in più lingue
+
+Negli ultimi quattro anni ho tenuto **oltre 60 seminari** in scuole di dottorato italiane (Università di Bergamo, Brescia, Calabria, Genova, Politecnico di Milano, Napoli, Pisa, Roma, Salento, tra le altre) e internazionali (Università di Bodø — Norvegia, Edimburgo, Granada, Londra, Melbourne, Parigi).

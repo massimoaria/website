@@ -1,0 +1,37 @@
+---
+title: "Pubblicazioni"
+lang: it
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| output: asis
+# Auto-sync the Italian publications list from the English publications.qmd
+# (which is periodically updated by an automated agent). We translate only
+# the page chrome and section headings; bibliographic entries are kept
+# verbatim. (execute-dir is "project", so this reads the root file.)
+lines <- readLines("publications.qmd", warn = FALSE)
+yend  <- which(lines == "---")[2]
+body  <- paste(lines[(yend + 1):length(lines)], collapse = "\n")
+
+body <- gsub(
+  "This page presents a selection of my most relevant publications, organized by research area.",
+  "Questa pagina presenta una selezione delle mie pubblicazioni più rilevanti, organizzate per area di ricerca.",
+  body, fixed = TRUE)
+body <- gsub("For a complete list, please visit my",
+             "Per l'elenco completo, visita il mio", body, fixed = TRUE)
+body <- gsub("Google Scholar profile", "profilo Google Scholar", body, fixed = TRUE)
+
+body <- gsub("## Monographs", "## Monografie", body, fixed = TRUE)
+body <- gsub("## Journal Articles", "## Articoli su rivista", body, fixed = TRUE)
+body <- gsub("### Bibliometrics, Science Mapping and Text Analysis",
+             "### Bibliometria, Science Mapping e Analisi Testuale", body, fixed = TRUE)
+body <- gsub("### Statistics and Machine Learning",
+             "### Statistica e Machine Learning", body, fixed = TRUE)
+body <- gsub("### Tourism, Management, Transportation, and Social Sciences",
+             "### Turismo, Management, Trasporti e Scienze Sociali", body, fixed = TRUE)
+
+cat(body)
+```

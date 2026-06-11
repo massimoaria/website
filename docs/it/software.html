@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Courses, seminars, and training activities">
+<meta name="description" content="Pacchetti R, applicazioni Shiny e strumenti scientifici">
 
-<title>Teaching – Massimo Aria</title>
+<title>Software scientifico – Massimo Aria</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3f8e1fc4811969e61767dcba78000d6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-3f8e1fc4811969e61767dcba78000d6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -56,17 +56,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare",
+    "search-label": "Ricerca"
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="lightbox-plus-jquery.min.js"></script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="floating nav-fixed quarto-light">
@@ -84,12 +84,12 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Massimo Aria</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Ricerca"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Attiva/disattiva la navigazione" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -100,11 +100,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./shortbio.html">
+    <a class="dropdown-item" href="../shortbio.html">
  <span class="dropdown-text">Short Bio</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./cv.html">
+    <a class="dropdown-item" href="../cv.html">
  <span class="dropdown-text">Curriculum Vitae</span></a>
   </li>  
     </ul>
@@ -115,33 +115,33 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./publications.html">
+    <a class="dropdown-item" href="../publications.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./projects.html">
+    <a class="dropdown-item" href="../projects.html">
  <span class="dropdown-text">Projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software.html">
+    <a class="dropdown-item" href="../software.html">
  <span class="dropdown-text">Software</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./statistics.html">
+    <a class="dropdown-item" href="../statistics.html">
  <span class="dropdown-text">Statistics</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./photos.html"> 
+    <a class="nav-link" href="../photos.html"> 
 <span class="menu-text">Photos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contacts.html"> 
+    <a class="nav-link" href="../contacts.html"> 
 <span class="menu-text">Contacts</span></a>
   </li>  
   <li class="nav-item compact">
@@ -164,37 +164,27 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">In this page</h2>
-   
-  <ul>
-  <li><a href="#courses-taught" id="toc-courses-taught" class="nav-link active" data-scroll-target="#courses-taught">Courses Taught</a></li>
-  <li><a href="#seminars-and-training-activities" id="toc-seminars-and-training-activities" class="nav-link" data-scroll-target="#seminars-and-training-activities">Seminars and Training Activities</a></li>
-  <li><a href="#conferences-and-workshops" id="toc-conferences-and-workshops" class="nav-link" data-scroll-target="#conferences-and-workshops">Conferences and Workshops</a></li>
-  </ul>
-</nav>
-</nav>
+  
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">Software scientifico</h1>
 </div>
 
 <div>
   <div class="description">
-    Courses, seminars, and training activities
+    Pacchetti R, applicazioni Shiny e strumenti scientifici
   </div>
 </div>
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -206,39 +196,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><span class="eyebrow">Courses · Seminars · Summer Schools</span></p>
+<p><span class="eyebrow">Catalogo di strumenti open-source</span></p>
 <p class="lede">
-Over twenty years of teaching statistics, machine learning, and data science across bachelor’s, master’s, and doctoral programmes — at the University of Naples Federico II and in international summer schools.
+Software scientifico open-source di cui sono autore o co-autore. La maggior parte dei pacchetti è disponibile su CRAN e GitHub.
 </p>
-<section id="courses-taught" class="level2">
-<h2 class="anchored" data-anchor-id="courses-taught">Courses Taught</h2>
-<ul>
-<li><strong>Statistics for Social Sciences</strong> — Undergraduate course, Bachelor in Tourism Sciences</li>
-<li><strong>Sampling Surveys</strong> — Undergraduate course, Bachelor in Economics</li>
-<li><strong>Statistical Methods for Social Research</strong> — Graduate level, Master in Economics, Curriculum <em>Data Scientist for Economics</em></li>
-<li><strong>Lab in Machine Learning and Text Mining with R</strong> — Graduate level, Master in Economics, Curriculum <em>Data Scientist for Economics</em></li>
-<li><strong>Machine Learning Methods</strong> — Ph.D.&nbsp;courses</li>
-<li><strong>Bibliometric Analysis using R</strong> — Ph.D.&nbsp;courses and International Summer Schools</li>
-</ul>
-<hr>
-</section>
-<section id="seminars-and-training-activities" class="level2">
-<h2 class="anchored" data-anchor-id="seminars-and-training-activities">Seminars and Training Activities</h2>
-<p>Over the last few years I have delivered more than <strong>60 invited seminars and training sessions</strong> on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of <strong>Bodø (Norway)</strong>, <strong>Edinburgh</strong>, <strong>Granada</strong>, <strong>London</strong>, <strong>Melbourne</strong>, and <strong>Paris</strong>.</p>
-<p>I have also been a lecturer at the <strong>European Summer School for Scientometrics (ESSS)</strong>, the <strong>Summer School in Science Mapping (SSSM)</strong>, and the <strong>Social Statistics Summer School</strong> in Monteriggioni.</p>
-<hr>
-</section>
-<section id="conferences-and-workshops" class="level2">
-<h2 class="anchored" data-anchor-id="conferences-and-workshops">Conferences and Workshops</h2>
-<p>Active participant in numerous national and international conferences — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT — where I have presented research contributions related to bibliometric analysis, classification methods, and methodological innovation in the social sciences.</p>
-<p>Member of the scientific or organising committees of major conferences, including <strong>JADT 2022</strong> and several editions of the <strong>Italian Statistics Society (SIS)</strong> meetings.</p>
-<hr>
-<p><span class="eyebrow">Course materials &amp; updates for students</span></p>
-<p>Full course materials, detailed teaching information, and live updates for students are available on my official university webpage:</p>
-<p><a href="https://www.docenti.unina.it/massimo.aria">docenti.unina.it/massimo.aria</a></p>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+Bibliometrix
+</h3>
+<div class="catalogue-entry__meta">
+Pacchetto R · CRAN · 1.35M+ installazioni
+</div>
+<p>Una toolbox completa per il science mapping e l’analisi bibliometrica. Supporta l’intero flusso di lavoro: importazione dei dati, analisi descrittiva, mappatura concettuale e di rete e visualizzazione.<br> → <a href="https://www.bibliometrix.org" target="_blank">bibliometrix.org</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+Biblioshiny
+</h3>
+<div class="catalogue-entry__meta">
+Web-app Shiny · Interfaccia interattiva per Bibliometrix
+</div>
+<p>Un’interfaccia Shiny intuitiva per Bibliometrix, che consente ai ricercatori di eseguire analisi bibliometriche e di science mapping avanzate senza scrivere codice.</p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+TALL — Text Analysis for All
+</h3>
+<div class="catalogue-entry__meta">
+R/Shiny · Text mining · NLP
+</div>
+<p>Un’applicazione generalista per l’analisi di dati testuali, che supporta topic modelling, analisi delle frequenze, clustering e classificazione dei contenuti.<br> → <a href="https://github.com/massimoaria/tall" target="_blank">github.com/massimoaria/tall</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+E2Tree
+</h3>
+<div class="catalogue-entry__meta">
+Pacchetto R · ML spiegabile
+</div>
+<p>Un approccio di machine learning spiegabile basato su ensemble di alberi. Genera modelli interpretabili da dati complessi, con esplorazione visiva delle regole decisionali.<br> → <a href="https://github.com/massimoaria/e2tree" target="_blank">github.com/massimoaria/e2tree</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+DimensionsR
+</h3>
+<div class="catalogue-entry__meta">
+Pacchetto R · Client API
+</div>
+<p>Accesso programmatico all’API Dimensions — pubblicazioni, grant, trial clinici e brevetti.<br> → <a href="https://github.com/massimoaria/dimensionsR" target="_blank">github.com/massimoaria/dimensionsR</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+PubmedR
+</h3>
+<div class="catalogue-entry__meta">
+Pacchetto R · Client API · Letteratura medica
+</div>
+<p>Un’interfaccia R all’API PubMed per cercare, scaricare e analizzare i metadati della letteratura biomedica — utile per revisioni sistematiche e informatica medica.<br> → <a href="https://github.com/massimoaria/pubmedR" target="_blank">github.com/massimoaria/pubmedR</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+contentanalysis
+</h3>
+<div class="catalogue-entry__meta">
+Pacchetto R · Analisi di PDF scientifici
+</div>
+<p>Strumenti per l’estrazione e l’analisi di contenuti scientifici da PDF, inclusa l’estrazione di citazioni e il matching dei riferimenti.<br> → <a href="https://github.com/massimoaria/contentanalysis" target="_blank">github.com/massimoaria/contentanalysis</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+openalexR
+</h3>
+<div class="catalogue-entry__meta">
+Pacchetto R · ROpenSci · Client API
+</div>
+<p>Un client R per l’API OpenAlex, che fornisce accesso a metadati bibliografici aperti relativi a pubblicazioni scientifiche, autori, istituzioni e citazioni.<br> → <a href="https://docs.ropensci.org/openalexR/" target="_blank">docs.ropensci.org/openalexR</a></p>
+</div>
+<div class="catalogue-entry">
+<h3 class="catalogue-entry__title anchored">
+PLS-SEM Matlab Toolbox
+</h3>
+<div class="catalogue-entry__meta">
+Matlab / Octave · Modelli di equazioni strutturali
+</div>
+<p>Un pacchetto Matlab / Octave per i modelli di equazioni strutturali Partial Least Squares.<br> → <a href="https://github.com/massimoaria/PLS-SEM" target="_blank">github.com/massimoaria/PLS-SEM</a></p>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script>
@@ -390,12 +434,12 @@ Over twenty years of teaching statistics, machine learning, and data science acr
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiato!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiato!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -788,5 +832,5 @@ Over twenty years of teaching statistics, machine learning, and data science acr
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

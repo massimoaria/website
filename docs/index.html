@@ -69,6 +69,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<link href="lightbox.min.css" rel="stylesheet">
+<script src="lightbox-plus-jquery.min.js"></script>
 <style>header#title-block-header{display:none}</style>
 
 
@@ -255,6 +257,130 @@ Software
 
 
 </main> <!-- /main -->
+<script>
+// =============================================================
+// Bilingual language switcher (EN default ⇄ IT under /it/)
+// Injected after <body> on every page. English content lives at
+// the site root; Italian counterparts live under /it/ with the
+// same file names. On Italian pages this also localizes the
+// (project-global) navbar labels/footer and rewrites nav links so
+// navigation stays within /it/.
+//
+// Note: Quarto's quarto-nav.js normalizes navbar hrefs to absolute
+// root URLs on load — which would send Italian-page nav links back
+// to the English pages. We therefore (a) derive hrefs from the
+// resolved URL by inserting "/it/" (idempotent) and (b) re-apply
+// via a MutationObserver so the fix survives Quarto's pass.
+// =============================================================
+(function () {
+  var isIt = (document.documentElement.lang || "").toLowerCase().indexOf("it") === 0;
+
+  var LABELS = {
+    "About": "Chi sono",
+    "Short Bio": "Biografia",
+    "Curriculum Vitae": "Curriculum",
+    "Research": "Ricerca",
+    "Publications": "Pubblicazioni",
+    "Projects": "Progetti",
+    "Software": "Software",
+    "Statistics": "Statistiche",
+    "Teaching": "Didattica",
+    "Photos": "Foto",
+    "Contacts": "Contatti"
+  };
+
+  function counterpartUrl() {
+    var path = window.location.pathname;
+    if (path.charAt(path.length - 1) === "/") path += "index.html";
+    return isIt
+      ? path.replace("/it/", "/")
+      : path.replace(/\/([^\/]*)$/, "/it/$1");
+  }
+
+  function localizeLabels() {
+    document.querySelectorAll(
+      ".navbar a.nav-link, .navbar a.dropdown-item, .navbar .navbar-brand"
+    ).forEach(function (el) {
+      var key = el.textContent.trim();
+      if (!LABELS.hasOwnProperty(key)) return;
+      var done = false;
+      el.childNodes.forEach(function (n) {
+        if (n.nodeType === 3 && n.textContent.trim()) {
+          n.textContent = n.textContent.replace(key, LABELS[key]);
+          done = true;
+        }
+      });
+      if (!done) el.textContent = LABELS[key];
+    });
+  }
+
+  // Keep navbar links inside /it/ by inserting "/it/" into the
+  // resolved path. Idempotent and base-path agnostic.
+  function fixNavHrefs() {
+    var origin = window.location.origin;
+    document.querySelectorAll(".navbar a[href]").forEach(function (el) {
+      if (el.classList.contains("lang-switch")) return;
+      var raw = el.getAttribute("href");
+      if (!raw || raw.charAt(0) === "#") return;          // dropdown toggles / anchors
+      var u;
+      try { u = new URL(el.href); } catch (e) { return; }
+      if (u.origin !== origin) return;                    // external (Scholar, ResearchGate)
+      if (/(^|\/)it\//.test(u.pathname)) return;          // already localized
+      if (!/\.html$/.test(u.pathname) && u.pathname.charAt(u.pathname.length - 1) !== "/") return;
+      u.pathname = u.pathname.replace(/\/([^\/]*)$/, "/it/$1");
+      el.setAttribute("href", u.pathname + u.search + u.hash);
+    });
+  }
+
+  function localizeFooter() {
+    var footer = document.querySelector(".nav-footer");
+    if (!footer || footer.dataset.itDone) return;
+    footer.innerHTML = footer.innerHTML
+      .replace("Department of Economics and Statistics", "Dipartimento di Scienze Economiche e Statistiche")
+      .replace("University of Naples Federico II", "Università degli Studi di Napoli Federico II")
+      .replace("Built with", "Realizzato con");
+    footer.dataset.itDone = "1";
+  }
+
+  function addToggle() {
+    if (document.querySelector(".nav-link.lang-switch")) return;
+    var nav = document.querySelector(".navbar .navbar-nav");
+    if (!nav) return;
+    var li = document.createElement("li");
+    li.className = "nav-item";
+    var a = document.createElement("a");
+    a.className = "nav-link lang-switch";
+    a.href = counterpartUrl();
+    a.textContent = isIt ? "EN" : "IT";
+    a.setAttribute("aria-label", isIt ? "Switch to English" : "Passa alla versione italiana");
+    a.setAttribute("hreflang", isIt ? "en" : "it");
+    li.appendChild(a);
+    nav.appendChild(li);
+  }
+
+  function apply() {
+    if (isIt) { localizeLabels(); fixNavHrefs(); localizeFooter(); }
+    addToggle();
+  }
+
+  function init() {
+    apply();
+    // Re-apply after Quarto's navbar normalization pass, then watch
+    // for any further mutations (idempotent, so it settles quickly).
+    if (isIt) {
+      var nav = document.querySelector(".navbar");
+      if (nav) {
+        var obs = new MutationObserver(function () { localizeLabels(); fixNavHrefs(); });
+        obs.observe(nav, { subtree: true, childList: true, attributes: true, attributeFilter: ["href"] });
+      }
+    }
+    window.addEventListener("load", apply);
+  }
+
+  if (document.readyState !== "loading") init();
+  else document.addEventListener("DOMContentLoaded", init);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -667,7 +793,7 @@ Software
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © 2026 — Set in Fraunces &amp; Source Serif 4. Built with <a href="https://quarto.org">Quarto</a>.</p>
+<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © 2026 — Set in Crimson Pro &amp; Inter. Built with <a href="https://quarto.org">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

@@ -1,0 +1,43 @@
+---
+title: "Didattica"
+description: "Corsi, seminari e attività di formazione"
+lang: it
+format: html
+---
+
+<span class="eyebrow">Corsi · Seminari · Summer School</span>
+
+<p class="lede">Oltre vent'anni di insegnamento di statistica, machine learning e data science nei corsi di laurea triennale, magistrale e di dottorato — presso l'Università di Napoli Federico II e in summer school internazionali.</p>
+
+## Corsi tenuti
+
+- **Statistica per le Scienze Sociali** — Corso triennale, Laurea in Scienze del Turismo
+- **Indagini Campionarie** — Corso triennale, Laurea in Economia
+- **Metodi Statistici per la Ricerca Sociale** — Livello magistrale, Laurea Magistrale in Economia, Curriculum *Data Scientist for Economics*
+- **Laboratorio di Machine Learning e Text Mining con R** — Livello magistrale, Laurea Magistrale in Economia, Curriculum *Data Scientist for Economics*
+- **Metodi di Machine Learning** — Corsi di dottorato
+- **Analisi Bibliometrica con R** — Corsi di dottorato e Summer School internazionali
+
+---
+
+## Seminari e attività di formazione
+
+Negli ultimi anni ho tenuto più di **60 seminari su invito e sessioni di formazione** su metodi bibliometrici, machine learning e data science per la ricerca sociale. Queste lezioni si sono svolte in molte scuole di dottorato italiane — tra cui le Università di Bergamo, Brescia, Calabria, Genova, Politecnico di Milano, Napoli, Pisa, Roma e Salento — oltre che presso istituzioni internazionali come le Università di **Bodø (Norvegia)**, **Edimburgo**, **Granada**, **Londra**, **Melbourne** e **Parigi**.
+
+Sono stato inoltre docente alla **European Summer School for Scientometrics (ESSS)**, alla **Summer School in Science Mapping (SSSM)** e alla **Social Statistics Summer School** di Monteriggioni.
+
+---
+
+## Convegni e workshop
+
+Partecipante attivo a numerosi convegni nazionali e internazionali — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT — dove ho presentato contributi di ricerca relativi all'analisi bibliometrica, ai metodi di classificazione e all'innovazione metodologica nelle scienze sociali.
+
+Membro dei comitati scientifici o organizzativi di importanti convegni, tra cui **JADT 2022** e diverse edizioni dei convegni della **Società Italiana di Statistica (SIS)**.
+
+---
+
+<span class="eyebrow">Materiali dei corsi e aggiornamenti per studenti</span>
+
+I materiali completi dei corsi, le informazioni didattiche dettagliate e gli aggiornamenti in tempo reale per gli studenti sono disponibili sulla mia pagina ufficiale di Ateneo:
+
+[docenti.unina.it/massimo.aria](https://www.docenti.unina.it/massimo.aria)

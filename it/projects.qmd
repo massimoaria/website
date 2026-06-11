@@ -1,0 +1,58 @@
+---
+title: "Progetti di ricerca"
+description: "Progetti di ricerca in corso e passati, UE / nazionali / regionali"
+lang: it
+format: html
+---
+
+<span class="eyebrow">Progetti di ricerca · Principal Investigations</span>
+
+<p class="lede">Una selezione di progetti di ricerca in corso e passati — programmi quadro europei, programmi nazionali PRIN / PNRR e iniziative regionali.</p>
+
+## Progetti in corso
+
+::: {.catalogue-entry}
+<div class="catalogue-entry__meta">PRIN 2022 · MUR · Principal Investigator (2023 – 2025)</div>
+<h3 class="catalogue-entry__title">SciK-Health — Il valore della produzione scientifica per la cura dei pazienti negli Academic Health Science Centres</h3>
+
+Sito del progetto: [massimoaria.github.io/scikhealth](https://massimoaria.github.io/scikhealth/)
+
+Questo progetto di ricerca mira a mappare l'intero spettro della produzione scientifica — al di là delle pubblicazioni accademiche — dei Policlinici universitari pubblici italiani (AHC) dal 2000 in poi. Il suo scopo è duplice: fornire a cittadini e professionisti sanitari uno strumento di orientamento basato sulla scienza, e offrire a manager accademici, finanziatori e decisori politici uno strumento decisionale fondato sull'evidenza.
+
+Lo studio prevede la raccolta e l'integrazione di output di ricerca eterogenei — pubblicazioni, brevetti, trial clinici, grant, altmetriche — provenienti sia da banche dati tradizionali sia di nuova generazione. Utilizzando il science mapping e l'analisi longitudinale, il progetto ricostruisce le strutture concettuali e sociali della conoscenza prodotta dagli AHC, dando vita a un **Atlante Concettuale e Sociale Digitale**. Una web application dedicata, *SciK-Health*, diffonderà questi risultati al pubblico, fungendo da strumento di alfabetizzazione sanitaria e di supporto decisionale. Uno strumento ad accesso riservato fornirà agli stakeholder istituzionali un indicatore sintetico — *R-daisy* — che riassume l'expertise di ricerca di ciascun ospedale. Il progetto si conclude con una fase di validazione che coinvolge ospedali universitari e agenzie sanitarie regionali, garantendo la robustezza e l'applicabilità dei suoi risultati.
+:::
+
+::: {.catalogue-entry}
+<div class="catalogue-entry__meta">PRIN 2022 PNRR · Coordinatore Scientifico Locale (2023 – 2025)</div>
+<h3 class="catalogue-entry__title">L'impatto della produzione scientifica sugli esiti sanitari negli Academic Health Science Centres italiani</h3>
+
+Gli Academic Health Science Centres (AHSC) condividono tre missioni strategiche: formare i professionisti sanitari, sviluppare tecnologie innovative e soluzioni digitali, ed erogare assistenza di alta qualità e data-driven. L'equilibrio tra queste missioni genera spesso ambiguità strategica e tensioni organizzative. Mentre gli studi esistenti hanno occasionalmente esaminato come la didattica influenzi la cura dei pazienti, poco si sa sugli effetti della ricerca sugli esiti clinici.
+
+Questo progetto indaga se e come la performance della ricerca accademica influenzi la qualità della cura dei pazienti negli AHSC pubblici italiani. Inizierà costruendo un database longitudinale di metadati scientometrici e bibliometrici, che copre pubblicazioni, brevetti, trial clinici, grant e altmetriche dal 2000 a oggi.
+
+Dopo la raccolta dei dati misureremo produttività, crescita, impatto e novità, e costruiremo un indicatore composito ponderato per valutare la produzione scientifica di ciascun AHSC. Infine, utilizzando modelli econometrici, il progetto analizzerà come l'attività di ricerca si correli con dimensioni chiave della performance sanitaria — mortalità a 30 giorni, tassi di riammissione ospedaliera, mobilità dei pazienti, liste d'attesa e complessità del case-mix.
+
+La ricerca mira a rispondere a tre domande centrali: **la performance di ricerca negli AHSC porta a migliori esiti di salute?** **L'attività di ricerca è un driver del case-mix ospedaliero?** E infine, **la performance della ricerca accademica influenza le scelte dei pazienti rispetto agli erogatori di servizi sanitari?**
+:::
+
+---
+
+## Progetti passati
+
+<span class="eyebrow">Due decenni di ricerca collaborativa</span>
+
+Negli ultimi due decenni ho contribuito e coordinato un'ampia gamma di progetti di ricerca a livello europeo, nazionale e regionale.
+
+### Livello europeo
+
+Senior researcher in diverse iniziative finanziate dall'UE, tra cui il progetto **Horizon 2020** *MAGIC — Moving Towards Adaptive Governance in Complexity*, che ha affrontato le sfide della nexus-security. Nell'ambito del 7° Programma Quadro ho partecipato a *EUROC — European Robotics Challenges* e *RoDyMan — Robotic Dynamic Manipulation*, focalizzati sulla robotica avanzata. In precedenza ho contribuito a *iWeb-Care*, un progetto sul rilevamento delle frodi nei servizi di e-government sanitario, e a *INSPECTOR*, che ha sviluppato sistemi distribuiti per la validazione dei dati — entrambi finanziati nell'ambito del 6° Programma Quadro. Ho inoltre svolto il ruolo di **Coordinatore Scientifico** per l'iniziativa di cooperazione transnazionale "Network for Regional Development and Entrepreneurship" nell'ambito del Programma *EQUAL Fase 2*, e di membro del Comitato Scientifico nel relativo progetto *SPIDER* sulla gestione delle informazioni territoriali per le imprese sociali.
+
+### Livello nazionale
+
+Coinvolgimento in molteplici iniziative **PRIN** (Progetti di Rilevante Interesse Nazionale) e **FIRB**. Tra queste, il mio ruolo di Principal Investigator per l'attuale progetto PRIN 2022 *SciK-Health* e di Coordinatore Scientifico Locale per il progetto PRIN 2022 PNRR sull'impatto della produzione scientifica negli Academic Health Science Centres. Contribuisco inoltre a iniziative finanziate dal PNRR come il *Digital Health Ecosystem*, dove coordino il Work Package 2, e il *Centro Nazionale per la Mobilità Sostenibile*, dove sono membro dello Spoke 10.
+
+Negli anni precedenti sono stato senior researcher per progetti PRIN su razionalità e attenzione nei bambini, metodi ad albero per classificazione e regressione, e knowledge discovery nei processi decisionali. Ho inoltre collaborato al progetto FIRB sul *Supply Chain Management* guidato dall'Università di Salerno.
+
+### Progetti regionali e di Ateneo
+
+Studi sulle disuguaglianze di salute, sui servizi per l'infanzia nel Mezzogiorno, sul reinserimento lavorativo delle donne dopo la maternità e sui sistemi di monitoraggio del turismo regionale. Ho coordinato progetti tra cui *SOCIAL-NET* (invecchiamento ed esclusione sociale), *MoniTur* (analisi dei dati del turismo culturale) e la componente di data strategy del Piano Strategico del Comune di Napoli. Ho inoltre contribuito come senior researcher a programmi ICT cofinanziati dalle Regioni Campania e Puglia — *VIRNET*, *ANGELO*, *PROTEO*, *PORTUR*, *TRITONE* — nonché al *Centro Regionale di Competenza sui Trasporti* incentrato sulla modellazione della domanda mediante metodi statistici.

@@ -1,0 +1,132 @@
+---
+title: "Curriculum Vitae"
+description: "Massimo Aria — Professore Ordinario di Statistica per le Scienze Sociali"
+lang: it
+format: html
+---
+
+<span class="eyebrow">Curriculum Vitae · Massimo Aria</span>
+
+<p class="lede">Una panoramica della mia formazione, delle posizioni accademiche, della leadership nella ricerca, della produzione scientifica e delle attività didattiche.</p>
+
+## Formazione
+
+- **Dottorato di ricerca in Statistica Computazionale e Applicazioni** — Università di Napoli Federico II, 2004. Tesi sullo sviluppo di un framework metodologico e applicativo generale per gli alberi di classificazione e regressione (CART).
+- **Laurea in Economia con lode** — Università di Napoli Federico II, 2000.
+
+## Posizioni accademiche
+
+- **Professore Ordinario**, Statistica per le Scienze Sociali (SECS-S/05), Università di Napoli Federico II — 2019 – presente
+- **Professore Associato**, Statistica per le Scienze Sociali, Università di Napoli Federico II — 2014 – 2019
+- **Ricercatore**, Statistica per le Scienze Sociali, Università di Napoli Federico II — 2007 – 2014
+- **Assegnista di ricerca post-dottorato**, Federico II / CRC Trasporti — 2004 – 2005
+
+## Leadership nella ricerca
+
+- **Co-fondatore**, <a href="https://www.k-synth.com" target="_blank">K-Synth srl</a> — Spin-off accademico specializzato nell'estrazione di conoscenza e intelligence da dati eterogenei su larga scala (2021–presente)
+- **Co-coordinatore**, PMP Lab — Performance Measurement & Management in Professions, Dip. di Scienze Economiche e Statistiche, Federico II (2019–presente)
+- **Coordinatore**, Gruppo di ricerca in Bibliometria & Science Mapping — Federico II & Univ. L. Vanvitelli (2010–presente). <a href="https://www.bibliometrix.org" target="_blank">www.bibliometrix.org</a>
+
+## Ruoli istituzionali
+
+### Ruoli in corso
+
+- **Membro della Giunta**, Dipartimento di Scienze Economiche e Statistiche
+- **Membro della Commissione Ricerca**, Dipartimento di Scienze Economiche e Statistiche
+- **Responsabile della Valutazione della Qualità della Ricerca (VQR)**, Dipartimento di Scienze Economiche e Statistiche
+- **Membro del Collegio del Dottorato in Economia** dell'Università di Napoli Federico II
+- **Membro del consiglio** della **Laurea Magistrale in Data Science** e in **Economia** (curriculum: *Data Scientist for Economics*) dal 2019
+- **Coordinatore scientifico** per il Dipartimento nelle seguenti Task Force di Ateneo:
+    - *Industria 4.0 e Sviluppo Sostenibile*
+    - *SUM (Smart and Sustainable Mobility)*
+    - *Human & Future*
+- **Coordinatore scientifico dei laboratori informatici** del Dipartimento di Scienze Economiche e Statistiche
+
+### Ruoli passati
+
+- Per oltre 20 anni membro del collegio dei **Dottorati in Statistica Computazionale** e in **Scienze Sociali e Statistica**
+- **Membro del gruppo di progettazione del nuovo Corso di Laurea Magistrale in Data Science** dell'Università di Napoli Federico II
+- **Rappresentante dei Ricercatori** nel Consiglio di Facoltà (2007–2011)
+
+## Risultati scientifici e impatto
+
+Autore di oltre **200 articoli scientifici** pubblicati su riviste internazionali, di cui **38** valutati "A" (fascia alta) dall'Agenzia Nazionale di Valutazione del Sistema Universitario e della Ricerca (ANVUR).
+
+Citazioni totali: <span class="mono">**26.100**</span>  ·  Indice H: <span class="mono">**43**</span>  ·  Ultimi 5 anni: <span class="mono">**23.200**</span> citazioni, indice H <span class="mono">**38**</span> (Google Scholar).
+
+L'articolo del 2017 *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (*Journal of Informetrics*) è l'**articolo più citato di sempre** pubblicato dalla rivista (Scopus: 10.300+; Google Scholar: 19.100+ citazioni) ed è tra i più scaricati.
+
+## Interessi di ricerca
+
+Le mie attività di ricerca spaziano su un'ampia gamma di ambiti della statistica computazionale e applicata, con un forte orientamento allo sviluppo metodologico e alle applicazioni empiriche. In particolare:
+
+- **Bibliometria & Science Mapping** — Tecniche statistiche per l'analisi dei pattern di pubblicazione, la valutazione dell'impatto e le revisioni sistematiche della letteratura
+- **Text Mining e NLP** — Analisi di corpora della letteratura scientifica e di dataset testuali
+- **Machine Learning** — Modelli ad albero, metodi ensemble, reti neurali, clustering e metodi fattoriali
+- **Imputazione dei dati mancanti** — Algoritmi ricorsivi e incrementali per l'imputazione di valori mancanti in dati qualitativi e quantitativi
+- **Statistica computazionale** — Sviluppo di algoritmi di stima e procedure numeriche
+- **Disegno di indagini statistiche** — Progettazione ed esecuzione di indagini socio-economiche e studi di customer satisfaction
+
+## Progetti di ricerca
+
+- **PRIN 2022** — *SciK-Health: Mapping Scientific Knowledge about health for decision-making*. Ruolo: Principal Investigator (2023–2025)
+- **PRIN 2022 PNRR** — *Scientific production for patient care in Academic Health Science Centres*. Ruolo: Coordinatore Scientifico Locale (2023–2025)
+- **PNC Digital Health** — PI del WP2. Ecosistema finanziato dal PNRR (2023–2025)
+- PI, PI locale o senior researcher in:
+    - 5 progetti finanziati dall'UE (incl. H2020 MAGIC, ERC AdG RoDyMan)
+    - 3 progetti PNRR
+    - 3 progetti PRIN
+    - 1 progetto FIRB
+    - 11+ iniziative di ricerca nazionali e regionali
+
+## Software scientifico
+
+- **Bibliometrix & Biblioshiny** — Pacchetto R e web-app per il science mapping e l'analisi bibliometrica. 1.350.000+ installazioni; 200+ video tutorial della comunità
+- **TALL — Text Analysis for All** — App R/Shiny per l'NLP: text mining, topic modelling, sentiment analysis
+- **E2Tree** — Explainable Ensemble Trees: interpretazione di modelli Random Forest e XGBoost tramite strutture ad albero singolo
+- **contentanalysis** — Strumenti per l'estrazione e l'analisi di contenuti scientifici da PDF, inclusa l'estrazione di citazioni e il matching dei riferimenti
+- **openalexR** — Client R per l'API OpenAlex, per l'accesso a metadati bibliografici aperti delle pubblicazioni scientifiche
+- **DimensionsR** — Interfaccia R all'API Dimensions per l'estrazione e l'analisi di dati bibliometrici
+- **PubmedR** — Interfaccia R all'API PubMed per il recupero e l'analisi della letteratura
+- **PLS-SEM Matlab Toolbox** — Pacchetto Matlab/Octave per i modelli di equazioni strutturali Partial Least Squares
+
+## Esperienza didattica
+
+- Insegnamenti tenuti (triennale, magistrale, dottorato):
+    - **Metodi Quantitativi e Analisi dei Dati**
+    - **Indagini Campionarie**
+    - **Metodi Statistici per la Valutazione**
+    - **Laboratorio di Machine Learning in R**
+    - **Analisi Bibliometrica con R** (dottorato e Summer School)
+- Membro del corpo docente della **European Summer School of Scientometrics (ESSS)**
+- Coordinatore scientifico della **Summer School in Science Mapping (SSSM)**
+- 60+ seminari su invito in scuole di dottorato in tutta Europa
+- Relatore di 150+ tesi magistrali e di numerose tesi di dottorato
+
+## Attività editoriali e scientifiche
+
+- **Section Editor in Chief**, *American Journal of Oral Medicine* (Statistica)
+- **Associate Editor**, *Journal of Oral Pathology and Medicine* (Wiley)
+- **Comitato editoriale**, *Nature Scientific Reports*, *Sustainability*
+- **Revisore** per 30+ riviste tra cui Scientometrics, Journal of Informetrics, EJOR, CSDA, Expert Systems with Applications, Health Policy, The R Journal
+- Membro del **Comitato Scientifico** dell'ERCIM Working Group on Computational and Methodological Statistics
+
+## Società scientifiche
+
+- *International Statistical Institute* (ISI)
+- *International Association for Statistical Computing* (IASC)
+- *Società Italiana di Statistica* (SIS)
+- *Associazione di Statistica Applicata* (ASA)
+- *Associazione Italiana Studi di Popolazione* (AISP)
+
+## Lingue
+
+- **Italiano** — Madrelingua
+- **Inglese** — Fluente (competenza accademica e professionale)
+
+## Competenze tecniche
+
+- **Programmazione** — R (primaria), Matlab, Python, C++
+- **Strumenti** — LaTeX, Git, Quarto, SPSS, SAS
+- **Framework** — RStudio, Shiny, Positron, Plotly
+- **Ricerca riproducibile** — Quarto, RMarkdown, flussi di lavoro versionati

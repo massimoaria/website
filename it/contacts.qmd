@@ -1,0 +1,31 @@
+---
+title: "Contatti"
+description: "Come raggiungermi — email, affiliazione, profili di ricerca"
+lang: it
+format: html
+---
+
+<span class="eyebrow">Colophon · Come raggiungermi</span>
+
+<p class="lede">Per richieste di ricerca, collaborazioni e corrispondenza accademica.</p>
+
+## Diretti
+
+- **Email** — massimo.aria\[at\]unina.it
+- **Affiliazione** — Dipartimento di Scienze Economiche e Statistiche, Università di Napoli Federico II
+- **Indirizzo** — Via Cintia, Monte Sant'Angelo, Napoli, Italia
+
+## Profili di ricerca
+
+- **ORCID** — <a href="https://orcid.org/0000-0002-8517-9411" target="_blank">0000-0002-8517-9411</a>
+- **Google Scholar** — <a href="https://scholar.google.it/citations?user=Qu66YZQAAAAJ" target="_blank">Qu66YZQAAAAJ</a>
+- **ResearcherID** — <a href="https://www.researcherid.com/rid/O-7983-2015" target="_blank">O-7983-2015</a>
+- **ResearchGate** — <a href="https://www.researchgate.net/profile/Massimo_Aria" target="_blank">Massimo Aria</a>
+
+## Istituzioni e gruppi di ricerca
+
+- <a href="https://www.k-synth.com" target="_blank">K-Synth — Spin-off accademico</a>
+- <a href="https://www.bibliometrix.org" target="_blank">Bibliometrix — sito ufficiale</a>
+- <a href="https://www.bibliometrix.org/sssm" target="_blank">Summer School in Science Mapping</a>
+- <a href="https://www.dises.unina.it" target="_blank">Dipartimento di Scienze Economiche e Statistiche, Federico II</a>
+- <a href="https://www.unina.it" target="_blank">Università degli Studi di Napoli Federico II</a>

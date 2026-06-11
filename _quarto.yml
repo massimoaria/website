@@ -1,8 +1,10 @@
 project:
   type: website
   output-dir: docs
+  execute-dir: project
   render:
     - "*.qmd"
+    - "it/*.qmd"
     - "!tasks/"
   resources:
     - "photos/"
@@ -44,14 +46,14 @@ website:
   page-footer:
     center: |
       Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br>
-      © 2026 — Set in Fraunces &amp; Source Serif 4. Built with [Quarto](https://quarto.org).
+      © 2026 — Set in Crimson Pro &amp; Inter. Built with [Quarto](https://quarto.org).
 
 format:
   html:
     theme: theme.scss
     css: styles.css
-    includes:
-      head: lightbox-head.html
+    include-in-header: lightbox-head.html
+    include-after-body: lang-switch.html
     toc: true
     toc-location: left
     toc-title: "In this page"

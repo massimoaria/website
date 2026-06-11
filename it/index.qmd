@@ -1,0 +1,147 @@
+---
+format: html
+page-layout: full
+pagetitle: "Massimo Aria"
+lang: it
+css: ../styles.css
+include-in-header:
+  text: |
+    <style>header#title-block-header{display:none}</style>
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: home-metrics
+
+# Pull live metrics from the same sources used by statistics.qmd,
+# so the home-page stat strip stays in sync on every render.
+
+suppressPackageStartupMessages({
+  library(jsonlite)
+  library(cranlogs)
+})
+
+scholar_id  <- "Qu66YZQAAAAJ"
+cache_file  <- "scholar_cache.json"
+
+# ---- Scholar (citations + h-index) via cache written by statistics.qmd ----
+total_cites <- NA_integer_
+h_index     <- NA_integer_
+
+scholar_ok <- tryCatch({
+  if (requireNamespace("scholar", quietly = TRUE)) {
+    p <- scholar::get_profile(scholar_id)
+    if (is.list(p) && !is.null(p$total_cites)) {
+      total_cites <- as.integer(p$total_cites)
+      h_index     <- as.integer(p$h_index)
+      # Keep the shared cache warm for other pages
+      jsonlite::write_json(
+        list(profile = p,
+             cite_history = scholar::get_citation_history(scholar_id)),
+        cache_file, auto_unbox = TRUE, pretty = TRUE
+      )
+      TRUE
+    } else FALSE
+  } else FALSE
+}, error = function(e) FALSE)
+
+if (!scholar_ok && file.exists(cache_file)) {
+  cache <- tryCatch(jsonlite::read_json(cache_file, simplifyVector = TRUE),
+                    error = function(e) NULL)
+  if (!is.null(cache$profile$total_cites)) {
+    total_cites <- as.integer(cache$profile$total_cites)
+    h_index     <- as.integer(cache$profile$h_index)
+  }
+}
+
+# ---- CRAN total downloads for bibliometrix ----
+bibl_total <- tryCatch({
+  dl <- cran_downloads("bibliometrix", from = "2015-01-01", to = Sys.Date())
+  as.numeric(sum(dl$count, na.rm = TRUE))
+}, error = function(e) NA_real_)
+
+# ---- Formatters ----
+fmt_int <- function(x) {
+  if (is.na(x) || !is.finite(x)) return("—")
+  formatC(x, format = "d", big.mark = ",")
+}
+
+fmt_compact <- function(x) {
+  # 1,350,000 -> "1.35M"  ;  980,000 -> "980K"
+  if (is.na(x) || !is.finite(x)) return("—")
+  if (x >= 1e6) sprintf("%.2fM", x / 1e6)
+  else if (x >= 1e3) sprintf("%.0fK", x / 1e3)
+  else formatC(x, format = "d", big.mark = ",")
+}
+
+# Floor citations to the nearest hundred so the "+" is honest
+cites_display <- if (is.na(total_cites)) "—" else fmt_int(floor(total_cites / 100) * 100)
+h_display     <- if (is.na(h_index))     "—" else as.character(h_index)
+bibl_display  <- fmt_compact(bibl_total)
+```
+
+::: {.folio}
+::: {.folio__figure}
+![Massimo Aria](../images/home.jpg){fig-alt="Ritratto di Massimo Aria"}
+:::
+
+::: {.folio__head}
+<div class="folio__eyebrow">Vol. XXIV · Pagine personali · MMXXVI</div>
+
+<h1 class="folio__title">Massimo <em>Aria</em></h1>
+
+<p class="folio__sub">Professore Ordinario di Statistica per le Scienze Sociali — Università degli Studi di Napoli Federico II</p>
+
+<dl class="folio__meta">
+<dt>Ambiti</dt><dd>Bibliometria · Science mapping · Machine learning · Text mining</dd>
+<dt>Dipartimento</dt><dd>Scienze Economiche e Statistiche</dd>
+<dt>Spin-off</dt><dd>K-Synth srl, co-fondatore</dd>
+<dt>Software</dt><dd><em>bibliometrix</em> · <em>biblioshiny</em> · <em>TALL</em> · <em>openalexR</em></dd>
+</dl>
+:::
+:::
+
+::: {.stat-strip}
+::: {.stat}
+<span class="stat__num">200<span class="unit">+</span></span>
+<span class="stat__label">Articoli peer-reviewed</span>
+:::
+::: {.stat}
+<span class="stat__num">`r cites_display`<span class="unit">+</span></span>
+<span class="stat__label">Citazioni su Google Scholar</span>
+:::
+::: {.stat}
+<span class="stat__num">`r h_display`</span>
+<span class="stat__label">Indice H</span>
+:::
+::: {.stat}
+<span class="stat__num">`r bibl_display`<span class="unit">+</span></span>
+<span class="stat__label">Installazioni di bibliometrix</span>
+:::
+:::
+
+<span class="eyebrow">Per esteso</span>
+
+::: {.dropcap}
+Benvenuti. Sono professore ordinario di Statistica per le Scienze Sociali presso il Dipartimento di Scienze Economiche e Statistiche dell'Università degli Studi di Napoli Federico II. La mia ricerca si colloca all'incrocio tra **bibliometria**, **science mapping**, **text mining**, **modellistica statistica** e **machine learning**.
+:::
+
+Sono autore di oltre duecento articoli scientifici e creatore di diversi pacchetti R open-source, tra cui il diffusissimo [bibliometrix](https://www.bibliometrix.org) — con più di `r bibl_display` installazioni in tutto il mondo — e [TALL](https://github.com/massimoaria/tall), un ambiente interattivo per l'analisi testuale. Sono co-fondatore di [K-Synth](https://www.k-synth.com), uno spin-off accademico dedicato a trasformare i dati in conoscenza azionabile attraverso metodi statistici e computazionali innovativi.
+
+Nel corso degli anni ho guidato e partecipato a numerosi programmi di ricerca nazionali e internazionali — PRIN, PNRR, EU Framework, Horizon 2020 — e sostengo attivamente la scienza aperta e la ricerca riproducibile.
+
+Oltre all'ambito accademico, sono felicemente sposato con Adelaide e orgoglioso padre di Vittoria e Lorenzo — rendono la vita gioiosa, imprevedibile e profondamente ispirante.
+
+---
+
+<span class="eyebrow">Naviga il sito</span>
+
+- [**Biografia**](shortbio.qmd) — carriera, premi e impatto
+- [**Curriculum Vitae**](cv.qmd) — posizioni, progetti, attività editoriali
+- [**Pubblicazioni**](publications.qmd) — articoli su rivista e monografie selezionati
+- [**Software**](software.qmd) — pacchetti R e strumenti scientifici
+- [**Statistiche di ricerca**](statistics.qmd) — metriche live da Google Scholar e CRAN
+- [**Progetti**](projects.qmd) · [**Didattica**](teaching.qmd) · [**Foto**](photos.qmd) · [**Contatti**](contacts.qmd)

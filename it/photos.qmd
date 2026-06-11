@@ -1,0 +1,33 @@
+---
+title: "Galleria fotografica"
+description: "Uno sguardo più personale"
+lang: it
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| output: asis
+# Auto-sync the Italian gallery from the English photos.qmd so new
+# photos never have to be added twice. We only translate the section
+# chrome and rewrite asset paths for the /it/ subdirectory.
+# (execute-dir is set to "project", so this reads the root file.)
+lines <- readLines("photos.qmd", warn = FALSE)
+yend  <- which(lines == "---")[2]
+body  <- paste(lines[(yend + 1):length(lines)], collapse = "\n")
+
+body <- gsub("Plates · A personal album", "Tavole · Un album personale", body, fixed = TRUE)
+body <- gsub(
+  "A more personal glimpse of my life through pictures that reflect my passions, my academic collaborations, and above all, the people I care about.",
+  "Uno sguardo più personale sulla mia vita attraverso immagini che riflettono le mie passioni, le mie collaborazioni accademiche e, soprattutto, le persone a cui tengo.",
+  body, fixed = TRUE)
+body <- gsub("## Family",  "## Famiglia", body, fixed = TRUE)
+body <- gsub("## Friends", "## Amici",    body, fixed = TRUE)
+body <- gsub("## Work",    "## Lavoro",   body, fixed = TRUE)
+
+# Resolve the gallery assets from the /it/ subdirectory
+body <- gsub("photos/", "../photos/", body, fixed = TRUE)
+
+cat(body)
+```
