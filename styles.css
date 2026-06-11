@@ -6,18 +6,18 @@
  * third-party component adjustments.
  * ------------------------------------------------------------- */
 
-/* Lightbox overlay tint — warmer to match paper palette */
+/* Lightbox overlay tint — matches Modern Scholar palette */
 .lb-dataContainer {
-  font-family: "Source Serif 4", Georgia, serif !important;
+  font-family: "Inter", system-ui, -apple-system, sans-serif !important;
 }
 
 .lb-data .lb-caption,
 .lb-data .lb-number {
-  color: #F7F3EC !important;
+  color: #FCFCFD !important;
 }
 
 .lightboxOverlay {
-  background-color: #15181D !important;
+  background-color: #0F172A !important;
 }
 
 /* Plotly — paper-coloured background when hosted inside .content */

@@ -22,6 +22,8 @@ format: html
 <a href="photos/lorenzo.jpg" data-lightbox="family"><img src="photos/lorenzo.jpg" alt=""></a>
 <a href="photos/vittoria.jpg" data-lightbox="family"><img src="photos/vittoria.jpg" alt=""></a>
 <a href="photos/family7.jpg" data-lightbox="family"><img src="photos/family7.jpg" alt=""></a>
+<a href="photos/family8.jpg" data-lightbox="family"><img src="photos/family8.jpg" alt=""></a>
+<a href="photos/family9.jpg" data-lightbox="family"><img src="photos/family9.jpg" alt=""></a>
 </div>
 
 ---
@@ -41,6 +43,9 @@ format: html
 <a href="photos/friends10.jpg" data-lightbox="friends"><img src="photos/friends10.jpg" alt=""></a>
 <a href="photos/friends11.jpg" data-lightbox="friends"><img src="photos/friends11.jpg" alt=""></a>
 <a href="photos/friends12.jpg" data-lightbox="friends"><img src="photos/friends12.jpg" alt=""></a>
+<a href="photos/friends13.jpg" data-lightbox="friends"><img src="photos/friends13.jpg" alt=""></a>
+<a href="photos/friends14.jpg" data-lightbox="friends"><img src="photos/friends14.jpg" alt=""></a>
+<a href="photos/friends15.jpg" data-lightbox="friends"><img src="photos/friends15.jpg" alt=""></a>
 </div>
 
 ---
@@ -73,4 +78,14 @@ format: html
 <a href="photos/work21.jpg" data-lightbox="work"><img src="photos/work21.jpg" alt=""></a>
 <a href="photos/work24.jpg" data-lightbox="work"><img src="photos/work24.jpg" alt=""></a>
 <a href="photos/work25.jpg" data-lightbox="work"><img src="photos/work25.jpg" alt=""></a>
+<a href="photos/work26.jpg" data-lightbox="work"><img src="photos/work26.jpg" alt=""></a>
+<a href="photos/work27.jpg" data-lightbox="work"><img src="photos/work27.jpg" alt=""></a>
+<a href="photos/work28.jpg" data-lightbox="work"><img src="photos/work28.jpg" alt=""></a>
+<a href="photos/work29.jpg" data-lightbox="work"><img src="photos/work29.jpg" alt=""></a>
+<a href="photos/work30.jpg" data-lightbox="work"><img src="photos/work30.jpg" alt=""></a>
+<a href="photos/work31.jpg" data-lightbox="work"><img src="photos/work31.jpg" alt=""></a>
+<a href="photos/work32.jpg" data-lightbox="work"><img src="photos/work32.jpg" alt=""></a>
+<a href="photos/work33.jpg" data-lightbox="work"><img src="photos/work33.jpg" alt=""></a>
+<a href="photos/work34.jpg" data-lightbox="work"><img src="photos/work34.jpg" alt=""></a>
+<a href="photos/work35.jpg" data-lightbox="work"><img src="photos/work35.jpg" alt=""></a>
 </div>

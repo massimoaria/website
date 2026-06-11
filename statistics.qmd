@@ -17,23 +17,23 @@ library(plotly)
 library(dplyr)
 library(htmltools)
 
-# ---- Editorial Journal palette (mirrors theme.scss) ----
-col_ink     <- "#15181D"   # primary ink
-col_accent  <- "#8C2F39"   # editorial red
-col_paper   <- "#F7F3EC"   # paper background
-col_paper2  <- "#EFE9DC"
-col_rule    <- "#D8CFBC"
-col_muted   <- "#6B6459"
-col_forest  <- "#3C6E47"   # secondary — natural green
-col_ochre   <- "#B8812B"   # secondary — warm ochre
-col_slate   <- "#3F5E8C"   # secondary — cool slate
-col_plum    <- "#5C3A50"   # secondary — deep plum
+# ---- Modern Scholar palette (mirrors theme.scss) ----
+col_ink     <- "#0F172A"   # slate ink (primary)
+col_accent  <- "#1E4D8C"   # oxford blue
+col_paper   <- "#FCFCFD"   # near-white surface
+col_paper2  <- "#F1F4F8"
+col_rule    <- "#E3E8EF"   # cool gray hairline
+col_muted   <- "#5B6B82"   # slate muted
+col_teal    <- "#0E7C7B"   # secondary — teal
+col_amber   <- "#C7791A"   # secondary — amber
+col_slate   <- "#3F5E8C"   # secondary — mid slate-blue
+col_plum    <- "#6D3B6B"   # secondary — plum
 
-# Base font family for plotly charts
-chart_font_family <- "Source Serif 4, Georgia, serif"
+# Base font family for plotly charts (matches site body font)
+chart_font_family <- "Inter, system-ui, sans-serif"
 
-# Chart colors — ink + accent + warm/cool editorial tones
-chart_colors <- c(col_ink, col_accent, col_forest, col_slate, col_ochre, col_plum, col_muted)
+# Chart colors — ink + accent + cohesive scholarly secondary tones
+chart_colors <- c(col_ink, col_accent, col_teal, col_slate, col_amber, col_plum, col_muted)
 
 # ---- Google Scholar data (with local cache) ----
 scholar_id <- "Qu66YZQAAAAJ"
