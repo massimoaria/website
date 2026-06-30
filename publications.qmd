@@ -90,7 +90,9 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 3. Mauriello, F., Aria, M., Siciliano, R., Galante, F., & Montella, A. (2026). **Synthetic Resampling Algorithm for Response Class Imbalance in Supervised Learning: Application to Road Accident Severity Prediction**. *Transportation Research Procedia*, 95, 504–511, <a href="https://doi.org/10.1016/j.trpro.2026.02.064" target="_blank"> DOI: 10.1016/j.trpro.2026.02.064</a>.
 
-4. Pagliara F., Aria M., Brancati G., Moradpour A., Morrison A.M. (2025). **A Mixed-Method Study for Identification of Factors Affecting Tourist Destination Performance**. *Journal of Destination Marketing & Management*, <a href="https://doi.org/10.1016/j.jdmm.2025.101018" target="_blank"> DOI: 10.1016/j.jdmm.2025.101018</a>.
+4. Aria, M., D'Aniello, L., Della Corte, V., & Pagliara, F. (2026). **Balancing tourism and conservation: analysing the sustainability of tourism in the city of Naples through citizen perspectives**. *Quality & Quantity*, 60(3), 7991–8011, <a href="https://doi.org/10.1007/s11135-023-01774-w" target="_blank"> DOI: 10.1007/s11135-023-01774-w</a>.
+
+5. Pagliara F., Aria M., Brancati G., Moradpour A., Morrison A.M. (2025). **A Mixed-Method Study for Identification of Factors Affecting Tourist Destination Performance**. *Journal of Destination Marketing & Management*, <a href="https://doi.org/10.1016/j.jdmm.2025.101018" target="_blank"> DOI: 10.1016/j.jdmm.2025.101018</a>.
 
 5. Marrone T., Cantone G.F., Caputo F., Cantone L., Aria M. (2025). **Unpacking dimensions of brand humanization in the Metaverse Era**. *Technology in Society*, <a href="https://doi.org/10.1016/j.techsoc.2025.103037" target="_blank"> DOI: 10.1016/j.techsoc.2025.103037</a>.
 
