@@ -102,7 +102,7 @@
     "href": "it/statistics.html#download-dei-pacchetti-cran",
     "title": "Statistiche di ricerca",
     "section": "Download dei pacchetti CRAN",
-    "text": "Download dei pacchetti CRAN\n\nDownload totali da CRAN\n\n\n\n\n\n1,493,875\nbibliometrix\n\n\n503,910\npubmedR\n\n\n494,368\ndimensionsR\n\n\n385,830\nopenalexR\n\n\n\n\n156,428\ncontentanalysis\n\n\n8,825\ntall\n\n\n4,189\ne2tree\n\n\n\n\n\n\n\nDownload cumulati nel tempo\n\n\n\n\n\n\n\n\nDownload mensili (ultimi 12 mesi)\n\n\n\n\n\n\n\nColophon · Fonte citazioni: Google Scholar · Fonte download: CRAN logs · Aggiornato automaticamente a ogni render"
+    "text": "Download dei pacchetti CRAN\n\nDownload totali da CRAN\n\n\n\n\n\n1,494,909\nbibliometrix\n\n\n504,289\npubmedR\n\n\n494,670\ndimensionsR\n\n\n386,198\nopenalexR\n\n\n\n\n156,951\ncontentanalysis\n\n\n8,839\ntall\n\n\n4,196\ne2tree\n\n\n\n\n\n\n\nDownload cumulati nel tempo\n\n\n\n\n\n\n\n\nDownload mensili (ultimi 12 mesi)\n\n\n\n\n\n\n\nColophon · Fonte citazioni: Google Scholar · Fonte download: CRAN logs · Aggiornato automaticamente a ogni render"
   },
   {
     "objectID": "it/shortbio.html",
@@ -599,6 +599,6 @@
     "href": "statistics.html#cran-package-downloads",
     "title": "Research Statistics",
     "section": "CRAN Package Downloads",
-    "text": "CRAN Package Downloads\n\nTotal CRAN Downloads\n\n\n\n\n\n1,493,875\nbibliometrix\n\n\n503,910\npubmedR\n\n\n494,368\ndimensionsR\n\n\n385,830\nopenalexR\n\n\n\n\n156,428\ncontentanalysis\n\n\n8,825\ntall\n\n\n4,189\ne2tree\n\n\n\n\n\n\n\nCumulative Downloads Over Time\n\n\n\n\n\n\n\n\nMonthly Downloads (Last 12 Months)\n\n\n\n\n\n\n\nColophon · Citations source: Google Scholar · Downloads source: CRAN logs · Automatically refreshed on render"
+    "text": "CRAN Package Downloads\n\nTotal CRAN Downloads\n\n\n\n\n\n1,494,909\nbibliometrix\n\n\n504,289\npubmedR\n\n\n494,670\ndimensionsR\n\n\n386,198\nopenalexR\n\n\n\n\n156,951\ncontentanalysis\n\n\n8,839\ntall\n\n\n4,196\ne2tree\n\n\n\n\n\n\n\nCumulative Downloads Over Time\n\n\n\n\n\n\n\n\nMonthly Downloads (Last 12 Months)\n\n\n\n\n\n\n\nColophon · Citations source: Google Scholar · Downloads source: CRAN logs · Automatically refreshed on render"
   }
 ]
