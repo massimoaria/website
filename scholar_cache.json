@@ -3,63 +3,63 @@
     "id": "Qu66YZQAAAAJ",
     "name": "Massimo Aria",
     "affiliation": "Full Professor, Department of Economics and Statistics, University of Naples, Federico II",
-    "total_cites": 30750,
+    "total_cites": 30359,
     "h_index": 43,
-    "i10_index": 121,
+    "i10_index": 122,
     "fields": ["Statistics for Social Sciences", "Multivariate Analysis", "Classification", "Bibliometrics & Science", "ML"],
     "homepage": "https://www.massimoaria.com/",
-    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT,...", "Francesco Galante", "G. R. Semin", "Giovanna Del Gaudio", "María Guadalupe Moreno Treviño", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
+    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT,...", "Francesco Galante", "G. R. Semin", "María Guadalupe Moreno Treviño", "Giovanna Del Gaudio", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
     "available": 7,
     "not_available": 4
   },
   "cite_history": [
     {
       "year": 2015,
-      "cites": 117
+      "cites": 118
     },
     {
       "year": 2016,
-      "cites": 164
+      "cites": 156
     },
     {
       "year": 2017,
-      "cites": 211
+      "cites": 212
     },
     {
       "year": 2018,
-      "cites": 328
+      "cites": 323
     },
     {
       "year": 2019,
-      "cites": 509
+      "cites": 490
     },
     {
       "year": 2020,
-      "cites": 982
+      "cites": 966
     },
     {
       "year": 2021,
-      "cites": 1766
+      "cites": 1724
     },
     {
       "year": 2022,
-      "cites": 2846
+      "cites": 2770
     },
     {
       "year": 2023,
-      "cites": 4121
+      "cites": 4028
     },
     {
       "year": 2024,
-      "cites": 5836
+      "cites": 5625
     },
     {
       "year": 2025,
-      "cites": 7864
+      "cites": 7661
     },
     {
       "year": 2026,
-      "cites": 5269
+      "cites": 5529
     }
   ]
 }
