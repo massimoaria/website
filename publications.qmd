@@ -33,6 +33,8 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 4. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Sintetizzare la conoscenza: un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica**. *TEMI*, 1, 57–75.
 
+4. Aria, M., D’Aniello, L., & Spano, M. (2026). **A multi-phase reference matching algorithm for bibliometric analysis: design, implementation, and evaluation**. *Scientometrics*, 129, <a href="https://doi.org/10.1007/s11192-026-05763-2" target="_blank"> DOI: 10.1007/s11192-026-05763-2</a>.
+
 4. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
 
 5. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
