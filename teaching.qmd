@@ -23,7 +23,7 @@ format: html
 
 Over the last few years I have delivered more than **60 invited seminars and training sessions** on bibliometric methods, machine learning, and data science for social research. These lectures have been held in many Italian doctoral schools — including the Universities of Bergamo, Brescia, Calabria, Genoa, Milan Polytechnic, Naples, Pisa, Rome, and Salento — as well as at international institutions such as the Universities of **Bodø (Norway)**, **Edinburgh**, **Granada**, **London**, **Melbourne**, and **Paris**.
 
-I have also been a lecturer at the **European Summer School for Scientometrics (ESSS)**, the **Summer School in Science Mapping (SSSM)**, and the **Social Statistics Summer School** in Monteriggioni.
+I have also been a lecturer at the **European Summer School for Scientometrics (ESSS)**, and I am the founder and Scientific Coordinator of the **Summer School in Science Mapping (SSSM)**.
 
 ---
 
