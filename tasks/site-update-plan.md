@@ -566,10 +566,16 @@ Su GitHub → Settings → Secrets and variables → Actions:
 | `NETSONS_FTP_SERVER` | secret | host FTP Netsons (es. `ftp.massimoaria.com`) |
 | `NETSONS_FTP_USERNAME` | secret | utente FTP |
 | `NETSONS_FTP_PASSWORD` | secret | password FTP |
-| `NETSONS_SERVER_DIR` | variable | solo se la web root **non** è `/public_html/` |
+| `NETSONS_SERVER_DIR` | variable | non serve: il default `./` è corretto |
 
 Il workflow fallisce subito con un messaggio esplicito se i tre secret mancano,
 invece di tentare una connessione anonima.
+
+⚠️ **`server-dir` è `./`, non `/public_html/`.** L'utente FTP è già confinato
+in `public_html`, quindi la sua directory di login *è* la web root e il percorso
+va espresso relativo a quella. Impostando `/public_html/` il deploy crea un
+`public_html/public_html/` annidato e il sito non viene pubblicato — errore
+commesso e corretto al primo deploy del 29 agosto 2026.
 
 Consigliato creare su cPanel un **utente FTP dedicato** limitato alla web root,
 invece di usare le credenziali principali dell'account.

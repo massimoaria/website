@@ -68,9 +68,11 @@ jobs:
           password: ${{ secrets.NETSONS_FTP_PASSWORD }}
           protocol: ftps
           local-dir: ./docs/
-          # Web root of the hosting account. Override with a repository variable
-          # if Netsons exposes a different path than the cPanel default.
-          server-dir: ${{ vars.NETSONS_SERVER_DIR || '/public_html/' }}
+          # The FTP account is already chrooted to public_html, so its login
+          # directory IS the web root: the path here must be relative to that,
+          # not the absolute cPanel path. Setting '/public_html/' once created a
+          # nested public_html/public_html/ instead of publishing the site.
+          server-dir: ${{ vars.NETSONS_SERVER_DIR || './' }}
           # See SAFETY above. Do not change.
           dangerous-clean-slate: false
           # Only ever true for a manual run; push and workflow_call leave the
