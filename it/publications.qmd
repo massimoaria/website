@@ -30,6 +30,8 @@ body <- gsub("### Bibliometrics, Science Mapping and Text Analysis",
              "### Bibliometria, Science Mapping e Analisi Testuale", body, fixed = TRUE)
 body <- gsub("### Statistics and Machine Learning",
              "### Statistica e Machine Learning", body, fixed = TRUE)
+body <- gsub("### Management in Health",
+             "### Management Sanitario", body, fixed = TRUE)
 body <- gsub("### Tourism, Management, Transportation, and Social Sciences",
              "### Turismo, Management, Trasporti e Scienze Sociali", body, fixed = TRUE)
 

@@ -29,28 +29,23 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 3. Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
 
-3. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*.
-
 4. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Sintetizzare la conoscenza: un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica**. *TEMI*, 1, 57–75.
 
-4. Aria, M., D’Aniello, L., & Spano, M. (2026). **A multi-phase reference matching algorithm for bibliometric analysis: design, implementation, and evaluation**. *Scientometrics*, 129, <a href="https://doi.org/10.1007/s11192-026-05763-2" target="_blank"> DOI: 10.1007/s11192-026-05763-2</a>.
+5. Aria, M., D’Aniello, L., & Spano, M. (2026). **A multi-phase reference matching algorithm for bibliometric analysis: design, implementation, and evaluation**. *Scientometrics*, 129, <a href="https://doi.org/10.1007/s11192-026-05763-2" target="_blank"> DOI: 10.1007/s11192-026-05763-2</a>.
 
-4. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
+6. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
 
-5. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
+7. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
 
-6. Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). **openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex**. *The R Journal*, <a href="https://doi.org/10.32614/RJ-2023-089" target="_blank"> DOI: 10.32614/RJ-2023-089</a>.
+8. Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). **openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex**. *The R Journal*, <a href="https://doi.org/10.32614/RJ-2023-089" target="_blank"> DOI: 10.32614/RJ-2023-089</a>.
 
-7. Aria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). **Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study**. *Quality & Quantity*, 58(6), 5351–5375, <a href="https://doi.org/10.1007/s11135-024-01902-0" target="_blank"> DOI: 10.1007/s11135-024-01902-0</a>.
+9. Aria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). **Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study**. *Quality & Quantity*, 58(6), 5351–5375, <a href="https://doi.org/10.1007/s11135-024-01902-0" target="_blank"> DOI: 10.1007/s11135-024-01902-0</a>.
 
-8. Ciavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). **A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-022-02994-7" target="_blank"> DOI: 10.1007/s11205-022-02994-7</a>.
+10. Ciavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). **A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-022-02994-7" target="_blank"> DOI: 10.1007/s11205-022-02994-7</a>.
 
-9. D’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). **Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.09.007" target="_blank"> DOI: 10.1016/j.healthpol.2022.09.007</a>.
+11. Belfiore, A., Cuccurullo, C., & Aria, M. (2022). **IoT in healthcare: A scientometric analysis**. *Technological Forecasting and Social Change*, 184, <a href="https://doi.org/10.1016/j.techfore.2022.122001" target="_blank"> DOI: 10.1016/j.techfore.2022.122001</a>.
 
-10. Belfiore, A., Cuccurullo, C., & Aria, M. (2022). **IoT in healthcare: A scientometric analysis**. *Technological Forecasting and Social Change*, 184, <a href="https://doi.org/10.1016/j.techfore.2022.122001" target="_blank"> DOI: 10.1016/j.techfore.2022.122001</a>.
-
-11. Aria M., Misuraca M., Spano M. (2020). **Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-020-02281-3" target="_blank"> DOI: 10.1007/s11205-020-02281-3</a>.
-
+12. Aria M., Misuraca M., Spano M. (2020). **Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-020-02281-3" target="_blank"> DOI: 10.1007/s11205-020-02281-3</a>.
 
 ---
 
@@ -84,6 +79,24 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 ---
 
+### Management in Health
+
+1. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*.
+
+2. Abatemarco, A., Aria, M., Beraldo, S., & Collaro, M. (2024). **Measuring health care access and its inequality: A decomposition approach**. *Economic Modelling*, 132, 106659, <a href="https://doi.org/10.1016/j.econmod.2024.106659" target="_blank"> DOI: 10.1016/j.econmod.2024.106659</a>.
+
+3. D’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). **Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.09.007" target="_blank"> DOI: 10.1016/j.healthpol.2022.09.007</a>.
+
+4. Belfiore A., Cuccurullo C., Aria M. (2022). **Financial configurations of Italian private hospitals: an evolutionary analysis**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.05.004" target="_blank"> DOI: 10.1016/j.healthpol.2022.05.004</a>.
+
+5. Abatemarco, A., Aria, M., Beraldo, S., & Stroffolini, F. (2020). **Measuring Disparities in Access to Health Care: A Proposal Based on an Ex-ante Perspective**. *Social Indicators Research*, 150(2), 549–568, <a href="https://doi.org/10.1007/s11205-020-02305-y" target="_blank"> DOI: 10.1007/s11205-020-02305-y</a>.
+
+6. Aria, M., Cuccurullo, C., & Sarto, F. (2015). **Exploring healthcare governance literature: systematic review and paths for future research**. *MECOSAN*, 91, 61–80, <a href="https://doi.org/10.3280/mesa2014-091004" target="_blank"> DOI: 10.3280/mesa2014-091004</a>.
+
+7. Caldarelli, A., Fiondella, C., Maffei, M., Spanò, R., & Aria, M. (2013). **CEO performance evaluation systems: empirical findings from the Italian health service**. *Public Money & Management*, 33(5), 369–376, <a href="https://doi.org/10.1080/09540962.2013.817129" target="_blank"> DOI: 10.1080/09540962.2013.817129</a>.
+
+---
+
 ### Tourism, Management, Transportation, and Social Sciences
 
 1. Aria M., Costanzo D., Misuraca M., Spano M. (2026). **Assessing tourism sustainability through stochastic multi-criteria acceptability analysis: insights from the Italian regional context**. *Management Decision*, <a href="https://doi.org/10.1108/md-09-2025-2815" target="_blank"> DOI: 10.1108/md-09-2025-2815</a>.
@@ -96,9 +109,7 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 5. Pagliara F., Aria M., Brancati G., Moradpour A., Morrison A.M. (2025). **A Mixed-Method Study for Identification of Factors Affecting Tourist Destination Performance**. *Journal of Destination Marketing & Management*, <a href="https://doi.org/10.1016/j.jdmm.2025.101018" target="_blank"> DOI: 10.1016/j.jdmm.2025.101018</a>.
 
-5. Marrone T., Cantone G.F., Caputo F., Cantone L., Aria M. (2025). **Unpacking dimensions of brand humanization in the Metaverse Era**. *Technology in Society*, <a href="https://doi.org/10.1016/j.techsoc.2025.103037" target="_blank"> DOI: 10.1016/j.techsoc.2025.103037</a>.
-
-6. Belfiore A., Cuccurullo C., Aria M. (2022). **Financial configurations of Italian private hospitals: an evolutionary analysis**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.05.004" target="_blank"> DOI: 10.1016/j.healthpol.2022.05.004</a>.
+6. Marrone T., Cantone G.F., Caputo F., Cantone L., Aria M. (2025). **Unpacking dimensions of brand humanization in the Metaverse Era**. *Technology in Society*, <a href="https://doi.org/10.1016/j.techsoc.2025.103037" target="_blank"> DOI: 10.1016/j.techsoc.2025.103037</a>.
 
 7. Pagliara F., Aria M., Russo L. (2021). **Measuring retailers’ perceptions of new metro stations inauguration**. *Land Use Policy*, <a href="https://doi.org/10.1016/j.landusepol.2021.105349" target="_blank"> DOI: 10.1016/j.landusepol.2021.105349</a>.
 
