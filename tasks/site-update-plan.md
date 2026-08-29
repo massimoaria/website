@@ -298,7 +298,17 @@ Nessuna azione: `it/publications.qmd` rilegge il file inglese a ogni render.
 
 ---
 
-## 6. Runbook C — Nuova sezione «Management in Health»
+## 6. Sezione «Management in Health»
+
+> ✅ **Creata il 29 agosto 2026** — 8 voci, terza sottosezione di *Journal
+> Articles*, fra *Statistics and Machine Learning* e *Tourism*. Non va ricreata.
+> Quel che segue serve a **classificare i lavori futuri**, non a rifare la sezione.
+>
+> **Contributi in atti di convegno: esclusi per decisione dell'utente** (29/08/2026).
+> Non riproporre di aggiungerli — riguarda Cuccurullo/D'Aniello/Aria/Spano 2021
+> (`10.36253/978-88-5518-461-8.31`), Aria/Cuccurullo/Gnasso 2021
+> (`10.36253/978-88-5518-461-8.34`) e Fasanelli et al. 2017
+> (`10.1285/i20705948v10n2p485`).
 
 ### 6.1 Obiettivo
 
@@ -323,11 +333,11 @@ pemphigus / epidermolysis bullosa / xerostomia (gruppo SIPMO, riviste *Oral
 Diseases*, *J Oral Pathol Med*, *Clin Oral Investig*, *J Oral Rehabil*); melanoma
 dermoscopico; oncologia/endocrinologia; *Animal Cognition*.
 
-**CASI DI CONFINE — decisione già presa:**
+**CASI DI CONFINE — decisioni già prese e applicate:**
 
 | Lavoro | Decisione |
 |---|---|
-| *IoT in healthcare: a scientometric analysis* (TFSC 2022) | **Resta** in Bibliometrics: il contributo primario è metodologico-scientometrico |
+| *IoT in healthcare: a scientometric analysis* (TFSC 2022) | **Spostato** in Management in Health: non propone alcun metodo bibliometrico nuovo — è una mappatura di dominio, su rivista di management, con il gruppo di sanità. La prima classificazione in Bibliometrics era sbagliata |
 | *Mapping the evolution of gender dysphoria research* (Q&Q 2024) | **Resta** in Bibliometrics: bibliometria di un tema clinico, non management |
 | *Predicting depression … E2Tree* (Annals of OR 2025) | **Resta** in Statistics & ML: il contributo è metodologico |
 | *COVID-19 vaccine hesitancy* (Hum Vaccin Immunother 2021) | **Escluso**: salute pubblica/comportamentale, non management |
