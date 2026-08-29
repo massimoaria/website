@@ -51,6 +51,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
+          git add docs/ scholar_cache.json metrics_cache.json
           git diff --staged --quiet || git commit -m "Update research statistics (monthly auto-build)"
           git push
+
+  # A push made with GITHUB_TOKEN does not trigger other workflows, so the
+  # commit above would never reach the server on its own. Call the deploy
+  # explicitly instead.
+  deploy:
+    needs: render-site
+    uses: ./.github/workflows/deploy-netsons.yml
+    secrets: inherit

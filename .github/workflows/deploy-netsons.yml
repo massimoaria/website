@@ -1,0 +1,85 @@
+name: Deploy site to Netsons
+
+# Publishes docs/ into the Netsons web root, which is what www.massimoaria.com
+# actually serves. GitHub Pages stays available at massimoaria.github.io/website/
+# as a mirror, but the canonical site is the one uploaded here.
+#
+# WHY NOT GITHUB PAGES ON THE DOMAIN: massimoaria.com also hosts live PHP
+# applications in subfolders — /limesurvey/, /irslab/, /dipeccellenza/,
+# /fondo_premiale/ — that Pages cannot serve. Pointing the domain at Pages would
+# 404 them all and break every survey link already sent out.
+#
+# SAFETY: the deploy must never touch those subfolders. Two independent
+# guarantees, in this order of importance:
+#   1. dangerous-clean-slate is false, so the action only ever removes files
+#      recorded in its own .ftp-deploy-sync-state.json. Anything already on the
+#      server that it did not upload is invisible to it — including paths nobody
+#      remembered to list below.
+#   2. The exclude list names the known applications explicitly, so an
+#      accidental future change to (1) still cannot reach them.
+# Never set dangerous-clean-slate to true on this server.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - ".github/workflows/deploy-netsons.yml"
+  workflow_call:      # invoked by update-statistics.yml after the monthly build
+  workflow_dispatch:
+
+concurrency:
+  group: netsons-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify credentials are configured
+        env:
+          SERVER: ${{ secrets.NETSONS_FTP_SERVER }}
+          USERNAME: ${{ secrets.NETSONS_FTP_USERNAME }}
+          PASSWORD: ${{ secrets.NETSONS_FTP_PASSWORD }}
+        run: |
+          missing=""
+          [ -z "$SERVER" ]   && missing="$missing NETSONS_FTP_SERVER"
+          [ -z "$USERNAME" ] && missing="$missing NETSONS_FTP_USERNAME"
+          [ -z "$PASSWORD" ] && missing="$missing NETSONS_FTP_PASSWORD"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository secrets:$missing"
+            echo "Add them under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+
+      - name: Upload docs/ over FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.4.0
+        with:
+          server: ${{ secrets.NETSONS_FTP_SERVER }}
+          username: ${{ secrets.NETSONS_FTP_USERNAME }}
+          password: ${{ secrets.NETSONS_FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./docs/
+          # Web root of the hosting account. Override with a repository variable
+          # if Netsons exposes a different path than the cPanel default.
+          server-dir: ${{ vars.NETSONS_SERVER_DIR || '/public_html/' }}
+          # See SAFETY above. Do not change.
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.DS_Store
+            **/node_modules/**
+            limesurvey/**
+            irslab/**
+            dipeccellenza/**
+            fondo_premiale/**
+            webmail/**
+            cpanel/**
+            cgi-bin/**
+            data/**
+            .well-known/**
+            .htaccess

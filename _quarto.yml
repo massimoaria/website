@@ -12,6 +12,7 @@ project:
 
 website:
   title: "Massimo Aria"
+  site-url: https://www.massimoaria.com
   description: "Professor of Statistics for Social Sciences — University of Naples Federico II. Bibliometrics, science mapping, machine learning."
   navbar:
     right:

@@ -500,7 +500,106 @@ gh run list --limit 3
    matter, e l'etichetta italiana nella mappa `LABELS` di `lang-switch.html`.
 8. **Non committare un giro settimanale se `scholar_cache.json` non è cambiato**
    (§3, punto 4).
-9. `quarto` non è nel PATH → usare sempre il binario di Positron.
+9. **Mai `dangerous-clean-slate: true`** in `deploy-netsons.yml`: cancellerebbe
+   LimeSurvey e le altre applicazioni PHP che convivono con il sito sullo stesso
+   hosting (§10.2).
+10. **Il dominio non va puntato a GitHub Pages**: servirebbe solo file statici e
+    manderebbe in 404 le applicazioni in sottocartella (§10.1).
+11. `quarto` non è nel PATH → usare sempre il binario di Positron.
+
+---
+
+## 10. Hosting e pubblicazione
+
+### 10.1 Com'è fatto
+
+`www.massimoaria.com` **non** è il dominio di GitHub Pages (`cname: None`).
+Il DNS punta a Netsons (`46.252.152.236`, zona gestita da `dns*.netsons.net`), e
+sullo stesso hosting girano applicazioni PHP vive in sottocartelle:
+
+| Percorso | Cos'è |
+|---|---|
+| `/limesurvey/` | installazione LimeSurvey (PHP 7.4, Apache) |
+| `/irslab/` | Prenotazione IRS Lab (Aula C14 — DiSES) |
+| `/dipeccellenza/` | form di candidatura Premialità Dipartimento di Eccellenza DISES |
+| `/fondo_premiale/` | form Richiesta Contributo Fondo Premiale DISES |
+| `/webmail/`, `/cpanel/` | scorciatoie del pannello di hosting |
+| `/cgi-bin/`, `/data/` | esistono (403) |
+
+**Per questo il dominio non può puntare a GitHub Pages**: Pages serve solo file
+statici, non esegue PHP. Puntandogli `www` e l'apex, tutte quelle applicazioni
+diventerebbero 404 e ogni link ai sondaggi già distribuito smetterebbe di
+funzionare. Valutato e scartato ad agosto 2026.
+
+La pubblicazione avviene quindi via **FTPS su Netsons**
+(`.github/workflows/deploy-netsons.yml`), che carica `docs/` nella web root.
+GitHub Pages resta attivo su `massimoaria.github.io/website/` come mirror.
+
+Il workflow parte:
+
+- a ogni **push su `main` che tocca `docs/**`** — cioè il giro settimanale locale;
+- **chiamato da `update-statistics.yml`** dopo la build mensile. Serve la chiamata
+  esplicita perché un push fatto con `GITHUB_TOKEN` non innesca altri workflow.
+
+### 10.2 ⚠️ Regola di sicurezza del deploy
+
+**Il deploy non deve mai toccare le sottocartelle delle applicazioni.** Due
+garanzie indipendenti, in quest'ordine di importanza:
+
+1. **`dangerous-clean-slate: false`** — l'action rimuove solo i file registrati
+   nel proprio `.ftp-deploy-sync-state.json`. Tutto ciò che è già sul server e
+   che non ha caricato lei è semplicemente invisibile, **comprese le cartelle che
+   nessuno si è ricordato di elencare**. È questa la protezione vera.
+2. La lista `exclude` nomina le applicazioni note. È documentazione e seconda
+   rete di sicurezza, non il meccanismo primario.
+
+**Non impostare mai `dangerous-clean-slate: true` su questo server**: cancellerebbe
+LimeSurvey e i suoi dati. Quando compare una nuova applicazione, aggiungerla a
+`exclude` — ma sappi che sarebbe comunque protetta dal punto 1.
+
+### 10.3 Segreti da configurare
+
+Su GitHub → Settings → Secrets and variables → Actions:
+
+| Nome | Tipo | Valore |
+|---|---|---|
+| `NETSONS_FTP_SERVER` | secret | host FTP Netsons (es. `ftp.massimoaria.com`) |
+| `NETSONS_FTP_USERNAME` | secret | utente FTP |
+| `NETSONS_FTP_PASSWORD` | secret | password FTP |
+| `NETSONS_SERVER_DIR` | variable | solo se la web root **non** è `/public_html/` |
+
+Il workflow fallisce subito con un messaggio esplicito se i tre secret mancano,
+invece di tentare una connessione anonima.
+
+Consigliato creare su cPanel un **utente FTP dedicato** limitato alla web root,
+invece di usare le credenziali principali dell'account.
+
+### 10.4 Prima esecuzione — cosa aspettarsi
+
+Il primo deploy sovrascrive:
+
+- `index.html`, oggi il guscio `<iframe>` da 1 KB (sorgente: `redirect/index.html`);
+- i file orfani fermi al 24 aprile 2025 (`teaching.html`, `publications.html`,
+  `software.html`, …), residuo di una vecchia pubblicazione diretta.
+
+Eventuali file orfani **non** presenti in `docs/` restano sul server: innocui, ma
+si possono cancellare a mano da cPanel. Dopo il primo deploy riuscito,
+`redirect/index.html` in questo repo non serve più.
+
+### 10.5 Verifica dopo il deploy
+
+```bash
+# il sito è aggiornato e i deep link funzionano
+curl -sI https://www.massimoaria.com/teaching.html | head -1          # 200
+curl -s  https://www.massimoaria.com/ | grep -c 'stat__num'           # 4
+curl -s  https://www.massimoaria.com/teaching.html | grep -c Monteriggioni  # 0
+
+# LE APPLICAZIONI SONO ANCORA VIVE — controllo obbligatorio al primo deploy
+for p in limesurvey irslab dipeccellenza fondo_premiale; do
+  printf "%-16s %s\n" "$p" \
+    "$(curl -sI -o /dev/null -w '%{http_code}' https://www.massimoaria.com/$p/)"
+done   # attesi: quattro 200
+```
 
 ---
 
