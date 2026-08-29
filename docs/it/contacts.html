@@ -367,6 +367,29 @@ Per richieste di ricerca, collaborazioni e corrispondenza accademica.
   else document.addEventListener("DOMContentLoaded", init);
 })();
 </script>
+
+<script>
+// =============================================================
+// Footer copyright year.
+// The footer is defined in _quarto.yml, which is not an executed
+// document, so it cannot compute the year the way the R pages do.
+// It is set client-side instead; the markup carries the build year
+// as a no-JS fallback, and this is idempotent so it composes with
+// the Italian footer rewrite above.
+// =============================================================
+(function () {
+  function setYear() {
+    var y = String(new Date().getFullYear());
+    var nodes = document.querySelectorAll(".js-year");
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].textContent !== y) nodes[i].textContent = y;
+    }
+  }
+  if (document.readyState !== "loading") setYear();
+  else document.addEventListener("DOMContentLoaded", setYear);
+  window.addEventListener("load", setYear);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -779,7 +802,7 @@ Per richieste di ricerca, collaborazioni e corrispondenza accademica.
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © 2026 — Set in Crimson Pro &amp; Inter. Built with <a href="https://quarto.org">Quarto</a>.</p>
+<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © <span class="js-year">2026</span> — Set in Crimson Pro &amp; Inter. Built with <a href="https://quarto.org">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

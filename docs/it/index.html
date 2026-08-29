@@ -188,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="folio__head">
 <div class="folio__eyebrow">
-Vol. XXIV · Pagine personali · MMXXVI
+Vol. XX · Pagine personali · MMXXVI
 </div>
 <h1 class="folio__title">
 Massimo <em>Aria</em>
@@ -226,10 +226,10 @@ Software
 </div>
 <div class="stat-strip">
 <div class="stat">
-<p><span class="stat__num">200<span class="unit">+</span></span> <span class="stat__label">Articoli peer-reviewed</span></p>
+<p><span class="stat__num">260<span class="unit">+</span></span> <span class="stat__label">Articoli peer-reviewed</span></p>
 </div>
 <div class="stat">
-<p><span class="stat__num">31,000<span class="unit">+</span></span> <span class="stat__label">Citazioni su Google Scholar</span></p>
+<p><span class="stat__num">31,200<span class="unit">+</span></span> <span class="stat__label">Citazioni su Google Scholar</span></p>
 </div>
 <div class="stat">
 <p><span class="stat__num">44</span> <span class="stat__label">Indice H</span></p>
@@ -242,7 +242,7 @@ Software
 <div class="dropcap">
 <p>Benvenuti. Sono professore ordinario di Statistica per le Scienze Sociali presso il Dipartimento di Scienze Economiche e Statistiche dell’Università degli Studi di Napoli Federico II. La mia ricerca si colloca all’incrocio tra <strong>bibliometria</strong>, <strong>science mapping</strong>, <strong>text mining</strong>, <strong>modellistica statistica</strong> e <strong>machine learning</strong>.</p>
 </div>
-<p>Sono autore di oltre duecento articoli scientifici e creatore di diversi pacchetti R open-source, tra cui il diffusissimo <a href="https://www.bibliometrix.org">bibliometrix</a> — con più di 1.55M installazioni in tutto il mondo — e <a href="https://github.com/massimoaria/tall">TALL</a>, un ambiente interattivo per l’analisi testuale. Sono co-fondatore di <a href="https://www.k-synth.com">K-Synth</a>, uno spin-off accademico dedicato a trasformare i dati in conoscenza azionabile attraverso metodi statistici e computazionali innovativi.</p>
+<p>Sono autore di oltre 260 articoli scientifici e creatore di diversi pacchetti R open-source, tra cui il diffusissimo <a href="https://www.bibliometrix.org">bibliometrix</a> — con più di 1.55M installazioni in tutto il mondo — e <a href="https://github.com/massimoaria/tall">TALL</a>, un ambiente interattivo per l’analisi testuale. Sono co-fondatore di <a href="https://www.k-synth.com">K-Synth</a>, uno spin-off accademico dedicato a trasformare i dati in conoscenza azionabile attraverso metodi statistici e computazionali innovativi.</p>
 <p>Nel corso degli anni ho guidato e partecipato a numerosi programmi di ricerca nazionali e internazionali — PRIN, PNRR, EU Framework, Horizon 2020 — e sostengo attivamente la scienza aperta e la ricerca riproducibile.</p>
 <p>Oltre all’ambito accademico, sono felicemente sposato con Adelaide e orgoglioso padre di Vittoria e Lorenzo — rendono la vita gioiosa, imprevedibile e profondamente ispirante.</p>
 <hr>
@@ -381,6 +381,29 @@ Software
 
   if (document.readyState !== "loading") init();
   else document.addEventListener("DOMContentLoaded", init);
+})();
+</script>
+
+<script>
+// =============================================================
+// Footer copyright year.
+// The footer is defined in _quarto.yml, which is not an executed
+// document, so it cannot compute the year the way the R pages do.
+// It is set client-side instead; the markup carries the build year
+// as a no-JS fallback, and this is idempotent so it composes with
+// the Italian footer rewrite above.
+// =============================================================
+(function () {
+  function setYear() {
+    var y = String(new Date().getFullYear());
+    var nodes = document.querySelectorAll(".js-year");
+    for (var i = 0; i < nodes.length; i++) {
+      if (nodes[i].textContent !== y) nodes[i].textContent = y;
+    }
+  }
+  if (document.readyState !== "loading") setYear();
+  else document.addEventListener("DOMContentLoaded", setYear);
+  window.addEventListener("load", setYear);
 })();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
@@ -795,7 +818,7 @@ Software
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © 2026 — Set in Crimson Pro &amp; Inter. Built with <a href="https://quarto.org">Quarto</a>.</p>
+<p>Massimo Aria · Department of Economics and Statistics · University of Naples Federico II<br> © <span class="js-year">2026</span> — Set in Crimson Pro &amp; Inter. Built with <a href="https://quarto.org">Quarto</a>.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

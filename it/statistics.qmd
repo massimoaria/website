@@ -13,7 +13,6 @@ execute:
 #| echo: false
 
 library(cranlogs)
-library(scholar)
 library(plotly)
 library(dplyr)
 library(htmltools)
@@ -36,36 +35,12 @@ chart_font_family <- "Inter, system-ui, sans-serif"
 # Chart colors — ink + accent + cohesive scholarly secondary tones
 chart_colors <- c(col_ink, col_accent, col_teal, col_slate, col_amber, col_plum, col_muted)
 
-# ---- Google Scholar data (with local cache) ----
-scholar_id <- "Qu66YZQAAAAJ"
-cache_file <- "scholar_cache.json"
-
-profile <- tryCatch({
-  p <- get_profile(scholar_id)
-  if (is.list(p) && "total_cites" %in% names(p)) p else stop("invalid")
-}, error = function(e) NULL)
-
-cite_history <- tryCatch({
-  ch <- get_citation_history(scholar_id)
-  if (is.data.frame(ch) && nrow(ch) > 0) ch else stop("invalid")
-}, error = function(e) NULL)
-
-# If Scholar API succeeded, save cache for CI use
-if (!is.null(profile) && !is.null(cite_history)) {
-  jsonlite::write_json(
-    list(profile = profile, cite_history = cite_history),
-    cache_file, auto_unbox = TRUE, pretty = TRUE
-  )
-}
-
-# If Scholar API failed, load from cache
-if (is.null(profile) || is.null(cite_history)) {
-  if (file.exists(cache_file)) {
-    cache <- jsonlite::read_json(cache_file, simplifyVector = TRUE)
-    if (is.null(profile)) profile <- cache$profile
-    if (is.null(cite_history)) cite_history <- as.data.frame(cache$cite_history)
-  }
-}
+# ---- Google Scholar data ----
+# Fetching, caching and fallback all live in _metrics.R, shared with the home
+# page so a full render hits Scholar once rather than six times.
+source("_metrics.R")
+sch <- metrics_scholar()
+cite_history <- sch$cite_history
 ```
 
 [Google Scholar · CRAN logs · aggiornamento automatico]{.eyebrow}
@@ -78,15 +53,9 @@ if (is.null(profile) || is.null(cite_history)) {
 #| label: scholar-metrics
 #| echo: false
 
-if (!is.null(profile)) {
-  total_cites <- profile$total_cites
-  h_index <- profile$h_index
-  i10_index <- profile$i10_index
-} else {
-  total_cites <- "N/D"
-  h_index <- "N/D"
-  i10_index <- "N/D"
-}
+total_cites <- if (is.na(sch$total_cites)) "N/D" else sch$total_cites
+h_index     <- if (is.na(sch$h_index))     "N/D" else sch$h_index
+i10_index   <- if (is.na(sch$i10_index))   "N/D" else sch$i10_index
 
 # Editorial-style card: paper background, thin ink border, display-serif number, mono label.
 # Styling lives in theme.scss under .ed-card.
@@ -169,11 +138,13 @@ if (!is.null(cite_history)) {
 #| label: cran-downloads
 #| echo: false
 
-my_packages <- c("bibliometrix", "openalexR", "dimensionsR", "pubmedR", "e2tree", "contentanalysis", "tall")
+# Package list and start date come from _metrics.R so the home page,
+# the software catalogue and this dashboard can never drift apart.
+my_packages <- CRAN_PACKAGES
 
 totals <- lapply(my_packages, function(pkg) {
   tryCatch({
-    dl <- cran_downloads(pkg, from = "2015-01-01", to = Sys.Date())
+    dl <- cran_downloads(pkg, from = CRAN_SINCE, to = Sys.Date())
     data.frame(package = pkg, total = sum(dl$count, na.rm = TRUE))
   }, error = function(e) {
     data.frame(package = pkg, total = 0)
@@ -231,7 +202,7 @@ div(
 monthly_data <- lapply(seq_along(my_packages), function(i) {
   pkg <- my_packages[i]
   tryCatch({
-    dl <- cran_downloads(pkg, from = "2015-01-01", to = Sys.Date())
+    dl <- cran_downloads(pkg, from = CRAN_SINCE, to = Sys.Date())
     dl$month <- format(dl$date, "%Y-%m")
     monthly <- dl |> group_by(month) |> summarise(downloads = sum(count), .groups = "drop")
     monthly$cumulative <- cumsum(monthly$downloads)

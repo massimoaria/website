@@ -3,12 +3,12 @@
     "id": "Qu66YZQAAAAJ",
     "name": "Massimo Aria",
     "affiliation": "Full Professor, Department of Economics and Statistics, University of Naples, Federico II",
-    "total_cites": 31098,
+    "total_cites": 31290,
     "h_index": 44,
     "i10_index": 123,
     "fields": ["Statistics for Social Sciences", "Multivariate Analysis", "Classification", "Bibliometrics & Science", "ML"],
     "homepage": "https://www.massimoaria.com/",
-    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT,...", "Francesco Galante", "G. R. Semin", "María Guadalupe Moreno Treviño", "Giovanna Del Gaudio", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
+    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT, MAS, PhD", "Francesco Galante", "GR Semin", "María Guadalupe Moreno Treviño", "Giovanna Del Gaudio", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
     "available": 8,
     "not_available": 3
   },
@@ -23,7 +23,7 @@
     },
     {
       "year": 2017,
-      "cites": 213
+      "cites": 214
     },
     {
       "year": 2018,
@@ -31,7 +31,7 @@
     },
     {
       "year": 2019,
-      "cites": 491
+      "cites": 492
     },
     {
       "year": 2020,
@@ -39,27 +39,30 @@
     },
     {
       "year": 2021,
-      "cites": 1731
+      "cites": 1735
     },
     {
       "year": 2022,
-      "cites": 2776
+      "cites": 2779
     },
     {
       "year": 2023,
-      "cites": 4038
+      "cites": 4048
     },
     {
       "year": 2024,
-      "cites": 5640
+      "cites": 5649
     },
     {
       "year": 2025,
-      "cites": 7708
+      "cites": 7720
     },
     {
       "year": 2026,
-      "cites": 6155
+      "cites": 6310
     }
-  ]
+  ],
+  "n_pubs": 264,
+  "fetched_at": "2026-08-29T14:40:04Z",
+  "ok": true
 }

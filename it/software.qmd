@@ -3,7 +3,19 @@ title: "Software scientifico"
 description: "Pacchetti R, applicazioni Shiny e strumenti scientifici"
 lang: it
 format: html
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+
+```{r}
+#| label: software-metrics
+#| echo: false
+
+source("_metrics.R")
+bibl_display <- fmt_compact(metrics_cran_total("bibliometrix"))
+```
 
 <span class="eyebrow">Catalogo di strumenti open-source</span>
 
@@ -11,7 +23,7 @@ format: html
 
 ::: {.catalogue-entry}
 <h3 class="catalogue-entry__title">Bibliometrix</h3>
-<div class="catalogue-entry__meta">Pacchetto R · CRAN · 1.35M+ installazioni</div>
+<div class="catalogue-entry__meta">Pacchetto R · CRAN · `r bibl_display`+ installazioni</div>
 Una toolbox completa per il science mapping e l'analisi bibliometrica. Supporta l'intero flusso di lavoro: importazione dei dati, analisi descrittiva, mappatura concettuale e di rete e visualizzazione.<br>
 → <a href="https://www.bibliometrix.org" target="_blank">bibliometrix.org</a>
 :::
