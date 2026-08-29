@@ -27,6 +27,11 @@ on:
       - ".github/workflows/deploy-netsons.yml"
   workflow_call:      # invoked by update-statistics.yml after the monthly build
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Connect and report what would change, without uploading"
+        type: boolean
+        default: false
 
 concurrency:
   group: netsons-deploy
@@ -68,6 +73,9 @@ jobs:
           server-dir: ${{ vars.NETSONS_SERVER_DIR || '/public_html/' }}
           # See SAFETY above. Do not change.
           dangerous-clean-slate: false
+          # Only ever true for a manual run; push and workflow_call leave the
+          # input unset, which evaluates to false.
+          dry-run: ${{ inputs.dry_run == true }}
           exclude: |
             **/.git*
             **/.git*/**
