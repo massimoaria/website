@@ -79,7 +79,7 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 ### Management in Health
 
-1. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*.
+1. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*, <a href="https://doi.org/10.1007/s11135-026-02827-6" target="_blank"> DOI: 10.1007/s11135-026-02827-6</a>.
 
 2. Abatemarco, A., Aria, M., Beraldo, S., & Collaro, M. (2024). **Measuring health care access and its inequality: A decomposition approach**. *Economic Modelling*, 132, 106659, <a href="https://doi.org/10.1016/j.econmod.2024.106659" target="_blank"> DOI: 10.1016/j.econmod.2024.106659</a>.
 
