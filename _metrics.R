@@ -2,7 +2,8 @@
 # _metrics.R — single source of truth for every live number on the site.
 #
 # Sourced by: index.qmd, it/index.qmd, statistics.qmd, it/statistics.qmd,
-#             software.qmd, it/software.qmd
+#             software.qmd, it/software.qmd, cv.qmd, it/cv.qmd,
+#             shortbio.qmd, it/shortbio.qmd
 #
 # `execute-dir: project` in _quarto.yml means every page — including the ones
 # under it/ — resolves this file and the cache files from the project root.
@@ -27,6 +28,10 @@ suppressPackageStartupMessages({
 # ---- Configuration --------------------------------------------------------
 
 SCHOLAR_ID    <- "Qu66YZQAAAAJ"
+
+# The 2017 Journal of Informetrics paper quoted on cv.qmd and shortbio.qmd.
+# Matched on the title because Scholar has no stable per-entry id across calls.
+FLAGSHIP_PAPER <- "R-tool for comprehensive science mapping"
 CAREER_START  <- 2007L   # academic career began 2007-01-01; drives the folio "Vol."
 CRAN_PACKAGES <- c("bibliometrix", "openalexR", "dimensionsR", "pubmedR",
                    "e2tree", "contentanalysis", "tall")
@@ -70,7 +75,8 @@ METRICS_TTL_HOURS <- 6
 
 # ---- Google Scholar -------------------------------------------------------
 
-# Returns: list(total_cites, h_index, i10_index, n_pubs, cite_history, ok)
+# Returns: list(total_cites, h_index, i10_index, n_pubs, flagship_cites,
+#               cite_history, ok)
 # `ok = TRUE` means this render actually reached Scholar. `ok = FALSE` means
 # everything below came from scholar_cache.json — which is the normal, expected
 # outcome on GitHub Actions, whose IP ranges Scholar refuses.
@@ -89,14 +95,23 @@ metrics_scholar <- function() {
       # normalised title. The raw list holds ~80 extra rows with no venue plus a
       # handful of exact-title duplicates (arXiv preprint alongside the journal
       # version, an "Author response", ...) that would inflate the figure.
-      n_pubs <- tryCatch({
-        pubs <- scholar::get_publications(SCHOLAR_ID)
+      # One call, two numbers: the deduplicated publication count and the
+      # citation count of the flagship paper, so cv.qmd and shortbio.qmd never
+      # need a figure typed by hand.
+      pubs <- tryCatch(scholar::get_publications(SCHOLAR_ID), error = function(e) NULL)
+
+      n_pubs <- if (is.null(pubs)) NA_integer_ else {
         venue <- pubs[nzchar(pubs$journal), , drop = FALSE]
         length(unique(gsub("[^a-z0-9]", "", tolower(venue$title))))
-      }, error = function(e) NA_integer_)
+      }
+
+      flagship_cites <- if (is.null(pubs)) NA_integer_ else {
+        hit <- pubs[grepl(FLAGSHIP_PAPER, pubs$title, ignore.case = TRUE), , drop = FALSE]
+        if (nrow(hit) == 0) NA_integer_ else as.integer(max(hit$cites, na.rm = TRUE))
+      }
 
       list(profile = p, cite_history = ch, n_pubs = n_pubs,
-           fetched_at = .now_utc(), ok = TRUE)
+           flagship_cites = flagship_cites, fetched_at = .now_utc(), ok = TRUE)
     }, error = function(e) NULL)
   }
 
@@ -104,6 +119,8 @@ metrics_scholar <- function() {
     # Carry a previous publication count over rather than regressing to NA if
     # only get_publications() failed.
     if (is.na(fetched$n_pubs) && !is.null(cache$n_pubs)) fetched$n_pubs <- cache$n_pubs
+    if (is.na(fetched$flagship_cites) && !is.null(cache$flagship_cites))
+      fetched$flagship_cites <- cache$flagship_cites
     .write_cache(fetched, SCHOLAR_CACHE)
     cache <- fetched
   }
@@ -111,7 +128,7 @@ metrics_scholar <- function() {
   if (is.null(cache)) {
     return(list(total_cites = NA_integer_, h_index = NA_integer_,
                 i10_index = NA_integer_, n_pubs = NA_integer_,
-                cite_history = NULL, ok = FALSE))
+                flagship_cites = NA_integer_, cite_history = NULL, ok = FALSE))
   }
 
   ch <- cache$cite_history
@@ -122,9 +139,20 @@ metrics_scholar <- function() {
     h_index      = as.integer(cache$profile$h_index     %||% NA),
     i10_index    = as.integer(cache$profile$i10_index   %||% NA),
     n_pubs       = as.integer(cache$n_pubs              %||% NA),
+    flagship_cites = as.integer(cache$flagship_cites    %||% NA),
     cite_history = ch,
     ok           = isTRUE(cache$ok) && (!is.null(fetched) || .cache_is_fresh(cache))
   )
+}
+
+# Citations accrued in the last `n` calendar years, the current one included.
+# Scholar's own "recent" column is not exposed by the API, but the yearly
+# citation history carries the same information.
+metrics_recent_cites <- function(sch = metrics_scholar(), n = 5L) {
+  ch <- sch$cite_history
+  if (is.null(ch) || !nrow(ch)) return(NA_integer_)
+  recent <- utils::head(sort(unique(ch$year), decreasing = TRUE), n)
+  as.integer(sum(ch$cites[ch$year %in% recent], na.rm = TRUE))
 }
 
 # ---- CRAN -----------------------------------------------------------------

@@ -22,14 +22,8 @@ cites_display <- fmt_floor(sch$total_cites, 100)
 h_display     <- if (is.na(sch$h_index))   "—" else as.character(sch$h_index)
 i10_display   <- if (is.na(sch$i10_index)) "—" else as.character(sch$i10_index)
 
-# Citations accrued in the last five calendar years, current one included:
-# Scholar's own "recent" column is not exposed by the API, but the yearly
-# citation history in the cache carries the same information.
-ch <- sch$cite_history
-cites5_display <- if (is.null(ch) || !nrow(ch)) "—" else {
-  recent <- utils::head(sort(unique(ch$year), decreasing = TRUE), 5L)
-  fmt_floor(sum(ch$cites[ch$year %in% recent], na.rm = TRUE), 100)
-}
+cites5_display   <- fmt_floor(metrics_recent_cites(sch), 100)
+flagship_display <- fmt_floor(sch$flagship_cites, 100)
 
 bibl_display <- fmt_floor(metrics_cran_total("bibliometrix"), 10000)
 ```
@@ -87,7 +81,7 @@ Author of over **`r pubs_display`** scientific publications indexed by Google Sc
 
 Total citations: <span class="mono">**`r cites_display`**</span>  ·  H-Index: <span class="mono">**`r h_display`**</span>  ·  i10-Index: <span class="mono">**`r i10_display`**</span>  ·  Last 5 years: <span class="mono">**`r cites5_display`**</span> citations (Google Scholar).
 
-The 2017 paper *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (*Journal of Informetrics*) is the **most-cited article ever published** in the journal (Scopus: 10,300+; Google Scholar: 19,100+ citations) and a top-downloaded article.
+The 2017 paper *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (*Journal of Informetrics*) is the **most-cited article ever published** in the journal — `r flagship_display`+ citations on Google Scholar — and one of its top-downloaded articles.
 
 ## Research Interests
 

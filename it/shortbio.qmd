@@ -3,7 +3,27 @@ title: "Biografia"
 description: "Un profilo sintetico"
 lang: it
 format: html
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+
+```{r}
+#| label: shortbio-metrics
+#| echo: false
+
+# Tutti i numeri vivi di questa pagina vengono da _metrics.R — mai scriverli a mano.
+source("_metrics.R")
+
+sch <- metrics_scholar()
+
+cites_display    <- fmt_floor(sch$total_cites, 100)
+h_display        <- if (is.na(sch$h_index)) "—" else as.character(sch$h_index)
+cites5_display   <- fmt_floor(metrics_recent_cites(sch), 100)
+flagship_display <- fmt_floor(sch$flagship_cites, 100)
+bibl_display     <- fmt_floor(metrics_cran_total("bibliometrix"), 10000)
+```
 
 <span class="eyebrow">Profilo · Massimo Aria</span>
 
@@ -53,11 +73,11 @@ Socio senior delle seguenti società scientifiche:
 
 ## Risultati scientifici e riconoscimenti
 
-Ad oggi le mie pubblicazioni hanno ricevuto **oltre 26.100 citazioni** e il mio **indice H è 43**. Nei soli ultimi cinque anni le mie pubblicazioni sono state citate più di **23.200 volte**, con un indice H di **38** (fonte: Google Scholar).
+Ad oggi le mie pubblicazioni hanno ricevuto **oltre `r cites_display` citazioni** e il mio **indice H è `r h_display`**. Nei soli ultimi cinque anni le mie pubblicazioni sono state citate più di **`r cites5_display` volte** (fonte: Google Scholar).
 
 Il mio articolo *"bibliometrix: An R-tool for comprehensive science mapping analysis"* (2017, *Journal of Informetrics*, IF 5.107) è:
 
-- L'**articolo più citato di sempre** nella rivista (Scopus: 10.300+ citazioni; Google Scholar: 19.100+)
+- L'**articolo più citato di sempre** nella rivista — `r flagship_display`+ citazioni su Google Scholar
 - Uno degli articoli **più scaricati** su ScienceDirect ([fonte](https://www.sciencedirect.com/science/article/pii/S1751157717300500))
 
 ---
@@ -70,8 +90,8 @@ Il mio articolo *"bibliometrix: An R-tool for comprehensive science mapping anal
 
 Oggi Bibliometrix è uno degli strumenti di science mapping **più utilizzati** al mondo, con:
 
-- **1.350.000+** installazioni
+- **`r bibl_display`+** installazioni
 - Una **vasta comunità internazionale** di ricercatori che lo usano e lo promuovono attivamente
 - **Oltre 200 tutorial su YouTube** in più lingue
 
-Negli ultimi quattro anni ho tenuto **oltre 60 seminari** in scuole di dottorato italiane (Università di Bergamo, Brescia, Calabria, Genova, Politecnico di Milano, Napoli, Pisa, Roma, Salento, tra le altre) e internazionali (Università di Bodø — Norvegia, Edimburgo, Granada, Londra, Melbourne, Parigi).
+Negli ultimi quattro anni ho tenuto **oltre 60 seminari** in scuole di dottorato italiane (Università di Bergamo, Brescia, Calabria, Genova, Politecnico di Milano, Napoli, Pisa, Roma, Salento, Torino, tra le altre) e internazionali (Università di Bodø — Norvegia, Edimburgo, Glasgow, Granada, Londra, Melbourne, Parigi, e la NOVA Information Management School di Lisbona).
