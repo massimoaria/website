@@ -1,14 +1,14 @@
 ---
 title: "Research Projects"
-description: "Ongoing and past research projects, EU / national / regional"
+description: "Recent and past research projects, EU / national / regional"
 format: html
 ---
 
 <span class="eyebrow">Research Projects · Principal Investigations</span>
 
-<p class="lede">Selected ongoing and past research projects — European frameworks, national PRIN / PNRR programmes, and regional initiatives.</p>
+<p class="lede">Selected recent and past research projects — European frameworks, national PRIN / PNRR programmes, and regional initiatives.</p>
 
-## Ongoing Projects
+## Recent Projects
 
 ::: {.catalogue-entry}
 <div class="catalogue-entry__meta">PRIN 2022 · MIUR · Principal Investigator (2023 – 2025)</div>
@@ -35,6 +35,15 @@ The research aims to answer three central questions: **does research performance
 :::
 
 ::: {.catalogue-entry}
+<div class="catalogue-entry__meta">PNC · Innovative Health Ecosystem · WP 2.2 Scientific Coordinator (2023 – 2025)</div>
+<h3 class="catalogue-entry__title">DHEAL-COM — Digital Health Solutions in Community Medicine</h3>
+
+Funded by the Italian Ministry of Health under the National Complementary Plan to the NRRP — "Innovative Health Ecosystem" programme, investment E.3 (code PNC-E3-2022-23683267), with IRCCS INRCA acting as hub.
+
+The project develops and validates digital health solutions for community medicine. I am the scientific coordinator of Work Package 2.2 for the University of Naples Federico II unit.
+:::
+
+::: {.catalogue-entry}
 <div class="catalogue-entry__meta">MIMIT · Innovation Agreements · Senior Researcher (2023 – 2026)</div>
 <h3 class="catalogue-entry__title">INTENSE — INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation</h3>
 
@@ -57,7 +66,7 @@ Senior researcher in several EU-funded initiatives, including the **Horizon 2020
 
 ### National Level
 
-Involvement in multiple **PRIN** (Projects of National Interest) and **FIRB** initiatives. These include my role as Principal Investigator for the current PRIN 2022 project *SciK-Health* and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to PNRR-funded initiatives such as the *Digital Health Ecosystem*, where I coordinate Work Package 2, and the *National Centre for Sustainable Mobility*, where I serve as a member of Spoke 10.
+Involvement in multiple **PRIN** (Projects of National Interest) and **FIRB** initiatives. These include my role as Principal Investigator for the current PRIN 2022 project *SciK-Health* and as Local Scientific Coordinator for the PRIN 2022 PNRR project on the impact of scientific production in Academic Health Science Centres. I also contribute to the PNRR-funded *National Centre for Sustainable Mobility* (MOST), where I serve as a member of Spoke 10.
 
 In previous years I was senior researcher for PRIN projects on rationality and attention in children, tree-based methods for classification and regression, and knowledge discovery in decision-making. I also collaborated in the FIRB project on *Supply Chain Management* led by the University of Salerno.
 
