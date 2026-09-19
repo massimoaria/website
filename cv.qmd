@@ -31,10 +31,12 @@ format: html
 ### Ongoing Roles
 
 - **Member of the Executive Board**, Department of Economics and Statistics
+- **Elected member of the Council of the School of Human and Social Sciences**, University of Naples Federico II, representing the Department of Economics and Statistics
 - **Member of the Research Committee**, Department of Economics and Statistics
 - **Responsible for the Research Quality Assessment (VQR)**, Department of Economics and Statistics
-- **Member of the Academic Board of the Ph.D. Programme in Economics** at the University of Naples Federico II
+- **Member of the Academic Board of the Ph.D. Programme in Social and Statistical Sciences** at the University of Naples Federico II
 - **Board member** of the **Master's degree in Data Science** and in **Economics** (curriculum: *Data Scientist for Economics*) since 2019
+- **Coordinator** of the *University and Work: Data Analysis and Digital Economy* placement days, which bring graduates of the *Data Scientist for Economics and Business* track together with companies such as Accenture, Deloitte, Indra and Altea
 - **Scientific coordinator** for the Department in the following University-wide Task Forces:
     - *Industry 4.0 and Sustainable Development*
     - *SUM (Smart and Sustainable Mobility)*
@@ -44,6 +46,8 @@ format: html
 ### Past Roles
 
 - Board member for over 20 years of the **Ph.D. programs in Computational Statistics** and **Social Sciences and Statistics**
+- **Member of the Academic Board of the Ph.D. Programme in Economics** at the University of Naples Federico II
+- **Coordinator of the *Why I Study Economics* days** (2015–2025), organised annually by the Department, with the award of the Simona Balbi, Lilli Basile and Mario Morgano prizes
 - **Member of the core design team for the new Master's Degree Programme in Data Science** at the University of Naples Federico II
 - Served as **Researchers' Representative** on the Faculty Council (2007–2011)
 
@@ -71,6 +75,7 @@ My research activities span a wide range of areas in computational and applied s
 - **PRIN 2022** — *SciK-Health: Mapping Scientific Knowledge about health for decision-making*. Role: Principal Investigator (2023–2025)
 - **PRIN 2022 PNRR** — *Scientific production for patient care in Academic Health Science Centres*. Role: Local Scientific Coordinator (2023–2025)
 - **PNC Digital Health** — WP2 PI. PNRR-funded ecosystem (2023–2025)
+- **INTENSE** — *INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation*, MIMIT Innovation Agreements. Role: Senior Researcher (2023–2026)
 - PI, local PI, or senior researcher in:
     - 5 EU-funded projects (incl. H2020 MAGIC, ERC AdG RoDyMan)
     - 3 PNRR projects
@@ -97,6 +102,7 @@ My research activities span a wide range of areas in computational and applied s
     - **Statistical Methods for Evaluation**
     - **Machine Learning Laboratory in R**
     - **Bibliometric Analysis using R** (Ph.D. and Summer Schools)
+- Courses taught at other universities: Basilicata, Magna Græcia of Catanzaro, and the Italian Air Force Officers' Academy
 - Faculty member of the **European Summer School of Scientometrics (ESSS)**
 - Scientific Coordinator of the **Summer School in Science Mapping (SSSM)**
 - 60+ invited seminars at doctoral schools across Europe

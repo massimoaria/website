@@ -35,6 +35,15 @@ Dopo la raccolta dei dati misureremo produttività, crescita, impatto e novità,
 La ricerca mira a rispondere a tre domande centrali: **la performance di ricerca negli AHSC porta a migliori esiti di salute?** **L'attività di ricerca è un driver del case-mix ospedaliero?** E infine, **la performance della ricerca accademica influenza le scelte dei pazienti rispetto agli erogatori di servizi sanitari?**
 :::
 
+::: {.catalogue-entry}
+<div class="catalogue-entry__meta">MIMIT · Accordi per l'Innovazione · Senior Researcher (2023 – 2026)</div>
+<h3 class="catalogue-entry__title">INTENSE — INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation</h3>
+
+Progetto di ricerca industriale coordinato da ab medica insieme a Humanware, Università di Napoli Federico II, Università del Salento e IRCCS Besta, finanziato dal Ministero delle Imprese e del Made in Italy (MIMIT) nell'ambito del programma Accordi per l'Innovazione.
+
+Il progetto sviluppa tecnologie integrate di sensing a supporto della valutazione e della riabilitazione delle funzioni cognitive e motorie. Partecipo come senior researcher per l'unità della Federico II.
+:::
+
 ---
 
 ## Progetti passati
@@ -55,4 +64,4 @@ Negli anni precedenti sono stato senior researcher per progetti PRIN su razional
 
 ### Progetti regionali e di Ateneo
 
-Studi sulle disuguaglianze di salute, sui servizi per l'infanzia nel Mezzogiorno, sul reinserimento lavorativo delle donne dopo la maternità e sui sistemi di monitoraggio del turismo regionale. Ho coordinato progetti tra cui *SOCIAL-NET* (invecchiamento ed esclusione sociale), *MoniTur* (analisi dei dati del turismo culturale) e la componente di data strategy del Piano Strategico del Comune di Napoli. Ho inoltre contribuito come senior researcher a programmi ICT cofinanziati dalle Regioni Campania e Puglia — *VIRNET*, *ANGELO*, *PROTEO*, *PORTUR*, *TRITONE* — nonché al *Centro Regionale di Competenza sui Trasporti* incentrato sulla modellazione della domanda mediante metodi statistici.
+Studi sulle disuguaglianze di salute, sui servizi per l'infanzia nel Mezzogiorno, sul reinserimento lavorativo delle donne dopo la maternità e sui sistemi di monitoraggio del turismo regionale. Ho coordinato progetti tra cui *SOCIAL-NET* (invecchiamento ed esclusione sociale), *MoniTur* (analisi dei dati del turismo culturale) e la componente di data strategy del Piano Strategico del Comune di Napoli. Più di recente sono stato senior researcher nel progetto di Ateneo *VALERE*, dedicato alla costruzione di un atlante tematico dei policlinici universitari pubblici italiani, e nel 2017 mi è stato assegnato il finanziamento competitivo **FFABR** per professori associati. Ho inoltre contribuito come senior researcher a programmi ICT cofinanziati dalle Regioni Campania e Puglia — *VIRNET*, *ANGELO*, *PROTEO*, *PORTUR*, *TRITONE* — nonché al *Centro Regionale di Competenza sui Trasporti* incentrato sulla modellazione della domanda mediante metodi statistici.

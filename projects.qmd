@@ -34,6 +34,15 @@ Following data collection we will measure productivity, growth, impact, and nove
 The research aims to answer three central questions: **does research performance in AHSCs lead to improved health outcomes?** **Is research activity a driver of hospital case-mix?** And finally, **does academic research performance influence patient choices regarding healthcare providers?**
 :::
 
+::: {.catalogue-entry}
+<div class="catalogue-entry__meta">MIMIT · Innovation Agreements · Senior Researcher (2023 – 2026)</div>
+<h3 class="catalogue-entry__title">INTENSE — INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation</h3>
+
+An industrial research project coordinated by ab medica together with Humanware, the University of Naples Federico II, the University of Salento and IRCCS Besta, funded by the Italian Ministry of Enterprises and Made in Italy (MIMIT) under the Innovation Agreements programme.
+
+The project develops integrated sensing technologies supporting the assessment and rehabilitation of cognitive and motor functions. I take part as senior researcher for the Federico II unit.
+:::
+
 ---
 
 ## Past Projects
@@ -54,4 +63,4 @@ In previous years I was senior researcher for PRIN projects on rationality and a
 
 ### Regional & University-Funded Projects
 
-Studies on health inequalities, childhood-care services in southern Italy, women's re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects including *SOCIAL-NET* (aging and social exclusion), *MoniTur* (cultural-tourism data analysis), and the data-strategy component of the City of Naples Strategic Plan. I further contributed as senior researcher to ICT-focused programmes co-financed by the Campania and Puglia Regions — *VIRNET*, *ANGELO*, *PROTEO*, *PORTUR*, *TRITONE* — as well as to the *Regional Competence Centre on Transport* focused on demand modelling through statistical methods.
+Studies on health inequalities, childhood-care services in southern Italy, women's re-employment post-maternity, and regional tourism monitoring systems. I coordinated projects including *SOCIAL-NET* (aging and social exclusion), *MoniTur* (cultural-tourism data analysis), and the data-strategy component of the City of Naples Strategic Plan. More recently I was senior researcher in the University-funded *VALERE* project, which built a thematic atlas of Italian public academic medical centres, and I was awarded the competitive **FFABR** research grant for Associate Professors in 2017. I further contributed as senior researcher to ICT-focused programmes co-financed by the Campania and Puglia Regions — *VIRNET*, *ANGELO*, *PROTEO*, *PORTUR*, *TRITONE* — as well as to the *Regional Competence Centre on Transport* focused on demand modelling through statistical methods.

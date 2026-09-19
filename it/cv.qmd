@@ -32,10 +32,12 @@ format: html
 ### Ruoli in corso
 
 - **Membro della Giunta**, Dipartimento di Scienze Economiche e Statistiche
+- **Membro eletto del Consiglio della Scuola delle Scienze Umane e Sociali**, Università di Napoli Federico II, in rappresentanza del Dipartimento di Scienze Economiche e Statistiche
 - **Membro della Commissione Ricerca**, Dipartimento di Scienze Economiche e Statistiche
 - **Responsabile della Valutazione della Qualità della Ricerca (VQR)**, Dipartimento di Scienze Economiche e Statistiche
-- **Membro del Collegio del Dottorato in Economia** dell'Università di Napoli Federico II
+- **Membro del Collegio del Dottorato in Scienze Sociali e Statistiche** dell'Università di Napoli Federico II
 - **Membro del consiglio** della **Laurea Magistrale in Data Science** e in **Economia** (curriculum: *Data Scientist for Economics*) dal 2019
+- **Coordinatore** delle giornate *Università e Lavoro: Analisi dei Dati e Digital Economy*, che mettono in contatto i laureati del percorso *Data Scientist per l'Economia e le Imprese* con aziende come Accenture, Deloitte, Indra e Altea
 - **Coordinatore scientifico** per il Dipartimento nelle seguenti Task Force di Ateneo:
     - *Industria 4.0 e Sviluppo Sostenibile*
     - *SUM (Smart and Sustainable Mobility)*
@@ -45,6 +47,8 @@ format: html
 ### Ruoli passati
 
 - Per oltre 20 anni membro del collegio dei **Dottorati in Statistica Computazionale** e in **Scienze Sociali e Statistica**
+- **Membro del Collegio del Dottorato in Economia** dell'Università di Napoli Federico II
+- **Coordinatore delle giornate *Perché Studio Economia*** (2015–2025), organizzate annualmente dal Dipartimento, con l'assegnazione dei premi Simona Balbi, Lilli Basile e Mario Morgano
 - **Membro del gruppo di progettazione del nuovo Corso di Laurea Magistrale in Data Science** dell'Università di Napoli Federico II
 - **Rappresentante dei Ricercatori** nel Consiglio di Facoltà (2007–2011)
 
@@ -72,6 +76,7 @@ Le mie attività di ricerca spaziano su un'ampia gamma di ambiti della statistic
 - **PRIN 2022** — *SciK-Health: Mapping Scientific Knowledge about health for decision-making*. Ruolo: Principal Investigator (2023–2025)
 - **PRIN 2022 PNRR** — *Scientific production for patient care in Academic Health Science Centres*. Ruolo: Coordinatore Scientifico Locale (2023–2025)
 - **PNC Digital Health** — PI del WP2. Ecosistema finanziato dal PNRR (2023–2025)
+- **INTENSE** — *INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation*, Accordi per l'Innovazione MIMIT. Ruolo: Senior Researcher (2023–2026)
 - PI, PI locale o senior researcher in:
     - 5 progetti finanziati dall'UE (incl. H2020 MAGIC, ERC AdG RoDyMan)
     - 3 progetti PNRR
@@ -98,6 +103,7 @@ Le mie attività di ricerca spaziano su un'ampia gamma di ambiti della statistic
     - **Metodi Statistici per la Valutazione**
     - **Laboratorio di Machine Learning in R**
     - **Analisi Bibliometrica con R** (dottorato e Summer School)
+- Insegnamenti presso altri atenei: Basilicata, Magna Græcia di Catanzaro e Accademia Aeronautica di Pozzuoli
 - Membro del corpo docente della **European Summer School of Scientometrics (ESSS)**
 - Coordinatore scientifico della **Summer School in Science Mapping (SSSM)**
 - 60+ seminari su invito in scuole di dottorato in tutta Europa
