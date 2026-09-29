@@ -90,4 +90,4 @@ Beyond the academy, I am happily married to Adelaide and the proud father of Vit
 - [**Publications**](publications.qmd) — selected journal articles and monographs
 - [**Software**](software.qmd) — R packages and scientific tools
 - [**Research Statistics**](statistics.qmd) — live metrics from Google Scholar and CRAN
-- [**Projects**](projects.qmd) · [**Teaching**](teaching.qmd) · [**Photos**](photos.qmd) · [**Contacts**](contacts.qmd)
+- [**Projects**](projects.qmd) · [**Conferences**](conferences.qmd) · [**Teaching**](teaching.qmd) · [**Photos**](photos.qmd) · [**Contacts**](contacts.qmd)

@@ -29,13 +29,7 @@ Negli ultimi anni ho tenuto più di **60 seminari su invito e sessioni di formaz
 
 Sono stato inoltre docente alla **European Summer School for Scientometrics (ESSS)** e sono fondatore e Coordinatore Scientifico della **Summer School in Science Mapping (SSSM)**. Al di fuori dell'ambito accademico ho tenuto attività di formazione metodologica per istituzioni pubbliche, tra cui la **Scuola Nazionale dell'Amministrazione (SNA)** e la Scuola di Alta Formazione della **Corte dei Conti**.
 
----
-
-## Convegni e workshop
-
-Partecipante attivo a numerosi convegni nazionali e internazionali — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT, ECDA, ENBIS e CMStatistics — dove ho presentato contributi di ricerca relativi all'analisi bibliometrica, ai metodi di classificazione, al machine learning interpretabile e all'innovazione metodologica nelle scienze sociali.
-
-Membro dei comitati scientifici o organizzativi di importanti convegni, tra cui **JADT 2022** e **JADT 2026**, i convegni **Data Science in Social Research (DSSR)** e diverse edizioni dei convegni della **Società Italiana di Statistica (SIS)**.
+Le relazioni a convegni e la partecipazione ai comitati scientifici sono elencate nella pagina [Convegni](conferences.qmd).
 
 ---
 

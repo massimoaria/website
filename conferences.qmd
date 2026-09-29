@@ -1,0 +1,150 @@
+---
+title: "Conferences"
+description: "Conference presentations, invited sessions, and scientific committees"
+toc-depth: 2
+format: html
+---
+
+<span class="eyebrow">Conferences · Invited Sessions · Scientific Committees</span>
+
+<p class="lede">More than two decades of contributions to national and international conferences — from COMPSTAT 2002 in Berlin to ENBIS 2026 in Florence — on bibliometrics and science mapping, tree-based and explainable machine learning, text analysis, and health and tourism analytics.</p>
+
+Active participant in numerous national and international conferences — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT, ECDA, ENBIS, and CMStatistics — where I have presented research contributions related to bibliometric analysis, classification methods, explainable machine learning, and methodological innovation in the social sciences. Invited seminars and doctoral lectures are listed on the [Teaching](teaching.qmd) page.
+
+## Scientific Committees
+
+Member of the scientific or organising committees of major conferences, including **JADT 2022** and **JADT 2026**, the **Data Science in Social Research (DSSR)** conferences, and several editions of the **Italian Statistics Society (SIS)** meetings.
+
+- **2026** · Programme Committee, “18th International Conference on Statistical Analysis of Textual Data” (JADT 2026), Palermo, 8–10 July 2026.
+- **2025** · Scientific Committee, “The Future of Sustainability” (SIS DIAS), Bari.
+- **2025** · Scientific Committee, “5th International Conference on Data Science in Social Research” (DSSR2025), Pescara.
+- **2024** · Scientific Committee, “4th International Conference on Data Science in Social Research” (DSSR2024), Naples.
+- **2022** · Programme Committee, “16th International Conference on Statistical Analysis of Textual Data” (JADT 2022), Naples.
+- **2021** · Programme Committee, “Small Area Estimation: Big4Small” (SAE 2021), Naples.
+- **2019** · Scientific Committee, “3rd International Conference on Data Science in Social Research” (DSSR 2019), Milan.
+- **2015** · Programme Committee, “Correspondence Analysis and Related Methods Conference” (CARME2015), Naples.
+
+---
+
+## Presentations and Sessions
+
+### 2026
+
+- **Sep** · Invited paper “Agreement over Association in Explainable Ensemble Trees”, ENBIS 2026 (ISBIS Invited Session), Florence.
+- **Jul** · Invited paper “A Dissimilarity-Based Approach to Explaining Regression Ensembles”, IFCS 2026 (ISBIS Invited Session), Milan.
+- **Jul** · Paper “Mapping Communicative Purposes in Academic Discourse: designing an analytic linguistic pattern”, JADT 2026, Palermo.
+
+### 2025
+
+- **Sep** · Paper “A Framework to Assess the Multi-Dimensional Performance of Italian Academic Health Science Centers”, 11th International Conference on Social Science Methodology (RC33), Naples.
+- **Sep** · Papers “Does clinical research improve the quality of care? Evidence from Italy” and “SciK-Health: Exploring Diseases, Experts, and Research Centres with One Question”, SIS “Futures of Sustainability” conference, Bari.
+- **Sep** · Papers “‘Can You Explain That?’ E2Tree, SHAP, and LIME for Interpretable Random Forests” and “From Prediction to Explanation: Interpreting Risk Factors in Health Survey Analytics”, CLADAG 2025, Naples.
+- **Jun** · Paper “From Data Collection to Knowledge in Health: Turning Scientific Production into Practical Decision-Making Tools”, IES 2025, Bressanone.
+- **Jun** · Co-organiser (with C. Cuccurullo) of the workshop “Research performance and social impact of Italian public Academic Health Science Centers”, DiSES, University of Naples Federico II.
+- **May** · Paper “Measuring the Triple Impact of Research Performance: Scientific, Industrial, and Social Dimensions in Italian Academic Health Science Centers”, IGCKM 2025, University of Salerno.
+
+### 2024
+
+- **Sep** · Paper “Decoding Knowledge Claims: The Evaluation of Scientific Publication Contributions through Semantic Analysis”, STI 2024, Berlin.
+- **Sep** · Paper “The evolution of Explainable Artificial Intelligence (XAI): a preliminary systematic literature review”, ASA 2024, Rome.
+- **Sep** · Paper “Regional Disparities and Financial Health of Italian Accredited Private Hospitals”, SIDREA 2024, Marche Polytechnic University, Ancona.
+- **Aug** · Invited paper “Inside the black-box models through Explainable Decision Tree Ensembles”, COMPSTAT 2024, Giessen.
+- **Jun** · Papers “Breaking Barriers with TALL: A Text Analysis Shiny app for ALL”, “Extracting knowledge from scientific literature with an integrated Text Summarization approach” and “Decoding disinformation: A Comprehensive Analysis of Fake News”, JADT 2024, Brussels.
+- **Jun** · Paper “Explainable decision tree ensembles”, 52nd Scientific Meeting SIS, Bari.
+- **Mar** · Paper “The spread of Random Forest across scientific research fields: a comprehensive bibliometric analysis”, DSSR 2024, Naples.
+
+### 2023
+
+- **Dec** · Invited paper “Unlocking explainable in ensemble trees”, CMStatistics 2023, Berlin.
+- **Nov** · Invited paper “Exploring the Applications of Explainable Ensemble Trees: Real-World Scenarios”, ICDS 2023, Santiago, Chile.
+- Paper “Explainable Ensemble Trees”, NSE – New Statistical Experiences workshop.
+
+### 2022
+
+- **Oct** · Papers “openalexR: An R-package to gather bibliographic metadata from OpenAlex through API” and “A new way to explain a random forest model” (invited session), ECDA 2022, Naples.
+- **Sep** · Paper “The 13As model identifying the successful factors for a tourism destination”, SIET, Varese.
+- **Jul** · Paper “Destination performance evaluation: when can a destination be considered successful?”, 9th ITSA Biennial Conference, Gran Canaria.
+- **Jul** · Paper “AI and ML in accounting and finance: a bibliometric review”, JADT 2022, Naples.
+- **Jun** · Chair of the invited session “Statistical Methods for Science Mapping”, 51st Scientific Meeting SIS, Caserta.
+- **Jan** · Chair of the session “Statistical Learning” and papers “Using partial triadic analysis for depicting the temporal evolution of Italian private healthcare organizations” and “Twenty Years of Random Forest: preliminary results of a systematic literature review”, IES 2022, Capua.
+
+### 2021
+
+- **Sep** · Paper “Relational and Individual Capabilities in Collaborative Decisions”, SMS 41st Annual Conference, Toronto.
+- **Sep** · Paper “Supporting decision-makers in healthcare domain. A comparative study of two interpretative proposals for Random Forests”, ASA 2021, Florence.
+- **Jun** · Paper “Internet of Things in healthcare: a scientometric state of research and entrepreneurial fronts”, EURAM 2021, Montréal; paper “Does industry change affect strategy, governance, and financial configurations of private hospital providers? A survey of Italian private healthcare organizations”, SIMA 2021, Palermo.
+- **May** · Paper “Biblioshiny: A Comprehensive Science Mapping App for Systematic Literature Review”, conference “New tools and new technologies: bibliometrics in action for a new decade”.
+
+### 2020
+
+- **Jan** · Paper “Bibliometrics & Science Mapping”, conference “Discursive perspectives on knowledge dissemination”, Naples.
+
+### 2019
+
+- **Sep** · Papers “Does industry change affect strategic, governance, and financial configurations of private hospital providers?” and “Automatic identification of wines via supervised text classification”, ASA Conference, Brescia.
+- **Apr** · Workshop “Research Synthesis and Lab of Bibliometrics”, University of Brescia.
+- **Feb** · Paper “Science mapping via dynamic topic modelling”, DSSR 2019, Milan.
+
+### 2018
+
+- **Jun** · Paper “Bibliometrix R-package: A tool for quantitative literature review”, JADT 2018, Rome.
+- **Apr** · Paper “Cerebral Stroke: Rationalisation of Care Pathways”, Naples.
+
+### 2017
+
+- **Jun** · Chair of the session “Social and Religious Discrimination”, Conference on Well-being and Social Inclusion, University of Naples Federico II.
+- **Mar** · Poster “Ideal Graduate Profiles for Working in Tourism”, University of Padua.
+
+### 2016
+
+- **Jun** · Chair of the special session “Inside the tourism destination”, ICOT 2016, Naples.
+- **Jun** · Invited paper “Inter-firm relationships in the arena of tourist destinations”, ICOT 2016, Naples.
+- **May** · Paper “The role of ecosystem in cultural firms”, SOItmC & CSCOM 2016, Napa Valley (USA).
+
+### 2015
+
+- **Sep** · Papers “Twenty Years of Research on Performance Management” and “Distance-Based Visualization of Sequence Rules in Web Mining”, CARME2015, Naples.
+
+### 2013
+
+- **Dec** · Paper “Synthetic Resampling Algorithm for Response Class Imbalance”, ERCIM 2013, London.
+- **Sep** · Paper “Visual model representation and selection for classification and regression trees”, CLADAG 2013, Modena.
+- **Jun** · Discussant of the session “Special Symbolic Data Analysis”, 47th SIS Scientific Meeting, Brescia.
+
+### 2012
+
+- **Jun** · Organiser of the session “Missing Data Imputation” and invited paper “Dynamic Classification Trees for imprecise data”, 46th SIS Scientific Meeting, Rome.
+
+### 2009
+
+- **Sep** · Session organiser, CLADAG 2009, Catania.
+
+### 2008
+
+- **Sep** · Paper “A non parametric pre-grafting procedure for data fusion”, MTISD 2008, Lecce.
+- **Jan** · Invited paper “Tourism as a Resource”, Unione Industriali, Naples.
+
+### 2007
+
+- **Sep** · Invited papers “Robust Incremental Trees for Missing Data Imputation and Data Fusion” and “3Way Trees”, CLADAG 2007, Macerata; invited papers “Robust Tree-based Incremental Imputation Method for Data Fusion” and “Conditional Classification Trees using Instrumental Variables”, IDA 2007, Ljubljana.
+- **Apr** · Invited paper “Discriminating Drivers of Satisfaction: The SEPSA Case”, University of Rome Tor Vergata.
+
+### 2005
+
+- **Jun** · Invited paper “Boosted Stump Algorithm for Missing Data Incremental Imputation”, CLADAG 2005, Parma.
+
+### 2004
+
+- **Aug** · Paper “Harvesting Trees: Methods, Software and Applications”, 16th COMPSTAT, Prague.
+- **May** · Paper “Parallel Models for Longitudinal Sensory Analysis”, ISPA 2004, Cassino.
+
+### 2003
+
+- **Sep** · Invited paper “Learning from Trees: Two-Stage Enhancements”, CLADAG 2003, Bologna.
+- **Jul** · Paper “A Stabilizing Algorithm for Longitudinal Data Analysis Networks”, IMPS 2003, Chia.
+- **Jun** · Paper “Parallel Budget Network for Longitudinal Data Analysis”, SIS, Naples.
+
+### 2002
+
+- **Aug** · Paper “Growing and Visualizing Prediction Paths Trees in Market Basket Analysis”, 15th COMPSTAT, Berlin.
+- **Jul** · Paper “Neural Budget Networks of Sensorial Data”, GfKl, Mannheim.

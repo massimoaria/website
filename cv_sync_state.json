@@ -1,12 +1,12 @@
 {
-  "cv_sha256": "9ed53078398912b7c82a27e67c95853163b79b28747db891adb803918f76eefc",
+  "cv_sha256": "ee04cc54e88cb43f07ae365be17550cfb82340f4b0ab6490cd5c256eb12a49c1",
   "sections": {
     "projects": "c05ac31b79c9343174b5ad3fe93faa8049c7b5f8a31c42e66a8c35a73448b00e",
-    "conferences": "b4bbedf8a660bfdf925fd8521ea84246254df6996de85aac21de0092dccdafdb",
+    "conferences": "f8682bb68c9d53a956a7e53b07bff9904781b71a2198345236e327d16c127181",
     "roles": "b950267aadacae031b7986a3421b453870c72d15d8dd11f3183919bb6512b625",
     "teaching": "50cccf7452ef847551dde425303a1089d1b36ad288f3b13109d4c9ca60fa8786"
   },
-  "synced_at": "2026-09-19T18:13:03",
+  "synced_at": "2026-09-29T19:17:33",
   "sources": [
     "CV_Massimo_Aria_moderncv_EN.tex",
     "CV_Massimo_Aria_moderncv.tex"

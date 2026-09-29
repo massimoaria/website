@@ -28,6 +28,8 @@ website:
             file: publications.qmd
           - text: Projects
             file: projects.qmd
+          - text: Conferences
+            file: conferences.qmd
           - text: Software
             file: software.qmd
           - text: Statistics

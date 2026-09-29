@@ -27,23 +27,25 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 2. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **Biblioshiny and the SAAS Workflow: An integrated framework for transparent and reproducible science mapping**. *Journal of Informetrics*, 20(3), 101837, <a href="https://doi.org/10.1016/j.joi.2026.101837" target="_blank"> DOI: 10.1016/j.joi.2026.101837</a>.
 
-3. Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
+3. Aria, M., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Rethinking thematic evolution in science mapping: An integrated framework for longitudinal analysis**. *Journal of Informetrics*, 20(4), 101877, <a href="https://doi.org/10.1016/j.joi.2026.101877" target="_blank"> DOI: 10.1016/j.joi.2026.101877</a>.
 
-4. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Sintetizzare la conoscenza: un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica**. *TEMI*, 1, 57–75.
+4. Aria, M., Spano, M., D’Aniello, L., Cuccurullo, C., Misuraca, M. (2026). **TALL: Text analysis for all–an interactive R-shiny application for exploring, modeling, and visualizing textual data**. *SoftwareX*, <a href="https://doi.org/10.1016/j.softx.2026.102590" target="_blank"> DOI: 10.1016/j.softx.2026.102590</a>.
 
-5. Aria, M., D’Aniello, L., & Spano, M. (2026). **A multi-phase reference matching algorithm for bibliometric analysis: design, implementation, and evaluation**. *Scientometrics*, 129, <a href="https://doi.org/10.1007/s11192-026-05763-2" target="_blank"> DOI: 10.1007/s11192-026-05763-2</a>.
+5. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **Sintetizzare la conoscenza: un approccio integrato per l’estrazione di contenuti rilevanti nella letteratura scientifica**. *TEMI*, 1, 57–75.
 
-6. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
+6. Aria, M., D’Aniello, L., & Spano, M. (2026). **A multi-phase reference matching algorithm for bibliometric analysis: design, implementation, and evaluation**. *Scientometrics*, 129, <a href="https://doi.org/10.1007/s11192-026-05763-2" target="_blank"> DOI: 10.1007/s11192-026-05763-2</a>.
 
-7. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
+7. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
 
-8. Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). **openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex**. *The R Journal*, <a href="https://doi.org/10.32614/RJ-2023-089" target="_blank"> DOI: 10.32614/RJ-2023-089</a>.
+8. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
 
-9. Aria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). **Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study**. *Quality & Quantity*, 58(6), 5351–5375, <a href="https://doi.org/10.1007/s11135-024-01902-0" target="_blank"> DOI: 10.1007/s11135-024-01902-0</a>.
+9. Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). **openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex**. *The R Journal*, <a href="https://doi.org/10.32614/RJ-2023-089" target="_blank"> DOI: 10.32614/RJ-2023-089</a>.
 
-10. Ciavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). **A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-022-02994-7" target="_blank"> DOI: 10.1007/s11205-022-02994-7</a>.
+10. Aria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). **Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study**. *Quality & Quantity*, 58(6), 5351–5375, <a href="https://doi.org/10.1007/s11135-024-01902-0" target="_blank"> DOI: 10.1007/s11135-024-01902-0</a>.
 
-11. Aria M., Misuraca M., Spano M. (2020). **Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-020-02281-3" target="_blank"> DOI: 10.1007/s11205-020-02281-3</a>.
+11. Ciavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). **A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-022-02994-7" target="_blank"> DOI: 10.1007/s11205-022-02994-7</a>.
+
+12. Aria M., Misuraca M., Spano M. (2020). **Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-020-02281-3" target="_blank"> DOI: 10.1007/s11205-020-02281-3</a>.
 
 ---
 

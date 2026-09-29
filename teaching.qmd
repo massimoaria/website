@@ -28,13 +28,7 @@ Over the last few years I have delivered more than **60 invited seminars and tra
 
 I have also been a lecturer at the **European Summer School for Scientometrics (ESSS)**, and I am the founder and Scientific Coordinator of the **Summer School in Science Mapping (SSSM)**. Beyond academia, I have delivered methodological training for public institutions, including the Italian **National School of Administration (SNA)** and the Advanced Training School of the **Court of Auditors**.
 
----
-
-## Conferences and Workshops
-
-Active participant in numerous national and international conferences — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT, ECDA, ENBIS, and CMStatistics — where I have presented research contributions related to bibliometric analysis, classification methods, explainable machine learning, and methodological innovation in the social sciences.
-
-Member of the scientific or organising committees of major conferences, including **JADT 2022** and **JADT 2026**, the **Data Science in Social Research (DSSR)** conferences, and several editions of the **Italian Statistics Society (SIS)** meetings.
+Conference presentations and scientific committees are listed on the [Conferences](conferences.qmd) page.
 
 ---
 

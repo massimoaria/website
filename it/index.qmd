@@ -91,4 +91,4 @@ Oltre all'ambito accademico, sono felicemente sposato con Adelaide e orgoglioso 
 - [**Pubblicazioni**](publications.qmd) — articoli su rivista e monografie selezionati
 - [**Software**](software.qmd) — pacchetti R e strumenti scientifici
 - [**Statistiche di ricerca**](statistics.qmd) — metriche live da Google Scholar e CRAN
-- [**Progetti**](projects.qmd) · [**Didattica**](teaching.qmd) · [**Foto**](photos.qmd) · [**Contatti**](contacts.qmd)
+- [**Progetti**](projects.qmd) · [**Convegni**](conferences.qmd) · [**Didattica**](teaching.qmd) · [**Foto**](photos.qmd) · [**Contatti**](contacts.qmd)

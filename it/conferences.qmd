@@ -1,0 +1,151 @@
+---
+title: "Convegni"
+description: "Relazioni a convegni, sessioni invitate e comitati scientifici"
+lang: it
+toc-depth: 2
+format: html
+---
+
+<span class="eyebrow">Convegni · Sessioni invitate · Comitati scientifici</span>
+
+<p class="lede">Oltre due decenni di contributi a convegni nazionali e internazionali — da COMPSTAT 2002 a Berlino a ENBIS 2026 a Firenze — su bibliometria e science mapping, metodi ad albero e machine learning interpretabile, analisi testuale, analisi dei dati sanitari e turistici.</p>
+
+Partecipante attivo a numerosi convegni nazionali e internazionali — DSSR, SDS, ASA, COMPSTAT, IFCS, CLADAG, JADT, ECDA, ENBIS e CMStatistics — dove ho presentato contributi di ricerca relativi all'analisi bibliometrica, ai metodi di classificazione, al machine learning interpretabile e all'innovazione metodologica nelle scienze sociali. I seminari su invito e le lezioni nei corsi di dottorato sono elencati nella pagina [Didattica](teaching.qmd).
+
+## Comitati scientifici
+
+Membro dei comitati scientifici o organizzativi di importanti convegni, tra cui **JADT 2022** e **JADT 2026**, i convegni **Data Science in Social Research (DSSR)** e diverse edizioni dei convegni della **Società Italiana di Statistica (SIS)**.
+
+- **2026** · Programme Committee, “18th International Conference on Statistical Analysis of Textual Data” (JADT 2026), Palermo, 8–10 luglio 2026.
+- **2025** · Scientific Committee, “The Future of Sustainability” (SIS DIAS), Bari.
+- **2025** · Scientific Committee, “5th International Conference on Data Science in Social Research” (DSSR2025), Pescara.
+- **2024** · Scientific Committee, “4th International Conference on Data Science in Social Research” (DSSR2024), Napoli.
+- **2022** · Programme Committee, “16th International Conference on Statistical Analysis of Textual Data” (JADT 2022), Napoli.
+- **2021** · Programme Committee, “Small Area Estimation: Big4Small” (SAE 2021), Napoli.
+- **2019** · Scientific Committee, “3rd International Conference on Data Science in Social Research” (DSSR 2019), Milano.
+- **2015** · Programme Committee, “Correspondence Analysis and Related Methods Conference” (CARME2015), Napoli.
+
+---
+
+## Relazioni e sessioni
+
+### 2026
+
+- **Set** · Relazione invitata “Agreement over Association in Explainable Ensemble Trees”, ENBIS 2026 (ISBIS Invited Session), Firenze.
+- **Lug** · Relazione invitata “A Dissimilarity-Based Approach to Explaining Regression Ensembles”, IFCS 2026 (ISBIS Invited Session), Milano.
+- **Lug** · Relazione “Mapping Communicative Purposes in Academic Discourse: designing an analytic linguistic pattern”, JADT 2026, Palermo.
+
+### 2025
+
+- **Set** · Relazione “A Framework to Assess the Multi-Dimensional Performance of Italian Academic Health Science Centers”, 11th International Conference on Social Science Methodology (RC33), Napoli.
+- **Set** · Relazioni “Does clinical research improve the quality of care? Evidence from Italy” e “SciK-Health: Exploring Diseases, Experts, and Research Centres with One Question”, convegno SIS “Futures of Sustainability”, Bari.
+- **Set** · Relazioni “‘Can You Explain That?’ E2Tree, SHAP, and LIME for Interpretable Random Forests” e “From Prediction to Explanation: Interpreting Risk Factors in Health Survey Analytics”, CLADAG 2025, Napoli.
+- **Giu** · Relazione “From Data Collection to Knowledge in Health: Turning Scientific Production into Practical Decision-Making Tools”, IES 2025, Bressanone.
+- **Giu** · Organizzazione (con C. Cuccurullo) del workshop “Research performance and social impact of Italian public Academic Health Science Centers”, DiSES, Università di Napoli Federico II.
+- **Mag** · Relazione “Measuring the Triple Impact of Research Performance: Scientific, Industrial, and Social Dimensions in Italian Academic Health Science Centers”, IGCKM 2025, Università di Salerno.
+
+### 2024
+
+- **Set** · Relazione “Decoding Knowledge Claims: The Evaluation of Scientific Publication Contributions through Semantic Analysis”, STI 2024, Berlino.
+- **Set** · Relazione “The evolution of Explainable Artificial Intelligence (XAI): a preliminary systematic literature review”, ASA 2024, Roma.
+- **Set** · Relazione “Regional Disparities and Financial Health of Italian Accredited Private Hospitals”, SIDREA 2024, Università Politecnica delle Marche, Ancona.
+- **Ago** · Relazione invitata “Inside the black-box models through Explainable Decision Tree Ensembles”, COMPSTAT 2024, Giessen.
+- **Giu** · Relazioni “Breaking Barriers with TALL: A Text Analysis Shiny app for ALL”, “Extracting knowledge from scientific literature with an integrated Text Summarization approach” e “Decoding disinformation: A Comprehensive Analysis of Fake News”, JADT 2024, Bruxelles.
+- **Giu** · Relazione “Explainable decision tree ensembles”, 52° Scientific Meeting SIS, Bari.
+- **Mar** · Relazione “The spread of Random Forest across scientific research fields: a comprehensive bibliometric analysis”, DSSR 2024, Napoli.
+
+### 2023
+
+- **Dic** · Relazione invitata “Unlocking explainable in ensemble trees”, CMStatistics 2023, Berlino.
+- **Nov** · Relazione invitata “Exploring the Applications of Explainable Ensemble Trees: Real-World Scenarios”, ICDS 2023, Santiago del Cile.
+- Relazione “Explainable Ensemble Trees”, workshop NSE – New Statistical Experiences.
+
+### 2022
+
+- **Ott** · Relazioni “openalexR: An R-package to gather bibliographic metadata from OpenAlex through API” e “A new way to explain a random forest model” (sessione invitata), ECDA 2022, Napoli.
+- **Set** · Relazione “The 13As model identifying the successful factors for a tourism destination”, SIET, Varese.
+- **Lug** · Relazione “Destination performance evaluation: when can a destination be considered successful?”, 9th ITSA Biennial Conference, Gran Canaria.
+- **Lug** · Relazione “AI and ML in accounting and finance: a bibliometric review”, JADT 2022, Napoli.
+- **Giu** · Chair della sessione invitata “Statistical Methods for Science Mapping”, 51° Scientific Meeting SIS, Caserta.
+- **Gen** · Chair della sessione “Statistical Learning” e relazioni “Using partial triadic analysis for depicting the temporal evolution of Italian private healthcare organizations” e “Twenty Years of Random Forest: preliminary results of a systematic literature review”, IES 2022, Capua.
+
+### 2021
+
+- **Set** · Relazione “Relational and Individual Capabilities in Collaborative Decisions”, SMS 41st Annual Conference, Toronto.
+- **Set** · Relazione “Supporting decision-makers in healthcare domain. A comparative study of two interpretative proposals for Random Forests”, ASA 2021, Firenze.
+- **Giu** · Relazione “Internet of Things in healthcare: a scientometric state of research and entrepreneurial fronts”, EURAM 2021, Montréal; relazione “Does industry change affect strategy, governance, and financial configurations of private hospital providers? A survey of Italian private healthcare organizations”, SIMA 2021, Palermo.
+- **Mag** · Relazione “Biblioshiny: A Comprehensive Science Mapping App for Systematic Literature Review”, convegno “New tools and new technologies: bibliometrics in action for a new decade”.
+
+### 2020
+
+- **Gen** · Relazione “Bibliometrics & Science Mapping”, convegno “Discursive perspectives on knowledge dissemination”, Napoli.
+
+### 2019
+
+- **Set** · Relazioni “Does industry change affect strategic, governance, and financial configurations of private hospital providers?” e “Automatic identification of wines via supervised text classification”, ASA Conference, Brescia.
+- **Apr** · Workshop “Research Synthesis and Lab of Bibliometrics”, Università di Brescia.
+- **Feb** · Relazione “Science mapping via dynamic topic modelling”, DSSR 2019, Milano.
+
+### 2018
+
+- **Giu** · Relazione “Bibliometrix R-package: A tool for quantitative literature review”, JADT 2018, Roma.
+- **Apr** · Relazione “Ictus Cerebrale, Razionalizzazione dei Percorsi di Cura”, Napoli.
+
+### 2017
+
+- **Giu** · Chair della sessione “Discriminazione sociale e religiosa”, Convegno Benessere e Inclusione Sociale, Federico II.
+- **Mar** · Poster “Profili Ideali di Laureati per Lavorare nel Turismo”, Università di Padova.
+
+### 2016
+
+- **Giu** · Chair della special session “Inside the tourism destination”, ICOT 2016, Napoli.
+- **Giu** · Relazione invitata “Inter-firm relationships in the arena of tourist destinations”, ICOT 2016, Napoli.
+- **Mag** · Relazione “The role of ecosystem in cultural firms”, SOItmC & CSCOM 2016, Napa Valley (USA).
+
+### 2015
+
+- **Set** · Relazioni “Twenty Years of Research on Performance Management” e “Distance-Based Visualization of Sequence Rules in Web Mining”, CARME2015, Napoli.
+
+### 2013
+
+- **Dic** · Relazione “Synthetic Resampling Algorithm for Response Class Imbalance”, ERCIM 2013, Londra.
+- **Set** · Relazione “Visual model representation and selection for classification and regression trees”, CLADAG 2013, Modena.
+- **Giu** · Discussant della sessione “Special Symbolic Data Analysis”, XLVII Riunione Scientifica SIS, Brescia.
+
+### 2012
+
+- **Giu** · Organizzatore della sessione “Missing Data Imputation” e relazione invitata “Dynamic Classification Trees for imprecise data”, XLVI Riunione Scientifica SIS, Roma.
+
+### 2009
+
+- **Set** · Organizzatore di sessione, CLADAG 2009, Catania.
+
+### 2008
+
+- **Set** · Relazione “A non parametric pre-grafting procedure for data fusion”, MTISD 2008, Lecce.
+- **Gen** · Relazione invitata “La Risorsa Turismo”, Unione Industriali, Napoli.
+
+### 2007
+
+- **Set** · Relazioni invitate “Robust Incremental Trees for Missing Data Imputation and Data Fusion” e “3Way Trees”, CLADAG 2007, Macerata; relazioni invitate “Robust Tree-based Incremental Imputation Method for Data Fusion” e “Conditional Classification Trees using Instrumental Variables”, IDA 2007, Lubiana.
+- **Apr** · Relazione invitata “Le leve discriminanti della soddisfazione: il caso Sepsa”, Università Tor Vergata, Roma.
+
+### 2005
+
+- **Giu** · Relazione invitata “Boosted Stump Algorithm for Missing Data Incremental Imputation”, CLADAG 2005, Parma.
+
+### 2004
+
+- **Ago** · Relazione “Harvesting Trees: Methods, Software and Applications”, 16th COMPSTAT, Praga.
+- **Mag** · Relazione “Modelli Paralleli per l'Analisi Sensoriale Longitudinale”, ISPA 2004, Cassino.
+
+### 2003
+
+- **Set** · Relazione invitata “Learning from Trees: Two-Stage Enhancements”, CLADAG 2003, Bologna.
+- **Lug** · Relazione “A Stabilizing Algorithm for Longitudinal Data Analysis Networks”, IMPS 2003, Chia.
+- **Giu** · Relazione “Parallel Budget Network for Longitudinal Data Analysis”, SIS, Napoli.
+
+### 2002
+
+- **Ago** · Relazione “Growing and Visualizing Prediction Paths Trees in Market Basket Analysis”, 15th COMPSTAT, Berlino.
+- **Lug** · Relazione “Neural Budget Networks of Sensorial Data”, GfKl, Mannheim.
