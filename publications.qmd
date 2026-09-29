@@ -83,19 +83,21 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 1. Aria, M., Cuccurullo, C., D’Aniello, L., & Spano, M. (2026). **SciK-Health: an open-data dashboard for the multidimensional evaluation of Italian academic health science centers**. *Quality and Quantity*, <a href="https://doi.org/10.1007/s11135-026-02827-6" target="_blank"> DOI: 10.1007/s11135-026-02827-6</a>.
 
-2. Abatemarco, A., Aria, M., Beraldo, S., & Collaro, M. (2024). **Measuring health care access and its inequality: A decomposition approach**. *Economic Modelling*, 132, 106659, <a href="https://doi.org/10.1016/j.econmod.2024.106659" target="_blank"> DOI: 10.1016/j.econmod.2024.106659</a>.
+2. Cuccurullo, C., Belfiore, A., Aria, M., & Pennarola, G. (2026). **Partenariato Pubblico-Privato in sanità: sfide normative e soluzioni metodologiche per una valutazione efficace**. *MECOSAN*, 133, 79–99, <a href="https://doi.org/10.3280/mesa2025-133oa21519" target="_blank"> DOI: 10.3280/mesa2025-133oa21519</a>.
 
-3. D’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). **Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.09.007" target="_blank"> DOI: 10.1016/j.healthpol.2022.09.007</a>.
+3. Abatemarco, A., Aria, M., Beraldo, S., & Collaro, M. (2024). **Measuring health care access and its inequality: A decomposition approach**. *Economic Modelling*, 132, 106659, <a href="https://doi.org/10.1016/j.econmod.2024.106659" target="_blank"> DOI: 10.1016/j.econmod.2024.106659</a>.
 
-4. Belfiore A., Cuccurullo C., Aria M. (2022). **Financial configurations of Italian private hospitals: an evolutionary analysis**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.05.004" target="_blank"> DOI: 10.1016/j.healthpol.2022.05.004</a>.
+4. D’Aniello L., Spano M., Cuccurullo C., Aria M. (2022). **Academic Health Centers’ configurations, scientific productivity, and impact: Insights from the Italian setting**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.09.007" target="_blank"> DOI: 10.1016/j.healthpol.2022.09.007</a>.
 
-5. Belfiore, A., Cuccurullo, C., & Aria, M. (2022). **IoT in healthcare: A scientometric analysis**. *Technological Forecasting and Social Change*, 184, <a href="https://doi.org/10.1016/j.techfore.2022.122001" target="_blank"> DOI: 10.1016/j.techfore.2022.122001</a>.
+5. Belfiore A., Cuccurullo C., Aria M. (2022). **Financial configurations of Italian private hospitals: an evolutionary analysis**. *Health Policy*, <a href="https://doi.org/10.1016/j.healthpol.2022.05.004" target="_blank"> DOI: 10.1016/j.healthpol.2022.05.004</a>.
 
-6. Abatemarco, A., Aria, M., Beraldo, S., & Stroffolini, F. (2020). **Measuring Disparities in Access to Health Care: A Proposal Based on an Ex-ante Perspective**. *Social Indicators Research*, 150(2), 549–568, <a href="https://doi.org/10.1007/s11205-020-02305-y" target="_blank"> DOI: 10.1007/s11205-020-02305-y</a>.
+6. Belfiore, A., Cuccurullo, C., & Aria, M. (2022). **IoT in healthcare: A scientometric analysis**. *Technological Forecasting and Social Change*, 184, <a href="https://doi.org/10.1016/j.techfore.2022.122001" target="_blank"> DOI: 10.1016/j.techfore.2022.122001</a>.
 
-7. Aria, M., Cuccurullo, C., & Sarto, F. (2015). **Exploring healthcare governance literature: systematic review and paths for future research**. *MECOSAN*, 91, 61–80, <a href="https://doi.org/10.3280/mesa2014-091004" target="_blank"> DOI: 10.3280/mesa2014-091004</a>.
+7. Abatemarco, A., Aria, M., Beraldo, S., & Stroffolini, F. (2020). **Measuring Disparities in Access to Health Care: A Proposal Based on an Ex-ante Perspective**. *Social Indicators Research*, 150(2), 549–568, <a href="https://doi.org/10.1007/s11205-020-02305-y" target="_blank"> DOI: 10.1007/s11205-020-02305-y</a>.
 
-8. Caldarelli, A., Fiondella, C., Maffei, M., Spanò, R., & Aria, M. (2013). **CEO performance evaluation systems: empirical findings from the Italian health service**. *Public Money & Management*, 33(5), 369–376, <a href="https://doi.org/10.1080/09540962.2013.817129" target="_blank"> DOI: 10.1080/09540962.2013.817129</a>.
+8. Aria, M., Cuccurullo, C., & Sarto, F. (2015). **Exploring healthcare governance literature: systematic review and paths for future research**. *MECOSAN*, 91, 61–80, <a href="https://doi.org/10.3280/mesa2014-091004" target="_blank"> DOI: 10.3280/mesa2014-091004</a>.
+
+9. Caldarelli, A., Fiondella, C., Maffei, M., Spanò, R., & Aria, M. (2013). **CEO performance evaluation systems: empirical findings from the Italian health service**. *Public Money & Management*, 33(5), 369–376, <a href="https://doi.org/10.1080/09540962.2013.817129" target="_blank"> DOI: 10.1080/09540962.2013.817129</a>.
 
 ---
 
