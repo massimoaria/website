@@ -3,12 +3,12 @@
     "id": "Qu66YZQAAAAJ",
     "name": "Massimo Aria",
     "affiliation": "Full Professor, Department of Economics and Statistics, University of Naples, Federico II",
-    "total_cites": 32938,
+    "total_cites": 33319,
     "h_index": 45,
-    "i10_index": 124,
+    "i10_index": 126,
     "fields": ["Statistics for Social Sciences", "Multivariate Analysis", "Classification", "Bibliometrics & Science", "ML"],
     "homepage": "https://www.massimoaria.com/",
-    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Fabrizia Sarto", "Alessandra Alterisio", "Antonio Celentano, DDS, LDS, GCUT, MAS, PhD", "Francesco Galante", "GR Semin", "María Guadalupe Moreno Treviño", "Giovanna Del Gaudio", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
+    "coauthors": ["corrado cuccurullo", "Antonio D'Ambrosio", "Giulio Fortuna", "Anna Scandurra", "Biagio D'Aniello", "valentina della corte", "Alfonso Montella", "Carmela Iorio", "Claudia Pinelli, Ph.D.", "Alessandra Alterisio", "Fabrizia Sarto", "Antonio Celentano, DDS, LDS, GCUT, MAS, PhD", "Francesco Galante", "GR Semin", "María Guadalupe Moreno Treviño", "Giovanna Del Gaudio", "Sonia Amodio", "Rosanna Spanò", "Valeria Maselli", "Andrea Sardella"],
     "available": 8,
     "not_available": 3
   },
@@ -35,35 +35,35 @@
     },
     {
       "year": 2020,
-      "cites": 981
+      "cites": 980
     },
     {
       "year": 2021,
-      "cites": 1738
+      "cites": 1740
     },
     {
       "year": 2022,
-      "cites": 2789
+      "cites": 2790
     },
     {
       "year": 2023,
-      "cites": 4065
+      "cites": 4067
     },
     {
       "year": 2024,
-      "cites": 5654
+      "cites": 5658
     },
     {
       "year": 2025,
-      "cites": 7754
+      "cites": 7777
     },
     {
       "year": 2026,
-      "cites": 7811
+      "cites": 8147
     }
   ],
-  "n_pubs": 266,
-  "flagship_cites": 24888,
-  "fetched_at": "2026-10-15T14:11:06Z",
+  "n_pubs": 267,
+  "flagship_cites": 25205,
+  "fetched_at": "2026-10-24T15:38:25Z",
   "ok": true
 }
