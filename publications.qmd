@@ -35,17 +35,19 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 6. Aria, M., D’Aniello, L., & Spano, M. (2026). **A multi-phase reference matching algorithm for bibliometric analysis: design, implementation, and evaluation**. *Scientometrics*, 129, <a href="https://doi.org/10.1007/s11192-026-05763-2" target="_blank"> DOI: 10.1007/s11192-026-05763-2</a>.
 
-7. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
+7. Aria, M., Cobo, M.J., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **A Multilayer Network Approach for Longitudinal Frame Detection in Newspaper and Press Language**. In *Statistical Science: From Theory to Applied Research II*, Italian Statistical Society Series on Advances in Statistics, 101–107. Springer, <a href="https://doi.org/10.1007/978-3-032-30877-1_17" target="_blank"> DOI: 10.1007/978-3-032-30877-1_17</a>.
 
-8. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
+8. Aria M., Angelelli M., Ciavolino E., Ringle, C.M., Sarstedt M. (2025). **Conceptual structure and thematic evolution in partial least squares structural equation modeling research**. *Quality & Quantity*, <a href="https://doi.org/10.1007/s11135-025-02071-4" target="_blank"> DOI: 10.1007/s11135-025-02071-4</a>.
 
-9. Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). **openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex**. *The R Journal*, <a href="https://doi.org/10.32614/RJ-2023-089" target="_blank"> DOI: 10.32614/RJ-2023-089</a>.
+9. Aria, M., Cuccurullo, C., D’Aniello, L., Misuraca, M., & Spano, M. (2024). **Comparative science mapping: a novel conceptual structure analysis with metadata**. *Scientometrics*, <a href="https://doi.org/10.1007/s11192-024-05161-6" target="_blank"> DOI: 10.1007/s11192-024-05161-6</a>.
 
-10. Aria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). **Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study**. *Quality & Quantity*, 58(6), 5351–5375, <a href="https://doi.org/10.1007/s11135-024-01902-0" target="_blank"> DOI: 10.1007/s11135-024-01902-0</a>.
+10. Aria, M., Le, T., Cuccurullo, C., Belfiore, A., & Choe, J. (2024). **openalexR: An R-Tool for Collecting Bibliometric Data from OpenAlex**. *The R Journal*, <a href="https://doi.org/10.32614/RJ-2023-089" target="_blank"> DOI: 10.32614/RJ-2023-089</a>.
 
-11. Ciavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). **A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-022-02994-7" target="_blank"> DOI: 10.1007/s11205-022-02994-7</a>.
+11. Aria, M., D’Aniello, L., Grassia, M.G., Marino, M., Mazza, R., & Stavolo, A. (2024). **Mapping the evolution of gender dysphoria research: a comprehensive bibliometric study**. *Quality & Quantity*, 58(6), 5351–5375, <a href="https://doi.org/10.1007/s11135-024-01902-0" target="_blank"> DOI: 10.1007/s11135-024-01902-0</a>.
 
-12. Aria M., Misuraca M., Spano M. (2020). **Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-020-02281-3" target="_blank"> DOI: 10.1007/s11205-020-02281-3</a>.
+12. Ciavolino, E., Aria, M., Cheah, J. H., & Roldán, J. L. (2022). **A tale of PLS Structural Equation Modelling: Episode I— A Bibliometrix Citation Analysis**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-022-02994-7" target="_blank"> DOI: 10.1007/s11205-022-02994-7</a>.
+
+13. Aria M., Misuraca M., Spano M. (2020). **Mapping the Evolution of Social Research and Data Science on 30 Years of Social Indicators Research**. *Social Indicators Research*, <a href="https://doi.org/10.1007/s11205-020-02281-3" target="_blank"> DOI: 10.1007/s11205-020-02281-3</a>.
 
 ---
 
@@ -63,19 +65,21 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 6. Aria M., Cuccurullo C., Gnasso A. (2021). **A comparison among interpretative proposals for Random Forests**. *Machine learning with Applications*, <a href="https://doi.org/10.1016/j.mlwa.2021.100094" target="_blank"> DOI: 10.1016/j.mlwa.2021.100094</a>.
 
-7. Iorio C., Aria M., D’Ambrosio A., Siciliano R. (2019). **Informative Trees by Visual Pruning**. *Expert Systems with Applications*, <a href="https://doi.org/10.1016/j.eswa.2019.03.018" target="_blank"> DOI: 10.1016/j.eswa.2019.03.018</a>.
+7. Aria, M., Cuccurullo, C., & Gnasso, A. (2021). **Supporting decision-makers in healthcare domain. A comparative study of two interpretative proposals for Random Forests**. In *ASA 2021 Statistics and Information Systems for Policy Evaluation*, 179–184. Firenze University Press, <a href="https://doi.org/10.36253/978-88-5518-461-8.34" target="_blank"> DOI: 10.36253/978-88-5518-461-8.34</a>.
 
-8. Aria M., D’Ambrosio A., Iorio C., Siciliano R., Cozza V. (2018). **Dynamic recursive tree-based partitioning for malignant melanoma identification in skin lesion dermoscopic images**. *Statistical Papers*, <a href="https://doi.org/10.1007/s00362-018-0997-x" target="_blank"> DOI: 10.1007/s00362-018-0997-x</a>.
+8. Iorio C., Aria M., D’Ambrosio A., Siciliano R. (2019). **Informative Trees by Visual Pruning**. *Expert Systems with Applications*, <a href="https://doi.org/10.1016/j.eswa.2019.03.018" target="_blank"> DOI: 10.1016/j.eswa.2019.03.018</a>.
 
-9. Siciliano R., D’Ambrosio A., Aria M., Amodio S. (2017). **Analysis of Web Visit Histories, Part II: Predicting Navigation by Nested STUMP Regression Trees**. *Journal of Classification*, <a href="https://doi.org/10.1007/s00357-017-9239-5" target="_blank"> DOI: 10.1007/s00357-017-9239-5</a>.
+9. Aria M., D’Ambrosio A., Iorio C., Siciliano R., Cozza V. (2018). **Dynamic recursive tree-based partitioning for malignant melanoma identification in skin lesion dermoscopic images**. *Statistical Papers*, <a href="https://doi.org/10.1007/s00362-018-0997-x" target="_blank"> DOI: 10.1007/s00362-018-0997-x</a>.
 
-10. D’Ambrosio A., Aria M., et al. (2017). **Regression trees for multivalued numerical response variables**. *Expert Systems with Applications*, 69, 1339–1351, <a href="https://doi.org/10.1016/j.eswa.2016.10.021" target="_blank"> DOI: 10.1016/j.eswa.2016.10.021</a>.
+10. Siciliano R., D’Ambrosio A., Aria M., Amodio S. (2017). **Analysis of Web Visit Histories, Part II: Predicting Navigation by Nested STUMP Regression Trees**. *Journal of Classification*, <a href="https://doi.org/10.1007/s00357-017-9239-5" target="_blank"> DOI: 10.1007/s00357-017-9239-5</a>.
 
-11. Siciliano R., D’Ambrosio A., Aria M., Amodio S. (2016). **Analysis of Web Visit Histories, Part I: Distance-Based Visualization of Sequence Rules**. *Journal of Classification*, <a href="https://doi.org/10.1007/s00357-016-9204-8" target="_blank"> DOI: 10.1007/s00357-016-9204-8</a>.
+11. D’Ambrosio A., Aria M., et al. (2017). **Regression trees for multivalued numerical response variables**. *Expert Systems with Applications*, 69, 1339–1351, <a href="https://doi.org/10.1016/j.eswa.2016.10.021" target="_blank"> DOI: 10.1016/j.eswa.2016.10.021</a>.
 
-12. D’Ambrosio A., Aria M., et al. (2012). **Accurate Tree-based Missing Data Imputation and Data Fusion within the Statistical Learning Paradigm**. *Journal of Classification*, 29(2), 227–258, <a href="https://doi.org/10.1007/s00357-012-9108-1" target="_blank"> DOI: 10.1007/s00357-012-9108-1</a>.
+12. Siciliano R., D’Ambrosio A., Aria M., Amodio S. (2016). **Analysis of Web Visit Histories, Part I: Distance-Based Visualization of Sequence Rules**. *Journal of Classification*, <a href="https://doi.org/10.1007/s00357-016-9204-8" target="_blank"> DOI: 10.1007/s00357-016-9204-8</a>.
 
-13. Aria, M. (2009). **Parallel networks for compositional longitudinal data**. *Italian Journal of Applied Statistics*, 20(1), 5–20.
+13. D’Ambrosio A., Aria M., et al. (2012). **Accurate Tree-based Missing Data Imputation and Data Fusion within the Statistical Learning Paradigm**. *Journal of Classification*, 29(2), 227–258, <a href="https://doi.org/10.1007/s00357-012-9108-1" target="_blank"> DOI: 10.1007/s00357-012-9108-1</a>.
+
+14. Aria, M. (2009). **Parallel networks for compositional longitudinal data**. *Italian Journal of Applied Statistics*, 20(1), 5–20.
 
 ---
 
@@ -93,11 +97,13 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 
 6. Belfiore, A., Cuccurullo, C., & Aria, M. (2022). **IoT in healthcare: A scientometric analysis**. *Technological Forecasting and Social Change*, 184, <a href="https://doi.org/10.1016/j.techfore.2022.122001" target="_blank"> DOI: 10.1016/j.techfore.2022.122001</a>.
 
-7. Abatemarco, A., Aria, M., Beraldo, S., & Stroffolini, F. (2020). **Measuring Disparities in Access to Health Care: A Proposal Based on an Ex-ante Perspective**. *Social Indicators Research*, 150(2), 549–568, <a href="https://doi.org/10.1007/s11205-020-02305-y" target="_blank"> DOI: 10.1007/s11205-020-02305-y</a>.
+7. Cuccurullo, C., D’Aniello, L., Aria, M., & Spano, M. (2021). **Measuring the impact of healthcare indicators on academic medical centers’ scientific production**. In *ASA 2021 Statistics and Information Systems for Policy Evaluation*, 161–165. Firenze University Press, <a href="https://doi.org/10.36253/978-88-5518-461-8.31" target="_blank"> DOI: 10.36253/978-88-5518-461-8.31</a>.
 
-8. Aria, M., Cuccurullo, C., & Sarto, F. (2015). **Exploring healthcare governance literature: systematic review and paths for future research**. *MECOSAN*, 91, 61–80, <a href="https://doi.org/10.3280/mesa2014-091004" target="_blank"> DOI: 10.3280/mesa2014-091004</a>.
+8. Abatemarco, A., Aria, M., Beraldo, S., & Stroffolini, F. (2020). **Measuring Disparities in Access to Health Care: A Proposal Based on an Ex-ante Perspective**. *Social Indicators Research*, 150(2), 549–568, <a href="https://doi.org/10.1007/s11205-020-02305-y" target="_blank"> DOI: 10.1007/s11205-020-02305-y</a>.
 
-9. Caldarelli, A., Fiondella, C., Maffei, M., Spanò, R., & Aria, M. (2013). **CEO performance evaluation systems: empirical findings from the Italian health service**. *Public Money & Management*, 33(5), 369–376, <a href="https://doi.org/10.1080/09540962.2013.817129" target="_blank"> DOI: 10.1080/09540962.2013.817129</a>.
+9. Aria, M., Cuccurullo, C., & Sarto, F. (2015). **Exploring healthcare governance literature: systematic review and paths for future research**. *MECOSAN*, 91, 61–80, <a href="https://doi.org/10.3280/mesa2014-091004" target="_blank"> DOI: 10.3280/mesa2014-091004</a>.
+
+10. Caldarelli, A., Fiondella, C., Maffei, M., Spanò, R., & Aria, M. (2013). **CEO performance evaluation systems: empirical findings from the Italian health service**. *Public Money & Management*, 33(5), 369–376, <a href="https://doi.org/10.1080/09540962.2013.817129" target="_blank"> DOI: 10.1080/09540962.2013.817129</a>.
 
 ---
 
@@ -132,29 +138,3 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 14. Della Corte V., Aria M. (2014). **Why strategic networks often fail. Some empirical evidence from the area of Naples**. *Tourism Management*, 45, 3–15, <a href="https://doi.org/10.1016/j.tourman.2014.03.010" target="_blank"> DOI: 10.1016/j.tourman.2014.03.010</a>.
 
 15. Galante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). **Traffic calming along rural highways crossing small urban communities: Driving simulator experiment**. *Accident Analysis & Prevention*, 42(6), 1585-1594, <a href="https://doi.org/10.1016/j.aap.2010.03.017" target="_blank"> DOI: 10.1016/j.aap.2010.03.017</a>.
-
----
-
-## Conference Proceedings
-
-1. Aria, M., Cobo, M.J., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **A Multilayer Network Approach for Longitudinal Frame Detection in Newspaper and Press Language**. In *Statistical Science: From Theory to Applied Research II*, Italian Statistical Society Series on Advances in Statistics, 101–107. Springer, <a href="https://doi.org/10.1007/978-3-032-30877-1_17" target="_blank"> DOI: 10.1007/978-3-032-30877-1_17</a>.
-
-2. Aria, M., Cuccurullo, C., & Gnasso, A. (2021). **Supporting decision-makers in healthcare domain. A comparative study of two interpretative proposals for Random Forests**. In *ASA 2021 Statistics and Information Systems for Policy Evaluation*, 179–184. Firenze University Press, <a href="https://doi.org/10.36253/978-88-5518-461-8.34" target="_blank"> DOI: 10.36253/978-88-5518-461-8.34</a>.
-
-3. Cuccurullo, C., D’Aniello, L., Aria, M., & Spano, M. (2021). **Measuring the impact of healthcare indicators on academic medical centers’ scientific production**. In *ASA 2021 Statistics and Information Systems for Policy Evaluation*, 161–165. Firenze University Press, <a href="https://doi.org/10.36253/978-88-5518-461-8.31" target="_blank"> DOI: 10.36253/978-88-5518-461-8.31</a>.
-
-4. Iorio, C., Aria, M., & D’Ambrosio, A. (2015). **A New Proposal for Tree Model Selection and Visualization**. In *Advances in Statistical Models for Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 149–156. Springer, <a href="https://doi.org/10.1007/978-3-319-17377-1_16" target="_blank"> DOI: 10.1007/978-3-319-17377-1_16</a>.
-
-5. Giordano, G., & Aria, M. (2011). **Regression Trees with Moderating Effects**. In *New Perspectives in Statistical Modeling and Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 401–408. Springer, <a href="https://doi.org/10.1007/978-3-642-11363-5_45" target="_blank"> DOI: 10.1007/978-3-642-11363-5_45</a>.
-
-6. Siciliano, R., & Aria, M. (2010). **TWO-CLASS Trees for Non-Parametric Regression Analysis**. In *Classification and Multivariate Analysis for Complex Data Structures*, Studies in Classification, Data Analysis, and Knowledge Organization, 63–71. Springer, <a href="https://doi.org/10.1007/978-3-642-13312-1_6" target="_blank"> DOI: 10.1007/978-3-642-13312-1_6</a>.
-
-7. Siciliano, R., Aria, M., & D’Ambrosio, A. (2008). **Posterior Prediction Modelling of Optimal Trees**. In *COMPSTAT 2008*, 323–334. Physica-Verlag, <a href="https://doi.org/10.1007/978-3-7908-2084-3_27" target="_blank"> DOI: 10.1007/978-3-7908-2084-3_27</a>.
-
-8. Siciliano, R., Aria, M., & D’Ambrosio, A. (2007). **Boosted Incremental Tree-based Imputation of Missing Data**. In *Data Analysis, Classification and the Forward Search*, Studies in Classification, Data Analysis, and Knowledge Organization, 271–278. Springer, <a href="https://doi.org/10.1007/3-540-35978-8_31" target="_blank"> DOI: 10.1007/3-540-35978-8_31</a>.
-
-9. Aria, M. (2005). **Multi-Class Budget Exploratory Trees**. In *New Developments in Classification and Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 3–10. Springer, <a href="https://doi.org/10.1007/3-540-27373-5_1" target="_blank"> DOI: 10.1007/3-540-27373-5_1</a>.
-
-10. Aria, M., Mooijaart, A., & Siciliano, R. (2003). **Neural Budget Networks of Sensorial Data**. In *Between Data Science and Applied Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 369–377. Springer, <a href="https://doi.org/10.1007/978-3-642-18991-3_42" target="_blank"> DOI: 10.1007/978-3-642-18991-3_42</a>.
-
-11. Aria, M., Mola, F., & Siciliano, R. (2002). **Growing and Visualizing Prediction Paths Trees in Market Basket Analysis**. In *Compstat 2002*, 377–382. Physica-Verlag, <a href="https://doi.org/10.1007/978-3-642-57489-4_56" target="_blank"> DOI: 10.1007/978-3-642-57489-4_56</a>.
