@@ -132,3 +132,29 @@ For a complete list, please visit my <a href="https://scholar.google.com/citatio
 14. Della Corte V., Aria M. (2014). **Why strategic networks often fail. Some empirical evidence from the area of Naples**. *Tourism Management*, 45, 3–15, <a href="https://doi.org/10.1016/j.tourman.2014.03.010" target="_blank"> DOI: 10.1016/j.tourman.2014.03.010</a>.
 
 15. Galante, F., Mauriello, F., Montella, A., Pernetti, M., Aria, M., & D’Ambrosio, A. (2010). **Traffic calming along rural highways crossing small urban communities: Driving simulator experiment**. *Accident Analysis & Prevention*, 42(6), 1585-1594, <a href="https://doi.org/10.1016/j.aap.2010.03.017" target="_blank"> DOI: 10.1016/j.aap.2010.03.017</a>.
+
+---
+
+## Conference Proceedings
+
+1. Aria, M., Cobo, M.J., D’Aniello, L., Misuraca, M., & Spano, M. (2026). **A Multilayer Network Approach for Longitudinal Frame Detection in Newspaper and Press Language**. In *Statistical Science: From Theory to Applied Research II*, Italian Statistical Society Series on Advances in Statistics, 101–107. Springer, <a href="https://doi.org/10.1007/978-3-032-30877-1_17" target="_blank"> DOI: 10.1007/978-3-032-30877-1_17</a>.
+
+2. Aria, M., Cuccurullo, C., & Gnasso, A. (2021). **Supporting decision-makers in healthcare domain. A comparative study of two interpretative proposals for Random Forests**. In *ASA 2021 Statistics and Information Systems for Policy Evaluation*, 179–184. Firenze University Press, <a href="https://doi.org/10.36253/978-88-5518-461-8.34" target="_blank"> DOI: 10.36253/978-88-5518-461-8.34</a>.
+
+3. Cuccurullo, C., D’Aniello, L., Aria, M., & Spano, M. (2021). **Measuring the impact of healthcare indicators on academic medical centers’ scientific production**. In *ASA 2021 Statistics and Information Systems for Policy Evaluation*, 161–165. Firenze University Press, <a href="https://doi.org/10.36253/978-88-5518-461-8.31" target="_blank"> DOI: 10.36253/978-88-5518-461-8.31</a>.
+
+4. Iorio, C., Aria, M., & D’Ambrosio, A. (2015). **A New Proposal for Tree Model Selection and Visualization**. In *Advances in Statistical Models for Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 149–156. Springer, <a href="https://doi.org/10.1007/978-3-319-17377-1_16" target="_blank"> DOI: 10.1007/978-3-319-17377-1_16</a>.
+
+5. Giordano, G., & Aria, M. (2011). **Regression Trees with Moderating Effects**. In *New Perspectives in Statistical Modeling and Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 401–408. Springer, <a href="https://doi.org/10.1007/978-3-642-11363-5_45" target="_blank"> DOI: 10.1007/978-3-642-11363-5_45</a>.
+
+6. Siciliano, R., & Aria, M. (2010). **TWO-CLASS Trees for Non-Parametric Regression Analysis**. In *Classification and Multivariate Analysis for Complex Data Structures*, Studies in Classification, Data Analysis, and Knowledge Organization, 63–71. Springer, <a href="https://doi.org/10.1007/978-3-642-13312-1_6" target="_blank"> DOI: 10.1007/978-3-642-13312-1_6</a>.
+
+7. Siciliano, R., Aria, M., & D’Ambrosio, A. (2008). **Posterior Prediction Modelling of Optimal Trees**. In *COMPSTAT 2008*, 323–334. Physica-Verlag, <a href="https://doi.org/10.1007/978-3-7908-2084-3_27" target="_blank"> DOI: 10.1007/978-3-7908-2084-3_27</a>.
+
+8. Siciliano, R., Aria, M., & D’Ambrosio, A. (2007). **Boosted Incremental Tree-based Imputation of Missing Data**. In *Data Analysis, Classification and the Forward Search*, Studies in Classification, Data Analysis, and Knowledge Organization, 271–278. Springer, <a href="https://doi.org/10.1007/3-540-35978-8_31" target="_blank"> DOI: 10.1007/3-540-35978-8_31</a>.
+
+9. Aria, M. (2005). **Multi-Class Budget Exploratory Trees**. In *New Developments in Classification and Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 3–10. Springer, <a href="https://doi.org/10.1007/3-540-27373-5_1" target="_blank"> DOI: 10.1007/3-540-27373-5_1</a>.
+
+10. Aria, M., Mooijaart, A., & Siciliano, R. (2003). **Neural Budget Networks of Sensorial Data**. In *Between Data Science and Applied Data Analysis*, Studies in Classification, Data Analysis, and Knowledge Organization, 369–377. Springer, <a href="https://doi.org/10.1007/978-3-642-18991-3_42" target="_blank"> DOI: 10.1007/978-3-642-18991-3_42</a>.
+
+11. Aria, M., Mola, F., & Siciliano, R. (2002). **Growing and Visualizing Prediction Paths Trees in Market Basket Analysis**. In *Compstat 2002*, 377–382. Physica-Verlag, <a href="https://doi.org/10.1007/978-3-642-57489-4_56" target="_blank"> DOI: 10.1007/978-3-642-57489-4_56</a>.

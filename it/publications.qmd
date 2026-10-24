@@ -34,6 +34,7 @@ body <- gsub("### Management in Health",
              "### Management Sanitario", body, fixed = TRUE)
 body <- gsub("### Tourism, Management, Transportation, and Social Sciences",
              "### Turismo, Management, Trasporti e Scienze Sociali", body, fixed = TRUE)
+body <- gsub("## Conference Proceedings", "## Atti di convegno", body, fixed = TRUE)
 
 cat(body)
 ```
