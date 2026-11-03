@@ -12,6 +12,15 @@ format: html
 ## Progetti recenti
 
 ::: {.catalogue-entry}
+<div class="catalogue-entry__meta">Aurora Incentive Call 2026 · Responsabile scientifico dell'unità Federico II · Responsabile del WP2 (dal 2026)</div>
+<h3 class="catalogue-entry__title">PATVOICE — The patient voice in healthcare polyphony</h3>
+
+Progetto dell'alleanza universitaria europea Aurora, finanziato nell'ambito dell'Aurora Incentive Call 2026, con capofila l'Université Paris-Est Créteil.
+
+Sono responsabile scientifico dell'unità dell'Università di Napoli Federico II e responsabile del Work Package 2, “Being Visible”.
+:::
+
+::: {.catalogue-entry}
 <div class="catalogue-entry__meta">PRIN 2022 · MUR · Principal Investigator (2023 – 2025)</div>
 <h3 class="catalogue-entry__title">SciK-Health — Il valore della produzione scientifica per la cura dei pazienti negli Academic Health Science Centres</h3>
 

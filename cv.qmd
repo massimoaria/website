@@ -55,7 +55,7 @@ bibl_display <- fmt_floor(metrics_cran_total("bibliometrix"), 10000)
 ### Ongoing Roles
 
 - **Member of the Executive Board**, Department of Economics and Statistics
-- **Elected member of the Council of the School of Human and Social Sciences**, University of Naples Federico II, representing the Department of Economics and Statistics
+- **Elected member of the Council of the School of Human and Social Sciences**, University of Naples Federico II, representing the Department of Economics and Statistics (since 2026)
 - **Member of the Research Committee**, Department of Economics and Statistics
 - **Responsible for the Research Quality Assessment (VQR)**, Department of Economics and Statistics
 - **Member of the Academic Board of the Ph.D. Programme in Social and Statistical Sciences** at the University of Naples Federico II
@@ -96,12 +96,13 @@ My research activities span a wide range of areas in computational and applied s
 
 ## Research Projects
 
+- **PATVOICE** — *The patient voice in healthcare polyphony*, Aurora Incentive Call 2026. Role: Principal Investigator of the Federico II unit and WP2 Leader (since 2026)
 - **PRIN 2022** — *SciK-Health: Mapping Scientific Knowledge about health for decision-making*. Role: Principal Investigator (2023–2025)
 - **PRIN 2022 PNRR** — *Scientific production for patient care in Academic Health Science Centres*. Role: Local Scientific Coordinator (2023–2025)
 - **PNC Digital Health** — WP2 PI. PNRR-funded ecosystem (2023–2025)
 - **INTENSE** — *INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation*, MIMIT Innovation Agreements. Role: Senior Researcher (2023–2026)
 - PI, local PI, or senior researcher in:
-    - 5 EU-funded projects (incl. H2020 MAGIC, ERC AdG RoDyMan)
+    - 6 European projects (incl. H2020 MAGIC, ERC AdG RoDyMan)
     - 3 PNRR projects
     - 3 PRIN projects
     - 1 FIRB project

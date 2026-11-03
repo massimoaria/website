@@ -56,7 +56,7 @@ bibl_display <- fmt_floor(metrics_cran_total("bibliometrix"), 10000)
 ### Ruoli in corso
 
 - **Membro della Giunta**, Dipartimento di Scienze Economiche e Statistiche
-- **Membro eletto del Consiglio della Scuola delle Scienze Umane e Sociali**, Università di Napoli Federico II, in rappresentanza del Dipartimento di Scienze Economiche e Statistiche
+- **Membro eletto del Consiglio della Scuola delle Scienze Umane e Sociali**, Università di Napoli Federico II, in rappresentanza del Dipartimento di Scienze Economiche e Statistiche (dal 2026)
 - **Membro della Commissione Ricerca**, Dipartimento di Scienze Economiche e Statistiche
 - **Responsabile della Valutazione della Qualità della Ricerca (VQR)**, Dipartimento di Scienze Economiche e Statistiche
 - **Membro del Collegio del Dottorato in Scienze Sociali e Statistiche** dell'Università di Napoli Federico II
@@ -97,12 +97,13 @@ Le mie attività di ricerca spaziano su un'ampia gamma di ambiti della statistic
 
 ## Progetti di ricerca
 
+- **PATVOICE** — *The patient voice in healthcare polyphony*, Aurora Incentive Call 2026. Ruolo: Responsabile scientifico dell'unità Federico II e responsabile del WP2 (dal 2026)
 - **PRIN 2022** — *SciK-Health: Mapping Scientific Knowledge about health for decision-making*. Ruolo: Principal Investigator (2023–2025)
 - **PRIN 2022 PNRR** — *Scientific production for patient care in Academic Health Science Centres*. Ruolo: Coordinatore Scientifico Locale (2023–2025)
 - **PNC Digital Health** — PI del WP2. Ecosistema finanziato dal PNRR (2023–2025)
 - **INTENSE** — *INtegrated Technologies and ENhanced SEnsing for cognition and rehabilitation*, Accordi per l'Innovazione MIMIT. Ruolo: Senior Researcher (2023–2026)
 - PI, PI locale o senior researcher in:
-    - 5 progetti finanziati dall'UE (incl. H2020 MAGIC, ERC AdG RoDyMan)
+    - 6 progetti europei (incl. H2020 MAGIC, ERC AdG RoDyMan)
     - 3 progetti PNRR
     - 3 progetti PRIN
     - 1 progetto FIRB

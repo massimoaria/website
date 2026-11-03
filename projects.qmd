@@ -11,6 +11,15 @@ format: html
 ## Recent Projects
 
 ::: {.catalogue-entry}
+<div class="catalogue-entry__meta">Aurora Incentive Call 2026 · Principal Investigator, Federico II unit · WP2 Leader (since 2026)</div>
+<h3 class="catalogue-entry__title">PATVOICE — The patient voice in healthcare polyphony</h3>
+
+A project of the Aurora European University alliance, funded under the Aurora Incentive Call 2026 and coordinated by Université Paris-Est Créteil.
+
+I am the principal investigator of the University of Naples Federico II unit and lead Work Package 2, “Being Visible”.
+:::
+
+::: {.catalogue-entry}
 <div class="catalogue-entry__meta">PRIN 2022 · MIUR · Principal Investigator (2023 – 2025)</div>
 <h3 class="catalogue-entry__title">SciK-Health — The value of scientific production for patient care in Academic Health Science Centres</h3>
 
